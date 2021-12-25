@@ -1,0 +1,2958 @@
+{
+  "ABOUT": {
+    "COPYRIGHT": "सर्वाधिकार सुरक्षित",
+    "SPONSOR": "द्वारा प्रायोजित",
+    "VERSION": "संस्करण"
+  },
+  "ACCOUNT": {
+    "ACCOUNT": "लेखा",
+    "ADD": "जोड़ना",
+    "ADD-CREDIT-NOTE": "क्रेडिट नोट जोड़ें",
+    "AMOUNT": "रकम",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "राशियों की आवश्यकता है"
+      },
+      "TITLE": "राशियाँ हैं"
+    },
+    "ATTACHMENT": "आसक्ति",
+    "AUDIT-HISTORY-AND-NOTES": "लेखा परीक्षा इतिहास और नोट्स",
+    "BILL": {
+      "CREATE": "बिल बनाएं",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "बिल दिनांक अमान्य है",
+          "REQUIRED": "बिल दिनांक आवश्यक है"
+        },
+        "TITLE": "बिल की तिथि"
+      },
+      "EDIT": "बिल संपादित करें",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "बिल नंबर आवश्यक है"
+        },
+        "TITLE": "बिल संख्या"
+      },
+      "OPTIONS": "बिल विकल्प",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "बिल टू आवश्यक है"
+        },
+        "TITLE": "बिल प्राप्तकर्ता"
+      }
+    },
+    "CLASS": "कक्षा",
+    "COPY-TO": "को कॉपी",
+    "CREATE-COPY": "एक कॉपी बनाएं",
+    "CREDIT-MEMO": {
+      "CREATE": "क्रेडिट मेमो बनाएं",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "क्रेडिट मेमो दिनांक अमान्य है",
+          "REQUIRED": "क्रेडिट मेमो दिनांक आवश्यक है"
+        },
+        "TITLE": "क्रेडिट मेमो दिनांक"
+      },
+      "EDIT": "क्रेडिट मेमो संपादित करें",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "क्रेडिट मेमो नंबर आवश्यक है"
+        },
+        "TITLE": "क्रेडिट मेमो नंबर"
+      },
+      "OPTIONS": "क्रेडिट मेमो विकल्प",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "क्रेडिट मेमो टू आवश्यक है"
+        },
+        "TITLE": "क्रेडिट मेमो टू"
+      }
+    },
+    "DESCRIPTION": "विवरण",
+    "DISCOUNT": "छूट",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "देय तिथि अमान्य है",
+        "REQUIRED": "देय तिथि आवश्यक है"
+      },
+      "TITLE": "नियत तारीख"
+    },
+    "EDIT": "संपादित करें",
+    "INVOICE": {
+      "CREATE": "इनवॉयस बनाएँ",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "चालान दिनांक अमान्य है",
+          "REQUIRED": "चालान दिनांक आवश्यक है"
+        },
+        "TITLE": "चालान की तारीख"
+      },
+      "EDIT": "चालान संपादित करें",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "चालान संख्या आवश्यक है"
+        },
+        "TITLE": "बीजक संख्या"
+      },
+      "OPTIONS": "चालान संख्या विकल्प",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "को चालान आवश्यक है"
+        },
+        "TITLE": "इसके लिए इनवॉइस"
+      }
+    },
+    "ITEM": "मद",
+    "NO-ITEM-FOUND": "कोई वस्तु नहीं मिली",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "भुगतान जोड़ें",
+      "AMOUNT-RECIEVED": "प्राप्त राशि",
+      "AMOUNT-UNPAID": "अवैतनिक राशि",
+      "REFERENCE": "संदर्भ",
+      "TDS-PAID": "टीडीएस भुगतान",
+      "TITLE": "भुगतान की जानकारी"
+    },
+    "QUANTITY": "मात्रा",
+    "QUOTE": {
+      "CREATE": "उद्धरण बनाएँ",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "कोट दिनांक अमान्य है",
+          "REQUIRED": "उद्धरण तिथि आवश्यक है"
+        },
+        "TITLE": "उद्धरण तिथि"
+      },
+      "EDIT": "उद्धरण संपादित करें",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "कोट नंबर आवश्यक है"
+        },
+        "TITLE": "बोली अंक"
+      },
+      "OPTIONS": "भाव विकल्प",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "को उद्धरण आवश्यक है"
+        },
+        "TITLE": "बोली टू"
+      }
+    },
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "खाता संदर्भ आवश्यक है"
+      }
+    },
+    "REFERENCE": "संदर्भ",
+    "SALE-ORDER": {
+      "CREATE": "बिक्री आदेश बनाएं",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "बिक्री आदेश दिनांक अमान्य है",
+          "REQUIRED": "बिक्री आदेश दिनांक आवश्यक है"
+        },
+        "TITLE": "बिक्री आदेश दिनांक"
+      },
+      "EDIT": "बिक्री आदेश संपादित करें",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "बिक्री आदेश संख्या आवश्यक है"
+        },
+        "TITLE": "बिक्री आदेश संख्या"
+      },
+      "OPTIONS": "बिक्री आदेश विकल्प",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "बिक्री आदेश की आवश्यकता है"
+        },
+        "TITLE": "बिक्री आदेश To"
+      }
+    },
+    "STATUS": {
+      "ACCEPTED": "को स्वीकृत",
+      "ALL": "सब",
+      "ALLOCATION": "आवंटन",
+      "APPROVED": "मंजूर की",
+      "AWAITING-FOR-PAYMENT": "भुगतान की प्रतीक्षा में",
+      "DECLINED": "इंकार कर दिया",
+      "DRAFT": "प्रारूप",
+      "INVOICED": "चालान की गई",
+      "PAID": "भुगतान किया",
+      "SENT": "भेज दिया",
+      "WAITING-FOR-APPROVAL": "अनुमोदन के लिए प्रतीक्षा"
+    },
+    "SUB-TOTAL": "उप योग",
+    "TAX": "कर",
+    "TAX-RATE": "कर दर",
+    "TOTAL": "संपूर्ण",
+    "TYPES": {
+      "BILLS": "विधेयकों",
+      "CREDIT-MEMO": "क्रेडिट ज्ञापन",
+      "INVOICE": "बीजक",
+      "QUOTE": "उद्धरण",
+      "SALE-ORDER": "विक्रय ऑर्डर"
+    },
+    "UNIT-PRICE": "यूनिट मूल्य",
+    "VOID": "शून्य"
+  },
+  "ACCOUNTS": {
+    "ACCOUNT": "लेखा",
+    "ADD": "जोड़ें",
+    "ADD-CREDIT-NOTE": "क्रेडिट नोट जोड़ें",
+    "AMOUNT": "राशि",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "राशियों की आवश्यकता है"
+      },
+      "TITLE": "राशियाँ हैं"
+    },
+    "ATTACHMENT": "अनुरक्ति",
+    "AUDIT-HISTORY-AND-NOTES": "लेखा परीक्षा इतिहास और नोट्स",
+    "CLASS": "कक्षा",
+    "COPY-TO": "में कॉपी",
+    "CREATE-COPY": "एक कॉपी बनाएं",
+    "DESCRIPTION": "विवरण",
+    "DISCOUNT": "छूट",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "देय तिथि अमान्य है",
+        "REQUIRED": "देय तिथि आवश्यक है"
+      },
+      "TITLE": "नियत तारीख"
+    },
+    "EDIT": "संपादित करें",
+    "INVOICE": {
+      "CREATE": "इनवॉयस बनाएँ",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "चालान दिनांक अमान्य है",
+          "REQUIRED": "चालान दिनांक आवश्यक है"
+        },
+        "TITLE": "चालान की तारीख"
+      },
+      "EDIT": "चालान संपादित करें",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "चालान संख्या आवश्यक है"
+        },
+        "TITLE": "बीजक संख्या"
+      },
+      "OPTIONS": "चालान संख्या विकल्प",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "को चालान आवश्यक है"
+        },
+        "TITLE": "इसके लिए इनवॉइस"
+      }
+    },
+    "ITEM": "मद",
+    "METADATA": {
+      "ORDERSTATUS": {
+        "ACCEPTED": "को स्वीकृत",
+        "ALL": "सब",
+        "ALLOCATION": "आवंटन",
+        "APPROVED": "मंजूर की",
+        "AWAITINGFORPAYMENT": "भुगतान की प्रतीक्षा में",
+        "DECLINED": "इंकार कर दिया",
+        "DRAFT": "प्रारूप",
+        "EXPIRED": "समय सीमा समाप्त",
+        "INVOICED": "चालान की गई",
+        "OVERDUE": "अतिदेय",
+        "PAID": "भुगतान किया",
+        "PENDING": "विचाराधीन",
+        "REPEAT": "दोहराना",
+        "SENT": "भेज दिया",
+        "VOID": "शून्य",
+        "WAITINGFORAPPROVAL": "अनुमोदन के लिए प्रतीक्षा"
+      },
+      "ORDERTYPE": {
+        "BILLS": "विधेयकों",
+        "CREDITMEMO": "क्रेडिट ज्ञापन",
+        "INVOICE": "बीजक",
+        "QUOTE": "उद्धरण",
+        "SALEORDER": "विक्रय ऑर्डर"
+      },
+      "TAXOPTION": {
+        "EXCLUSIVE": "टैक्स एक्सक्लूसिव",
+        "INCLUSIVE": "कर शामिल"
+      }
+    },
+    "NO-ITEM-FOUND": "कोई वस्तु नहीं मिली",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "भुगतान जोड़ें",
+      "AMOUNT-RECIEVED": "प्राप्त राशि",
+      "AMOUNT-UNPAID": "अवैतनिक राशि",
+      "REFERENCE": "संदर्भ",
+      "TDS-PAID": "टीडीएस भुगतान",
+      "TITLE": "भुगतान की जानकारी"
+    },
+    "QUANTITY": "मात्रा",
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "खाता संदर्भ आवश्यक है"
+      }
+    },
+    "REFERENCE": "संदर्भ",
+    "SUB-TOTAL": "उप योग",
+    "TAX": "कर",
+    "TAX-RATE": "कर की दर",
+    "TOTAL": "कुल",
+    "UNIT-PRICE": "यूनिट मूल्य",
+    "VOID": "शून्य"
+  },
+  "APP": {
+    "TITLE": "कंपनी"
+  },
+  "APP-SERVER": {
+    "ERROR": {
+      "CREATE": "एप्लिकेशन सर्वर बनाते समय त्रुटि हुई",
+      "DELETE": "एप्लिकेशन सर्वर को हटाते समय त्रुटि हुई",
+      "UPDATE": "एप्लिकेशन सर्वर को अपडेट करते समय त्रुटि हुई"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "आईपी पता अमान्य है",
+        "REQUIRED": "IP पता आवश्यक है"
+      },
+      "TITLE": "आईपी पता"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "नया एप्लिकेशन सर्वर",
+      "EDIT": "एप्लिकेशन सर्वर संपादित करें",
+      "HOME": "एप्लिकेशन सर्वर"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "पोर्ट अमान्य है",
+        "REQUIRED": "पोर्ट की आवश्यकता है"
+      },
+      "TITLE": "बंदरगाह"
+    },
+    "SEARCH-PLACEHOLDER": "खोज सर्वर",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "सर्वर का नाम अमान्य है",
+        "REQUIRED": "सर्वर नाम आवश्यक है"
+      },
+      "TITLE": "सर्वर का नाम"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "सेवा खाता नाम अमान्य है",
+        "REQUIRED": "सेवा खाता नाम आवश्यक है"
+      },
+      "TITLE": "सेवा खाता नाम"
+    },
+    "SUCCESS": {
+      "CREATE": "एप्लिकेशन सर्वर सफलतापूर्वक बनाया गया",
+      "DELETE": "एप्लिकेशन सर्वर सफलतापूर्वक हटाया गया",
+      "UPDATE": "एप्लिकेशन सर्वर सफलतापूर्वक अपडेट किया गया"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "प्रणाली अमान्य है",
+        "REQUIRED": "प्रणाली की आवश्यकता है"
+      },
+      "TITLE": "प्रणाली"
+    }
+  },
+  "AUTH-SERVER": {
+    "ERROR": {
+      "CREATE": "प्रमाणीकरण सर्वर बनाते समय त्रुटि हुई",
+      "DELETE": "प्रमाणीकरण सर्वर को हटाते समय त्रुटि हुई",
+      "UPDATE": "प्रमाणीकरण सर्वर को अद्यतन करते समय त्रुटि हुई"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "आईपी पता अमान्य है",
+        "REQUIRED": "IP पता आवश्यक है"
+      },
+      "TITLE": "आईपी पता"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "नया प्रमाणीकरण सर्वर",
+      "EDIT": "प्रमाणीकरण सर्वर संपादित करें",
+      "HOME": "प्रमाणीकरण सर्वर"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "पोर्ट अमान्य है",
+        "REQUIRED": "पोर्ट की आवश्यकता है"
+      },
+      "TITLE": "बंदरगाह"
+    },
+    "SEARCH-PLACEHOLDER": "खोज सर्वर",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "सर्वर का नाम अमान्य है",
+        "REQUIRED": "सर्वर नाम आवश्यक है"
+      },
+      "TITLE": "सर्वर का नाम"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "सेवा खाता नाम अमान्य है",
+        "REQUIRED": "सेवा खाता नाम आवश्यक है"
+      },
+      "TITLE": "सेवा खाता नाम"
+    },
+    "SUCCESS": {
+      "CREATE": "प्रमाणीकरण सर्वर सफलतापूर्वक बनाया गया",
+      "DELETE": "प्रमाणीकरण सर्वर सफलतापूर्वक हटाया गया",
+      "UPDATE": "प्रमाणीकरण सर्वर सफलतापूर्वक अपडेट किया गया"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "प्रणाली अमान्य है",
+        "REQUIRED": "प्रणालीकी आवश्यकता है"
+      },
+      "TITLE": "प्रणाली"
+    }
+  },
+  "AUTHORIZATION": {
+    "ERROR": {
+      "CREATE": "प्राधिकरण सर्वर बनाते समय त्रुटि हुई",
+      "DELETE": "प्राधिकरण सर्वर को हटाते समय त्रुटि हुई",
+      "UPDATE": "प्राधिकरण सर्वर को अपडेट करते समय त्रुटि हुई"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "आईपी पता अमान्य है",
+        "REQUIRED": "IP पता आवश्यक है"
+      },
+      "TITLE": "आईपी पता"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "नया प्राधिकरण सर्वर",
+      "EDIT": "प्राधिकरण सर्वर संपादित करें",
+      "HOME": "प्राधिकरण सर्वर"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "पोर्ट अमान्य है",
+        "REQUIRED": "पोर्ट की आवश्यकता है"
+      },
+      "TITLE": "बंदरगाह"
+    },
+    "SEARCH-PLACEHOLDER": "खोज सर्वर",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "सर्वर का नाम अमान्य है",
+        "REQUIRED": "सर्वर नाम आवश्यक है"
+      },
+      "TITLE": "सर्वर का नाम"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "सेवा खाता नाम अमान्य है",
+        "REQUIRED": "सेवा खाता नाम आवश्यक है"
+      },
+      "TITLE": "सेवा खाता नाम"
+    },
+    "SUCCESS": {
+      "CREATE": "प्राधिकरण सर्वर सफलतापूर्वक बनाया गया",
+      "DELETE": "प्राधिकरण सर्वर सफलतापूर्वक हटाया गया",
+      "UPDATE": "प्राधिकरण सर्वर सफलतापूर्वक अपडेट किया गया"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "प्रणालीअमान्य है",
+        "REQUIRED": "प्रणाली की आवश्यकता है"
+      },
+      "TITLE": "प्रणाली"
+    }
+  },
+  "BUILDER": {
+    "DESIGNER": {
+      "PAGE": {
+        "FOOTER": "फ़ुटबाल",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "बढ़ाई",
+            "CLONE": "क्लोन",
+            "NAME": "पन्ने का नाम",
+            "SCOPE": "दायरा"
+          }
+        }
+      }
+    },
+    "MENU": {
+      "APPBUILDER": {
+        "APPAUTHPRV": "प्रमाणीकरण",
+        "APPDESIGN": "ऐप डिज़ाइनर",
+        "BUILDAPP": "निर्माण",
+        "DEPLOYAPP": "तैनाती",
+        "SECURITYSCAN": "सुरक्षा स्कैन",
+        "TITLE": "ऐप बिल्डर"
+      },
+      "APPSTORE": {
+        "TITLE": "ऐप स्टोर"
+      },
+      "BLOCKS": {
+        "BANNER": "बैनर",
+        "BOTTOMSHEET": "सबसे निचली शीट",
+        "CARD": "कार्ड",
+        "CHART": "चार्ट",
+        "DIALOG": "संवाद",
+        "FORM": "प्रपत्र",
+        "GRID": "ग्रिड",
+        "STEPPER": "स्टेपर",
+        "TAB": "टैब",
+        "TITLE": "ब्लाकों",
+        "TREE": "पेड़"
+      },
+      "DATABUILDER": {
+        "REST": "बाकी मेटाडेटा",
+        "TABLE": "एपीआई तालिका",
+        "TITLE": " डेटा एक्सप्लोरर"
+      },
+      "DESIGNER": {
+        "PAGE": "पेज डिजाइनर",
+        "STATEMACHNE": "राज्य मशीन",
+        "TITLE": " पेज बिल्डर",
+        "WORKFLOW": "कार्यप्रवाह"
+      },
+      "TITLE": "निर्माता"
+    },
+    "METADATA": {
+      "APPTYPE": {
+        "ANDROID": "एंड्रॉयड",
+        "IOS": "आईओएस",
+        "KIOSK": "कीओस्क",
+        "WEB": "वेब",
+        "WINDOWS": "खिड़कियाँ"
+      },
+      "AUTHENTICATIONTYPE": {
+        "FACEBOOK": "फेसबुक",
+        "FACEDETECTION": "चेहरा",
+        "FINGERPRINT": "उंगली",
+        "FIREBASEUI": "फायरबेस",
+        "GITHUB": "GitHub",
+        "GOOGLE": "गूगल",
+        "LINKEDIN": "लिंक्ड इन",
+        "PHONENUMBER": "फ़ोन नंबर",
+        "QRCODE": "क्यूआर",
+        "SSO": "एक बार दर्ज करना",
+        "USERIDPASSWORD": "पासवर्ड"
+      },
+      "COMP-SUB-TYPE": {
+        "AREA": "क्षेत्र",
+        "BAR": "छड़",
+        "BUBBLE": "बुलबुला",
+        "COLOR": "रंग",
+        "DOUGHNUT": "डोनट",
+        "EMAIL": "ईमेल",
+        "FAB-BUTTON": "फैब बटन",
+        "FLAT-BUTTON": "फ्लैट बटन",
+        "HEAT MAP": "गर्मी के नक्शे",
+        "ICON-BUTTON": "चिह्न बटन",
+        "LINE": "रेखा",
+        "MAP": "नक्शा",
+        "MINIFAB-BUTTON": "मिनीफैब बटन",
+        "NUMBER": "संख्या",
+        "PASSWORD": "पासवर्ड",
+        "PIE": "पाई",
+        "RADAR": "राडार",
+        "RAISED-BUTTON": "उठा हुआ बटन",
+        "SCATTER": "स्कैटर",
+        "STROKED-BUTTON": "स्ट्रोक बटन",
+        "TEL": "फ़ोन",
+        "TEXT": "मूलपाठ",
+        "URL": "यूआरएल"
+      },
+      "COMP-TYPE": {
+        "AUTO-COMPLETE": "स्वतः पूर्ण",
+        "BADGE": "बैज",
+        "BANNER": "बैनर",
+        "BOTTOM-SHEET": "सबसे निचली शीट",
+        "BUTTON": "बटन",
+        "BUTTON-TOGGLE": "बटन टॉगल",
+        "CARD": "कार्ड",
+        "CHART": "चार्ट",
+        "CHECKBOX": "चेक बॉक्स",
+        "CHIPS": "चिप्स",
+        "DATE-PICKER": "खजूर बीनने वाला",
+        "DIALOG": "संवाद",
+        "DIVIDER": "डिवाइडर",
+        "DROPDOWN": "ड्रॉप डाउन",
+        "EXPANSION-PANEL": "विस्तार पैनल",
+        "GRID": "ग्रिड",
+        "ICON": "आइकन",
+        "IMAGE": "छवि",
+        "INPUT": "इनपुट",
+        "LABEL": "लेबल",
+        "LIST": "सूची",
+        "MENU": "मेन्यू",
+        "PAGINATOR": "पेजिनेटर",
+        "PROGRESS-BAR": "प्रोगेस बार",
+        "PROGRESS-SPINNER": "प्रगति स्पिनर",
+        "RADIO-BUTTON": "रेडियो की बटन",
+        "SIDENAV": "किनारों का",
+        "SLIDE-TOGGLE": "स्लाइड टॉगल",
+        "SLIDER": "स्लाइडर",
+        "SNACKBAR": "अल्पाहार गृह",
+        "STEPPER": "स्टेपर",
+        "TAB": "टैब",
+        "TEXT-AREA": "पाठ क्षेत्र",
+        "TOOLBAR": "उपकरण पट्टी",
+        "TOOLTIP": "टूलटिप",
+        "TREE": "पेड़"
+      },
+      "COMPTYPE": {
+        "AUTOCOMPLETE": "स्वतः पूर्ण",
+        "BADGE": "बैज",
+        "BANNER": "बैनर",
+        "BOTTOMSHEET": "सबसे निचली शीट",
+        "BUTTON": "बटन",
+        "BUTTONTOGGLE": "बटन टॉगल",
+        "CAMERA": "कैमरा",
+        "CARD": "कार्ड",
+        "CHART": "चार्ट",
+        "CHECKBOX": "चेक बॉक्स",
+        "CHIPS": "चिप्स",
+        "DATEPICKER": "खजूर बीनने वाला",
+        "DIALOG": "संवाद",
+        "DIVIDER": "डिवाइडर",
+        "DROPDOWN": "ड्रॉप डाउन",
+        "EXPANSIONPANEL": "विस्तार पैनल",
+        "FILE": "फ़ाइल",
+        "FORM": "प्रपत्र",
+        "GRID": "ग्रिड",
+        "ICON": "आइकन",
+        "IMAGE": "छवि",
+        "LABEL": "लेबल",
+        "LIST": "सूची",
+        "MAP": "नक्शा",
+        "MENU": "मेन्यू",
+        "PAGINATOR": "पेजिनेटर",
+        "PROGRESSBAR": "प्रोगेस बार",
+        "PROGRESSSPINNER": "प्रगति स्पिनर",
+        "RADIOBUTTON": "रेडियो की बटन",
+        "SIDENAV": "किनारों का",
+        "SLIDER": "स्लाइडर",
+        "SLIDETOGGLE": "स्लाइड टॉगल",
+        "SNACKBAR": "अल्पाहार गृह",
+        "STEPPER": "स्टेपर",
+        "TAB": "टैब",
+        "TEXTAREA": "पाठ क्षेत्र",
+        "TEXTINPUT": "इनपुट",
+        "TOOLBAR": "उपकरण पट्टी",
+        "TOOLTIP": "टूलटिप",
+        "TREE": "पेड़"
+      },
+      "FORM": {
+        "BUTTON-ROW": {
+          "DISPLAY": {
+            "BOTTOM": "नीचे",
+            "TOP": "शीर्ष"
+          }
+        },
+        "DISPLAY-TYPE": {
+          "DYNAMIC": "गतिशील",
+          "FIXED": "फिक्स्ड / स्टेटिक"
+        },
+        "ERROR-DISPLAY-TYPE": {
+          "INLINE": "इन - लाइन",
+          "SNACKBAR": "अल्पाहार गृह"
+        },
+        "FIELD-APPEARANCE-TYPE": {
+          "FILL": "भरना",
+          "LEGACY": "विरासत",
+          "OUTLINE": "रूपरेखा",
+          "STANDARD": "मानक"
+        },
+        "FIELD-TYPE": {
+          "BUTTON": "बटन",
+          "CHECKBOX": "चेक बॉक्स",
+          "DATE-PICKER": "खजूर बीनने वाला",
+          "DROPDOWN": "ड्रॉप डाउन",
+          "LABEL": "लेबल",
+          "RADIOBUTTON": "रेडियो की बटन",
+          "TEXT-AREA": "पाठ क्षेत्र",
+          "TEXTBOX": "पाठ बॉक्स"
+        },
+        "LAYOUT-ALIGNMENT": {
+          "CENTER": "केंद्र",
+          "END": "समाप्त",
+          "SPACE-AROUND": "अंतरिक्ष के आसपास",
+          "SPACE-BETWEEN": "अंतरिक्ष के बीच",
+          "SPACE-EVENLY": "अंतरिक्ष-समान",
+          "START": "प्रारंभ",
+          "STRETCH": "फैलाव"
+        },
+        "LAYOUT-TYPE": {
+          "COLUMN": "स्तंभ",
+          "ROW": "पंक्ति"
+        },
+        "ROW-COLUMNS": {
+          "FIVE": "पांच कॉलम",
+          "FOUR": "चार कॉलम",
+          "ONE": "एक कॉलम",
+          "THREE": "तीन कॉलम",
+          "TWO": "दो कॉलम"
+        }
+      }
+    },
+    "METAREST": {
+      "DISPLAYNAME": {
+        "ERROR": {
+          "REQUIRED": "प्रदर्शन नाम आवश्यक है"
+        },
+        "TITLE": "प्रदर्शित होने वाला नाम"
+      },
+      "GRID": {
+        "NAME": "नाम",
+        "SCOPE": "दायरा",
+        "URL": "endpoint"
+      },
+      "NAME": {
+        "ERROR": {
+          "REQUIRED": "नाम आवश्यक है"
+        },
+        "TITLE": "नाम"
+      },
+      "PAGE-TITLE": "एपीआई मेटाडेटा",
+      "ROUTE": {
+        "ERROR": {
+          "REQUIRED": "मार्ग आवश्यक है"
+        },
+        "TITLE": "मार्ग"
+      },
+      "SCOPE": {
+        "ERROR": {
+          "REQUIRED": "दायरा आवश्यक है"
+        },
+        "TITLE": "दायरा"
+      },
+      "SEARCH-PLACEHOLDER": "मेटाडेटा एपीआई खोजें",
+      "TABLENAME": {
+        "ERROR": {
+          "REQUIRED": "तालिका का नाम आवश्यक है"
+        },
+        "TITLE": "तालिका नाम"
+      }
+    },
+    "PAGE": {
+      "CONFIGURATION": {
+        "HEADER": {
+          "BUTTONS": "बटन",
+          "CREATEAPI": "एपीआई बनाएं",
+          "CREATETABLE": "तालिका बनाएं",
+          "EDITPAGE": "संपादित पेज",
+          "ENDPOINT": "endpoint",
+          "HOMEPAGE": "होम पेज",
+          "NAME": "नाम",
+          "NEWPAGE": "नया पृष्ठ",
+          "PAGEACTIONS": "पृष्ठ क्रियाओं को कॉन्फ़िगर करें",
+          "PERMISSION": "अनुमति",
+          "URL": "यूआरएल"
+        }
+      },
+      "ERROR": {
+        "CREATE": "पृष्ठ डिज़ाइन सहेजते समय त्रुटि !!",
+        "DELETE": "पृष्ठ डिज़ाइन हटाते समय त्रुटि !!",
+        "UPDATE": "पेज डिज़ाइन अपडेट करते समय त्रुटि !!"
+      },
+      "SUCCESS": {
+        "CREATE": "पेज डिज़ाइन सफलतापूर्वक सहेजा गया",
+        "DELETE": "पृष्ठ डिज़ाइन सफलतापूर्वक हटाया गया",
+        "UPDATE": "पेज डिज़ाइन सफलतापूर्वक अपडेट किया गया"
+      }
+    },
+    "TEMPLATE": {
+      "BOTTOM-SHEET": {
+        "BUTTON-LABEL": "बटन लेबल",
+        "BUTTON-NAVIGATE-URL": "बटन नेविगेट URL",
+        "BUTTON-SUB-LABEL": "बटन उप लेबल",
+        "CREATE": "बनाएं",
+        "DRAG&DROP-BOTTOM-SHEET-ITEMS": "बॉटम शीट आइटम्स को यहां खींचें और छोड़ें",
+        "DRAG&DROP-CUSTOMISE-BOTTOM-SHEET": "नीचे की शीट को अनुकूलित करने के लिए खींचें और छोड़ें",
+        "ENTER-TEXT-HERE": "पाठ यहां लिखें...",
+        "TITLE": "सबसे निचली शीट"
+      },
+      "CARD": {
+        "ADD-FIELD": "क्षेत्र जोड़ें",
+        "ALIGNMENT": "संरेखण",
+        "DISPLAY-IMAGE": "प्रदर्शन छवि",
+        "DRAG&DROP-CARD-ITEMS": "कार्ड आइटम को यहां खींचें और छोड़ें",
+        "DRAG&DROP-CUSTOMISE-CARDS": "कार्ड कस्टमाइज़ करने के लिए खींचें और छोड़ें",
+        "FLEX": "फ्लेक्स",
+        "HORIZONTAL": "क्षैतिज",
+        "IMAGE-SIZE": "छवि का आकार",
+        "IMAGE-TYPE": "छवि प्रकार",
+        "PREVIEW": "पूर्वावलोकन",
+        "TITLE": "पत्ते",
+        "VALIDATION": {
+          "CONTENT-REQUIRED": "सामग्री की आवश्यकता है",
+          "FOOTER-REQUIRED": " पाद लेख आवश्यक है",
+          "HEADER-REQUIRED": "शीर्षलेख नाम आवश्यक है",
+          "SUB-HEADER-REQUIRED": "उप शीर्षलेख आवश्यक है"
+        },
+        "VERTICAL": "खड़ा"
+      },
+      "COMPONENT-BULIDER": "घटक निर्माता",
+      "CONFIGURATION": {
+        "BUTTON-CONFIGURATION": "बटन विन्यास",
+        "BUTTON-ROW": {
+          "POSITION": "बटन पंक्ति स्थिति",
+          "TITLE": "बटन पंक्ति है"
+        },
+        "DIRECTION-LAYOUT": "दिशा लेआउट",
+        "DISPLAY": "प्रदर्शन",
+        "EDIT": "संपादित करें",
+        "ENTER-FLEX-VALUE": "फ्लेक्स मान दर्ज करें",
+        "FLEX-CONFIGURATION": "फ्लेक्स कॉन्फ़िगरेशन",
+        "HORIZONTAL-ALIGNMENT": "क्षैतिज संरेखण",
+        "RESPONSIVE-LAYOUT": "अनुकूल लेआऊट",
+        "SELECT-FORM-FIELDS-STYLE": "प्रपत्र फ़ील्ड शैली का चयन करें",
+        "SELECT-LAYOUT": "लेआउट का चयन करें",
+        "SELECT-NO-OF-COLUMNS": "स्तंभों की संख्या चुनें",
+        "TEMPLATE-NATURE": "टेम्पलेट प्रकृति",
+        "THEME-CONFIGURATION": "थीम विन्यास",
+        "VALIDATION": {
+          "ERROR-MESSAGES-DISPLAY": "त्रुटि संदेश प्रदर्शन",
+          "FLEX-REQUIRED": "फ्लेक्स मान आवश्यक है",
+          "LAYOUT-REQUIRED": "लेआउट आवश्यक है",
+          "NO-OF-COLUMNS-REQUIRED": "स्तंभों की संख्या आवश्यक है",
+          "TYPE-REQUIRED": "प्रकार आवश्यक है",
+          "VALUE-REQUIRED": "मान आवश्यक है"
+        },
+        "VALIDATION-LAYOUT-REQUIRED": "लेआउट की आवश्यकता है",
+        "VERTICAL-ALIGNMENT": "लंबवत संरेखण"
+      },
+      "DETAILS": "विवरण",
+      "DIALOG": {
+        "CREATE": "बनाएं",
+        "DRAG&DROP-DIALOG-ITEMS": "डायलॉग आइटम को यहां खींचें और छोड़ें",
+        "START-CREATE-DIALOG-BOX": "आइटम्स को ड्रैग और ड्रॉप करके डायलॉग बॉक्स बनाना शुरू करें",
+        "TITLE": "संवाद",
+        "VIEW": "राय"
+      },
+      "FORM": {
+        "ADD-OPTION": "विकल्प जोड़ें",
+        "ALLOW-OVERRIDE": "अवहेलना की अनुमति दें",
+        "CONFIG": {
+          "BASIC": {
+            "ISREADONLY": "केवल पढ़ने के लिए है",
+            "ISVISISBLE": "दिखाई दे रहा है",
+            "LABEL": {
+              "ERROR": {
+                "REQUIRED": " फ़ील्ड नाम आवश्यक है"
+              },
+              "TITLE": "क्षेत्र का नाम"
+            },
+            "PLACEHOLDER": "प्लेसहोल्डर",
+            "TOOLTIP": "टूलटिप",
+            "VIEWPORT": "व्यूपोर्ट"
+          },
+          "DATA": {
+            "AUTOGENERATED": "स्वतः उत्पन्न होता है",
+            "DATATYPE": "डाटा प्रकार",
+            "DEFAULTVALUE": "डिफ़ॉल्ट मान",
+            "MANDATORY": "अनिवार्य है",
+            "MODELNAME": {
+              "ERROR": {
+                "REQUIRED": "मॉडल का नाम आवश्यक है"
+              },
+              "TITLE": "मॉडल का नाम"
+            }
+          },
+          "HEADER": {
+            "BASIC": "बुनियादी",
+            "DATA": "आंकड़े",
+            "MISC": "अन्य",
+            "SECURITY": "सुरक्षा",
+            "VALIDATIONS": "सत्यापन"
+          },
+          "MISC": {
+            "HINT": "संकेत",
+            "HINTEND": "संकेत अंत",
+            "MAXLENGTH": "अधिकतम लंबाई",
+            "MAXLENGTHERROR": "अधिकतम लंबाई त्रुटि",
+            "MINLENGTH": "न्यूनतम लंबाई",
+            "MINLENGTHERROR": "न्यूनतम लंबाई त्रुटि",
+            "PREFIX": "उपसर्ग",
+            "REGEX": "regex",
+            "REGEXERROR": "Reqex त्रुटि संदेश",
+            "SUFFIX": "प्रत्यय"
+          },
+          "SECURITY": {
+            "ENCRYPT": "एन्क्रिप्ट",
+            "PERMCODE": "अनुमति कोड",
+            "SHOWPASSWORD": "पासवर्ड दिखाएं आइकन सक्षम करें"
+          },
+          "VALIDATIONRULE": {
+            "MESSAGE": "त्रुटि संदेश",
+            "NAME": "प्रकार",
+            "VALUE": "मूल्य"
+          }
+        },
+        "DISPLAY-NAME": "प्रदर्शित होने वाला नाम",
+        "DISPLAY-TYPE": "डिसप्ले टाइप",
+        "DRAG": "प्रपत्र स्थानों को खींचें",
+        "DRAG&DROP-ITEMS": "फ़ॉर्म आइटम को यहां खींचें और छोड़ें",
+        "ENCRYPT-DATA": "डेटा एन्क्रिप्ट करें",
+        "ERROR": {
+          "CREATE": "प्रपत्र टेम्पलेट बनाते समय त्रुटि हुई",
+          "DELETE": "प्रपत्र टेम्पलेट को हटाते समय त्रुटि हुई",
+          "UPDATE": "प्रपत्र टेम्पलेट को अपडेट करते समय त्रुटि हुई"
+        },
+        "FIELD-ATTRIBUTES": "प्रपत्र फ़ील्ड विशेषताएँ",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "बढ़ाई",
+            "CLONE": "क्लोन",
+            "NAME": "फ़ार्म का नाम",
+            "SCOPE": "दायरा"
+          }
+        },
+        "ITEM": {
+          "LABEL": "क्षेत्र का नाम",
+          "PLACEHOLDER": "फ़ील्ड नाम दर्ज करें"
+        },
+        "MANDATORY-FIELD": "अनिवार्य क्षेत्र",
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "प्रपत्र का नाम आवश्यक है"
+          },
+          "TITLE": "फ़ार्म का नाम"
+        },
+        "SAME-EMPTY-NAME-NOT-SHOWN": "*समान या खाली मॉडल नाम वाले कई फॉर्म फ़ील्ड नहीं दिखाए जाएंगे",
+        "SECURITY-ATTRIBUTES": "सुरक्षा विशेषताएँ",
+        "SHOW-GROUP": "प्रपत्र समूह में दिखाएं",
+        "SUCCESS": {
+          "CREATE": "प्रपत्र टेम्पलेट सफलतापूर्वक बनाया गया",
+          "DELETE": "प्रपत्र टेम्पलेट सफलतापूर्वक हटाया गया",
+          "UPDATE": "प्रपत्र टेम्पलेट सफलतापूर्वक अपडेट किया गया"
+        },
+        "TITLE": "प्रपत्र",
+        "VALIDATION": {
+          "ALLOW-SPACE&SPECIAL-CHARACTERS": "मॉडल शब्दों के बीच की अवधि को छोड़कर स्थान और विशेष वर्णों की अनुमति नहीं देता",
+          "DATE-REQUIRED": "दिनांक आवश्यक",
+          "ENDPOINT-REQUIRED": "अंतिम बिंदु आवश्यक है",
+          "EXCEED-50CHARACTERS-LENGTH": "मॉडल का नाम लंबाई में 50 वर्णों से अधिक नहीं होना चाहिए",
+          "INVAILD-DATE": "अमान्य दिनांक",
+          "INVALID-DATE": "अमान्य दिनांक",
+          "MAX-DATE": "अधिकतम तिथि",
+          "MIN-DATE": "न्यूनतम तिथि",
+          "MODEL-REQUIRED": "मॉडल का नाम आवश्यक है",
+          "MUST-3CHARACTERS-LENGTH": "मॉडल का नाम 3 वर्णों का होना चाहिए",
+          "TITLE": {
+            "NAME": "मान्यकरण"
+          }
+        },
+        "VALUE": "मूल्य",
+        "VISIBILITY": "दृश्यता"
+      },
+      "GRID": {
+        "CREATE": "बनाएं",
+        "SHOW-PAGINATION": "ग्रिड पेजिनेशन दिखाएं",
+        "TITLE": "ग्रिड",
+        "VALIDATION": {
+          "COLUMN-ENDPOINT-REQUIRED": "डेटा समापन बिंदु आवश्यक है",
+          "DATA-ENDPOINT-REQUIRED": "डेटा समापन बिंदु आवश्यक है"
+        }
+      },
+      "IMAGE": {
+        "CREATE": "टेक्स्ट के साथ इमेज बनाएं",
+        "DRAG-DROP": "छवि और टेक्स्ट फ़ील्ड को अनुकूलित करने के लिए खींचें और छोड़ें",
+        "DRAG&DROP-IMAGE-ITEMS": "छवि आइटम यहां खींचें और छोड़ें",
+        "DRAG&DROP-TEXT-FIELD-ITEMS": "टेक्स्ट फ़ील्ड आइटम को यहां खींचें और छोड़ें",
+        "TITLE": "छवि"
+      },
+      "NAME": "नाम",
+      "PAGE-ACTION": {
+        "CONFIGURATION": "बटन विन्यास",
+        "DRAG-DROP-BUTTON": "अनुकूलित करने के लिए खींचें और छोड़ें बटन",
+        "DRAG&DROP-BUTTON-ITEMS": "यहां बटन आइटम खींचें और छोड़ें",
+        "SELECT-BUTTON-ACTION": "बटन क्रिया का चयन करें",
+        "SELECT-COLOR": "रंग चुनो",
+        "TITLE": "बटन"
+      },
+      "STEPPER": {
+        "CREATE": "बनाएं",
+        "CREATE-STEPPER-DRAG&DROP-ITEMS": "आइटम्स को ड्रैग और ड्रॉप करके स्टेपर बनाना शुरू करें",
+        "DRAG&DROP-ITEMS": "स्टेपर आइटम को यहां खींचें और छोड़ें",
+        "STEPPER-VIEW": "स्टेपर व्यू",
+        "TITLE": "स्टेपर"
+      },
+      "TAB": {
+        "ADDTAB": "टैब जोड़ें",
+        "BACKGROUND-COLOR": "पीछे का रंग",
+        "COLOR": "रंग",
+        "CREATE": "बनाएं",
+        "DISABLED-TAB": "अक्षम टैब",
+        "DRAG&DROP-TAB-CONTENT": "टैब सामग्री को यहां खींचें और छोड़ें",
+        "HEADER-POSITION": "शीर्षलेख स्थिति",
+        "TITLE": "टैब"
+      },
+      "TREE": {
+        "CREATE": "बनाएं",
+        "ENDPOINT": "समापन बिंदु दर्ज करें",
+        "FETCH": "लाना",
+        "MODIFY": "संशोधित",
+        "NODE-SELECTABLE": "नोड चयन योग्य",
+        "TITLE": "पेड़",
+        "TREE-OUTPUT-NAME": "ट्री आउटपुट नाम दर्ज करें"
+      },
+      "TYPE": "प्रकार",
+      "VALIDATION": {
+        "INPUT-TYPE-REQUIRED": "इनपुट प्रकार आवश्यक है",
+        "TYPE-REQUIRED": "नाम आवश्यक है"
+      },
+      "WIZARD": {
+        "ADVANCED": "उन्नत",
+        "BANNER": "बैनर",
+        "BASIC": "बुनियादी",
+        "BOTTOM-SHEET": "सबसे निचली शीट",
+        "BUTTON": "बटन",
+        "CARD": "कार्ड",
+        "CHARTS": "चार्ट",
+        "CREATE-TEMPLATE": "टेम्पलेट का चयन करें",
+        "DIALOG": "संवाद",
+        "FORM": "प्रपत्र",
+        "GRID": "ग्रिड",
+        "SELECT-COMPONENT": "एक घटक का चयन करके टेम्पलेट बनाना प्रारंभ करें",
+        "STEPPER": "स्टेपर",
+        "TAB": "टैब",
+        "TOOLBAR-BREADCRUMB": "टूलबार और ब्रेडक्रंब",
+        "TREE": "पेड़"
+      }
+    }
+  },
+  "BUTTON": {
+    "ADD": "जोड़ना",
+    "APPROVAL": "अनुमोदन",
+    "BACK": "वापस",
+    "CANCEL": "रद्द करना",
+    "CLOSE": "बंद करे",
+    "DELETE": "हटाएं",
+    "DELETE-CONFIRMATION": "क्या आप हटाना चाहते हैं?",
+    "DOWNLOAD": "डाउनलाओड",
+    "EDIT": "संपादित करें",
+    "EMAIL": "ईमेल",
+    "MODIFY": "संशोधित",
+    "NEW": "नवीन व",
+    "NEXT": "अगला",
+    "OK": "ठीक है",
+    "PREVIOUS": "पहले का",
+    "PRINT": "छाप",
+    "PRINT-PDF": "पीडीएफ प्रिंट करें",
+    "SAVE": "सहेजें",
+    "UPDATE": "अपडेट करें"
+  },
+  "CAREERLEVEL": {
+    "ANALYST": "विश्लेषक",
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "बिल कोड आवश्यक है"
+      },
+      "TITLE": "बिल कोड"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "करियर स्तर की आवश्यकता है"
+      },
+      "TITLE": "कारकिर्दगी स्तर"
+    },
+    "CONSULTANT": "सलाहकार",
+    "CREATE": "करियर स्तर बनाएं",
+    "EDIT": "करियर स्तर संपादित करें",
+    "ERROR": {
+      "CREATE": "करियर स्तर बनाते समय त्रुटि",
+      "DELETE": "करियर स्तर को हटाते समय त्रुटि",
+      "UPDATE": "करियर स्तर अपडेट करते समय त्रुटिError"
+    },
+    "EXECUTIVE": "कार्यपालक",
+    "INTERN": "अंदर का",
+    "MANAGER": "मैनेजर",
+    "PAGE-TITLE": "कारकिर्दगी स्तर",
+    "SEARCH-PLACEHOLDER": "करियर स्तर खोजें",
+    "SENIOR-ANALYST": "वरिष्ठ विश्लेषक",
+    "SENIOR-CONSULTANT": "वरिष्ठ सलाहकार",
+    "SENIOR-MANAGER": "वरिष्ठ प्रबंधक",
+    "SUCCESS": {
+      "CREATE": "करियर स्तर सफलतापूर्वक बनाया गया",
+      "DELETE": "करियर स्तर सफलतापूर्वक हटाया गया",
+      "UPDATE": "करियर स्तर सफलतापूर्वक अपडेट किया गया"
+    },
+    "UPDATE-SUCESS": "करियर स्तर सफलतापूर्वक अपडेट किया गया"
+  },
+  "CLIENT": {
+    "ACCOUNT-DETAILS": "खाता विवरण",
+    "ADDRESS-LINE-1": {
+      "ERROR": {
+        "REQUIRED": "पता पंक्ति 1 आवश्यक है"
+      },
+      "TITLE": "पता पंक्ति 1"
+    },
+    "ADDRESS-LINE-2": {
+      "TITLE": "पता पंक्ति नं। 2"
+    },
+    "BILLING-ADDRESS": "बिल भेजने का पता",
+    "BILLS-DUE-DATE": {
+      "ERROR": {
+        "REQUIRED": "बिल देय तिथि आवश्यक है",
+        "TYPE-REQUIRED": "बिल देय तिथि विकल्प आवश्यक है"
+      },
+      "INPUT": "तारीख",
+      "SELECT-TYPE": "विकल्प",
+      "TITLE": "बिल देय तिथि"
+    },
+    "CIN": "चीन",
+    "CITY": {
+      "ERROR": {
+        "REQUIRED": "शहर की आवश्यकता है"
+      },
+      "TITLE": "Faridabad"
+    },
+    "COMPANY-REG-NUM": {
+      "ERROR": {
+        "REQUIRED": "कंपनी पंजीकरण संख्या आवश्यक है"
+      },
+      "TITLE": "कंपनी की पंजीकरण संख्या।"
+    },
+    "CONTACT-PERSON-DETAILS": "संपर्क व्यक्ति विवरण",
+    "COUNTRY": {
+      "ERROR": {
+        "REQUIRED": "देश की आवश्यकता है"
+      },
+      "TITLE": "देश"
+    },
+    "CREATE": "क्लाइंट बनाएं",
+    "CREDIT-LIMIT": {
+      "ERROR": {
+        "REQUIRED": "क्रेडिट सीमा आवश्यक है"
+      },
+      "TITLE": "क्रेडिट सीमा"
+    },
+    "CURRENCY": {
+      "ERROR": {
+        "REQUIRED": "मुद्रा की आवश्यकता है"
+      },
+      "TITLE": "मुद्रा"
+    },
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "विवरण आवश्यक है"
+      },
+      "TITLE": "विवरण"
+    },
+    "EDIT": "क्लाइंट संपादित करें",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "ईमेल अमान्य है",
+        "REQUIRED": "ईमेल जरुरी है"
+      },
+      "TITLE": "ईमेल"
+    },
+    "ERROR": {
+      "CREATE": "क्लाइंट बनाते समय त्रुटि हुई",
+      "DELETE": "क्लाइंट को हटाते समय त्रुटि हुई",
+      "UPDATE": "क्लाइंट को अपडेट करते समय त्रुटि हुई"
+    },
+    "FOLLOWING-ATTR-TEXT": "ग्राहक स्थान (देश) के अनुसार निम्नलिखित विशेषताएं बदल जाएंगी",
+    "GST": "GST",
+    "GST-PURCHASE": {
+      "ERROR": {
+        "REQUIRED": "जीएसटी खरीद की आवश्यकता है"
+      },
+      "TITLE": "जीएसटी खरीद"
+    },
+    "GST-SALES": {
+      "ERROR": {
+        "REQUIRED": "जीएसटी बिक्री की आवश्यकता है"
+      },
+      "TITLE": "जीएसटी बिक्री"
+    },
+    "INVOICE-DUE-DATE": {
+      "ERROR": {
+        "INVALID": "अमान्य तिथि",
+        "REQUIRED": "चालान देय तिथि आवश्यक है",
+        "TYPE-REQUIRED": "चालान देय तिथि विकल्प आवश्यक है"
+      },
+      "INPUT": "तारीख",
+      "SELECT-TYPE": "विकल्प",
+      "TITLE": "बिल की देय तिथि"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "नाम आवश्यक है"
+      },
+      "TITLE": "नाम"
+    },
+    "NO-COUNTRY-FOUND": "कोई देश नहीं मिला",
+    "NO-STATE-FOUND": "कोई राज्य नहीं मिला",
+    "PAGE-TITLE": "ग्राहकों",
+    "PHONE-NUMBER": {
+      "ERROR": {
+        "REQUIRED": "फ़ोन नंबर आवश्यक है"
+      },
+      "TITLE": "फ़ोन नंबर"
+    },
+    "POST-CODE": {
+      "ERROR": {
+        "REQUIRED": "पोस्ट कोड आवश्यक है"
+      },
+      "TITLE": "पोस्ट कोड"
+    },
+    "SAME-AS-BILLING-ADDRESS": "बिलिंग पते के समान उपयोग करें",
+    "SAME-AS-SHIPPING-ADDRESS": "शिपिंग पते के समान उपयोग करें",
+    "SEARCH-PLACEHOLDER": "ग्राहक खोजें",
+    "SELECT": {
+      "ERROR": {
+        "REQUIRED": "चयन आवश्यक है"
+      },
+      "TITLE": "चुनते हैं"
+    },
+    "SETUP-CURRENCY-TAX-RATES": "सेटअप मुद्रा और कर दरें",
+    "SHIPPING-ADDRESS": "शिपिंग पता",
+    "STATE": {
+      "ERROR": {
+        "REQUIRED": "राज्य की आवश्यकता है"
+      },
+      "TITLE": "राज्य"
+    },
+    "SUCCESS": {
+      "CREATE": "क्लाइंट सफलतापूर्वक बनाया गया",
+      "DELETE": "क्लाइंट सफलतापूर्वक हटा दिया गया",
+      "UPDATE": "क्लाइंट सफलतापूर्वक अपडेट किया गया"
+    },
+    "TAB": {
+      "ADDRESS": "पता",
+      "CLIENT-DETAILS": "ग्राहक विवरण",
+      "FINANCIAL-DETAILS": "वित्तीय विवरण",
+      "REVIEW": "समीक्षा"
+    },
+    "TAN": {
+      "ERROR": {
+        "REQUIRED": "तन आवश्यक है"
+      },
+      "TITLE": "इसलिए"
+    },
+    "TAX-ID": {
+      "ERROR": {
+        "REQUIRED": "टैक्स आईडी आवश्यक है"
+      },
+      "TITLE": "टैक्स आईडी"
+    },
+    "TIN": {
+      "ERROR": {
+        "REQUIRED": "टिन की आवश्यकता है"
+      },
+      "TITLE": "मानना"
+    }
+  },
+  "COMMON": {
+    "CONN-MGMT": "कनेक्शन प्रबंधन",
+    "CREATE": "सृजन करना",
+    "DELETE": "हटाएं",
+    "EXPORT": "निर्यात",
+    "IS-REQUIRED": " आवश्यक है",
+    "MAIL": "मेल",
+    "NO": "नहीं",
+    "ORPHAN-MGMT": "अनाथ खाता प्रबंधन",
+    "PRINT": "छाप",
+    "PROV-CONFIG": "प्रावधान",
+    "READ": "केवल पढ़ने के लिए (देखें)",
+    "RECON": "सुलह",
+    "RECON-CONFIG": "रिकोन कॉन्फ़िगरेशन",
+    "REPORT": {
+      "EXPORT": "निर्यात",
+      "FILTERS": "फिल्टर",
+      "PRINT": "छाप"
+    },
+    "SEARCH": "खोज",
+    "SYSTEM-OWNER": "सिस्टम स्वामी",
+    "UPDATE": "अपडेट करें",
+    "USERID-CONFIG": "उपयोगकर्ता आईडी कॉन्फ़िगरेशन",
+    "YES": "हाँ"
+  },
+  "COMPANY": {
+    "CREATE": "सृजन करना",
+    "EDIT": "संपादित करें",
+    "ERROR": {
+      "CREATE": "कंपनी बनाते समय त्रुटि हुई",
+      "DELETE": "कंपनी को हटाते समय त्रुटि हुई",
+      "UPDATE": "कंपनी को अपडेट करते समय त्रुटि हुई"
+    },
+    "PAGE-TITLE": "कंपनी",
+    "SEARCH-PLACEHOLDER": "नाम, ट्रेडिंग नाम, देश द्वारा कंपनी खोजें",
+    "SUCCESS": {
+      "CREATE": "कंपनी सफलतापूर्वक बनाई गई",
+      "DELETE": "कंपनी सफलतापूर्वक हटाई गई",
+      "UPDATE": "कंपनी सफलतापूर्वक अपडेट की गई"
+    },
+    "TAB": {
+      "BASIC-INFORMATION": {
+        "CURRENCY": {
+          "ERROR": {
+            "REQUIRED": "मुद्रा की आवश्यकता है"
+          },
+          "TITLE": "मुद्रा"
+        },
+        "DELETE": "हटाएं",
+        "DESCRIPTION": {
+          "TITLE": "विवरण"
+        },
+        "DISPLAY-NAME": {
+          "ERROR": {
+            "REQUIRED": "प्रदर्शन नाम आवश्यक है"
+          },
+          "TITLE": "प्रदर्शित होने वाला नाम"
+        },
+        "EDIT-LOGO": "लोगो संपादित करें",
+        "LINE-OF-BUSSINESS": {
+          "ERROR": {
+            "REQUIRED": "व्यवसाय की रेखा आवश्यक है"
+          },
+          "TITLE": "व्यापार की रेखा"
+        },
+        "ORGANISATION-TYPE": {
+          "ERROR": {
+            "REQUIRED": "संगठन प्रकार आवश्यक है"
+          },
+          "TITLE": "संगठन का प्रकार"
+        },
+        "TAX-ID": {
+          "ERROR": {
+            "REQUIRED": "टैक्स आईडी आवश्यक है"
+          },
+          "TITLE": "टैक्स आईडी"
+        },
+        "TITLE": "मूलभूत जानकारी",
+        "TRADING-NAME": {
+          "ERROR": {
+            "REQUIRED": "ट्रेडिंग नाम आवश्यक है"
+          },
+          "TITLE": "व्यापार नाम"
+        },
+        "UPLOAD-LOGO": "लोगो अपलोड करें"
+      },
+      "LOCATION": {
+        "ADDRESS1": {
+          "ERROR": {
+            "REQUIRED": "पता पंक्ति 1 आवश्यक है"
+          },
+          "TITLE": "पता पंक्ति 1"
+        },
+        "ADDRESS2": {
+          "ERROR": {
+            "REQUIRED": "पता पंक्ति 2 आवश्यक है"
+          },
+          "TITLE": "पता पंक्ति नं। 2"
+        },
+        "CITY": {
+          "ERROR": {
+            "REQUIRED": "शहर की आवश्यकता है"
+          },
+          "TITLE": "Faridabad"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "देश की आवश्यकता है"
+          },
+          "TITLE": "देश"
+        },
+        "EMAIL": {
+          "ERROR": {
+            "INVALID": "अवैध ईमेल",
+            "REQUIRED": "ईमेल जरुरी है"
+          },
+          "TITLE": "ईमेल"
+        },
+        "PHONE": {
+          "ERROR": {
+            "REQUIRED": "फ़ोन की आवश्यकता है"
+          },
+          "TITLE": "फ़ोन"
+        },
+        "POSTAL-CODE": {
+          "ERROR": {
+            "REQUIRED": "पोस्टल कोड आवश्यक है"
+          },
+          "TITLE": "डाक कोड"
+        },
+        "STATE": {
+          "ERROR": {
+            "REQUIRED": "राज्य की आवश्यकता है"
+          },
+          "TITLE": "राज्य"
+        },
+        "TITLE": "स्थान",
+        "WEBSITE": {
+          "ERROR": {
+            "REQUIRED": "वेबसाइट की आवश्यकता है"
+          },
+          "TITLE": "वेबसाइट"
+        }
+      }
+    }
+  },
+  "CONNECTOR": {
+    "METADATA": {
+      "CATEGORY": {
+        "APPLICATION": "आवेदन",
+        "AUTHENTICATION": "प्रमाणीकरण",
+        "AUTHORIZATION": "प्राधिकार",
+        "CLOUD-APP": "क्लाउड ऐप",
+        "SAAS": "सास"
+      },
+      "IMP-TYPE": {
+        "DB": "डेटाबेस",
+        "REST": "बाकी एपीआई",
+        "RPA": "जन प्रतिनिधि कानून",
+        "SOAP": "साबुन एपीआई"
+      },
+      "SYSTEM-NAME": {
+        "AD": "सक्रिय निर्देशिका",
+        "ADP": "एडीपी",
+        "AIRWATCHADMINPORTAL": "वायु घड़ी",
+        "AMAZONEC2": "अमेज़ॅन ईसी 2",
+        "AMERICNAEXPRESSCORPORATE": "अमेरिकन एक्सप्रेस",
+        "AML": "एएमएल",
+        "API": "आग",
+        "APPLE": "सेब",
+        "APPLICATION": "आवेदन",
+        "ARIBACONTRACTMANAGEMENT": "ARIBA अनुबंध प्रबंधन",
+        "ARIBANETWORK": "अरीबा नेटवर्क",
+        "AWS": "एडब्ल्यूएस",
+        "BAMBOOHR": "बांस",
+        "BETTERWORKS": "बेहतर कार्य",
+        "BIOMETRICS": "बायो मेट्रिक्स",
+        "BLACKLINE": "काली रेखा",
+        "BLUEDIAMOND": "नीला हीरा",
+        "BLUESCAPE": "नीला सुरक्षित",
+        "BMCREMEDYFORCE": "बीएमसी उपाय बल",
+        "BOXCOM": "बॉक्स कॉम",
+        "BRIGHTEDGE": "तेज धार",
+        "BRITISHAIRWAYS": "ब्रिटिश एयरवेज़",
+        "CALLIDUS": "कैलिडस",
+        "CARDPRINTERS": "कार्ड प्रिंटर",
+        "CARDS": "पत्ते",
+        "CERIDIAN": "सेरिडियन",
+        "CERTIFY": "प्रमाणित",
+        "CITIBANK": "सिटी बैंक",
+        "CLOUDLOCK": "क्लाउड लॉक",
+        "CLOUDPAY": "क्लाउड पे",
+        "CONCUR": "सहमत होना",
+        "CONFER": "प्रदान करना",
+        "CONFLUENCE": "संगम",
+        "CONVO": "Convo",
+        "CORPEDIA": "कॉरपीडिया",
+        "COSTCO": "कॉस्टको",
+        "COUPA": "CO UPA",
+        "CSV": "सीएसवी",
+        "CUSTOM": "रिवाज",
+        "CVENT": "सीवेंट",
+        "DATABASE": "डेटाबेस",
+        "DESKCOM": "डेस्ककॉम",
+        "DOCUSIGN": "DocuSign",
+        "DOMO": "डोमो",
+        "DROPBOX": "ड्रॉप बॉक्स",
+        "EGNECIA": "इग्नेशिया",
+        "EGNYTE": "ईजीएनवाईटीई",
+        "ELEAP": "ELEAP",
+        "EMPLOYEEREFERRALSCOM": "कर्मचारी रेफरल कॉम",
+        "ENVOY": "दूत",
+        "EVENTBRIGHT": "घटना उज्ज्वल",
+        "EVERNOTE": "कभी ध्यान दें",
+        "EVERNOTEBUSINESS": "कभी ध्यान दें व्यापार",
+        "EXPENSEWATCH": "खर्च पर नजर",
+        "EXPENSIFY": "व्यय करना",
+        "FACEBOOK": "फेसबुक",
+        "FIDELITY": "सत्य के प्रति निष्ठा",
+        "FILE": "फ़ाइल",
+        "FLATTERFILESSAML": "फ्लैट फ़ाइलें SAML",
+        "FLOWDOCKSAML": "फ्लो डॉक SAML",
+        "GLOBOFORCE": "ग्लोब फोर्स",
+        "GLOBUS": "ग्लोब",
+        "GOODDATA": "अच्छा डेटा",
+        "GOOGLEAPPS": "गुगल ऐप्स",
+        "GOTOMEETING": "मीटिंग में जाना",
+        "GOTOWEBINAR": "वेबिनार पर जाएं",
+        "GROVOSAML": "ग्रोवो एसएएमएल",
+        "GYMBOREE": "जिमबोरी",
+        "HACKERONE": "हैकरोन",
+        "HISEC": "HISEC",
+        "HOOTSUITE": "हूट सूट",
+        "HRMS": "एचआरएमएस",
+        "IGLOO": "इग्लू",
+        "INFORMATICASSOINTEGRATION": "आईटी एसएसओ एकीकरण",
+        "ITUNES": "और धुन",
+        "JIRA": "Jira",
+        "JIRAON-PREMISE": "जीरांव परिसर",
+        "JIVE": "बक",
+        "JOINME": "मेरे साथ जुड़ें",
+        "LDAP": "एलडीएपी",
+        "LENEL": "लेनेल",
+        "LINKEDIN": "लिंक्डइन",
+        "MERILLLYNCHCREDITCARD": "मेरिल लिंच क्रेडिट कार्ड",
+        "MERILLREWARDS": "मेरिल पुरस्कार",
+        "MICROSOFTAZURE": "माइक्रोसॉफ्ट अज़ूर",
+        "MSOFFICE365": "एमएसऑफ़िस 365",
+        "NETFLIX": "Netflix",
+        "NETSUITE": "नेट सूट",
+        "NEXSENTRY": "नेक्सस एंट्री",
+        "OKTA": "ओकटा",
+        "ONGUARD": "गार्ड पर",
+        "OPENLADAPUNIX": "ओपन लैडैप यूनिक्स",
+        "OPENLDAPW": "ओपन एलडीएपी",
+        "OTHER": "अन्य",
+        "PEGASYS2000": "पेगासिस 2000",
+        "PEOPLESOFT": "नर्म लोग",
+        "PINGBOARD": "पिंग बोर्ड",
+        "PROWATCH": "प्रो वॉच",
+        "RACKSPACE": "रैकस्पेस",
+        "RACKSPACECLOUD": "रैक स्पेस क्लाउड",
+        "RADIUS": "RADIUS",
+        "RALLYSOFTWARE": "रैली",
+        "RELIANCEINDIAONLINE": "रिलायंस इंडिया ऑनलाइन",
+        "REST": "आराम",
+        "RFID": "आरएफआईडी",
+        "SALESFORCECOM": "बिक्री बल",
+        "SAMBA": "सांबा",
+        "SAP": "एसएपी",
+        "SAPHR": "सैप एचआर",
+        "SECURITYMANAGER": "सुरक्षा प्रबंधक",
+        "SELECTICA": "सिलेक्टिका",
+        "SERVICENOW": "अभी मरम्मत करें",
+        "SERVICENOW-EUREKARELEASE": "सेवा अब यूरेका रिलीज",
+        "SHAREFILE": "फ़ाइल साझा करें",
+        "SHAREPOINT-ON-PREMISE)": "शेयर बिंदु",
+        "SHELFARI": "शेल्फ़री",
+        "SLACK": "ढीला",
+        "SNAPLOGIC": "स्नैप लॉजिक",
+        "SPLUNK": "स्प्लंक",
+        "SPRINGCM": "वसंत मुख्यमंत्री",
+        "SUCCESSFACTORS": "सफलता कारक",
+        "SUGARCRM": "चीनी सीआरएम",
+        "SUMOLOGIC": "योग विज्ञान",
+        "SUNLDAP": "सन एलडीएपी",
+        "SURVEYMONKEY": "सर्वेक्षण बंदर",
+        "SYMMETRY": "समरूपता",
+        "SYNATA": "सिनाटा",
+        "TELLO": "Trello",
+        "TRINETHRSERVICES": "कदम एचआर सेवाएं",
+        "UNIX": "यूनिक्स",
+        "UNIXFLATFILE": "यूनिक्स फ्लैट फ़ाइल",
+        "UNIXNODES": "यूनिक्स नोड्स",
+        "WAGEWORKS": "मजदूरी कार्य",
+        "WEBAPP": "वेब अप्प",
+        "WINDOWCSV": "विंडोज़ सीएसवी",
+        "WORKBOARD": "कार्य बोर्ड",
+        "WORKCOM": "व्रोककॉम",
+        "WORKDAY": "कार्यदिवस",
+        "YAMMER": "शिकायत करना",
+        "ZENDESK": "ज़ेन डेस्क",
+        "ZOOM": "ज़ूम",
+        "ZSCALER": "जेड स्केलर"
+      },
+      "TYPE": {
+        "ASSET": "एसेट",
+        "LMS": "एलएमएस",
+        "LOGICAL": "तार्किक",
+        "PHYSICAL": "शारीरिक"
+      }
+    }
+  },
+  "COSTRATE": {
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "बिल कोड आवश्यक है"
+      },
+      "TITLE": "बिल कोड"
+    },
+    "CAPACITY": {
+      "ERROR": {
+        "MAX": " अधिकतम क्षमता 100 . है",
+        "MIN": " न्यूनतम क्षमता 1 . है",
+        "REQUIRED": "क्षमता की आवश्यकता है"
+      },
+      "TITLE": "क्षमता"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "करियर स्तर की आवश्यकता है"
+      },
+      "TITLE": "कारकिर्दगी स्तर"
+    },
+    "COSTRATE": {
+      "ERROR": {
+        "REQUIRED": "लागत दर आवश्यक है"
+      },
+      "TITLE": "लागत दर"
+    },
+    "CREATE": "लागत दर बनाएं",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "विभाजन की आवश्यकता है"
+      },
+      "TITLE": "विभाजन"
+    },
+    "EDIT": "लागत दर संपादित करें",
+    "ERROR": {
+      "CREATE": "लागत दर बनाते समय त्रुटि",
+      "DELETE": "लागत दर हटाते समय त्रुटि",
+      "UPDATE": "लागत दर अपडेट करते समय त्रुटि"
+    },
+    "PAGE-TITLE": "लागत दर",
+    "SALARY": "वेतन",
+    "SALARY-MAX": "अधिकतम वेतन",
+    "SALARY-MIN": "न्यूनतम आय",
+    "SEARCH-PLACEHOLDER": "डिवीजन, सब डिवीजन, करियर स्तर, बिल कोड, लोड, लागत दर द्वारा खोज लागत दर",
+    "SUBDIVISION": {
+      "ERROR": {
+        "REQUIRED": "सब डिवीजन की आवश्यकता है"
+      },
+      "TITLE": "उप प्रभाग"
+    },
+    "SUCCESS": {
+      "CREATE": "लागत दर सफलतापूर्वक बनाई गई",
+      "DELETE": "लागत दर सफलतापूर्वक हटाई गई",
+      "UPDATE": "लागत दर सफलतापूर्वक अपडेट की गई"
+    },
+    "UPDATE-SUCESS": "लागत दर सफलतापूर्वक अपडेट की गई"
+  },
+  "COUNTRY": {
+    "AFGHANISTAN": "अफ़ग़ानिस्तान",
+    "ALBANIA": "अल्बानिया",
+    "ALGERIA": "एलजीरिया",
+    "AMERICAN SAMOA": "अमेरिकन समोआ",
+    "ANDORRA": "एंडोरा",
+    "ANGOLA": "अंगोला",
+    "ANGUILLA": "एंगुइला",
+    "ANTARCTICA": "अंटार्कटिका",
+    "ANTIGUA AND BARBUDA": "अंतिगुया और बार्बूडा",
+    "ARGENTINA": "अर्जेंटीना",
+    "ARMENIA": "आर्मीनिया",
+    "ARUBA": "अरूबा",
+    "AUSTRALIA": "ऑस्ट्रेलिया",
+    "AUSTRIA": "ऑस्ट्रिया",
+    "AZERBAIJAN": "आज़रबाइजान",
+    "BAHAMAS THE": "बहामा",
+    "BAHRAIN": "बहरीन",
+    "BANGLADESH": "बांग्लादेश",
+    "BARBADOS": "बारबाडोस",
+    "BELARUS": "बेलोरूस",
+    "BELGIUM": "बेल्जियम",
+    "BELIZE": "बेलीज़",
+    "BENIN": "बेनिन",
+    "BERMUDA": "बरमूडा",
+    "BHUTAN": "भूटान",
+    "BOLIVIA": "बोलीविया",
+    "BOSNIA AND HERZEGOVINA": "बोस्निया और हर्जेगोविना",
+    "BOTSWANA": "बोत्सवाना",
+    "BOUVET ISLAND": "बौवेट द्वीप",
+    "BRAZIL": "ब्राज़िल",
+    "BRITISH INDIAN OCEAN TERRITORY": "ब्रिटेन और भारतीय समुद्री क्षेत्र",
+    "BRUNEI": "ब्रुनेई",
+    "BULGARIA": "बुल्गारिया",
+    "BURKINA FASO": "बुर्किना फासो",
+    "BURUNDI": "बुस्र्न्दी",
+    "CAMBODIA": "कंबोडिया",
+    "CAMEROON": "कैमरून",
+    "CANADA": "कनाडा",
+    "CAPE VERDE": "केप वर्दे",
+    "CAYMAN ISLANDS": "केमन द्वीपसमूह",
+    "CENTRAL AFRICAN REPUBLIC": "केंद्रीय अफ्रीकन गणराज्य",
+    "CHAD": "काग़ज़ का टुकड़ा",
+    "CHILE": "मिर्च",
+    "CHINA": "चीन",
+    "CHRISTMAS ISLAND": "क्रिसमस द्वीप",
+    "COCOS (KEELING) ISLANDS": "कोकोस (कीलिंग) द्वीप समूह",
+    "COLOMBIA": "कोलंबिया",
+    "COMOROS": "कोमोरोस",
+    "COOK ISLANDS": "कुक द्वीपसमूह",
+    "COSTA RICA": "कोस्टा रिका",
+    "COTE D'IVOIRE (IVORY COAST)": "कोटे डिवोयर उर्फ आइवरी कोस्ट",
+    "CROATIA (HRVATSKA)": "क्रोएशिया (ह्रवत्स्का)",
+    "CUBA": "क्यूबा",
+    "CYPRUS": "साइप्रस",
+    "CZECH REPUBLIC": "चेक गणतंत्र",
+    "DEMOCRATIC REPUBLIC OF THE CONGO": "कांगो लोकतांत्रिक गणराज्य",
+    "DENMARK": "डेनमार्क",
+    "DJIBOUTI": "जिबूती",
+    "DOMINICA": "डोमिनिका",
+    "DOMINICAN REPUBLIC": "डोमिनिकन गणराज्य",
+    "EAST TIMOR": "ईस्ट तिमोर",
+    "ECUADOR": "इक्वेडोर",
+    "EGYPT": "मिस्र",
+    "EL SALVADOR": "रक्षक",
+    "EQUATORIAL GUINEA": "भूमध्यवर्ती गिनी",
+    "ERITREA": "इरिट्रिया",
+    "ESTONIA": "एस्तोनिया",
+    "ETHIOPIA": "इथियोपिया",
+    "EXTERNAL TERRITORIES OF AUSTRALIA": "ऑस्ट्रेलिया के बाहरी क्षेत्र",
+    "FALKLAND ISLANDS": "फ़ॉकलैंड आइलैंड",
+    "FAROE ISLANDS": "फ़ैरो द्वीप",
+    "FIJI ISLANDS": "फिजी द्वीपसमूह",
+    "FINLAND": "फिनलैंड",
+    "FRANCE": "फ्रांस",
+    "FRENCH GUIANA": "फ्रेंच गयाना",
+    "FRENCH POLYNESIA": "फ़्रेंच पोलिनेशिया",
+    "FRENCH SOUTHERN TERRITORIES": "दक्षिणी फ्राँसिसी क्षेत्र",
+    "GABON": "गैबॉन",
+    "GAMBIA THE": "गाम्बिया",
+    "GEORGIA": "जॉर्जिया",
+    "GERMANY": "जर्मनी",
+    "GHANA": "घाना",
+    "GIBRALTAR": "जिब्राल्टर",
+    "GREECE": "यूनान",
+    "GREENLAND": "ग्रीनलैंड",
+    "GRENADA": "ग्रेनेडा",
+    "GUADELOUPE": "ग्वाडेलोप",
+    "GUAM": "गुआम",
+    "GUATEMALA": "ग्वाटेमाला",
+    "GUERNSEY AND ALDERNEY": "ग्वेर्नसे और एल्डर्नी",
+    "GUINEA": "गिन्नी",
+    "GUINEA-BISSAU": "गिनी-बिसाऊ",
+    "GUYANA": "गुयाना",
+    "HAITI": "हैती",
+    "HEARD AND MCDONALD ISLANDS": "हर्ड एंड मैकडोनाल्ड आइलैंड्स",
+    "HONDURAS": "होंडुरस",
+    "HONG KONG S": {
+      "A": {
+        "R": "हांगकांग एसएआर।"
+      }
+    },
+    "HUNGARY": "हंगरी",
+    "ICELAND": "आइसलैंड",
+    "INDIA": "भारत",
+    "INDONESIA": "इंडोनेशिया",
+    "IRAN": "ईरान",
+    "IRAQ": "इराक",
+    "IRELAND": "आयरलैंड",
+    "ISRAEL": "इजराइल",
+    "ITALY": "इटली",
+    "JAMAICA": "जमैका",
+    "JAPAN": "जापान",
+    "JERSEY": "जर्सी",
+    "JORDAN": "जॉर्डन",
+    "KAZAKHSTAN": "कजाखस्तान",
+    "KENYA": "केन्या",
+    "KIRIBATI": "किरिबाती",
+    "KOREA NORTH": "उत्तर कोरिया",
+    "KOREA SOUTH": "दक्षिण कोरिया",
+    "KUWAIT": "कुवैट",
+    "KYRGYZSTAN": "किर्गिज़स्तान",
+    "LAOS": "लाओस",
+    "LATVIA": "लातविया",
+    "LEBANON": "लेबनान",
+    "LESOTHO": "लिसोटो",
+    "LIBERIA": "लाइबेरिया",
+    "LIBYA": "लीबिया",
+    "LIECHTENSTEIN": "लिकटेंस्टाइन",
+    "LITHUANIA": "लिथुआनिया",
+    "LUXEMBOURG": "लक्समबर्ग",
+    "MACAU S": {
+      "A": {
+        "R": "मकाउ"
+      }
+    },
+    "MACEDONIA": "मैसेडोनिया",
+    "MADAGASCAR": "मेडागास्कर",
+    "MALAWI": "मलावी",
+    "MALAYSIA": "मलेशिया",
+    "MALDIVES": "मालदीव",
+    "MALI": "माली",
+    "MALTA": "माल्टा",
+    "MAN (ISLE OF)": "मैन (आइल ऑफ)",
+    "MARSHALL ISLANDS": "मार्शल द्वीपसमूह",
+    "MARTINIQUE": "मार्टीनिक",
+    "MAURITANIA": "मॉरिटानिया",
+    "MAURITIUS": "मॉरीशस",
+    "MAYOTTE": "मैयट",
+    "MEXICO": "मेक्सिको",
+    "MICRONESIA": "माइक्रोनेशिया",
+    "MOLDOVA": "मोल्दाविया",
+    "MONACO": "मोनाको",
+    "MONGOLIA": "मंगोलिया",
+    "MONTSERRAT": "मोंटेसेराट",
+    "MOROCCO": "मोरक्को",
+    "MOZAMBIQUE": "मोजाम्बिक",
+    "MYANMAR": "म्यांमार",
+    "NAMIBIA": "नामिबिया",
+    "NAURU": "नाउरू",
+    "NEPAL": "नेपाल",
+    "NETHERLANDS ANTILLES": "नीदरलैंड्स एंटाइल्स",
+    "NETHERLANDS THE": "नीदरलैंड",
+    "NEW CALEDONIA": "न्यू कैलेडोनिया",
+    "NEW ZEALAND": "न्यूज़ीलैंड",
+    "NICARAGUA": "निकारागुआ",
+    "NIGER": "नाइजर",
+    "NIGERIA": "नाइजीरिया",
+    "NIUE": "नियू",
+    "NORFOLK ISLAND": "नॉरफ़ॉक द्वीप",
+    "NORTHERN MARIANA ISLANDS": "उत्तरी मरीयाना द्वीप समूह",
+    "NORWAY": "नॉर्वे",
+    "OMAN": "ओमान",
+    "PAKISTAN": "पाकिस्तान",
+    "PALAU": "पलाउ",
+    "PALESTINIAN TERRITORY OCCUPIED": "अधिकृत फ़िलिस्तीन क्षेत्र",
+    "PANAMA": "पनामा",
+    "PAPUA NEW GUINEA": "पापुआ न्यू गिनी",
+    "PARAGUAY": "परागुआ",
+    "PERU": "पेरू",
+    "PHILIPPINES": "फिलीपींस",
+    "PITCAIRN ISLAND": "पिटकेर्न द्वीप",
+    "POLAND": "पोलैंड",
+    "PORTUGAL": "पुर्तगाल",
+    "PUERTO RICO": "प्यूर्टो रिको",
+    "QATAR": "कतर",
+    "REPUBLIC OF THE CONGO": "कांगो गणराज्य",
+    "REUNION": "रीयूनियन",
+    "ROMANIA": "रोमानिया",
+    "RUSSIA": "रूस",
+    "RWANDA": "रवांडा",
+    "SAINT HELENA": "सेंट हेलेना",
+    "SAINT KITTS AND NEVIS": "संत किट्ट्स और नेविस",
+    "SAINT LUCIA": "सेंट लूसिया",
+    "SAINT PIERRE AND MIQUELON": "सेंट पियरे और मिकेलॉन",
+    "SAINT VINCENT AND THE GRENADINES": "संत विंसेंट अँड थे ग्रेनडीनेस",
+    "SAMOA": "समोआ",
+    "SAN MARINO": "सैन मैरीनो",
+    "SAO TOME AND PRINCIPE": "साओ टोमे और प्रिंसिपे",
+    "SAUDI ARABIA": "सऊदी अरब",
+    "SENEGAL": "सेनेगल",
+    "SERBIA": "सर्बिया",
+    "SEYCHELLES": "सेशल्स",
+    "SIERRA LEONE": "सेरा लिओन",
+    "SINGAPORE": "सिंगापुर",
+    "SLOVAKIA": "स्लोवाकिया",
+    "SLOVENIA": "स्लोवेनिया",
+    "SMALLER TERRITORIES OF THE UK": "यूके के छोटे क्षेत्र",
+    "SOLOMON ISLANDS": "सोलोमन इस्लैंडस",
+    "SOMALIA": "सोमालिया",
+    "SOUTH AFRICA": "दक्षिण अफ्रीका",
+    "SOUTH GEORGIA": "दक्षिण जॉर्जिया",
+    "SOUTH SUDAN": "दक्षिण सूडान",
+    "SPAIN": "स्पेन",
+    "SRI LANKA": "श्रीलंका",
+    "SUDAN": "सूडान",
+    "SURINAME": "सूरीनाम",
+    "SVALBARD AND JAN MAYEN ISLANDS": "स्वालबार्ड और जान मायेन द्वीप समूह",
+    "SWAZILAND": "स्वाजीलैंड",
+    "SWEDEN": "स्वीडन",
+    "SWITZERLAND": "स्विट्ज़रलैंड",
+    "SYRIA": "सीरिया",
+    "TAIWAN": "ताइवान",
+    "TAJIKISTAN": "तजाकिस्तान",
+    "TANZANIA": "तंजानिया",
+    "THAILAND": "थाईलैंड",
+    "TOGO": "जाना",
+    "TOKELAU": "टोकेलाऊ",
+    "TONGA": "टोंगा",
+    "TRINIDAD AND TOBAGO": "त्रिनिदाद और टोबैगो",
+    "TUNISIA": "ट्यूनीशिया",
+    "TURKEY": "तुर्की",
+    "TURKMENISTAN": "तुर्कमेनिस्तान",
+    "TURKS AND CAICOS ISLANDS": "तुर्क और कैकोस द्वीप समूह",
+    "TUVALU": "तुवालू",
+    "UGANDA": "युगांडा",
+    "UKRAINE": "यूक्रेन",
+    "UNITED ARAB EMIRATES": "संयुक्त अरब अमीरात",
+    "UNITED KINGDOM": "यूनाइटेड किंगडम",
+    "UNITED STATES": "संयुक्त राज्य अमेरिका",
+    "UNITED STATES MINOR OUTLYING ISLANDS": "संयुक्त राज्य अमेरिका के छोटे दूरस्थ द्वीपसमूह",
+    "URUGUAY": "उरुग्वे",
+    "UZBEKISTAN": "उज़्बेकिस्तान",
+    "VANUATU": "वानुअतु",
+    "VATICAN CITY STATE (HOLY SEE)": "वेटिकन सिटी राज्य (पवित्र दृश्य)",
+    "VENEZUELA": "वेनेजुएला",
+    "VIETNAM": "वियतनाम",
+    "VIRGIN ISLANDS (BRITISH)": "वर्जिन द्वीप समूह (ब्रिटिश)",
+    "VIRGIN ISLANDS (US)": "वर्जिन द्वीप समूह (अमेरिका में)",
+    "WALLIS AND FUTUNA ISLANDS": "वालिस और फ़्यूचूना द्वीप समूह",
+    "WESTERN SAHARA": "पश्चिमी सहारा",
+    "YEMEN": "यमन",
+    "YUGOSLAVIA": "यूगोस्लाविया",
+    "ZAMBIA": "जाम्बिया",
+    "ZIMBABWE": "जिम्बाब्वे"
+  },
+  "DEALS": {
+    "CREATE": "सौदे बनाएं",
+    "EDIT": "सौदे संपादित करें",
+    "PAGE-TITLE": "सौदा",
+    "SEARCH-PLACEHOLDER": "सौदे खोजें",
+    "TAB": {
+      "ASSUMPTIONS": {
+        "BD-COST": {
+          "ERROR": {
+            "REQUIRED": "बीडी लागत आवश्यक है"
+          },
+          "TITLE": "बीडी लागत"
+        },
+        "CONTIGENCY": {
+          "ERROR": {
+            "REQUIRED": "आकस्मिकता की आवश्यकता है"
+          },
+          "TITLE": "आकस्मिकता"
+        },
+        "EARLY-PAYMENTS": {
+          "ERROR": {
+            "REQUIRED": "शीघ्र भुगतान आवश्यक है"
+          },
+          "TITLE": "प्रारंभिक भुगतान"
+        },
+        "END-DATE": {
+          "ERROR": {
+            "REQUIRED": "समाप्ति तिथि आवश्यक है"
+          },
+          "TITLE": "समाप्ति तिथि"
+        },
+        "NON-BILLABLE": {
+          "ERROR": {
+            "REQUIRED": "गैर बिल योग्य आवश्यक है"
+          },
+          "TITLE": "गैर बिल"
+        },
+        "OTHER-OVER-HEADS": {
+          "ERROR": {
+            "REQUIRED": "अन्य शीर्षों की आवश्यकता है"
+          },
+          "TITLE": "अन्य ओवर हेड्स"
+        },
+        "PROJECT-NAME": {
+          "ERROR": {
+            "REQUIRED": "परियोजना का नाम आवश्यक है"
+          },
+          "TITLE": "परियोजना का नाम"
+        },
+        "RATE-CARD-DISCOUNT": {
+          "ERROR": {
+            "REQUIRED": "दर कार्ड छूट आवश्यक है"
+          },
+          "TITLE": "दर कार्ड छूट"
+        },
+        "REVENUE-RECOGNITION": {
+          "ERROR": {
+            "REQUIRED": "राजस्व मान्यता आवश्यक है"
+          },
+          "TITLE": "राजस्व मान्यता"
+        },
+        "SEAT-CHARGES": {
+          "ERROR": {
+            "REQUIRED": "सीट शुल्क आवश्यक है"
+          },
+          "TITLE": "सीट शुल्क"
+        },
+        "START-DATE": {
+          "ERROR": {
+            "REQUIRED": "प्रारंभ दिनांक आवश्यक है"
+          },
+          "TITLE": "आरंभ करने की तिथि"
+        },
+        "TITLE": "मान्यताओं"
+      },
+      "RESOURCES": {
+        "BILL-CODE": {
+          "ERROR": {
+            "REQUIRED": "बिल कोड आवश्यक है"
+          },
+          "TITLE": "बिल कोड"
+        },
+        "BILL-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "बिल दर/घंटा आवश्यक है"
+          },
+          "TITLE": "बिल दर/घंटा"
+        },
+        "CAREER-LEVEL": {
+          "ERROR": {
+            "REQUIRED": "करियर स्तर की आवश्यकता है"
+          },
+          "TITLE": "कारकिर्दगी स्तर"
+        },
+        "CLASS": {
+          "ERROR": {
+            "REQUIRED": "कक्षा की आवश्यकता है"
+          },
+          "TITLE": "कक्षा"
+        },
+        "COST-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "लागत दर/घंटा आवश्यक है"
+          },
+          "TITLE": "लागत दर/घंटा"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "देश की आवश्यकता है"
+          },
+          "TITLE": "देश"
+        },
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "संसाधनों की आवश्यकता है"
+          },
+          "TITLE": "साधन"
+        },
+        "RESOURCE-NAME": "संसाधन का नाम",
+        "SUB-CLASS": {
+          "ERROR": {
+            "REQUIRED": "उप वर्ग की आवश्यकता है"
+          },
+          "TITLE": "उप वर्ग"
+        },
+        "TITLE": "साधन"
+      },
+      "REVIEW": {
+        "TITLE": "समीक्षा"
+      }
+    }
+  },
+  "DIVISION": {
+    "CREATE": "सृजन करना",
+    "EDIT": "संपादित करें",
+    "ERROR": {
+      "CREATE": "डिवीजन बनाते समय त्रुटि हुई",
+      "DELETE": "प्रभाग को हटाते समय त्रुटि हुई",
+      "PARENT-REQUIRED": "माता-पिता की आवश्यकता है",
+      "TITLE-DISPLAYNAME-REQUIRED": "प्रदर्शन नाम आवश्यक है",
+      "TITLE-REQUIRED": "डिवीजन का नाम आवश्यक है",
+      "UPDATE": "डिवीजन को अपडेट करते समय त्रुटि हुई"
+    },
+    "GANDA": {
+      "ADMIN": "व्यवस्थापक",
+      "FACILITIES": "सुविधाएं",
+      "HR": "मानव संसाधन",
+      "TITLE": "जी एंड ए"
+    },
+    "HASCHILDREN": "बच्चे हैं",
+    "PAGE-TITLE": "विभाजन",
+    "PARENT": "माता-पिता",
+    "PROF-SERVICES": "व्यवसायी सेवाए",
+    "RANDD": {
+      "DOC": "प्रलेखन",
+      "ENGG": "अभियांत्रिकी",
+      "IT": "आईटी",
+      "PM": "उत्पाद प्रबंधन",
+      "QA": "क्यूए",
+      "QC": "क्यूसी",
+      "SANDM": "खरीद और बिक्री",
+      "TITLE": "आर एंड डी",
+      "TRAINING": "प्रशिक्षण"
+    },
+    "SANDM": {
+      "BD": "बीडी",
+      "MARKETING": "विपणन",
+      "SALES": "बिक्री",
+      "TITLE": "खरीद और बिक्री"
+    },
+    "SEARCH-PLACEHOLDER": "खोज प्रभाग",
+    "SUCCESS": {
+      "CREATE": "डिवीजन सफलतापूर्वक बनाया गया",
+      "DELETE": "विभाजन सफलतापूर्वक हटाया गया",
+      "UPDATE": "डिवीजन सफलतापूर्वक अपडेट किया गया"
+    },
+    "TITLE": "डिवीजन / क्लास",
+    "TITLE-DISPLAYNAME": "प्रदर्शित होने वाला नाम",
+    "TITLE-NAME": "प्रभाग का नाम",
+    "UPDATE-SUCESS": "डिवीजन सफलतापूर्वक अपडेट किया गया"
+  },
+  "FINANCE": {
+    "MENU": {
+      "ACCOUNTS": {
+        "BILL": "विधेयकों",
+        "CREDITMEMO": "क्रेडिट ज्ञापन",
+        "INVOICE": "बीजक",
+        "QUOTE": "उद्धरण",
+        "SALEORDER": "विक्रय ऑर्डर",
+        "TITLE": "हिसाब किताब"
+      },
+      "BUDGET": "बजट",
+      "COSTING": "परियोजना लागत",
+      "FORECAST": "इस तरह का अनुभव",
+      "INVOICE-SETTINGS": {
+        "REMINDER": "अनुस्मारक",
+        "THEME": "विषयों",
+        "TITLE": "चालान सेटिंग"
+      },
+      "PRICING": {
+        "CLIENT": "ग्राहकों",
+        "DEAL": "सौदा",
+        "PROJECT": "परियोजनाओं",
+        "TITLE": "मूल्य निर्धारण"
+      },
+      "REPORTS": {
+        "BOOKINGS": "बुकिंग के",
+        "COMPARISION": "तुलना",
+        "PIPELINE": "पाइपलाइन",
+        "REVENUE": "राजस्व",
+        "SALES": "बिक्री",
+        "TITLE": "रिपोर्टों",
+        "WONLOST": "जीत बनाम हारे"
+      },
+      "TIMESHEET": "समय पत्र",
+      "TITLE": "वित्त"
+    }
+  },
+  "FINANCECUSTOMER": {
+    "CREATE-SUCESS": "ग्राहक सफलतापूर्वक बनाया गया",
+    "UPDATE-SUCESS": "ग्राहक सफलतापूर्वक अपडेट किया गया"
+  },
+  "GRID": {
+    "ACCOUNT": "लेखा",
+    "ACCOUNT-MANAGER": "खाता प्रबंधक",
+    "AMOUNT": "रकम",
+    "BILL-NO": "बिल संख्या",
+    "BILLCODE": "बिल कोड",
+    "CAREERLEVEL": "कारकिर्दगी स्तर",
+    "CITY": "Faridabad",
+    "CLASS": "कक्षा",
+    "CLIENT": "ग्राहक",
+    "COMPANY": "कंपनी",
+    "COSTRATE": "लागत दर",
+    "COUNTRY": "देश",
+    "CREDIT-MEMO-NO": "क्रेडिट मेमो नंबर",
+    "CURRENCY": "मुद्रा",
+    "DATE": "तारीख",
+    "DESCRIPTION": "विवरण",
+    "DEVICE-SRNO": "उपकरण संख्या",
+    "DISPLAY-NAME": "प्रदर्शित होने वाला नाम",
+    "DIVISION": "विभाजन",
+    "DUE-DATE": "नियत तारीख",
+    "EMAIL": "ईमेल",
+    "FIRST-NAME": "नाम",
+    "INST-DATE": "स्थापना दिवस",
+    "INVOICE-NO": "बीजक संख्या",
+    "IPADDRESS": "आईपी पता",
+    "LAST-NAME": "अंतिम नाम",
+    "LOAD": "भार",
+    "LOB": "कार्य - क्षेत्र",
+    "LOCATION": "स्थान",
+    "NAME": "नाम",
+    "NO-RECORDS-FOUND": "कोई रिकॉर्ड नहीं मिला",
+    "OPERATOR-NAME": "ऑपरेटर का नाम",
+    "ORG-NAME": "संगठन",
+    "PANCHAYAT": "Panchayat",
+    "PHONE": "फ़ोन",
+    "PORT": "बंदरगाह",
+    "PRICE": "कीमत",
+    "PROJECT-MANAGER": "प्रोजेक्ट मैनेजर",
+    "QUOTE-NO": "बोली अंक",
+    "REFERENCE": "संदर्भ",
+    "SALE-ORDER-NO": "बिक्री आदेश संख्या",
+    "SEARCH": "खोज",
+    "SELECT": "चुनते हैं",
+    "SERVER-NAME": "सर्वर का नाम",
+    "SERVICE-ACCOUNT": "सेवा खाता",
+    "STATE": "राज्य",
+    "STATUS": "स्थिति",
+    "SUB-DIVISION": "उप प्रभाग",
+    "SUBCLASS": "उप वर्ग",
+    "TAX-ID": "टैक्स आईडी",
+    "TAXRATE": "कर दर",
+    "USERID": "यूज़र आईडी"
+  },
+  "HEADER": {
+    "ACCOUNTS": "हिसाब किताब",
+    "ADD-COMPANY": "कंपनी जोड़ें",
+    "COMPANY": "कंपनी",
+    "COMPANY-NAME": "कंपनी का नाम",
+    "DASHBOARD": "डैशबोर्ड",
+    "REPORTS": "रिपोर्टों",
+    "SETUP": "सेट अप",
+    "UPLOAD-LOGO": "लोगो अपलोड करें"
+  },
+  "IDM": {
+    "MENU": {
+      "ID-CONSOLIDATION": {
+        "APP-CONSOLIDATION": "आवेदन",
+        "AUTH-CONSOLIDATION": "प्रमाणीकरण",
+        "EMPLIST": "कर्मचारी सूची",
+        "TITLE": "आईडी समेकन"
+      },
+      "MANAGE-SERVER": {
+        "APP-SERVER": "आवेदन",
+        "AUTH-SERVER": "प्रमाणीकरण",
+        "AUTHORIZATION-SERVER": "प्राधिकार",
+        "TITLE": "सर्वर प्रबंधित करें"
+      },
+      "TITLE": "आईडीएम"
+    }
+  },
+  "IOT": {
+    "INSTALLATION": {
+      "BLOCK": {
+        "ERROR": {
+          "INVALID": "अमान्य ब्लॉक",
+          "REQUIRED": "व्यवसाय की रेखा आवश्यक है"
+        },
+        "TITLE": "खंड मैथा"
+      },
+      "BOREWELL-DEPTH": {
+        "ERROR": {
+          "MAX": "बोरवेल की गहराई 0-1999 . के बीच होनी चाहिए",
+          "MIN": "बोरवेल की गहराई 0-1999 . के बीच होनी चाहिए",
+          "REQUIRED": "बोरवेल की गहराई आवश्यक है"
+        },
+        "TITLE": "बोरवेल गहराई De"
+      },
+      "COMMENTS": {
+        "ERROR": {
+          "REQUIRED": "टिप्पणियों की आवश्यकता है"
+        },
+        "TITLE": "टिप्पणियाँ"
+      },
+      "CREATE": "सृजन करना",
+      "CREATE-ERROR": "स्थापना सफलतापूर्वक बनाई गई",
+      "CREATE-SUCESS": "स्थापना सफलतापूर्वक बनाई गई",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "स्थापना तिथि अमान्य है",
+          "REQUIRED": "स्थापना तिथि आवश्यक है"
+        },
+        "TITLE": "स्थापना दिवस"
+      },
+      "DEVICE-SERIAL-NUMBER": {
+        "ERROR": {
+          "MAX": "डिवाइस सीरियल नंबर 1-999999 . के बीच होना चाहिए",
+          "MIN": "डिवाइस सीरियल नंबर 1-999999 . के बीच होना चाहिए",
+          "REQUIRED": "डिवाइस सीरियल नंबर आवश्यक है"
+        },
+        "TITLE": "डिवाइस सीरियल नंबर"
+      },
+      "DIVISION": {
+        "ERROR": {
+          "REQUIRED": "विभाजन की आवश्यकता है"
+        },
+        "TITLE": "विभाजन"
+      },
+      "EARTHING": {
+        "ERROR": {
+          "REQUIRED": "अर्थिंग आवश्यक है"
+        },
+        "TITLE": "ग्राउंडिंग"
+      },
+      "EDIT": "संपादित करें",
+      "GEO-LOCATION": {
+        "ERROR": {
+          "REQUIRED": "भौगोलिक स्थान आवश्यक है"
+        },
+        "TITLE": "भू स्थान"
+      },
+      "IMAGE": {
+        "ERROR": {
+          "REQUIRED": "छवि की आवश्यकता है"
+        },
+        "TITLE": "छवि"
+      },
+      "IMAGES": "इमेजिस",
+      "LIST": {
+        "ALL": "सभी",
+        "SELF": "स्वयं"
+      },
+      "METADATA": {
+        "PHOTO-TYPE": {
+          "BARCODE": "बारकोड",
+          "BOREWELL": "बोरवेल",
+          "DIST-LINE": "वितरण रेखा",
+          "IOT-DEVICE": "आईओटी डिवाइस",
+          "MAP": "नक्शा",
+          "METER": "मीटर",
+          "OPERATOR": "ऑपरेटर",
+          "SITE": "स्थल",
+          "STARTER": "स्टार्टर"
+        }
+      },
+      "METER-TYPE": {
+        "ERROR": {
+          "REQUIRED": "मीटर प्रकार आवश्यक है"
+        },
+        "TITLE": "मीटर प्रकार"
+      },
+      "MOTOR-CAPACITY": {
+        "ERROR": {
+          "REQUIRED": "मोटर क्षमता की आवश्यकता है"
+        },
+        "TITLE": "मोटर क्षमता"
+      },
+      "NO-PHASE": {
+        "ERROR": {
+          "REQUIRED": "चरण की संख्या आवश्यक है"
+        },
+        "TITLE": "चरण की संख्या"
+      },
+      "NO-PIPE-BEND": {
+        "ERROR": {
+          "MAX": "पाइप बेंड की संख्या 0-10 . के बीच होनी चाहिए",
+          "MIN": "पाइप बेंड की संख्या 0-10 . के बीच होनी चाहिए",
+          "REQUIRED": "पाइप बेंड की संख्या आवश्यक है"
+        },
+        "TITLE": "पाइप बेंड की संख्या"
+      },
+      "OPERATOR-NAME": {
+        "ERROR": {
+          "REQUIRED": "ऑपरेटर का नाम आवश्यक है"
+        },
+        "TITLE": "ऑपरेटर का नाम"
+      },
+      "PAGE-TITLE": "इंस्टालेशन",
+      "PANCHAYAT": {
+        "ERROR": {
+          "REQUIRED": "पंचायत की आवश्यकता है"
+        },
+        "TITLE": "Panchayat"
+      },
+      "PIPE-DIAMETER": {
+        "ERROR": {
+          "REQUIRED": "पाइप व्यास की आवश्यकता है"
+        },
+        "TITLE": "पाइप का व्यास"
+      },
+      "PIPE-QUALITY": {
+        "ERROR": {
+          "REQUIRED": "पाइप गुणवत्ता की आवश्यकता है"
+        },
+        "TITLE": "पाइप गुणवत्ता"
+      },
+      "SEARCH-PLACEHOLDER": "नाम, ऑपरेटर द्वारा स्थापना खोजें",
+      "STATUS": {
+        "ERROR": {
+          "REQUIRED": "स्थिति की आवश्यकता है"
+        },
+        "TITLE": "स्थिति"
+      },
+      "TANK-CAPACITY": {
+        "ERROR": {
+          "MAX": "टैंक की क्षमता 0-500000 . के बीच होनी चाहिए",
+          "MIN": "टैंक की क्षमता 0-500000 . के बीच होनी चाहिए",
+          "REQUIRED": "टैंक क्षमता की आवश्यकता है"
+        },
+        "TITLE": "टैंक क्षमता"
+      },
+      "UPDATE-SUCESS": "स्थापना सफलतापूर्वक अपडेट की गई",
+      "WARD": {
+        "ERROR": {
+          "REQUIRED": "वार्ड की आवश्यकता है"
+        },
+        "TITLE": "परवरिश"
+      }
+    },
+    "MENU": {
+      "INSTALLATION": "इंस्टालेशन"
+    }
+  },
+  "IPADRESS": {
+    "ERROR": {
+      "CREATE": "IP पता बनाते समय त्रुटि",
+      "DELETE": "IP पता हटाते समय त्रुटि",
+      "UPDATE": "IP पता अपडेट करते समय त्रुटि"
+    },
+    "GATEWAY": {
+      "ERROR": {
+        "INVALID": "गेटवे की आवश्यकता है",
+        "REQUIRED": "गेटवे की आवश्यकता है"
+      },
+      "TITLE": "द्वार"
+    },
+    "PAGE-TITLE": "आईपी पता",
+    "PRIMARY-IP": {
+      "ERROR": {
+        "INVALID": "प्राथमिक आईपी अमान्य है",
+        "REQUIRED": "प्राथमिक आईपी आवश्यक है"
+      },
+      "TITLE": "प्राथमिक आईपी"
+    },
+    "PROXY-IP": {
+      "ERROR": {
+        "INVALID": "प्रॉक्सी आईपी अमान्य है",
+        "REQUIRED": "प्रॉक्सी आईपी आवश्यक है"
+      },
+      "TITLE": " प्रोक्षय आईपी"
+    },
+    "PROXY-PORT": {
+      "ERROR": {
+        "INVALID": "प्रॉक्सी पोर्ट अमान्य है",
+        "MAX": "पोर्ट 0 और 65535 . के बीच होना चाहिए",
+        "MIN": "पोर्ट 0 और 65535 . के बीच होना चाहिए",
+        "REQUIRED": "प्रॉक्सी पोर्ट की आवश्यकता है"
+      },
+      "TITLE": "प्रॉक्सी पोर्ट"
+    },
+    "PROXY-REQUIRED": {
+      "ERROR": {
+        "INVALID": "क्या प्रॉक्सी आवश्यक है अमान्य है",
+        "REQUIRED": "क्या प्रॉक्सी आवश्यक है"
+      },
+      "TITLE": "क्या प्रॉक्सी आवश्यक है"
+    },
+    "SECONDARY-IP": {
+      "ERROR": {
+        "INVALID": "सेकेंडरी आईपी अमान्य है",
+        "REQUIRED": "माध्यमिक आईपी की आवश्यकता है"
+      },
+      "TITLE": "माध्यमिक आईपी"
+    },
+    "SUBNET-MASK": {
+      "ERROR": {
+        "INVALID": "सबनेट मास्क अमान्य है",
+        "REQUIRED": "सबनेट मास्क आवश्यक है"
+      },
+      "TITLE": "सबनेट मास्क"
+    },
+    "SUCCESS": {
+      "CREATE": "IP पता विवरण सफलतापूर्वक बनाया गया",
+      "DELETE": "IP पता विवरण सफलतापूर्वक हटा दिए गए हैं",
+      "UPDATE": "IP पता विवरण सफलतापूर्वक अपडेट किया जाता है"
+    }
+  },
+  "ITEM": {
+    "ACCOUNT": {
+      "ERROR": {
+        "REQUIRED": "खाते की आवश्यकता है"
+      },
+      "TITLE": "लेखा"
+    },
+    "CREATE": "सृजन करना",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "विवरण आवश्यक है"
+      },
+      "TITLE": "विवरण"
+    },
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "विभाजन की आवश्यकता है"
+      },
+      "TITLE": "विभाजन"
+    },
+    "EDIT": "संपादित करें",
+    "ERROR": {
+      "CREATE": "सर्विस आइटम बनाते समय त्रुटि",
+      "DELETE": "सेवा आइटम को हटाते समय त्रुटि",
+      "UPDATE": "सेवा आइटम अपडेट करते समय त्रुटिError"
+    },
+    "ERROR-DELETE": "आइटम हटाते समय त्रुटि हुई",
+    "ERROR-SAVE": "आइटम सहेजते समय त्रुटि हुई",
+    "ERROR-UPDATE": "आइटम अपडेट करते समय त्रुटि हुई",
+    "ITEM-CODE": {
+      "ERROR": {
+        "REQUIRED": "नाम आवश्यक है"
+      },
+      "TITLE": "नाम"
+    },
+    "PAGE-TITLE": "आइटम",
+    "PRICE": {
+      "ERROR": {
+        "MIN": "न्यूनतम कीमत 1 . है",
+        "REQUIRED": "कीमत ज़रूरी है"
+      },
+      "TITLE": "कीमत"
+    },
+    "PRICE-TYPE": {
+      "ERROR": {
+        "REQUIRED": "मूल्य प्रकार आवश्यक है"
+      },
+      "TITLE": "मूल्य प्रकार"
+    },
+    "SEARCH-PLACEHOLDER": "नाम, विवरण, वर्ग, उप वर्ग खाता, कर की दर, मूल्य द्वारा आइटम खोजें",
+    "SUB-DIVISION": {
+      "ERROR": {
+        "REQUIRED": "सब डिवीजन की आवश्यकता है"
+      },
+      "TITLE": "उप प्रभाग"
+    },
+    "SUCCESS": {
+      "CREATE": "सेवा आइटम सफलतापूर्वक बनाया गया",
+      "DELETE": "सेवा आइटम सफलतापूर्वक हटाया गया",
+      "UPDATE": "सेवा आइटम सफलतापूर्वक अपडेट किया गया"
+    },
+    "TAX-RATE": {
+      "ERROR": {
+        "MAX": "अधिकतम कर दर 100 . है",
+        "MIN": "न्यूनतम कर दर 1 . है",
+        "REQUIRED": "कर की दर आवश्यक है"
+      },
+      "TITLE": "कर दर"
+    },
+    "UPDATE-SUCESS": "आइटम सफलतापूर्वक अपडेट किया गया"
+  },
+  "LOCATION": {
+    "CREATE": "स्थान बनाएं",
+    "CREATE-FAILURE": "स्थान निर्माण असफल रहा",
+    "CREATE-SUCESS": "स्थान सफलतापूर्वक बनाया गया",
+    "EDIT": "स्थान संपादित करें",
+    "ERROR": {
+      "CREATE": "स्थान बनाते समय त्रुटि",
+      "DELETE": "स्थान हटाते समय त्रुटि",
+      "TITLE-DISPLAYNAME-REQUIRED": "प्रदर्शन नाम आवश्यक है",
+      "TITLE-REQUIRED": "शीर्षक आवश्यक है",
+      "TYPE-REQUIRED": "स्थान प्रकार आवश्यक है",
+      "UPDATE": "स्थान अपडेट करते समय त्रुटि"
+    },
+    "HASCHILDREN": "बच्चे हैं",
+    "PAGE-TITLE": "स्थानों",
+    "PARENT": "मूल स्थान",
+    "SEARCH-PLACEHOLDER": "स्थान खोजें",
+    "SUCCESS": {
+      "CREATE": "स्थान सफलतापूर्वक बनाया गया",
+      "DELETE": "स्थान सफलतापूर्वक हटाया गया",
+      "UPDATE": "स्थान सफलतापूर्वक अपडेट किया गया"
+    },
+    "TITLE-DISPLAYNAME": "स्थान प्रदर्शन नाम",
+    "TITLE-NAME": "स्थान का नाम",
+    "TYPE": "स्थान का प्रकार",
+    "UPDATE-SUCESS": "स्थान सफलतापूर्वक अपडेट किया गया"
+  },
+  "LOGGER": {
+    "ERROR": {
+      "CREATE": "लकड़हारा बनाते समय त्रुटि हुई",
+      "DELETE": "लकड़हारा हटाते समय त्रुटि हुई",
+      "UPDATE": "लकड़हारा अद्यतन करते समय त्रुटि हुई"
+    },
+    "PAGE-TITLE": "लॉग सेटिंग्स",
+    "SERVER": {
+      "ERROR": {
+        "REQUIRED": "लॉग स्तर की आवश्यकता है"
+      },
+      "TITLE": "छांटने का स्तर"
+    },
+    "SUCCESS": {
+      "CREATE": "लकड़हारा सफलतापूर्वक बनाया गया",
+      "DELETE": "लकड़हारा सफलतापूर्वक हटा दिया गया",
+      "UPDATE": "लकड़हारा सफलतापूर्वक अपडेट किया गया"
+    }
+  },
+  "LOGIN-PAGE": {
+    "CONTINUE-SESSION": "सत्र जारी रखें",
+    "ERROR": {
+      "USERID-FORMAT": "ईमेल या फ़ोन नंबर एक ईमेल या फ़ोन नंबर होना चाहिए",
+      "USERID-FORMAT ": "अमान्य उपयोगकर्ता आइ डी"
+    },
+    "EXPIRE-IN": "आपका सत्र समाप्त हो जाएगा",
+    "FORGOT-PASSWORD": "पासवर्ड भूल गए?",
+    "HELP": "ह मदद",
+    "INFO": {
+      "PASSWORD-LENGTH": "पासवर्ड कम से कम 4 अक्षर का होना चाहिए",
+      "USERID-LENGTH": "ईमेल या फोन नंबर कम से कम 4 अक्षरों का होना चाहिए"
+    },
+    "LOGIN": "लॉग इन करें",
+    "LOGIN-ERROR": "प्रमाणीकरण त्रुटि",
+    "LOGIN-ERROR-UNAUTHORISED": "अनधिकृत पहुंच",
+    "LOGIN-INVALID-CREDENATIALS": "अवैध प्रत्यय पत्र",
+    "LOGIN-REQUEST-ERROR": "अनुरोध को आगे संसाधित करने में असमर्थ",
+    "PASSWORD": "कुंजिका",
+    "PRIVACY": "एकांत",
+    "REMEMBER-ME": "मुझे याद रखना!",
+    "SECONDS": " सेकंड",
+    "SESSION-EXPIRED": "सत्र मध्यांतर",
+    "SIGNIN-CONTINUE": "जारी रखने के लिए साइन इन करें",
+    "TERMS": "मामले",
+    "TITLE": "लॉग इन करें",
+    "USERID": "ईमेल या फोन नंबर",
+    "WARN": {
+      "PASSWORD-REQUIRED": "पासवर्ड की आवश्यकता है",
+      "USERID-REQUIRED": "ईमेल या फोन नंबर आवश्यक है"
+    },
+    "WELCOME": "स्वागत हे"
+  },
+  "MAILSERVER": {
+    "ERROR": {
+      "CREATE": "मेल सर्वर बनाते समय त्रुटि",
+      "DELETE": "मेल सर्वर को हटाते समय त्रुटि",
+      "UPDATE": "मेल सर्वर को अपडेट करते समय त्रुटि"
+    },
+    "MAIL-SERVER": {
+      "ERROR": {
+        "REQUIRED": "मेल सर्वर की आवश्यकता है"
+      },
+      "TITLE": "डाक सर्वर"
+    },
+    "METADATA": {
+      "SECURITY-TYPE": {
+        "NONE": "कोई नहीं",
+        "SSL": "एसएसएल",
+        "TLS": "टीएलएस"
+      }
+    },
+    "PAGE-TITLE": "मेल सेटिंग्स",
+    "PASSWORD": {
+      "ERROR": {
+        "REQUIRED": "पासवर्ड की आवश्यकता है"
+      },
+      "TITLE": "कुंजिका"
+    },
+    "PORT": {
+      "ERROR": {
+        "MAX": "पोर्ट 0 और 65535 . के बीच होना चाहिए",
+        "MIN": "पोर्ट 0 और 65535 . के बीच होना चाहिए",
+        "REQUIRED": "पोर्ट की आवश्यकता है"
+      },
+      "TITLE": "बंदरगाह"
+    },
+    "SECURITY": {
+      "ERROR": {
+        "REQUIRED": "सुरक्षा की आवश्यकता है"
+      },
+      "TITLE": "सुरक्षा"
+    },
+    "SUCCESS": {
+      "CREATE": "मेल सर्वर सफलतापूर्वक बनाया गया",
+      "DELETE": "मेल सर्वर सफलतापूर्वक हटाया गया",
+      "UPDATE": "मेल सर्वर सफलतापूर्वक अपडेट किया गया"
+    },
+    "USERNAME": {
+      "ERROR": {
+        "REQUIRED": "उपयोगकर्ता नाम / ईमेल आवश्यक है"
+      },
+      "TITLE": "उपयोगकर्ता नाम / ईमेल"
+    }
+  },
+  "MENU": {
+    "BUILDER": {
+      "BLOCKS": {
+        "BANNER": "बैनर",
+        "BOTTOMSHEET": "सबसे निचली शीट",
+        "CARD": "कार्ड",
+        "CHART": "चार्ट",
+        "DIALOG": "संवाद",
+        "FORM": "प्रपत्र",
+        "GRID": "ग्रिड",
+        "STEPPER": "स्टेपर",
+        "TAB": "टैब",
+        "TITLE": "ब्लाकों",
+        "TREE": "पेड़"
+      },
+      "DESIGNER": {
+        "PAGE": "पृष्ठ",
+        "STATEMACHNE": "राज्य मशीन",
+        "TITLE": "डिजाइनर",
+        "WORKFLOW": "कार्यप्रवाह"
+      },
+      "TITLE": "निर्माता"
+    },
+    "CONFIGURATION": {
+      "IPADD": "आईपी पता",
+      "LOGLEVEL": "छांटने का स्तर",
+      "MAIL-CONFIG": "मेल विन्यास",
+      "SYSLOG-SERVER": "SYSLOG सर्वर",
+      "TITLE": "विन्यास"
+    },
+    "DASHBOARD": "डैशबोर्ड",
+    "FEATURE": {
+      "ADD-COMPANY": "कंपनी जोड़ें",
+      "CHANGE-COMPANY": "कंपनी बदलें",
+      "FAVORITE": "पसंदीदा",
+      "FULLSCREEN": "पूर्ण स्क्रीन",
+      "GLOBAL-SEARCH": "वैश्विक खोज",
+      "LANGUAGE": "भाषा: हिन्दी",
+      "NOTIFICATION": "सूचनाएं",
+      "SUB-HEADER": {
+        "BREADCRUMB": "ब्रेडक्रम्ब",
+        "BUG": "बग रिपोर्टिंग",
+        "HELP": "मदद",
+        "PHOTO-CAPTURE": "तस्वीर उतारना",
+        "TIMER": "स्क्रीन टाइमर",
+        "TITLE": "उप हैडर",
+        "VOICE": "वाक् पहचान"
+      },
+      "THEME": "विषयों",
+      "TITLE": "विशेषताएं"
+    },
+    "HOME": "घर",
+    "IOT": "आईओटी",
+    "ORG": {
+      "CAREER-LEVEL": "कारकिर्दगी स्तर",
+      "CLIENTS": "ग्राहकों",
+      "COMPANY": "कंपनी",
+      "COSTRATE": "अपने आप को क्रस्ट करें",
+      "DEPARTMENT": "विभाग",
+      "DIVISION": "विभाजन",
+      "LOCATION": "स्थान",
+      "SERVICES": "सेवाएं",
+      "TITLE": "संगठन"
+    },
+    "SETUP": "सेट अप",
+    "TROUBLESHOOT": {
+      "LOGS": "सर्वर लॉग",
+      "PATCH-MGMT": "पैच प्रबंधन",
+      "TITLE": "समस्याओं का निवारण"
+    },
+    "USER-MGMT": {
+      "CHANGE-PASSWORD": "पासवर्ड बदलें / रीसेट करें",
+      "PERMISSION": "अनुमतियां",
+      "ROLE": "भूमिकाएँ",
+      "TITLE": "उपयोगकर्ता प्रबंधन",
+      "USER": "उपयोगकर्ताओं"
+    }
+  },
+  "ORG": {
+    "METADATA": {
+      "ACCOUNT": {
+        "ENGINEERING": "अभियांत्रिकी",
+        "PROFSERVICES": "व्यवसायी सेवाए",
+        "PURCHASE": "खरीद फरोख्त",
+        "SALES": "बिक्री",
+        "SERVICES": "सेवाएं"
+      },
+      "INVOICEOPTION": {
+        "DAYOFCURRENTMONTH": "चालू माह का",
+        "DAYOFNEXTMONTH": "अगले महीने का",
+        "DAYSAFTER": "बिल की तारीख के बाद के दिन",
+        "DAYSAFTERBILLMONTH": "दिन (दिनों) बिल माह के अंत के बाद",
+        "FIRSTDAY": "अगले महीने का पहला दिन",
+        "LASTDAY": "चालू माह का अंतिम दिन"
+      },
+      "LINEOFBUSINESS": {
+        "AGRICULTURE": "कृषि",
+        "CONSTRUCTION": "निर्माण",
+        "FINANCE": "वित्त",
+        "INSURANCE": "बीमा",
+        "MANUFACTURING": "विनिर्माण",
+        "MINING": "खुदाई",
+        "OTHERS": "अन्य",
+        "REALESTATE": "रियल एस्टेट",
+        "SERVIES": "सेवाएं",
+        "TRADE": "व्यापार"
+      },
+      "ORGTYPE": {
+        "CLUB": "क्लब",
+        "COMPANY": "कंपनी",
+        "INDIVIDUAL": "व्यक्ति",
+        "NONPROFIT": "गैर लाभ",
+        "PARTNER": "साथी",
+        "SOLETRADER": "एकमात्र व्यापारी",
+        "TRUST": "विश्वास"
+      }
+    }
+  },
+  "PAGE": {
+    "DASHBOARD": {
+      "TITLE": "डैशबोर्ड"
+    }
+  },
+  "PERMISSIONS": {
+    "PAGE-TITLE": "अनुमतियां"
+  },
+  "PROJECTS": {
+    "ACCOUNT-MANAGER": {
+      "ERROR": {
+        "REQUIRED": "खाता प्रबंधक की आवश्यकता है"
+      },
+      "TITLE": "खाता प्रबंधक"
+    },
+    "CLIENT": {
+      "ERROR": {
+        "REQUIRED": "ग्राहक की आवश्यकता है"
+      },
+      "TITLE": "ग्राहक"
+    },
+    "CREATE": "प्रोजेक्ट बनाएं",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "विवरण आवश्यक है"
+      },
+      "TITLE": "विवरण"
+    },
+    "EDIT": "परियोजनाओं को संपादित करें",
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "नाम आवश्यक है"
+      },
+      "TITLE": "नाम"
+    },
+    "PAGE-TITLE": "परियोजनाओं",
+    "PROJECT-HEAD": {
+      "ERROR": {
+        "REQUIRED": "प्रोजेक्ट हेड की आवश्यकता है"
+      },
+      "TITLE": "परियोजना प्रमुख"
+    },
+    "SEARCH-PLACEHOLDER": "प्रोजेक्ट खोजें",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "स्थिति की आवश्यकता है"
+      },
+      "TITLE": "स्थिति"
+    }
+  },
+  "ROLES": {
+    "CREATE": "भूमिकाएं बनाएं",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "विवरण आवश्यक है"
+      },
+      "TITLE": "विवरण"
+    },
+    "EDIT": "भूमिकाएं संपादित करें",
+    "ERROR": {
+      "CREATE": "भूमिका बनाते समय त्रुटि हुई",
+      "DELETE": "भूमिका हटाते समय त्रुटि हुई",
+      "UPDATE": "भूमिका अपडेट करते समय त्रुटि हुई"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "नाम आवश्यक है"
+      },
+      "TITLE": "नाम"
+    },
+    "PAGE-TITLE": "भूमिकाएँ",
+    "SEARCH-PLACEHOLDER": "भूमिकाएं खोजें",
+    "SUCCESS": {
+      "CREATE": "भूमिका सफलतापूर्वक बनाई गई",
+      "DELETE": "भूमिका सफलतापूर्वक हटाई गई",
+      "UPDATE": "भूमिका सफलतापूर्वक अपडेट की गई"
+    }
+  },
+  "SETTINGS": {
+    "METADATA": {
+      "COMMON": {
+        "FALSE": "असत्य",
+        "NO": "नहीं न",
+        "TRUE": "सच",
+        "YES": "हाँ"
+      },
+      "LOGLEVEL": {
+        "DEBUG": "डिबग",
+        "ERROR": "त्रुटि",
+        "FATAL": "घातक",
+        "INFO": "जानकारी",
+        "TRACE": "निशान",
+        "WARN": "चेतावनी देना"
+      }
+    }
+  },
+  "SYSLOGGER": {
+    "ERROR": {
+      "CREATE": "लकड़हारा बनाते समय त्रुटि हुई",
+      "DELETE": "लकड़हारा हटाते समय त्रुटि हुई",
+      "UPDATE": "लकड़हारा अद्यतन करते समय त्रुटि हुई"
+    },
+    "EXTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "बाहरी आईपी अमान्य है",
+        "REQUIRED": "बाहरी आईपी की आवश्यकता है"
+      },
+      "PLACEHOLDER": "बाहरी आईपी दर्ज करें",
+      "TITLE": "बाहरी आईपी"
+    },
+    "INTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "आंतरिक आईपी अमान्य है",
+        "REQUIRED": "आंतरिक आईपी की आवश्यकता है"
+      },
+      "PLACEHOLDER": "आंतरिक आईपी दर्ज करें",
+      "TITLE": "आंतरिक आईपी"
+    },
+    "PAGE-TITLE": "SYSLOG सेटिंग्स",
+    "SUCCESS": {
+      "CREATE": "लकड़हारा सफलतापूर्वक बनाया गया",
+      "DELETE": "लकड़हारा सफलतापूर्वक हटा दिया गया",
+      "UPDATE": "लकड़हारा सफलतापूर्वक अपडेट किया गया"
+    }
+  },
+  "USERS": {
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "करियर स्तर की आवश्यकता है"
+      },
+      "TITLE": "कारकिर्दगी स्तर"
+    },
+    "CREATE": "उपयोगकर्ता बनाएं",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "विभाजन की आवश्यकता है"
+      },
+      "TITLE": "विभाजन"
+    },
+    "EDIT": "उपयोगकर्ता संपादित करें",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "ईमेल अमान्य है",
+        "REQUIRED": "ईमेल जरुरी है"
+      },
+      "PLACEHOLDER": "ईमेल दर्ज करें",
+      "TITLE": "ईमेल"
+    },
+    "ERROR": {
+      "CREATE": "उपयोगकर्ता बनाते समय त्रुटि हुई",
+      "DELETE": "उपयोगकर्ता को हटाते समय त्रुटि हुई",
+      "UPDATE": "उपयोगकर्ता को अपडेट करते समय त्रुटि हुई"
+    },
+    "FIRST-NAME": {
+      "ERROR": {
+        "REQUIRED": "पहला नाम आवश्यक है"
+      },
+      "PLACEHOLDER": "प्रथम नाम दर्ज करें",
+      "TITLE": "नाम"
+    },
+    "JOB-LOCATION": {
+      "ERROR": {
+        "REQUIRED": "नौकरी का स्थान आवश्यक है"
+      },
+      "TITLE": "नौकरी करने का स्थान"
+    },
+    "LAST-NAME": {
+      "ERROR": {
+        "INVALID": "उपनाम अमान्य है",
+        "MIN": "उपनाम कम से कम 5 . होना चाहिए",
+        "REQUIRED": "उपनाम आवश्यक है"
+      },
+      "PLACEHOLDER": "अंतिम नाम दर्ज करो",
+      "TITLE": "अंतिम नाम"
+    },
+    "LOCATION": {
+      "ERROR": {
+        "REQUIRED": "स्थान आवश्यक है"
+      },
+      "PLACEHOLDER": "स्थान दर्ज करें",
+      "TITLE": "स्थान"
+    },
+    "LOCATIONS": {
+      "ERROR": {
+        "REQUIRED": "स्थान आवश्यक हैं"
+      }
+    },
+    "PAGE-TITLE": "उपयोगकर्ताओं",
+    "PASSWORD": {
+      "ERROR": {
+        "INVALID-FORMAT": "अवैध पासवर्ड"
+      },
+      "PLACEHOLDER": "पास वर्ड दर्ज करें",
+      "TITLE": "कुंजिका"
+    },
+    "PHONE": {
+      "ERROR": {
+        "INVALID": "फ़ोन नंबर अमान्य है",
+        "REQUIRED": "फ़ोन नंबर आवश्यक है"
+      },
+      "PLACEHOLDER": "फोन नंबर दर्ज",
+      "TITLE": "फ़ोन नंबर"
+    },
+    "ROLE": {
+      "ERROR": {
+        "REQUIRED": "भूमिका की आवश्यकता है"
+      },
+      "PLACEHOLDER": "भूमिका दर्ज करें",
+      "TITLE": "भूमिका"
+    },
+    "SEARCH-PLACEHOLDER": "उपयोगकर्ता खोजें",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "उपयोगकर्ता की स्थिति की आवश्यकता है"
+      },
+      "PLACEHOLDER": "उपयोगकर्ता स्थिति दर्ज करें",
+      "TITLE": "उपयोगकर्ता की स्थिति"
+    },
+    "SUCCESS": {
+      "CREATE": "उपयोगकर्ता सफलतापूर्वक बनाया गया",
+      "DELETE": "उपयोगकर्ता सफलतापूर्वक हटा दिया गया",
+      "UPDATE": "उपयोगकर्ता सफलतापूर्वक अपडेट किया गया"
+    },
+    "TYPE": {
+      "ERROR": {
+        "REQUIRED": "उपयोगकर्ता प्रकार की आवश्यकता है"
+      },
+      "PLACEHOLDER": "उपयोगकर्ता प्रकार दर्ज करें",
+      "TITLE": "उपयोगकर्ता का प्रकार"
+    },
+    "USER-ID": {
+      "ERROR": {
+        "REQUIRED": "उपयोगकर्ता आईडी आवश्यक है"
+      },
+      "TITLE": "यूज़र आईडी"
+    }
+  }
+}

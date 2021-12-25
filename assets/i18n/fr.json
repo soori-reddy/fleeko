@@ -1,0 +1,2958 @@
+{
+  "ABOUT": {
+    "COPYRIGHT": "Copyright réservés",
+    "SPONSOR": "Parrainé par",
+    "VERSION": "Version"
+  },
+  "ACCOUNT": {
+    "ACCOUNT": "Compte",
+    "ADD": "Ajouter",
+    "ADD-CREDIT-NOTE": "Ajouter une note de crédit",
+    "AMOUNT": "Montant",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "Les montants sont obligatoires"
+      },
+      "TITLE": "Les montants sont"
+    },
+    "ATTACHMENT": "Attachement",
+    "AUDIT-HISTORY-AND-NOTES": "Historique des audits et notes",
+    "BILL": {
+      "CREATE": "Créer une facture",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "La date de facturation est invalide",
+          "REQUIRED": "La date de facturation est requise"
+        },
+        "TITLE": "Date de facturation"
+      },
+      "EDIT": "Modifier la facture",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Le numéro de facture est requis"
+        },
+        "TITLE": "Numéro de facture"
+      },
+      "OPTIONS": "Options de facturation",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Facturer à est requis"
+        },
+        "TITLE": "Facturer"
+      }
+    },
+    "CLASS": "Classer",
+    "COPY-TO": "Copier",
+    "CREATE-COPY": "Créer une copie",
+    "CREDIT-MEMO": {
+      "CREATE": "Créer une note de crédit",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "La date de la note de crédit est invalide",
+          "REQUIRED": "La date de la note de crédit est requise"
+        },
+        "TITLE": "Date de la note de crédit"
+      },
+      "EDIT": "Modifier la note de crédit",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Le numéro de note de crédit est requis"
+        },
+        "TITLE": "Numéro de note de crédit"
+      },
+      "OPTIONS": "Options de note de crédit",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Note de crédit à est requis"
+        },
+        "TITLE": "Note de crédit à"
+      }
+    },
+    "DESCRIPTION": "La description",
+    "DISCOUNT": "Remise",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "La date d'échéance est invalide",
+        "REQUIRED": "La date d'échéance est requise"
+      },
+      "TITLE": "Date d'échéance"
+    },
+    "EDIT": "Éditer",
+    "INVOICE": {
+      "CREATE": "Créer une facture",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "La date de la facture est invalide",
+          "REQUIRED": "La date de la facture est requise"
+        },
+        "TITLE": "Date de la facture"
+      },
+      "EDIT": "Modifier la facture",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Le numéro de facture est requis"
+        },
+        "TITLE": "Numéro de facture"
+      },
+      "OPTIONS": "Options de numéro de facture",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Facture à est requis"
+        },
+        "TITLE": "Facturer à"
+      }
+    },
+    "ITEM": "Article",
+    "NO-ITEM-FOUND": "Aucun élément trouvé",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "Ajouter un paiement",
+      "AMOUNT-RECIEVED": "Montant reçu",
+      "AMOUNT-UNPAID": "Montant impayé",
+      "REFERENCE": "Référence",
+      "TDS-PAID": "TDS payé",
+      "TITLE": "Informations de paiement"
+    },
+    "QUANTITY": "Quantité",
+    "QUOTE": {
+      "CREATE": "Créer un devis",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "La date du devis est invalide",
+          "REQUIRED": "La date du devis est requise"
+        },
+        "TITLE": "Date de devis"
+      },
+      "EDIT": "Modifier le devis",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Le numéro de devis est requis"
+        },
+        "TITLE": "Cite un nombre"
+      },
+      "OPTIONS": "Options de devis",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Le devis est requis"
+        },
+        "TITLE": "Citation à"
+      }
+    },
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "La référence du compte est requise"
+      }
+    },
+    "REFERENCE": "Référence",
+    "SALE-ORDER": {
+      "CREATE": "Créer un bon de commande",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "La date de la commande n'est pas valide",
+          "REQUIRED": "La date de la commande est requise"
+        },
+        "TITLE": "Date de la commande de vente"
+      },
+      "EDIT": "Modifier le bon de commande",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Le numéro de bon de commande est requis"
+        },
+        "TITLE": "Numéro de commande"
+      },
+      "OPTIONS": "Options de commande client",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Bon de commande à est requis"
+        },
+        "TITLE": "Bon de commande à"
+      }
+    },
+    "STATUS": {
+      "ACCEPTED": "Accepté",
+      "ALL": "Tous",
+      "ALLOCATION": "Allocation",
+      "APPROVED": "Approuvé",
+      "AWAITING-FOR-PAYMENT": "En attente de paiement",
+      "DECLINED": "Diminué",
+      "DRAFT": "Brouillon",
+      "INVOICED": "Facturé",
+      "PAID": "Payé",
+      "SENT": "Expédié",
+      "WAITING-FOR-APPROVAL": "En attente d'approbation"
+    },
+    "SUB-TOTAL": "Sous-total",
+    "TAX": "Impôt",
+    "TAX-RATE": "Taux d'imposition",
+    "TOTAL": "Total",
+    "TYPES": {
+      "BILLS": "Factures",
+      "CREDIT-MEMO": "Note de crédit",
+      "INVOICE": "Facture d'achat",
+      "QUOTE": "Citation",
+      "SALE-ORDER": "Bon de commande"
+    },
+    "UNIT-PRICE": "Prix unitaire",
+    "VOID": "Annuler"
+  },
+  "ACCOUNTS": {
+    "ACCOUNT": "Compte",
+    "ADD": "Ajouter",
+    "ADD-CREDIT-NOTE": "Ajouter une note de crédit",
+    "AMOUNT": "Montant",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "Les montants sont obligatoires"
+      },
+      "TITLE": "Les montants sont"
+    },
+    "ATTACHMENT": "Attachement",
+    "AUDIT-HISTORY-AND-NOTES": "Historique des audits et notes",
+    "CLASS": "Classer",
+    "COPY-TO": "Copier",
+    "CREATE-COPY": "Créer une copie",
+    "DESCRIPTION": "La description",
+    "DISCOUNT": "Remise",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "La date d'échéance est invalide",
+        "REQUIRED": "La date d'échéance est requise"
+      },
+      "TITLE": "Date d'échéance"
+    },
+    "EDIT": "Éditer",
+    "INVOICE": {
+      "CREATE": "Créer une facture",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "La date de la facture est invalide",
+          "REQUIRED": "La date de la facture est requise"
+        },
+        "TITLE": "Date de la facture"
+      },
+      "EDIT": "Modifier la facture",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Le numéro de facture est requis"
+        },
+        "TITLE": "Numéro de facture"
+      },
+      "OPTIONS": "Options de numéro de facture",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Facture à est requis"
+        },
+        "TITLE": "Facturer à"
+      }
+    },
+    "ITEM": "Article",
+    "METADATA": {
+      "ORDERSTATUS": {
+        "ACCEPTED": "Accepté",
+        "ALL": "Tous",
+        "ALLOCATION": "Allocation",
+        "APPROVED": "Approuvé",
+        "AWAITINGFORPAYMENT": "En attente de paiement",
+        "DECLINED": "Diminué",
+        "DRAFT": "Brouillon",
+        "EXPIRED": "Expiré",
+        "INVOICED": "Facturé",
+        "OVERDUE": "En retard",
+        "PAID": "Payé",
+        "PENDING": "En attente",
+        "REPEAT": "Répéter",
+        "SENT": "Expédié",
+        "VOID": "Annuler",
+        "WAITINGFORAPPROVAL": "En attente d'approbation"
+      },
+      "ORDERTYPE": {
+        "BILLS": "Factures",
+        "CREDITMEMO": "Note de crédit",
+        "INVOICE": "Facture d'achat",
+        "QUOTE": "Citation",
+        "SALEORDER": "Bon de commande"
+      },
+      "TAXOPTION": {
+        "EXCLUSIVE": "Hors taxes",
+        "INCLUSIVE": "Taxes Comprises"
+      }
+    },
+    "NO-ITEM-FOUND": "Aucun élément trouvé",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "Ajouter un paiement",
+      "AMOUNT-RECIEVED": "Montant reçu",
+      "AMOUNT-UNPAID": "Montant impayé",
+      "REFERENCE": "Référence",
+      "TDS-PAID": "TDS payé",
+      "TITLE": "Informations de paiement"
+    },
+    "QUANTITY": "Quantité",
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "La référence du compte est requise"
+      }
+    },
+    "REFERENCE": "Référence",
+    "SUB-TOTAL": "Sous-total",
+    "TAX": "Impôt",
+    "TAX-RATE": "Taux d'imposition",
+    "TOTAL": "Le total",
+    "UNIT-PRICE": "Prix unitaire",
+    "VOID": "Annuler"
+  },
+  "APP": {
+    "TITLE": "Compagnie"
+  },
+  "APP-SERVER": {
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création du serveur d'applications",
+      "DELETE": "Une erreur s'est produite lors de la suppression du serveur d'applications",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour du serveur d'applications"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "L'adresse IP n'est pas valide",
+        "REQUIRED": "L'adresse IP est requise"
+      },
+      "TITLE": "Adresse IP"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "Nouveau serveur d'applications",
+      "EDIT": "Modifier le serveur d'applications",
+      "HOME": "Serveurs d'applications"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "Le port n'est pas valide",
+        "REQUIRED": "Le port est requis"
+      },
+      "TITLE": "Port"
+    },
+    "SEARCH-PLACEHOLDER": "Serveur de recherche",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "Le nom du serveur n'est pas valide",
+        "REQUIRED": "Le nom du serveur est requis"
+      },
+      "TITLE": "Nom du serveur"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "Le nom du compte de service n'est pas valide",
+        "REQUIRED": "Le nom du compte de service est requis"
+      },
+      "TITLE": "Nom du compte de service"
+    },
+    "SUCCESS": {
+      "CREATE": "Serveur d'applications créé avec succès",
+      "DELETE": "Serveur d'applications supprimé avec succès",
+      "UPDATE": "Serveur d'applications mis à jour avec succès"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "L'adresse IP externe n'est pas valide",
+        "REQUIRED": "Une adresse IP externe est requise"
+      },
+      "TITLE": "IP externe"
+    }
+  },
+  "AUTH-SERVER": {
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création du serveur d'authentification",
+      "DELETE": "Une erreur s'est produite lors de la suppression du serveur d'authentification",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour du serveur d'authentification"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "L'adresse IP n'est pas valide",
+        "REQUIRED": "L'adresse IP est requise"
+      },
+      "TITLE": "Adresse IP"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "Nouveau serveur d'authentification",
+      "EDIT": "Modifier le serveur d'authentification",
+      "HOME": "Serveurs d'authentification"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "Le port n'est pas valide",
+        "REQUIRED": "Le port est requis"
+      },
+      "TITLE": "Port"
+    },
+    "SEARCH-PLACEHOLDER": "Serveur de recherche",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "Le nom du serveur n'est pas valide",
+        "REQUIRED": "Le nom du serveur est requis"
+      },
+      "TITLE": "Nom du serveur"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "Le nom du compte de service n'est pas valide",
+        "REQUIRED": "Le nom du compte de service est requis"
+      },
+      "TITLE": "Nom du compte de service"
+    },
+    "SUCCESS": {
+      "CREATE": "Serveur d'authentification créé avec succès",
+      "DELETE": "Serveur d'authentification supprimé avec succès",
+      "UPDATE": "Serveur d'authentification mis à jour avec succès"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "L'adresse IP externe n'est pas valide",
+        "REQUIRED": "Une adresse IP externe est requise"
+      },
+      "TITLE": "IP externe"
+    }
+  },
+  "AUTHORIZATION": {
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création du serveur d'autorisation",
+      "DELETE": "Une erreur s'est produite lors de la suppression du serveur d'autorisation",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour du serveur d'autorisation"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "L'adresse IP n'est pas valide",
+        "REQUIRED": "L'adresse IP est requise"
+      },
+      "TITLE": "Adresse IP"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "Nouveau serveur d'autorisation",
+      "EDIT": "Modifier le serveur d'autorisation",
+      "HOME": "Serveurs d'autorisation"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "Le port n'est pas valide",
+        "REQUIRED": "Le port est requis"
+      },
+      "TITLE": "Port"
+    },
+    "SEARCH-PLACEHOLDER": "Serveur de recherche",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "Le nom du serveur n'est pas valide",
+        "REQUIRED": "Le nom du serveur est requis"
+      },
+      "TITLE": "Nom du serveur"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "Le nom du compte de service n'est pas valide",
+        "REQUIRED": "Le nom du compte de service est requis"
+      },
+      "TITLE": "Nom du compte de service"
+    },
+    "SUCCESS": {
+      "CREATE": "Serveur d'autorisation créé avec succès",
+      "DELETE": "Serveur d'autorisation supprimé avec succès",
+      "UPDATE": "Serveur d'autorisation mis à jour avec succès"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "L'adresse IP externe n'est pas valide",
+        "REQUIRED": "Une adresse IP externe est requise"
+      },
+      "TITLE": "IP externe"
+    }
+  },
+  "BUILDER": {
+    "DESIGNER": {
+      "PAGE": {
+        "FOOTER": "Bas de page",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "Extensible",
+            "CLONE": "Cloner",
+            "NAME": "Nom de la page",
+            "SCOPE": "Portée"
+          }
+        }
+      }
+    },
+    "MENU": {
+      "APPBUILDER": {
+        "APPAUTHPRV": "Authentification",
+        "APPDESIGN": "Concepteur d'applications",
+        "BUILDAPP": "Construire",
+        "DEPLOYAPP": "Déployer",
+        "SECURITYSCAN": "Analyse de sécurité",
+        "TITLE": "Générateur d'applications"
+      },
+      "APPSTORE": {
+        "TITLE": "Magasin d'applications"
+      },
+      "BLOCKS": {
+        "BANNER": "Bannière",
+        "BOTTOMSHEET": "Feuille inférieure",
+        "CARD": "Carte",
+        "CHART": "Graphique",
+        "DIALOG": "Dialogue",
+        "FORM": "Former",
+        "GRID": "Grille",
+        "STEPPER": "Pas à pas",
+        "TAB": "Languette",
+        "TITLE": "Blocs",
+        "TREE": "Arbre"
+      },
+      "DATABUILDER": {
+        "REST": "Métadonnées REST",
+        "TABLE": "Tableau des API",
+        "TITLE": " Explorateur de données"
+      },
+      "DESIGNER": {
+        "PAGE": "Concepteur de pages",
+        "STATEMACHNE": "Machine d'état",
+        "TITLE": " Générateur de pages",
+        "WORKFLOW": "Flux de travail"
+      },
+      "TITLE": "Constructeur"
+    },
+    "METADATA": {
+      "APPTYPE": {
+        "ANDROID": "Android",
+        "IOS": "iOS",
+        "KIOSK": "Kiosque",
+        "WEB": "la toile",
+        "WINDOWS": "les fenêtres"
+      },
+      "AUTHENTICATIONTYPE": {
+        "FACEBOOK": "Facebook",
+        "FACEDETECTION": "Affronter",
+        "FINGERPRINT": "Doigt",
+        "FIREBASEUI": "Base de feu",
+        "GITHUB": "GitHub",
+        "GOOGLE": "Google",
+        "LINKEDIN": "Lié dans",
+        "PHONENUMBER": "Numéro de téléphone",
+        "QRCODE": "QR",
+        "SSO": "Authentification unique",
+        "USERIDPASSWORD": "Mot de passe"
+      },
+      "COMP-SUB-TYPE": {
+        "AREA": "Zone",
+        "BAR": "Bar",
+        "BUBBLE": "Bulle",
+        "COLOR": "Couleur",
+        "DOUGHNUT": "Donut",
+        "EMAIL": "E-mail",
+        "FAB-BUTTON": "Bouton Fab",
+        "FLAT-BUTTON": "Bouton plat",
+        "HEAT MAP": "Carte de chaleur",
+        "ICON-BUTTON": "Bouton d'icône",
+        "LINE": "Ligne",
+        "MAP": "Carte",
+        "MINIFAB-BUTTON": "Bouton Minifab",
+        "NUMBER": "Nombre",
+        "PASSWORD": "Mot de passe",
+        "PIE": "Tarte",
+        "RADAR": "Radar",
+        "RAISED-BUTTON": "Bouton surélevé",
+        "SCATTER": "Dispersion",
+        "STROKED-BUTTON": "Bouton caressé",
+        "TEL": "Tel",
+        "TEXT": "Texte",
+        "URL": "URL"
+      },
+      "COMP-TYPE": {
+        "AUTO-COMPLETE": "Saisie automatique",
+        "BADGE": "Badge",
+        "BANNER": "Bannière",
+        "BOTTOM-SHEET": "Feuille inférieure",
+        "BUTTON": "Bouton",
+        "BUTTON-TOGGLE": "Bascule de bouton",
+        "CARD": "Carte",
+        "CHART": "Graphique",
+        "CHECKBOX": "Case à cocher",
+        "CHIPS": "Chips",
+        "DATE-PICKER": "Sélecteur de date",
+        "DIALOG": "Dialogue",
+        "DIVIDER": "Diviseur",
+        "DROPDOWN": "Menu déroulant",
+        "EXPANSION-PANEL": "Panneau d'extension",
+        "GRID": "Grille",
+        "ICON": "Icône",
+        "IMAGE": "Image",
+        "INPUT": "Saisir",
+        "LABEL": "Étiqueter",
+        "LIST": "Lister",
+        "MENU": "Menu",
+        "PAGINATOR": "Paginateur",
+        "PROGRESS-BAR": "Barre de progression",
+        "PROGRESS-SPINNER": "Spinner de progression",
+        "RADIO-BUTTON": "Bouton radio",
+        "SIDENAV": "Côté de",
+        "SLIDE-TOGGLE": "Bascule de diapositive",
+        "SLIDER": "Glissière",
+        "SNACKBAR": "Snack-bar",
+        "STEPPER": "Pas à pas",
+        "TAB": "Languette",
+        "TEXT-AREA": "Zone de texte",
+        "TOOLBAR": "Barre d'outils",
+        "TOOLTIP": "Info-bulle",
+        "TREE": "Arbre"
+      },
+      "COMPTYPE": {
+        "AUTOCOMPLETE": "Saisie automatique",
+        "BADGE": "Badge",
+        "BANNER": "Bannière",
+        "BOTTOMSHEET": "Feuille inférieure",
+        "BUTTON": "Bouton",
+        "BUTTONTOGGLE": "Bascule de bouton",
+        "CAMERA": "Caméra",
+        "CARD": "Carte",
+        "CHART": "Graphique",
+        "CHECKBOX": "Case à cocher",
+        "CHIPS": "Chips",
+        "DATEPICKER": "Sélecteur de date",
+        "DIALOG": "Dialogue",
+        "DIVIDER": "Diviseur",
+        "DROPDOWN": "Menu déroulant",
+        "EXPANSIONPANEL": "Panneau d'extension",
+        "FILE": "Déposer",
+        "FORM": "Former",
+        "GRID": "Grille",
+        "ICON": "Icône",
+        "IMAGE": "Image",
+        "LABEL": "Étiqueter",
+        "LIST": "Lister",
+        "MAP": "Carte",
+        "MENU": "Menu",
+        "PAGINATOR": "Paginateur",
+        "PROGRESSBAR": "Barre de progression",
+        "PROGRESSSPINNER": "Spinner de progression",
+        "RADIOBUTTON": "Bouton radio",
+        "SIDENAV": "Côté de",
+        "SLIDER": "Glissière",
+        "SLIDETOGGLE": "Bascule de diapositive",
+        "SNACKBAR": "Snack-bar",
+        "STEPPER": "Pas à pas",
+        "TAB": "Languette",
+        "TEXTAREA": "Zone de texte",
+        "TEXTINPUT": "Saisir",
+        "TOOLBAR": "Barre d'outils",
+        "TOOLTIP": "Info-bulle",
+        "TREE": "Arbre"
+      },
+      "FORM": {
+        "BUTTON-ROW": {
+          "DISPLAY": {
+            "BOTTOM": "Bas",
+            "TOP": "Sommet"
+          }
+        },
+        "DISPLAY-TYPE": {
+          "DYNAMIC": "Dynamique",
+          "FIXED": "Fixe / Statique"
+        },
+        "ERROR-DISPLAY-TYPE": {
+          "INLINE": "en ligne",
+          "SNACKBAR": "snack-bar"
+        },
+        "FIELD-APPEARANCE-TYPE": {
+          "FILL": "remplir",
+          "LEGACY": "héritage",
+          "OUTLINE": "contour",
+          "STANDARD": "la norme"
+        },
+        "FIELD-TYPE": {
+          "BUTTON": "Bouton",
+          "CHECKBOX": "Case à cocher",
+          "DATE-PICKER": "Sélecteur de date",
+          "DROPDOWN": "Menu déroulant",
+          "LABEL": "Étiqueter",
+          "RADIOBUTTON": "Bouton radio",
+          "TEXT-AREA": "Zone de texte",
+          "TEXTBOX": "Zone de texte"
+        },
+        "LAYOUT-ALIGNMENT": {
+          "CENTER": "centre",
+          "END": "finir",
+          "SPACE-AROUND": "l'espace autour",
+          "SPACE-BETWEEN": "l'espace entre",
+          "SPACE-EVENLY": "espace-également",
+          "START": "début",
+          "STRETCH": "s'étirer"
+        },
+        "LAYOUT-TYPE": {
+          "COLUMN": "Colonne",
+          "ROW": "Ligne"
+        },
+        "ROW-COLUMNS": {
+          "FIVE": "Cinq colonnes",
+          "FOUR": "Quatre colonnes",
+          "ONE": "Une colonne",
+          "THREE": "Trois colonnes",
+          "TWO": "Deux colonnes"
+        }
+      }
+    },
+    "METAREST": {
+      "DISPLAYNAME": {
+        "ERROR": {
+          "REQUIRED": "Le nom d'affichage est requis"
+        },
+        "TITLE": "Afficher un nom"
+      },
+      "GRID": {
+        "NAME": "Nom",
+        "SCOPE": "Portée",
+        "URL": "Point de terminaison"
+      },
+      "NAME": {
+        "ERROR": {
+          "REQUIRED": "Le nom est requis"
+        },
+        "TITLE": "Nom"
+      },
+      "PAGE-TITLE": "Métadonnées API",
+      "ROUTE": {
+        "ERROR": {
+          "REQUIRED": "L'itinéraire est requis"
+        },
+        "TITLE": "Route"
+      },
+      "SCOPE": {
+        "ERROR": {
+          "REQUIRED": "La portée est requise"
+        },
+        "TITLE": "Portée"
+      },
+      "SEARCH-PLACEHOLDER": "API de métadonnées de recherche",
+      "TABLENAME": {
+        "ERROR": {
+          "REQUIRED": "Le nom de la table est requis"
+        },
+        "TITLE": "Nom de la table"
+      }
+    },
+    "PAGE": {
+      "CONFIGURATION": {
+        "HEADER": {
+          "BUTTONS": "Boutons",
+          "CREATEAPI": "Créer une API",
+          "CREATETABLE": "Créer un tableau",
+          "EDITPAGE": "Modifier la page",
+          "ENDPOINT": "Point de terminaison",
+          "HOMEPAGE": "Page d'accueil",
+          "NAME": "Nom",
+          "NEWPAGE": "Nouvelle page",
+          "PAGEACTIONS": "Configurer les actions de page",
+          "PERMISSION": "Autorisation",
+          "URL": "URL"
+        }
+      },
+      "ERROR": {
+        "CREATE": "Erreur lors de l'enregistrement de la conception de la page !!",
+        "DELETE": "Erreur lors de la suppression de la conception de la page !!",
+        "UPDATE": "Erreur lors de la mise à jour de la conception de la page !!"
+      },
+      "SUCCESS": {
+        "CREATE": "Conception de la page enregistrée avec succès",
+        "DELETE": "Conception de la page supprimée avec succès",
+        "UPDATE": "Conception de la page mise à jour avec succès"
+      }
+    },
+    "TEMPLATE": {
+      "BOTTOM-SHEET": {
+        "BUTTON-LABEL": "Libellé du bouton",
+        "BUTTON-NAVIGATE-URL": "URL de navigation du bouton",
+        "BUTTON-SUB-LABEL": "Sous-étiquette de bouton",
+        "CREATE": "Créer",
+        "DRAG&DROP-BOTTOM-SHEET-ITEMS": "Faites glisser et déposez les éléments de la feuille inférieure ici",
+        "DRAG&DROP-CUSTOMISE-BOTTOM-SHEET": "Faites glisser et déposez pour personnaliser la feuille du bas",
+        "ENTER-TEXT-HERE": "Entrez le texte ici...",
+        "TITLE": "Feuille inférieure"
+      },
+      "CARD": {
+        "ADD-FIELD": "Ajouter le champ",
+        "ALIGNMENT": "Alignement",
+        "DISPLAY-IMAGE": "Afficher l'image",
+        "DRAG&DROP-CARD-ITEMS": "Faites glisser et déposez les éléments de la carte ici",
+        "DRAG&DROP-CUSTOMISE-CARDS": "Faites glisser et déposez pour personnaliser les cartes",
+        "FLEX": "Fléchir",
+        "HORIZONTAL": "Horizontal",
+        "IMAGE-SIZE": "Taille de l'image",
+        "IMAGE-TYPE": "Type d'image",
+        "PREVIEW": "Aperçu",
+        "TITLE": "Cartes",
+        "VALIDATION": {
+          "CONTENT-REQUIRED": "Le contenu est requis",
+          "FOOTER-REQUIRED": " Le pied de page est requis",
+          "HEADER-REQUIRED": "Le nom de l'en-tête est requis",
+          "SUB-HEADER-REQUIRED": "Le sous-en-tête est requis"
+        },
+        "VERTICAL": "Verticale"
+      },
+      "COMPONENT-BULIDER": "Générateur de composants",
+      "CONFIGURATION": {
+        "BUTTON-CONFIGURATION": "Configuration des boutons",
+        "BUTTON-ROW": {
+          "POSITION": "Position de la rangée de boutons",
+          "TITLE": "A une rangée de boutons"
+        },
+        "DIRECTION-LAYOUT": "Disposition des directions",
+        "DISPLAY": "Affichage",
+        "EDIT": "Éditer",
+        "ENTER-FLEX-VALUE": "Saisir la valeur flexible",
+        "FLEX-CONFIGURATION": "Configuration flexible",
+        "HORIZONTAL-ALIGNMENT": "Alignement horizontal",
+        "RESPONSIVE-LAYOUT": "Mise en page réactive",
+        "SELECT-FORM-FIELDS-STYLE": "Sélectionner le style des champs de formulaire",
+        "SELECT-LAYOUT": "Sélectionnez la mise en page",
+        "SELECT-NO-OF-COLUMNS": "Sélectionnez le nombre de colonnes",
+        "TEMPLATE-NATURE": "Nature du modèle",
+        "THEME-CONFIGURATION": "Configuration du thème",
+        "VALIDATION": {
+          "ERROR-MESSAGES-DISPLAY": "Affichage des messages d'erreur",
+          "FLEX-REQUIRED": "La valeur Flex est obligatoire",
+          "LAYOUT-REQUIRED": "La mise en page est obligatoire",
+          "NO-OF-COLUMNS-REQUIRED": "Le nombre de colonnes est obligatoire",
+          "TYPE-REQUIRED": "Le type est obligatoire",
+          "VALUE-REQUIRED": "Valeur est requise"
+        },
+        "VALIDATION-LAYOUT-REQUIRED": "La mise en page est requise",
+        "VERTICAL-ALIGNMENT": "Alignement vertical"
+      },
+      "DETAILS": "Des détails",
+      "DIALOG": {
+        "CREATE": "Créer",
+        "DRAG&DROP-DIALOG-ITEMS": "Faites glisser et déposez les éléments de la boîte de dialogue ici",
+        "START-CREATE-DIALOG-BOX": "Commencez à créer une boîte de dialogue en faisant glisser et en déposant des éléments",
+        "TITLE": "DIALOGUE",
+        "VIEW": "Vue"
+      },
+      "FORM": {
+        "ADD-OPTION": "Ajouter une option",
+        "ALLOW-OVERRIDE": "Autoriser Override",
+        "CONFIG": {
+          "BASIC": {
+            "ISREADONLY": "est en lecture seule",
+            "ISVISISBLE": "Est visible",
+            "LABEL": {
+              "ERROR": {
+                "REQUIRED": " Le nom du champ est requis"
+              },
+              "TITLE": "Nom de domaine"
+            },
+            "PLACEHOLDER": "Espace réservé",
+            "TOOLTIP": "Info-bulle",
+            "VIEWPORT": "Fenêtre"
+          },
+          "DATA": {
+            "AUTOGENERATED": "Est généré automatiquement",
+            "DATATYPE": "Type de données",
+            "DEFAULTVALUE": "Valeur par défaut",
+            "MANDATORY": "Est obligatoire",
+            "MODELNAME": {
+              "ERROR": {
+                "REQUIRED": "Le nom du modèle est obligatoire"
+              },
+              "TITLE": "Nom du modèle"
+            }
+          },
+          "HEADER": {
+            "BASIC": "De base",
+            "DATA": "Données",
+            "MISC": "Autres",
+            "SECURITY": "Sécurité",
+            "VALIDATIONS": "Validation"
+          },
+          "MISC": {
+            "HINT": "Indice",
+            "HINTEND": "Fin de l'indice",
+            "MAXLENGTH": "Longueur maximale",
+            "MAXLENGTHERROR": "Erreur de longueur maximale",
+            "MINLENGTH": "Longueur minimale",
+            "MINLENGTHERROR": "Erreur de longueur minimale",
+            "PREFIX": "Préfixe",
+            "REGEX": "Regex",
+            "REGEXERROR": "Message d'erreur Reqex",
+            "SUFFIX": "Suffixe"
+          },
+          "SECURITY": {
+            "ENCRYPT": "Crypter",
+            "PERMCODE": "Code d'autorisation",
+            "SHOWPASSWORD": "Activer l'icône Afficher le mot de passe"
+          },
+          "VALIDATIONRULE": {
+            "MESSAGE": "Message d'erreur",
+            "NAME": "Taper",
+            "VALUE": "Valeur"
+          }
+        },
+        "DISPLAY-NAME": "Afficher un nom",
+        "DISPLAY-TYPE": "Type d'affichage",
+        "DRAG": "Faites glisser des emplacements de formulaire",
+        "DRAG&DROP-ITEMS": "Faites glisser et déposez les éléments du formulaire ici",
+        "ENCRYPT-DATA": "Crypter les données",
+        "ERROR": {
+          "CREATE": "Une erreur s'est produite lors de la création du modèle de formulaire",
+          "DELETE": "Une erreur s'est produite lors de la suppression du modèle de formulaire",
+          "UPDATE": "Une erreur s'est produite lors de la mise à jour du modèle de formulaire"
+        },
+        "FIELD-ATTRIBUTES": "Attributs de champ de formulaire",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "Extensible",
+            "CLONE": "Cloner",
+            "NAME": "Nom de forme",
+            "SCOPE": "Portée"
+          }
+        },
+        "ITEM": {
+          "LABEL": "Nom de domaine",
+          "PLACEHOLDER": "Entrez le nom du champ"
+        },
+        "MANDATORY-FIELD": "Champ obligatoire",
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "Le nom du formulaire est obligatoire"
+          },
+          "TITLE": "Nom de forme"
+        },
+        "SAME-EMPTY-NAME-NOT-SHOWN": "*Plusieurs champs de formulaire avec le même nom de modèle ou un nom de modèle vide ne seront pas affichés",
+        "SECURITY-ATTRIBUTES": "Attributs de sécurité",
+        "SHOW-GROUP": "Afficher dans le groupe Formulaire",
+        "SUCCESS": {
+          "CREATE": "Modèle de formulaire créé avec succès",
+          "DELETE": "Modèle de formulaire supprimé avec succès",
+          "UPDATE": "Modèle de formulaire mis à jour avec succès"
+        },
+        "TITLE": "Former",
+        "VALIDATION": {
+          "ALLOW-SPACE&SPECIAL-CHARACTERS": "Le modèle n'autorise pas l'espace et les caractères spéciaux, sauf le point entre les mots",
+          "DATE-REQUIRED": "Date requise",
+          "ENDPOINT-REQUIRED": "Le point final est requis",
+          "EXCEED-50CHARACTERS-LENGTH": "Le nom du modèle ne doit pas dépasser 50 caractères",
+          "INVAILD-DATE": "Date invalide",
+          "INVALID-DATE": "Date invalide",
+          "MAX-DATE": "Date maximale",
+          "MIN-DATE": "Date minimale",
+          "MODEL-REQUIRED": "Le nom du modèle est requis",
+          "MUST-3CHARACTERS-LENGTH": "Le nom du modèle doit comporter 3 caractères",
+          "TITLE": {
+            "NAME": "Validation"
+          }
+        },
+        "VALUE": "Valeur",
+        "VISIBILITY": "Visibilité"
+      },
+      "GRID": {
+        "CREATE": "Créer",
+        "SHOW-PAGINATION": "Afficher la pagination de la grille",
+        "TITLE": "Grille",
+        "VALIDATION": {
+          "COLUMN-ENDPOINT-REQUIRED": "Le point de terminaison des données est requis",
+          "DATA-ENDPOINT-REQUIRED": "Le point de terminaison des données est requis"
+        }
+      },
+      "IMAGE": {
+        "CREATE": "Créer une image avec du texte",
+        "DRAG-DROP": "Faites glisser et déposez pour personnaliser l'image et le champ de texte",
+        "DRAG&DROP-IMAGE-ITEMS": "Faites glisser et déposez les éléments d'image ici",
+        "DRAG&DROP-TEXT-FIELD-ITEMS": "Faites glisser et déposez les éléments de champ de texte ici",
+        "TITLE": "Image"
+      },
+      "NAME": "Nom",
+      "PAGE-ACTION": {
+        "CONFIGURATION": "Configuration des boutons",
+        "DRAG-DROP-BUTTON": "Faites glisser et déposez pour personnaliser le bouton",
+        "DRAG&DROP-BUTTON-ITEMS": "Faites glisser et déposez les éléments du bouton ici",
+        "SELECT-BUTTON-ACTION": "Sélectionner l'action du bouton",
+        "SELECT-COLOR": "Choisissez la couleur",
+        "TITLE": "Boutons"
+      },
+      "STEPPER": {
+        "CREATE": "Créer",
+        "CREATE-STEPPER-DRAG&DROP-ITEMS": "Commencez à créer un Stepper en faisant glisser et en déposant des éléments",
+        "DRAG&DROP-ITEMS": "Faites glisser et déposez les éléments Stepper ici",
+        "STEPPER-VIEW": "Vue pas à pas",
+        "TITLE": "Pas à pas"
+      },
+      "TAB": {
+        "ADDTAB": "Ajouter un onglet",
+        "BACKGROUND-COLOR": "Couleur de l'arrière plan",
+        "COLOR": "Couleur",
+        "CREATE": "Créer",
+        "DISABLED-TAB": "Onglet Désactivé",
+        "DRAG&DROP-TAB-CONTENT": "Faites glisser et déposez le contenu de l'onglet ici",
+        "HEADER-POSITION": "Position de l'en-tête",
+        "TITLE": "Onglets"
+      },
+      "TREE": {
+        "CREATE": "Créer",
+        "ENDPOINT": "Entrer le point de terminaison",
+        "FETCH": "Aller chercher",
+        "MODIFY": "Modifier",
+        "NODE-SELECTABLE": "Nœud sélectionnable",
+        "TITLE": "Arbre",
+        "TREE-OUTPUT-NAME": "Entrez le nom de la sortie de l'arborescence"
+      },
+      "TYPE": "Taper",
+      "VALIDATION": {
+        "INPUT-TYPE-REQUIRED": "Le type d'entrée est obligatoire",
+        "TYPE-REQUIRED": "Le nom est requis"
+      },
+      "WIZARD": {
+        "ADVANCED": "Avancée",
+        "BANNER": "Bannière",
+        "BASIC": "De base",
+        "BOTTOM-SHEET": "Feuille inférieure",
+        "BUTTON": "Bouton",
+        "CARD": "Carte",
+        "CHARTS": "Graphiques",
+        "CREATE-TEMPLATE": "Sélectionner un modèle",
+        "DIALOG": "Dialogue",
+        "FORM": "Former",
+        "GRID": "Grille",
+        "SELECT-COMPONENT": "Commencez à créer un modèle en sélectionnant un composant",
+        "STEPPER": "Pas à pas",
+        "TAB": "Languette",
+        "TOOLBAR-BREADCRUMB": "Barre d'outils et fil d'Ariane",
+        "TREE": "Arbre"
+      }
+    }
+  },
+  "BUTTON": {
+    "ADD": "Ajouter",
+    "APPROVAL": "Approbation",
+    "BACK": "Arrière",
+    "CANCEL": "Annuler",
+    "CLOSE": "Fermer",
+    "DELETE": "Supprimer",
+    "DELETE-CONFIRMATION": "Voulez-vous supprimer ?",
+    "DOWNLOAD": "Télécharger",
+    "EDIT": "Éditer",
+    "EMAIL": "E-mail",
+    "MODIFY": "Modifier",
+    "NEW": "Nouvelle",
+    "NEXT": "Prochain",
+    "OK": "D'accord",
+    "PREVIOUS": "Précédent",
+    "PRINT": "Imprimer",
+    "PRINT-PDF": "Imprimer le PDF",
+    "SAVE": "sauver",
+    "UPDATE": "Mettre à jour"
+  },
+  "CAREERLEVEL": {
+    "ANALYST": "Analyste",
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "Le code de facturation est requis"
+      },
+      "TITLE": "Codes de facturation"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "Le niveau de carrière est requis"
+      },
+      "TITLE": "Niveau de carrière"
+    },
+    "CONSULTANT": "Consultant",
+    "CREATE": "Créer un niveau de carrière",
+    "EDIT": "Modifier le niveau de carrière",
+    "ERROR": {
+      "CREATE": "Erreur lors de la création du niveau de carrière",
+      "DELETE": "Erreur lors de la suppression du niveau de carrière",
+      "UPDATE": "Erreur lors de la mise à jour du niveau de carrière"
+    },
+    "EXECUTIVE": "Exécutif",
+    "INTERN": "Interne",
+    "MANAGER": "Directeur",
+    "PAGE-TITLE": "Niveau de carrière",
+    "SEARCH-PLACEHOLDER": "Rechercher un niveau de carrière",
+    "SENIOR-ANALYST": "Analyste sénior",
+    "SENIOR-CONSULTANT": "Consultant senior",
+    "SENIOR-MANAGER": "Gestionnaire principal",
+    "SUCCESS": {
+      "CREATE": "Niveau de carrière créé avec succès",
+      "DELETE": "Niveau de carrière supprimé avec succès",
+      "UPDATE": "Niveau de carrière mis à jour avec succès"
+    },
+    "UPDATE-SUCESS": "Niveau de carrière mis à jour avec succès"
+  },
+  "CLIENT": {
+    "ACCOUNT-DETAILS": "Détails du compte",
+    "ADDRESS-LINE-1": {
+      "ERROR": {
+        "REQUIRED": "La ligne d'adresse 1 est requise"
+      },
+      "TITLE": "Adresse 1"
+    },
+    "ADDRESS-LINE-2": {
+      "TITLE": "Adresse Ligne 2"
+    },
+    "BILLING-ADDRESS": "Adresse de facturation",
+    "BILLS-DUE-DATE": {
+      "ERROR": {
+        "REQUIRED": "La date d'échéance des factures est requise",
+        "TYPE-REQUIRED": "L'option Date d'échéance des factures est requise"
+      },
+      "INPUT": "Date",
+      "SELECT-TYPE": "Option",
+      "TITLE": "Date d'échéance des factures"
+    },
+    "CIN": "GIN",
+    "CITY": {
+      "ERROR": {
+        "REQUIRED": "La ville est obligatoire"
+      },
+      "TITLE": "Ville"
+    },
+    "COMPANY-REG-NUM": {
+      "ERROR": {
+        "REQUIRED": "Le numéro d'enregistrement de l'entreprise est requis"
+      },
+      "TITLE": "Numéro de registre de l'entreprise."
+    },
+    "CONTACT-PERSON-DETAILS": "Détails de la personne de contact",
+    "COUNTRY": {
+      "ERROR": {
+        "REQUIRED": "Le pays est requis"
+      },
+      "TITLE": "De campagne"
+    },
+    "CREATE": "Créer un client",
+    "CREDIT-LIMIT": {
+      "ERROR": {
+        "REQUIRED": "La limite de crédit est requise"
+      },
+      "TITLE": "Limite de crédit"
+    },
+    "CURRENCY": {
+      "ERROR": {
+        "REQUIRED": "La devise est requise"
+      },
+      "TITLE": "Devise"
+    },
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "La description est requise"
+      },
+      "TITLE": "La description"
+    },
+    "EDIT": "Modifier le client",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "Le courriel est invalide",
+        "REQUIRED": "L'e-mail est requis"
+      },
+      "TITLE": "E-mail"
+    },
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création du client",
+      "DELETE": "Une erreur s'est produite lors de la suppression du client",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour du client"
+    },
+    "FOLLOWING-ATTR-TEXT": "Les attributs suivants changeront selon l'emplacement du client (pays)",
+    "GST": "TPS",
+    "GST-PURCHASE": {
+      "ERROR": {
+        "REQUIRED": "L'achat de la TPS est requis"
+      },
+      "TITLE": "Achat de TPS"
+    },
+    "GST-SALES": {
+      "ERROR": {
+        "REQUIRED": "Les ventes de TPS sont requises"
+      },
+      "TITLE": "Ventes de TPS"
+    },
+    "INVOICE-DUE-DATE": {
+      "ERROR": {
+        "INVALID": "Date invalide",
+        "REQUIRED": "La date d'échéance de la facture est requise",
+        "TYPE-REQUIRED": "L'option Date d'échéance de la facture est requise"
+      },
+      "INPUT": "Date",
+      "SELECT-TYPE": "Option",
+      "TITLE": "Échéance de la facture"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "Le nom est requis"
+      },
+      "TITLE": "Nom"
+    },
+    "NO-COUNTRY-FOUND": "Aucun pays trouvé",
+    "NO-STATE-FOUND": "Aucun État trouvé",
+    "PAGE-TITLE": "Clients",
+    "PHONE-NUMBER": {
+      "ERROR": {
+        "REQUIRED": "Le numéro de téléphone est requis"
+      },
+      "TITLE": "Numéro de téléphone"
+    },
+    "POST-CODE": {
+      "ERROR": {
+        "REQUIRED": "Le code postal est requis"
+      },
+      "TITLE": "Code postal"
+    },
+    "SAME-AS-BILLING-ADDRESS": "Utiliser la même que l'adresse de facturation",
+    "SAME-AS-SHIPPING-ADDRESS": "Utiliser la même que l'adresse de livraison",
+    "SEARCH-PLACEHOLDER": "Rechercher un client",
+    "SELECT": {
+      "ERROR": {
+        "REQUIRED": "Sélectionnez est requis"
+      },
+      "TITLE": "Sélectionner"
+    },
+    "SETUP-CURRENCY-TAX-RATES": "Configurer la devise et les taux de taxe",
+    "SHIPPING-ADDRESS": "adresse de livraison",
+    "STATE": {
+      "ERROR": {
+        "REQUIRED": "L'état est requis"
+      },
+      "TITLE": "État"
+    },
+    "SUCCESS": {
+      "CREATE": "Client créé avec succès",
+      "DELETE": "Client supprimé avec succès",
+      "UPDATE": "Client mis à jour avec succès"
+    },
+    "TAB": {
+      "ADDRESS": "Adresse",
+      "CLIENT-DETAILS": "Détails du client",
+      "FINANCIAL-DETAILS": "Détails financiers",
+      "REVIEW": "Revoir"
+    },
+    "TAN": {
+      "ERROR": {
+        "REQUIRED": "Le bronzage est requis"
+      },
+      "TITLE": "Alors"
+    },
+    "TAX-ID": {
+      "ERROR": {
+        "REQUIRED": "Le numéro d'identification fiscale est requis"
+      },
+      "TITLE": "Numéro d'identification fiscale"
+    },
+    "TIN": {
+      "ERROR": {
+        "REQUIRED": "L'étain est requis"
+      },
+      "TITLE": "Croyez"
+    }
+  },
+  "COMMON": {
+    "CONN-MGMT": "Gestion des connexions",
+    "CREATE": "Créer",
+    "DELETE": "Supprimer",
+    "EXPORT": "Exportation",
+    "IS-REQUIRED": " est requis",
+    "MAIL": "Poster",
+    "NO": "Non",
+    "ORPHAN-MGMT": "Gestion des comptes orphelins",
+    "PRINT": "Imprimer",
+    "PROV-CONFIG": "Disposition",
+    "READ": "Lecture seule (voir)",
+    "RECON": "Réconciliation",
+    "RECON-CONFIG": "Configuration de reconnaissance",
+    "REPORT": {
+      "EXPORT": "Exportation",
+      "FILTERS": "Filtres",
+      "PRINT": "Imprimer"
+    },
+    "SEARCH": "Chercher",
+    "SYSTEM-OWNER": "Propriétaire du système",
+    "UPDATE": "Mettre à jour",
+    "USERID-CONFIG": "Configuration de l'ID utilisateur",
+    "YES": "Oui"
+  },
+  "COMPANY": {
+    "CREATE": "Créer",
+    "EDIT": "Éditer",
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création de l'entreprise",
+      "DELETE": "Une erreur s'est produite lors de la suppression de l'entreprise",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour de la société"
+    },
+    "PAGE-TITLE": "Compagnie",
+    "SEARCH-PLACEHOLDER": "Rechercher une entreprise",
+    "SUCCESS": {
+      "CREATE": "Entreprise créée avec succès",
+      "DELETE": "Entreprise supprimée avec succès",
+      "UPDATE": "Entreprise mise à jour avec succès"
+    },
+    "TAB": {
+      "BASIC-INFORMATION": {
+        "CURRENCY": {
+          "ERROR": {
+            "REQUIRED": "La devise est requise"
+          },
+          "TITLE": "Devise"
+        },
+        "DELETE": "Supprimer",
+        "DESCRIPTION": {
+          "TITLE": "La description"
+        },
+        "DISPLAY-NAME": {
+          "ERROR": {
+            "REQUIRED": "Le nom d'affichage est requis"
+          },
+          "TITLE": "Afficher un nom"
+        },
+        "EDIT-LOGO": "Modifier le logo",
+        "LINE-OF-BUSSINESS": {
+          "ERROR": {
+            "REQUIRED": "La branche d'activité est requise"
+          },
+          "TITLE": "Ligne d'activité"
+        },
+        "ORGANISATION-TYPE": {
+          "ERROR": {
+            "REQUIRED": "Le type d'organisation est requis"
+          },
+          "TITLE": "Organisation Type"
+        },
+        "TAX-ID": {
+          "ERROR": {
+            "REQUIRED": "Un numéro d'identification fiscale est requis"
+          },
+          "TITLE": "Numéro d'identification fiscale"
+        },
+        "TITLE": "Informations de base",
+        "TRADING-NAME": {
+          "ERROR": {
+            "REQUIRED": "Le nom commercial est requis"
+          },
+          "TITLE": "Nom commercial"
+        },
+        "UPLOAD-LOGO": "Télécharger le logo"
+      },
+      "LOCATION": {
+        "ADDRESS1": {
+          "ERROR": {
+            "REQUIRED": "La ligne d'adresse 1 est requise"
+          },
+          "TITLE": "Adresse 1"
+        },
+        "ADDRESS2": {
+          "ERROR": {
+            "REQUIRED": "La ligne d'adresse 2 est requise"
+          },
+          "TITLE": "Adresse Ligne 2"
+        },
+        "CITY": {
+          "ERROR": {
+            "REQUIRED": "La ville est obligatoire"
+          },
+          "TITLE": "Ville"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "Le pays est requis"
+          },
+          "TITLE": "De campagne"
+        },
+        "EMAIL": {
+          "ERROR": {
+            "INVALID": "Email invalide",
+            "REQUIRED": "L'e-mail est requis"
+          },
+          "TITLE": "E-mail"
+        },
+        "PHONE": {
+          "ERROR": {
+            "REQUIRED": "Le téléphone est requis"
+          },
+          "TITLE": "Téléphoner"
+        },
+        "POSTAL-CODE": {
+          "ERROR": {
+            "REQUIRED": "Le code postal est requis"
+          },
+          "TITLE": "code postal"
+        },
+        "STATE": {
+          "ERROR": {
+            "REQUIRED": "L'état est requis"
+          },
+          "TITLE": "État"
+        },
+        "TITLE": "Lieu",
+        "WEBSITE": {
+          "ERROR": {
+            "REQUIRED": "Le site Web est requis"
+          },
+          "TITLE": "Site Internet"
+        }
+      }
+    }
+  },
+  "CONNECTOR": {
+    "METADATA": {
+      "CATEGORY": {
+        "APPLICATION": "Application",
+        "AUTHENTICATION": "Authentification",
+        "AUTHORIZATION": "Autorisation",
+        "CLOUD-APP": "Application cloud",
+        "SAAS": "SaaS"
+      },
+      "IMP-TYPE": {
+        "DB": "Base de données",
+        "REST": "API REST",
+        "RPA": "RPA",
+        "SOAP": "API SAVON"
+      },
+      "SYSTEM-NAME": {
+        "AD": "Active Directory",
+        "ADP": "ADP",
+        "AIRWATCHADMINPORTAL": "Montre aérienne",
+        "AMAZONEC2": "Amazon EC2",
+        "AMERICNAEXPRESSCORPORATE": "American Express",
+        "AML": "LBA",
+        "API": "FEU",
+        "APPLE": "Pomme",
+        "APPLICATION": "Application",
+        "ARIBACONTRACTMANAGEMENT": "Gestion des contrats ARIBA",
+        "ARIBANETWORK": "Réseau ARIBA",
+        "AWS": "AWS",
+        "BAMBOOHR": "BAMBOUHR",
+        "BETTERWORKS": "De meilleurs travaux",
+        "BIOMETRICS": "Métriques bio",
+        "BLACKLINE": "Ligne noire",
+        "BLUEDIAMOND": "Diamant bleu",
+        "BLUESCAPE": "Coffre-fort bleu",
+        "BMCREMEDYFORCE": "BMC Remedy Force",
+        "BOXCOM": "Boîte com",
+        "BRIGHTEDGE": "Bord brillant",
+        "BRITISHAIRWAYS": "British Airways",
+        "CALLIDUS": "Callide",
+        "CARDPRINTERS": "Imprimantes à cartes",
+        "CARDS": "Cartes",
+        "CERIDIAN": "Ceridian",
+        "CERTIFY": "Certifier",
+        "CITIBANK": "Banque CITI",
+        "CLOUDLOCK": "Verrouillage du nuage",
+        "CLOUDPAY": "Paiement en nuage",
+        "CONCUR": "D'accord",
+        "CONFER": "Conférer",
+        "CONFLUENCE": "Confluence",
+        "CONVO": "Convo",
+        "CORPEDIA": "Corpédia",
+        "COSTCO": "Costco",
+        "COUPA": "COUPA",
+        "CSV": "Csv",
+        "CUSTOM": "Personnalisé",
+        "CVENT": "CVENT",
+        "DATABASE": "Base de données",
+        "DESKCOM": "DESKCOM",
+        "DOCUSIGN": "DOCUSIGN",
+        "DOMO": "DOMO",
+        "DROPBOX": "Boîte de dépôt",
+        "EGNECIA": "EGNECIA",
+        "EGNYTE": "EGNYTE",
+        "ELEAP": "ELEAP",
+        "EMPLOYEEREFERRALSCOM": "Recommandations d'employés com",
+        "ENVOY": "ENVOYÉ",
+        "EVENTBRIGHT": "Événement lumineux",
+        "EVERNOTE": "Jamais noter",
+        "EVERNOTEBUSINESS": "Jamais noter",
+        "EXPENSEWATCH": "Surveillance des dépenses",
+        "EXPENSIFY": "Dépenser",
+        "FACEBOOK": "Facebook",
+        "FIDELITY": "fidélité",
+        "FILE": "Fichier",
+        "FLATTERFILESSAML": "Fichiers plats SAML",
+        "FLOWDOCKSAML": "Flow Dock SAML",
+        "GLOBOFORCE": "Glob Force",
+        "GLOBUS": "Globe",
+        "GOODDATA": "Bonnes données",
+        "GOOGLEAPPS": "Google Apps",
+        "GOTOMEETING": "Aller à une réunion",
+        "GOTOWEBINAR": "Aller au webinaire",
+        "GROVOSAML": "Grovo SAML",
+        "GYMBOREE": "GYMBOREE",
+        "HACKERONE": "HACKERONE",
+        "HISEC": "HISEC",
+        "HOOTSUITE": "SUITE HOOT",
+        "HRMS": "SIRH",
+        "IGLOO": "IGLOU",
+        "INFORMATICASSOINTEGRATION": "Intégration de l'authentification unique informatique",
+        "ITUNES": "et mélodies",
+        "JIRA": "Jira",
+        "JIRAON-PREMISE": "JIRAON-LOCAL",
+        "JIVE": "Swing",
+        "JOINME": "REJOINS MOI",
+        "LDAP": "LDAP",
+        "LENEL": "Lenel",
+        "LINKEDIN": "LINKEDIN",
+        "MERILLLYNCHCREDITCARD": "CARTE DE CRÉDIT MERILL LYNCH",
+        "MERILLREWARDS": "RÉCOMPENSES MERILL",
+        "MICROSOFTAZURE": "Microsoft Azure",
+        "MSOFFICE365": "MSOFFICE 365",
+        "NETFLIX": "NETFLIX",
+        "NETSUITE": "SUITE NET",
+        "NEXSENTRY": "ENTRÉE NEXS",
+        "OKTA": "OKTA",
+        "ONGUARD": "SUR SES GARDES",
+        "OPENLADAPUNIX": "OUVRIR LADAP UNIX",
+        "OPENLDAPW": "OUVRIR LDAP",
+        "OTHER": "Autre",
+        "PEGASYS2000": "PEGASYS 2000",
+        "PEOPLESOFT": "Peoplesoft",
+        "PINGBOARD": "Tableau PING",
+        "PROWATCH": "MONTRE PRO",
+        "RACKSPACE": "Espace rack",
+        "RACKSPACECLOUD": "Nuage d'espace rack",
+        "RADIUS": "Rayon",
+        "RALLYSOFTWARE": "Se rallier",
+        "RELIANCEINDIAONLINE": "Reliance Inde en ligne",
+        "REST": "Du repos",
+        "RFID": "RFID",
+        "SALESFORCECOM": "Force de vente",
+        "SAMBA": "Samba",
+        "SAP": "SÈVE",
+        "SAPHR": "SAP RH",
+        "SECURITYMANAGER": "Responsable de la sécurité",
+        "SELECTICA": "Selectica",
+        "SERVICENOW": "Service maintenant",
+        "SERVICENOW-EUREKARELEASE": "Service Now Version d'Eureka",
+        "SHAREFILE": "Partagez le fichier",
+        "SHAREPOINT-ON-PREMISE)": "Partager le point",
+        "SHELFARI": "SHELFARI",
+        "SLACK": "Mou",
+        "SNAPLOGIC": "Logique d'accrochage",
+        "SPLUNK": "Splunk",
+        "SPRINGCM": "PRINTEMPS CM",
+        "SUCCESSFACTORS": "FACTEURS DE SUCCÈS",
+        "SUGARCRM": "CRM SUCRE",
+        "SUMOLOGIC": "SOMME LOGIQUE",
+        "SUNLDAP": "LDAP SUN",
+        "SURVEYMONKEY": "Singe d'enquête",
+        "SYMMETRY": "Symétrie",
+        "SYNATA": "Synata",
+        "TELLO": "Trello",
+        "TRINETHRSERVICES": "STEP Services RH",
+        "UNIX": "UNIX",
+        "UNIXFLATFILE": "Fichier plat UNIX",
+        "UNIXNODES": "Nœuds UNIX",
+        "WAGEWORKS": "Travail salarié",
+        "WEBAPP": "Application Web",
+        "WINDOWCSV": "CSV Windows",
+        "WORKBOARD": "Planche de travail",
+        "WORKCOM": "Wrokcom",
+        "WORKDAY": "Journée de travail",
+        "YAMMER": "GEINDRE",
+        "ZENDESK": "Bureau ZEN",
+        "ZOOM": "Zoom",
+        "ZSCALER": "Scalaire Z"
+      },
+      "TYPE": {
+        "ASSET": "Actif",
+        "LMS": "LMS",
+        "LOGICAL": "Logique",
+        "PHYSICAL": "Physique"
+      }
+    }
+  },
+  "COSTRATE": {
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "Le code de facturation est requis"
+      },
+      "TITLE": "Codes de facturation"
+    },
+    "CAPACITY": {
+      "ERROR": {
+        "MAX": " La capacité maximale est de 100",
+        "MIN": " La capacité minimale est de 1",
+        "REQUIRED": "La capacité est requise"
+      },
+      "TITLE": "Capacité"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "Le niveau de carrière est requis"
+      },
+      "TITLE": "Niveau de carrière"
+    },
+    "COSTRATE": {
+      "ERROR": {
+        "REQUIRED": "Le taux de coût est requis"
+      },
+      "TITLE": "Taux de coût"
+    },
+    "CREATE": "Créer",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "La division est requise"
+      },
+      "TITLE": "Division"
+    },
+    "EDIT": "Éditer",
+    "ERROR": {
+      "CREATE": "Erreur lors de la création du taux de coût",
+      "DELETE": "Erreur lors de la suppression du taux de coût",
+      "UPDATE": "Erreur lors de la mise à jour du taux de coût"
+    },
+    "PAGE-TITLE": "Taux de coût",
+    "SALARY": "Un salaire",
+    "SALARY-MAX": "Salaire maximum",
+    "SALARY-MIN": "Salaire minimum",
+    "SEARCH-PLACEHOLDER": "Taux de coût de recherche",
+    "SUBDIVISION": {
+      "ERROR": {
+        "REQUIRED": "La sous-division est requise"
+      },
+      "TITLE": "Subdivision"
+    },
+    "SUCCESS": {
+      "CREATE": "Taux de coût créé avec succès",
+      "DELETE": "Taux de coût supprimé avec succès",
+      "UPDATE": "Taux de coût mis à jour avec succès"
+    },
+    "UPDATE-SUCESS": "Taux de coût mis à jour avec succès"
+  },
+  "COUNTRY": {
+    "AFGHANISTAN": "Afghanistan",
+    "ALBANIA": "Albanie",
+    "ALGERIA": "Algérie",
+    "AMERICAN SAMOA": "Samoa américaines",
+    "ANDORRA": "Andorre",
+    "ANGOLA": "Angola",
+    "ANGUILLA": "Anguilla",
+    "ANTARCTICA": "Antarctique",
+    "ANTIGUA AND BARBUDA": "Antigua-et-Barbuda",
+    "ARGENTINA": "Argentine",
+    "ARMENIA": "Arménie",
+    "ARUBA": "Aruba",
+    "AUSTRALIA": "Australie",
+    "AUSTRIA": "L'Autriche",
+    "AZERBAIJAN": "Azerbaïdjan",
+    "BAHAMAS THE": "Bahamas",
+    "BAHRAIN": "Bahreïn",
+    "BANGLADESH": "Bangladesh",
+    "BARBADOS": "Barbade",
+    "BELARUS": "Biélorussie",
+    "BELGIUM": "la Belgique",
+    "BELIZE": "Bélize",
+    "BENIN": "Bénin",
+    "BERMUDA": "Bermudes",
+    "BHUTAN": "Bhoutan",
+    "BOLIVIA": "Bolivie",
+    "BOSNIA AND HERZEGOVINA": "Bosnie Herzégovine",
+    "BOTSWANA": "Botswana",
+    "BOUVET ISLAND": "Île Bouvet",
+    "BRAZIL": "Brésil",
+    "BRITISH INDIAN OCEAN TERRITORY": "Territoire britannique de l'océan Indien",
+    "BRUNEI": "Brunéi",
+    "BULGARIA": "Bulgarie",
+    "BURKINA FASO": "Burkina Faso",
+    "BURUNDI": "Burundi",
+    "CAMBODIA": "Cambodge",
+    "CAMEROON": "Cameroun",
+    "CANADA": "Canada",
+    "CAPE VERDE": "Cap-Vert",
+    "CAYMAN ISLANDS": "Îles Caïmans",
+    "CENTRAL AFRICAN REPUBLIC": "République centrafricaine",
+    "CHAD": "Tchad",
+    "CHILE": "le Chili",
+    "CHINA": "Chine",
+    "CHRISTMAS ISLAND": "L'île de noël",
+    "COCOS (KEELING) ISLANDS": "Îles Cocos (Keeling)",
+    "COLOMBIA": "La Colombie",
+    "COMOROS": "Comores",
+    "COOK ISLANDS": "les Îles Cook",
+    "COSTA RICA": "Costa Rica",
+    "COTE D'IVOIRE (IVORY COAST)": "Côte d'Ivoire AKA Côte d'Ivoire",
+    "CROATIA (HRVATSKA)": "Croatie (Hrvatska)",
+    "CUBA": "Cuba",
+    "CYPRUS": "Chypre",
+    "CZECH REPUBLIC": "République Tchèque",
+    "DEMOCRATIC REPUBLIC OF THE CONGO": "République Démocratique du Congo",
+    "DENMARK": "Danemark",
+    "DJIBOUTI": "Djibouti",
+    "DOMINICA": "Dominique",
+    "DOMINICAN REPUBLIC": "République dominicaine",
+    "EAST TIMOR": "Timor oriental",
+    "ECUADOR": "Équateur",
+    "EGYPT": "Egypte",
+    "EL SALVADOR": "Le sauveur",
+    "EQUATORIAL GUINEA": "Guinée Équatoriale",
+    "ERITREA": "Érythrée",
+    "ESTONIA": "Estonie",
+    "ETHIOPIA": "Ethiopie",
+    "EXTERNAL TERRITORIES OF AUSTRALIA": "Territoires extérieurs de l'Australie",
+    "FALKLAND ISLANDS": "les îles Falkland",
+    "FAROE ISLANDS": "Îles Féroé",
+    "FIJI ISLANDS": "Îles Fidji",
+    "FINLAND": "Finlande",
+    "FRANCE": "La France",
+    "FRENCH GUIANA": "Guyane Française",
+    "FRENCH POLYNESIA": "Polynésie française",
+    "FRENCH SOUTHERN TERRITORIES": "Terres Australes Françaises",
+    "GABON": "Gabon",
+    "GAMBIA THE": "Gambie",
+    "GEORGIA": "Géorgie",
+    "GERMANY": "Allemagne",
+    "GHANA": "Ghana",
+    "GIBRALTAR": "Gibraltar",
+    "GREECE": "Grèce",
+    "GREENLAND": "Groenland",
+    "GRENADA": "Grenade",
+    "GUADELOUPE": "Guadeloupe",
+    "GUAM": "Guam",
+    "GUATEMALA": "Guatemala",
+    "GUERNSEY AND ALDERNEY": "Guernesey et Aurigny",
+    "GUINEA": "Guinée",
+    "GUINEA-BISSAU": "Guinée-Bissau",
+    "GUYANA": "Guyane",
+    "HAITI": "Haïti",
+    "HEARD AND MCDONALD ISLANDS": "Îles Heard et McDonald",
+    "HONDURAS": "Honduras",
+    "HONG KONG S": {
+      "A": {
+        "R": "Hong Kong S.A.R."
+      }
+    },
+    "HUNGARY": "Hongrie",
+    "ICELAND": "Islande",
+    "INDIA": "Inde",
+    "INDONESIA": "Indonésie",
+    "IRAN": "L'Iran",
+    "IRAQ": "Irak",
+    "IRELAND": "Irlande",
+    "ISRAEL": "Israël",
+    "ITALY": "Italie",
+    "JAMAICA": "Jamaïque",
+    "JAPAN": "Japon",
+    "JERSEY": "Jersey",
+    "JORDAN": "Jordan",
+    "KAZAKHSTAN": "Kazakhstan",
+    "KENYA": "Kenya",
+    "KIRIBATI": "Kiribati",
+    "KOREA NORTH": "Corée du Nord",
+    "KOREA SOUTH": "Corée du Sud",
+    "KUWAIT": "Koweit",
+    "KYRGYZSTAN": "Kirghizistan",
+    "LAOS": "Laos",
+    "LATVIA": "Lettonie",
+    "LEBANON": "Liban",
+    "LESOTHO": "Lesotho",
+    "LIBERIA": "Libéria",
+    "LIBYA": "Libye",
+    "LIECHTENSTEIN": "Liechtenstein",
+    "LITHUANIA": "Lituanie",
+    "LUXEMBOURG": "Luxembourg",
+    "MACAU S": {
+      "A": {
+        "R": "Macao S.A.R."
+      }
+    },
+    "MACEDONIA": "Macédoine",
+    "MADAGASCAR": "Madagascar",
+    "MALAWI": "Malawi",
+    "MALAYSIA": "Malaisie",
+    "MALDIVES": "Maldives",
+    "MALI": "Mali",
+    "MALTA": "Malte",
+    "MAN (ISLE OF)": "Homme (île d')",
+    "MARSHALL ISLANDS": "Iles Marshall",
+    "MARTINIQUE": "Martinique",
+    "MAURITANIA": "Mauritanie",
+    "MAURITIUS": "Maurice",
+    "MAYOTTE": "Mayotte",
+    "MEXICO": "Mexique",
+    "MICRONESIA": "Micronésie",
+    "MOLDOVA": "Moldavie",
+    "MONACO": "Monaco",
+    "MONGOLIA": "Mongolie",
+    "MONTSERRAT": "Montserrat",
+    "MOROCCO": "Maroc",
+    "MOZAMBIQUE": "Mozambique",
+    "MYANMAR": "Birmanie",
+    "NAMIBIA": "Namibie",
+    "NAURU": "Nauru",
+    "NEPAL": "Népal",
+    "NETHERLANDS ANTILLES": "Antilles néerlandaises",
+    "NETHERLANDS THE": "Pays-Bas",
+    "NEW CALEDONIA": "Nouvelle Calédonie",
+    "NEW ZEALAND": "Nouvelle-Zélande",
+    "NICARAGUA": "Nicaragua",
+    "NIGER": "Niger",
+    "NIGERIA": "Nigeria",
+    "NIUE": "Nioué",
+    "NORFOLK ISLAND": "l'ile de Norfolk",
+    "NORTHERN MARIANA ISLANDS": "Îles Mariannes du Nord",
+    "NORWAY": "Norvège",
+    "OMAN": "Oman",
+    "PAKISTAN": "Pakistan",
+    "PALAU": "Palaos",
+    "PALESTINIAN TERRITORY OCCUPIED": "Territoire palestinien occupé",
+    "PANAMA": "Panama",
+    "PAPUA NEW GUINEA": "Papouasie Nouvelle Guinée",
+    "PARAGUAY": "Paraguay",
+    "PERU": "Pérou",
+    "PHILIPPINES": "Philippines",
+    "PITCAIRN ISLAND": "Île Pitcairn",
+    "POLAND": "Pologne",
+    "PORTUGAL": "le Portugal",
+    "PUERTO RICO": "Porto Rico",
+    "QATAR": "Qatar",
+    "REPUBLIC OF THE CONGO": "République du Congo",
+    "REUNION": "Réunion",
+    "ROMANIA": "Roumanie",
+    "RUSSIA": "Russie",
+    "RWANDA": "Rwanda",
+    "SAINT HELENA": "Saint Helena",
+    "SAINT KITTS AND NEVIS": "Saint-Christophe-et-Niévès",
+    "SAINT LUCIA": "Saint Lucia",
+    "SAINT PIERRE AND MIQUELON": "Saint Pierre And Miquelon",
+    "SAINT VINCENT AND THE GRENADINES": "Saint-Vincent-et-les-Grenadines",
+    "SAMOA": "Samoa",
+    "SAN MARINO": "Saint Marin",
+    "SAO TOME AND PRINCIPE": "Sao Tomé et Principe",
+    "SAUDI ARABIA": "Arabie Saoudite",
+    "SENEGAL": "Sénégal",
+    "SERBIA": "Serbie",
+    "SEYCHELLES": "les Seychelles",
+    "SIERRA LEONE": "Sierra Leone",
+    "SINGAPORE": "Singapour",
+    "SLOVAKIA": "Slovaquie",
+    "SLOVENIA": "Slovénie",
+    "SMALLER TERRITORIES OF THE UK": "Les petits territoires du Royaume-Uni",
+    "SOLOMON ISLANDS": "Les îles Salomon",
+    "SOMALIA": "Somalie",
+    "SOUTH AFRICA": "Afrique du Sud",
+    "SOUTH GEORGIA": "Géorgie du Sud",
+    "SOUTH SUDAN": "Soudan du sud",
+    "SPAIN": "Espagne",
+    "SRI LANKA": "Sri Lanka",
+    "SUDAN": "Soudan",
+    "SURINAME": "Surinam",
+    "SVALBARD AND JAN MAYEN ISLANDS": "Îles Svalbard et Jan Mayen",
+    "SWAZILAND": "Swaziland",
+    "SWEDEN": "Suède",
+    "SWITZERLAND": "Suisse",
+    "SYRIA": "Syrie",
+    "TAIWAN": "Taïwan",
+    "TAJIKISTAN": "Tadjikistan",
+    "TANZANIA": "Tanzanie",
+    "THAILAND": "Thaïlande",
+    "TOGO": "Aller",
+    "TOKELAU": "Tokélaou",
+    "TONGA": "Tonga",
+    "TRINIDAD AND TOBAGO": "Trinité-et-Tobago",
+    "TUNISIA": "Tunisie",
+    "TURKEY": "dinde",
+    "TURKMENISTAN": "Turkménistan",
+    "TURKS AND CAICOS ISLANDS": "Îles Turques-et-Caïques",
+    "TUVALU": "Tuvalu",
+    "UGANDA": "Ouganda",
+    "UKRAINE": "Ukraine",
+    "UNITED ARAB EMIRATES": "Emirats Arabes Unis",
+    "UNITED KINGDOM": "Royaume-Uni",
+    "UNITED STATES": "États Unis",
+    "UNITED STATES MINOR OUTLYING ISLANDS": "Îles mineures éloignées des États-Unis",
+    "URUGUAY": "Uruguay",
+    "UZBEKISTAN": "Ouzbékistan",
+    "VANUATU": "Vanuatu",
+    "VATICAN CITY STATE (HOLY SEE)": "État de la Cité du Vatican (Saint-Siège)",
+    "VENEZUELA": "Venezuela",
+    "VIETNAM": "Viêt Nam",
+    "VIRGIN ISLANDS (BRITISH)": "Îles Vierges (britanniques)",
+    "VIRGIN ISLANDS (US)": "Îles Vierges (États-Unis)",
+    "WALLIS AND FUTUNA ISLANDS": "Iles Wallis et Futuna",
+    "WESTERN SAHARA": "Sahara occidental",
+    "YEMEN": "Yémen",
+    "YUGOSLAVIA": "Yougoslavie",
+    "ZAMBIA": "Zambie",
+    "ZIMBABWE": "Zimbabwe"
+  },
+  "DEALS": {
+    "CREATE": "Créer des offres",
+    "EDIT": "Modifier les offres",
+    "PAGE-TITLE": "Offres",
+    "SEARCH-PLACEHOLDER": "Rechercher des offres",
+    "TAB": {
+      "ASSUMPTIONS": {
+        "BD-COST": {
+          "ERROR": {
+            "REQUIRED": "Coût BD est requis"
+          },
+          "TITLE": "Coût BD"
+        },
+        "CONTIGENCY": {
+          "ERROR": {
+            "REQUIRED": "La contingence est requise"
+          },
+          "TITLE": "Contingence"
+        },
+        "EARLY-PAYMENTS": {
+          "ERROR": {
+            "REQUIRED": "Les paiements anticipés sont requis"
+          },
+          "TITLE": "Paiements anticipés"
+        },
+        "END-DATE": {
+          "ERROR": {
+            "REQUIRED": "La date de fin est obligatoire"
+          },
+          "TITLE": "Date de fin"
+        },
+        "NON-BILLABLE": {
+          "ERROR": {
+            "REQUIRED": "Non facturable est requis"
+          },
+          "TITLE": "Non facturable"
+        },
+        "OTHER-OVER-HEADS": {
+          "ERROR": {
+            "REQUIRED": "Autre Over Heads est requis"
+          },
+          "TITLE": "D'autres au-dessus de la tête"
+        },
+        "PROJECT-NAME": {
+          "ERROR": {
+            "REQUIRED": "Le nom du projet est requis"
+          },
+          "TITLE": "nom du projet"
+        },
+        "RATE-CARD-DISCOUNT": {
+          "ERROR": {
+            "REQUIRED": "Carte tarifaire Une réduction est requise"
+          },
+          "TITLE": "Carte tarifaire Réduction"
+        },
+        "REVENUE-RECOGNITION": {
+          "ERROR": {
+            "REQUIRED": "La comptabilisation des revenus est requise"
+          },
+          "TITLE": "Comptabilisation des revenus"
+        },
+        "SEAT-CHARGES": {
+          "ERROR": {
+            "REQUIRED": "Des frais de siège sont requis"
+          },
+          "TITLE": "Frais de siège"
+        },
+        "START-DATE": {
+          "ERROR": {
+            "REQUIRED": "La date de début est requise"
+          },
+          "TITLE": "Date de début"
+        },
+        "TITLE": "Hypothèses"
+      },
+      "RESOURCES": {
+        "BILL-CODE": {
+          "ERROR": {
+            "REQUIRED": "Le code de facturation est requis"
+          },
+          "TITLE": "Code de facture"
+        },
+        "BILL-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "Le taux de facturation/heure est requis"
+          },
+          "TITLE": "Taux de facturation/Heure"
+        },
+        "CAREER-LEVEL": {
+          "ERROR": {
+            "REQUIRED": "Le niveau de carrière est requis"
+          },
+          "TITLE": "Niveau de carrière"
+        },
+        "CLASS": {
+          "ERROR": {
+            "REQUIRED": "La classe est requise"
+          },
+          "TITLE": "Classer"
+        },
+        "COST-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "Le taux de coût/heure est requis"
+          },
+          "TITLE": "Taux de coût/heure"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "Le pays est requis"
+          },
+          "TITLE": "De campagne"
+        },
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "Des ressources sont nécessaires"
+          },
+          "TITLE": "Ressources"
+        },
+        "RESOURCE-NAME": "Nom de la ressource",
+        "SUB-CLASS": {
+          "ERROR": {
+            "REQUIRED": "La sous-classe est requise"
+          },
+          "TITLE": "Sous-classe"
+        },
+        "TITLE": "Ressources"
+      },
+      "REVIEW": {
+        "TITLE": "Revoir"
+      }
+    }
+  },
+  "DIVISION": {
+    "CREATE": "Créer",
+    "EDIT": "Éditer",
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création de la division",
+      "DELETE": "Une erreur s'est produite lors de la suppression de la division",
+      "PARENT-REQUIRED": "Le parent est requis",
+      "TITLE-DISPLAYNAME-REQUIRED": "Le nom d'affichage est requis",
+      "TITLE-REQUIRED": "Le nom de la division est requis",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour de la division"
+    },
+    "GANDA": {
+      "ADMIN": "Administrateur",
+      "FACILITIES": "Installations",
+      "HR": "HEURE",
+      "TITLE": "GÉORGIE"
+    },
+    "HASCHILDREN": "A des enfants",
+    "PAGE-TITLE": "Division",
+    "PARENT": "Parent",
+    "PROF-SERVICES": "Services professionnels",
+    "RANDD": {
+      "DOC": "Documentation",
+      "ENGG": "Ingénierie",
+      "IT": "IL",
+      "PM": "Gestion des produits",
+      "QA": "AQ",
+      "QC": "QC",
+      "SANDM": "Ventes et Marketing",
+      "TITLE": "R&D",
+      "TRAINING": "Entraînement"
+    },
+    "SANDM": {
+      "BD": "BD",
+      "MARKETING": "Commercialisation",
+      "SALES": "Ventes",
+      "TITLE": "Ventes et Marketing"
+    },
+    "SEARCH-PLACEHOLDER": "Division de la recherche",
+    "SUCCESS": {
+      "CREATE": "Division créée avec succès",
+      "DELETE": "Division supprimée avec succès",
+      "UPDATE": "Division mise à jour avec succès"
+    },
+    "TITLE": "Division / Classe",
+    "TITLE-DISPLAYNAME": "Afficher un nom",
+    "TITLE-NAME": "Nom de la division",
+    "UPDATE-SUCESS": "Division mise à jour avec succès"
+  },
+  "FINANCE": {
+    "MENU": {
+      "ACCOUNTS": {
+        "BILL": "Factures",
+        "CREDITMEMO": "Note de crédit",
+        "INVOICE": "Facture d'achat",
+        "QUOTE": "Citation",
+        "SALEORDER": "Bon de commande",
+        "TITLE": "Comptes"
+      },
+      "BUDGET": "Budget",
+      "COSTING": "Chiffrage du projet",
+      "FORECAST": "Prévision",
+      "INVOICE-SETTINGS": {
+        "REMINDER": "Rappels",
+        "THEME": "Thèmes",
+        "TITLE": "Paramètres de facturation"
+      },
+      "PRICING": {
+        "CLIENT": "Clients",
+        "DEAL": "Offres",
+        "PROJECT": "Projets",
+        "TITLE": "Prix"
+      },
+      "REPORTS": {
+        "BOOKINGS": "Réservations",
+        "COMPARISION": "Comparaison",
+        "PIPELINE": "Pipeline",
+        "REVENUE": "Revenu",
+        "SALES": "Ventes",
+        "TITLE": "Rapports",
+        "WONLOST": "Gagné contre perdu"
+      },
+      "TIMESHEET": "Emploi du temps",
+      "TITLE": "La finance"
+    }
+  },
+  "FINANCECUSTOMER": {
+    "CREATE-SUCESS": "Client créé avec succès",
+    "UPDATE-SUCESS": "Client mis à jour avec succès"
+  },
+  "GRID": {
+    "ACCOUNT": "Compte",
+    "ACCOUNT-MANAGER": "Gestionnaire de compte",
+    "AMOUNT": "Montant",
+    "BILL-NO": "Numéro de facture",
+    "BILLCODE": "Code de facture",
+    "CAREERLEVEL": "Niveau de carrière",
+    "CITY": "Ville",
+    "CLASS": "Classer",
+    "CLIENT": "Client",
+    "COMPANY": "Compagnie",
+    "COSTRATE": "Taux de coût",
+    "COUNTRY": "De campagne",
+    "CREDIT-MEMO-NO": "Numéro de note de crédit",
+    "CURRENCY": "Devise",
+    "DATE": "Date",
+    "DESCRIPTION": "La description",
+    "DEVICE-SRNO": "Numéro d'appareil",
+    "DISPLAY-NAME": "Afficher un nom",
+    "DIVISION": "Division",
+    "DUE-DATE": "Date d'échéance",
+    "EMAIL": "E-mail",
+    "FIRST-NAME": "Prénom",
+    "INST-DATE": "Date d'installation",
+    "INVOICE-NO": "Numéro de facture",
+    "IPADDRESS": "Adresse IP",
+    "LAST-NAME": "Nom de famille",
+    "LOAD": "Charge",
+    "LOB": "Secteur d'activité",
+    "LOCATION": "Lieu",
+    "NAME": "Nom",
+    "NO-RECORDS-FOUND": "Aucun enregistrement trouvé",
+    "OPERATOR-NAME": "Nom de l'opérateur",
+    "ORG-NAME": "Organisation",
+    "PANCHAYAT": "Panchayat",
+    "PHONE": "Téléphoner",
+    "PORT": "Port",
+    "PRICE": "Prix",
+    "PROJECT-MANAGER": "Chef de projet",
+    "QUOTE-NO": "Cite un nombre",
+    "REFERENCE": "Référence",
+    "SALE-ORDER-NO": "Numéro de commande",
+    "SEARCH": "Chercher",
+    "SELECT": "Sélectionner",
+    "SERVER-NAME": "Nom du serveur",
+    "SERVICE-ACCOUNT": "Compte de service",
+    "STATE": "État",
+    "STATUS": "Statut",
+    "SUB-DIVISION": "Subdivision",
+    "SUBCLASS": "Sous-classe",
+    "TAX-ID": "Numéro d'identification fiscale",
+    "TAXRATE": "Taux d'imposition",
+    "USERID": "Identifiant d'utilisateur"
+  },
+  "HEADER": {
+    "ACCOUNTS": "Comptes",
+    "ADD-COMPANY": "Ajouter une entreprise",
+    "COMPANY": "Compagnie",
+    "COMPANY-NAME": "Nom de l'entreprise",
+    "DASHBOARD": "Tableau de bord",
+    "REPORTS": "Rapports",
+    "SETUP": "Installer",
+    "UPLOAD-LOGO": "Télécharger le logo"
+  },
+  "IDM": {
+    "MENU": {
+      "ID-CONSOLIDATION": {
+        "APP-CONSOLIDATION": "Application",
+        "AUTH-CONSOLIDATION": "Authentification",
+        "EMPLIST": "Liste des employés",
+        "TITLE": "Consolidation des identifiants"
+      },
+      "MANAGE-SERVER": {
+        "APP-SERVER": "Application",
+        "AUTH-SERVER": "Authentification",
+        "AUTHORIZATION-SERVER": "Autorisation",
+        "TITLE": "Gérer les serveurs"
+      },
+      "TITLE": "IDM"
+    }
+  },
+  "IOT": {
+    "INSTALLATION": {
+      "BLOCK": {
+        "ERROR": {
+          "INVALID": "Bloc non valide",
+          "REQUIRED": "La branche d'activité est requise"
+        },
+        "TITLE": "Bloquer"
+      },
+      "BOREWELL-DEPTH": {
+        "ERROR": {
+          "MAX": "La profondeur de Borewell devrait être comprise entre 0 et 1999",
+          "MIN": "La profondeur de Borewell devrait être comprise entre 0 et 1999",
+          "REQUIRED": "La profondeur de forage est requise"
+        },
+        "TITLE": "Profondeur de forage"
+      },
+      "COMMENTS": {
+        "ERROR": {
+          "REQUIRED": "Les commentaires sont obligatoires"
+        },
+        "TITLE": "commentaires"
+      },
+      "CREATE": "Créer",
+      "CREATE-ERROR": "Installation créée avec succès",
+      "CREATE-SUCESS": "Installation créée avec succès",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "La date d'installation n'est pas valide",
+          "REQUIRED": "La date d'installation est requise"
+        },
+        "TITLE": "Date d'installation"
+      },
+      "DEVICE-SERIAL-NUMBER": {
+        "ERROR": {
+          "MAX": "Le numéro de série de l'appareil doit être compris entre 1 et 99999",
+          "MIN": "Le numéro de série de l'appareil doit être compris entre 1 et 99999",
+          "REQUIRED": "Le numéro de série de l'appareil est requis"
+        },
+        "TITLE": "Numéro de série de l'appareil"
+      },
+      "DIVISION": {
+        "ERROR": {
+          "REQUIRED": "La division est requise"
+        },
+        "TITLE": "Division"
+      },
+      "EARTHING": {
+        "ERROR": {
+          "REQUIRED": "La mise à la terre est requise"
+        },
+        "TITLE": "Mise à la terre"
+      },
+      "EDIT": "Éditer",
+      "GEO-LOCATION": {
+        "ERROR": {
+          "REQUIRED": "La géolocalisation est requise"
+        },
+        "TITLE": "Géolocalisation"
+      },
+      "IMAGE": {
+        "ERROR": {
+          "REQUIRED": "L'image est requise"
+        },
+        "TITLE": "Image"
+      },
+      "IMAGES": "Images",
+      "LIST": {
+        "ALL": "Tous",
+        "SELF": "Soi"
+      },
+      "METADATA": {
+        "PHOTO-TYPE": {
+          "BARCODE": "code à barre",
+          "BOREWELL": "Borewell",
+          "DIST-LINE": "Ligne de distribution",
+          "IOT-DEVICE": "Périphérique IOT",
+          "MAP": "Carte",
+          "METER": "Mètre",
+          "OPERATOR": "Opérateur",
+          "SITE": "Site",
+          "STARTER": "Entrée"
+        }
+      },
+      "METER-TYPE": {
+        "ERROR": {
+          "REQUIRED": "Le type de compteur est requis"
+        },
+        "TITLE": "Type de compteur"
+      },
+      "MOTOR-CAPACITY": {
+        "ERROR": {
+          "REQUIRED": "La capacité du moteur est requise"
+        },
+        "TITLE": "Capacité du moteur"
+      },
+      "NO-PHASE": {
+        "ERROR": {
+          "REQUIRED": "Le nombre de phases est requis"
+        },
+        "TITLE": "Nombre de phases"
+      },
+      "NO-PIPE-BEND": {
+        "ERROR": {
+          "MAX": "Le nombre de coudes doit être compris entre 0 et 10",
+          "MIN": "Le nombre de coudes doit être compris entre 0 et 10",
+          "REQUIRED": "Aucun coude de tuyau n'est requis"
+        },
+        "TITLE": "Nombre de coudes de tuyau"
+      },
+      "OPERATOR-NAME": {
+        "ERROR": {
+          "REQUIRED": "Le nom de l'opérateur est requis"
+        },
+        "TITLE": "Nom de l'opérateur"
+      },
+      "PAGE-TITLE": "INSTALLATION",
+      "PANCHAYAT": {
+        "ERROR": {
+          "REQUIRED": "Panchayat est requis"
+        },
+        "TITLE": "Panchayat"
+      },
+      "PIPE-DIAMETER": {
+        "ERROR": {
+          "REQUIRED": "Le diamètre du tuyau est requis"
+        },
+        "TITLE": "Diamètre du tuyau"
+      },
+      "PIPE-QUALITY": {
+        "ERROR": {
+          "REQUIRED": "La qualité du tuyau est requise"
+        },
+        "TITLE": "Qualité des tuyaux"
+      },
+      "SEARCH-PLACEHOLDER": "Rechercher des installations",
+      "STATUS": {
+        "ERROR": {
+          "REQUIRED": "Le statut est requis"
+        },
+        "TITLE": "Statut"
+      },
+      "TANK-CAPACITY": {
+        "ERROR": {
+          "MAX": "La capacité du réservoir doit être comprise entre 0 et 500 000",
+          "MIN": "La capacité du réservoir doit être comprise entre 0 et 500 000",
+          "REQUIRED": "La capacité du réservoir est requise"
+        },
+        "TITLE": "Capacité du réservoir"
+      },
+      "UPDATE-SUCESS": "Installation mise à jour avec succès",
+      "WARD": {
+        "ERROR": {
+          "REQUIRED": "Ward est requis"
+        },
+        "TITLE": "quartier"
+      }
+    },
+    "MENU": {
+      "INSTALLATION": "Installation"
+    }
+  },
+  "IPADRESS": {
+    "ERROR": {
+      "CREATE": "Erreur lors de la création de l'adresse IP",
+      "DELETE": "Erreur lors de la suppression de l'adresse IP",
+      "UPDATE": "Erreur lors de la mise à jour de l'adresse IP"
+    },
+    "GATEWAY": {
+      "ERROR": {
+        "INVALID": "La passerelle est requise",
+        "REQUIRED": "La passerelle est requise"
+      },
+      "TITLE": "passerelle"
+    },
+    "PAGE-TITLE": "Adresse IP",
+    "PRIMARY-IP": {
+      "ERROR": {
+        "INVALID": "L'adresse IP principale n'est pas valide",
+        "REQUIRED": "L'adresse IP principale est requise"
+      },
+      "TITLE": "IP principale"
+    },
+    "PROXY-IP": {
+      "ERROR": {
+        "INVALID": "L'adresse IP du proxy n'est pas valide",
+        "REQUIRED": "L'adresse IP du proxy est requise"
+      },
+      "TITLE": " Adresse IP"
+    },
+    "PROXY-PORT": {
+      "ERROR": {
+        "INVALID": "Le port proxy n'est pas valide",
+        "MAX": "Le port doit être compris entre 0 et 65535",
+        "MIN": "Le port doit être compris entre 0 et 65535",
+        "REQUIRED": "Le port proxy est requis"
+      },
+      "TITLE": "Port proxy"
+    },
+    "PROXY-REQUIRED": {
+      "ERROR": {
+        "INVALID": "Le proxy est-il requis n'est pas valide",
+        "REQUIRED": "Est-ce que le proxy est requis est requis"
+      },
+      "TITLE": "Le proxy est-il requis"
+    },
+    "SECONDARY-IP": {
+      "ERROR": {
+        "INVALID": "L'adresse IP secondaire n'est pas valide",
+        "REQUIRED": "L'adresse IP secondaire est requise"
+      },
+      "TITLE": "IP secondaire"
+    },
+    "SUBNET-MASK": {
+      "ERROR": {
+        "INVALID": "Le masque de sous-réseau n'est pas valide",
+        "REQUIRED": "Un masque de sous-réseau est requis"
+      },
+      "TITLE": "masque de sous-réseau"
+    },
+    "SUCCESS": {
+      "CREATE": "Les détails de l'adresse IP sont créés avec succès",
+      "DELETE": "Les détails de l'adresse IP sont supprimés avec succès",
+      "UPDATE": "Les détails de l'adresse IP sont mis à jour avec succès"
+    }
+  },
+  "ITEM": {
+    "ACCOUNT": {
+      "ERROR": {
+        "REQUIRED": "Un compte est requis"
+      },
+      "TITLE": "Compte"
+    },
+    "CREATE": "Créer",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "La description est requise"
+      },
+      "TITLE": "La description"
+    },
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "La division est requise"
+      },
+      "TITLE": "Division"
+    },
+    "EDIT": "Éditer",
+    "ERROR": {
+      "CREATE": "Erreur lors de la création de l'élément de service",
+      "DELETE": "Erreur lors de la suppression de l'élément de service",
+      "UPDATE": "Erreur lors de la mise à jour de l'élément de service"
+    },
+    "ERROR-DELETE": "Une erreur s'est produite lors de la suppression de l'élément",
+    "ERROR-SAVE": "Une erreur s'est produite lors de l'enregistrement de l'élément",
+    "ERROR-UPDATE": "Une erreur s'est produite lors de la mise à jour de l'élément",
+    "ITEM-CODE": {
+      "ERROR": {
+        "REQUIRED": "Le nom est requis"
+      },
+      "TITLE": "Nom"
+    },
+    "PAGE-TITLE": "Articles",
+    "PRICE": {
+      "ERROR": {
+        "MIN": "Le prix minimum est de 1",
+        "REQUIRED": "Le prix est requis"
+      },
+      "TITLE": "Prix"
+    },
+    "PRICE-TYPE": {
+      "ERROR": {
+        "REQUIRED": "Le type de prix est requis"
+      },
+      "TITLE": "Type de prix"
+    },
+    "SEARCH-PLACEHOLDER": "Rechercher des articles",
+    "SUB-DIVISION": {
+      "ERROR": {
+        "REQUIRED": "La sous-division est requise"
+      },
+      "TITLE": "Subdivision"
+    },
+    "SUCCESS": {
+      "CREATE": "Article de service créé avec succès",
+      "DELETE": "Élément de service supprimé avec succès",
+      "UPDATE": "Article de service mis à jour avec succès"
+    },
+    "TAX-RATE": {
+      "ERROR": {
+        "MAX": "Le taux d'imposition maximal est de 100",
+        "MIN": "Le taux d'imposition minimum est de 1",
+        "REQUIRED": "Le taux de taxe est requis"
+      },
+      "TITLE": "Taux d'imposition"
+    },
+    "UPDATE-SUCESS": "Article mis à jour avec succès"
+  },
+  "LOCATION": {
+    "CREATE": "Créer",
+    "CREATE-FAILURE": "Échec de la création de l'emplacement",
+    "CREATE-SUCESS": "Emplacement créé avec succès",
+    "EDIT": "Éditer",
+    "ERROR": {
+      "CREATE": "Erreur lors de la création de l'emplacement",
+      "DELETE": "Erreur lors de la suppression de l'emplacement",
+      "TITLE-DISPLAYNAME-REQUIRED": "Le nom d'affichage est requis",
+      "TITLE-REQUIRED": "Le titre est requis",
+      "TYPE-REQUIRED": "Le type d'emplacement est requis",
+      "UPDATE": "Erreur lors de la mise à jour de l'emplacement"
+    },
+    "HASCHILDREN": "a des enfants",
+    "PAGE-TITLE": "Emplacements",
+    "PARENT": "Emplacement des parents",
+    "SEARCH-PLACEHOLDER": "Rechercher des emplacements",
+    "SUCCESS": {
+      "CREATE": "Emplacement créé avec succès",
+      "DELETE": "Emplacement supprimé avec succès",
+      "UPDATE": "Emplacement mis à jour avec succès"
+    },
+    "TITLE-DISPLAYNAME": "Nom d'affichage de l'emplacement",
+    "TITLE-NAME": "Nom de la localisation",
+    "TYPE": "Type de lieu",
+    "UPDATE-SUCESS": "Emplacement mis à jour avec succès"
+  },
+  "LOGGER": {
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création de l'enregistreur",
+      "DELETE": "Une erreur s'est produite lors de la suppression de Logger",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour de Logger"
+    },
+    "PAGE-TITLE": "Paramètres de journal",
+    "SERVER": {
+      "ERROR": {
+        "REQUIRED": "Le niveau de journalisation est requis"
+      },
+      "TITLE": "Niveau de journal"
+    },
+    "SUCCESS": {
+      "CREATE": "Enregistreur créé avec succès",
+      "DELETE": "L'enregistreur a été supprimé avec succès",
+      "UPDATE": "L'enregistreur a été mis à jour avec succès"
+    }
+  },
+  "LOGIN-PAGE": {
+    "CONTINUE-SESSION": "Continuer la session",
+    "ERROR": {
+      "USERID-FORMAT": "L'e-mail ou le numéro de téléphone doit être un e-mail ou un numéro de téléphone",
+      "USERID-FORMAT ": "Identifiant invalide"
+    },
+    "EXPIRE-IN": "Votre session expirera dans",
+    "FORGOT-PASSWORD": "Mot de passe oublié?",
+    "HELP": "Aider",
+    "INFO": {
+      "PASSWORD-LENGTH": "Le mot de passe doit comporter au moins 4 caractères",
+      "USERID-LENGTH": "L'adresse e-mail ou le numéro de téléphone doit comporter au moins 4 caractères"
+    },
+    "LOGIN": "Connexion",
+    "LOGIN-ERROR": "Erreur d'authentification",
+    "LOGIN-ERROR-UNAUTHORISED": "L'accès non autorisé",
+    "LOGIN-INVALID-CREDENATIALS": "Les informations d'identification invalides",
+    "LOGIN-REQUEST-ERROR": "Impossible de poursuivre le traitement de la demande",
+    "PASSWORD": "Mot de passe",
+    "PRIVACY": "Privée",
+    "REMEMBER-ME": "Souviens-toi de moi!",
+    "SECONDS": " secondes",
+    "SESSION-EXPIRED": "Expiration de la session",
+    "SIGNIN-CONTINUE": "Connectez-vous pour continuer",
+    "TERMS": "termes",
+    "TITLE": "Connexion",
+    "USERID": "Courriel ou numéro de téléphone",
+    "WARN": {
+      "PASSWORD-REQUIRED": "Mot de passe requis",
+      "USERID-REQUIRED": "Un e-mail ou un numéro de téléphone est requis"
+    },
+    "WELCOME": "Bienvenue"
+  },
+  "MAILSERVER": {
+    "ERROR": {
+      "CREATE": "Erreur lors de la création du serveur de messagerie",
+      "DELETE": "Erreur lors de la suppression du serveur de messagerie",
+      "UPDATE": "Erreur lors de la mise à jour du serveur de messagerie"
+    },
+    "MAIL-SERVER": {
+      "ERROR": {
+        "REQUIRED": "Le serveur de messagerie est requis"
+      },
+      "TITLE": "Serveur de courrier"
+    },
+    "METADATA": {
+      "SECURITY-TYPE": {
+        "NONE": "Rien",
+        "SSL": "SSL",
+        "TLS": "TLS"
+      }
+    },
+    "PAGE-TITLE": "Paramètres de messagerie",
+    "PASSWORD": {
+      "ERROR": {
+        "REQUIRED": "Mot de passe requis"
+      },
+      "TITLE": "Mot de passe"
+    },
+    "PORT": {
+      "ERROR": {
+        "MAX": "Le port doit être compris entre 0 et 65535",
+        "MIN": "Le port doit être compris entre 0 et 65535",
+        "REQUIRED": "Le port est requis"
+      },
+      "TITLE": "Port"
+    },
+    "SECURITY": {
+      "ERROR": {
+        "REQUIRED": "La sécurité est requise"
+      },
+      "TITLE": "Sécurité"
+    },
+    "SUCCESS": {
+      "CREATE": "Serveur de messagerie créé avec succès",
+      "DELETE": "Serveur de messagerie supprimé avec succès",
+      "UPDATE": "Serveur de messagerie mis à jour avec succès"
+    },
+    "USERNAME": {
+      "ERROR": {
+        "REQUIRED": "Le nom d'utilisateur / l'e-mail est requis"
+      },
+      "TITLE": "Nom d'utilisateur / Courriel"
+    }
+  },
+  "MENU": {
+    "BUILDER": {
+      "BLOCKS": {
+        "BANNER": "Bannière",
+        "BOTTOMSHEET": "Feuille inférieure",
+        "CARD": "Carte",
+        "CHART": "Graphique",
+        "DIALOG": "Dialogue",
+        "FORM": "Forme",
+        "GRID": "Grille",
+        "STEPPER": "Pas à pas",
+        "TAB": "Languette",
+        "TITLE": "Blocs",
+        "TREE": "Arbre"
+      },
+      "DESIGNER": {
+        "PAGE": "Page",
+        "STATEMACHNE": "Machine d'état",
+        "TITLE": "Designer",
+        "WORKFLOW": "Flux de travail"
+      },
+      "TITLE": "Constructeur"
+    },
+    "CONFIGURATION": {
+      "IPADD": "Adresse IP",
+      "LOGLEVEL": "Niveau de journal",
+      "MAIL-CONFIG": "Configuration de la messagerie",
+      "SYSLOG-SERVER": "serveur SYSLOG",
+      "TITLE": "Configuration"
+    },
+    "DASHBOARD": "Tableau de bord",
+    "FEATURE": {
+      "ADD-COMPANY": "Ajouter une entreprise",
+      "CHANGE-COMPANY": "Changer d'entreprise",
+      "FAVORITE": "Favoris",
+      "FULLSCREEN": "Plein écran",
+      "GLOBAL-SEARCH": "Recherche globale",
+      "LANGUAGE": "Langue",
+      "NOTIFICATION": "Notifications",
+      "SUB-HEADER": {
+        "BREADCRUMB": "Miette de pain",
+        "BUG": "Rapport de bogue",
+        "HELP": "Aider",
+        "PHOTO-CAPTURE": "Capture de photos",
+        "TIMER": "Minuterie d'écran",
+        "TITLE": "Sous-en-tête",
+        "VOICE": "Reconnaissance de la parole"
+      },
+      "THEME": "Thèmes",
+      "TITLE": "Caractéristiques"
+    },
+    "HOME": "Domicile",
+    "IOT": "IOT",
+    "ORG": {
+      "CAREER-LEVEL": "Niveau de carrière",
+      "CLIENTS": "Clients",
+      "COMPANY": "Compagnie",
+      "COSTRATE": "Croûtez-vous",
+      "DEPARTMENT": "département",
+      "DIVISION": "Division",
+      "LOCATION": "Lieu",
+      "SERVICES": "Prestations de service",
+      "TITLE": "Organisation"
+    },
+    "SETUP": "Installer",
+    "TROUBLESHOOT": {
+      "LOGS": "Journaux du serveur",
+      "PATCH-MGMT": "Gestion des correctifs",
+      "TITLE": "Dépannage"
+    },
+    "USER-MGMT": {
+      "CHANGE-PASSWORD": "Modifier/Réinitialiser le mot de passe",
+      "PERMISSION": "Autorisations",
+      "ROLE": "Les rôles",
+      "TITLE": "Gestion des utilisateurs",
+      "USER": "Utilisateurs"
+    }
+  },
+  "ORG": {
+    "METADATA": {
+      "ACCOUNT": {
+        "ENGINEERING": "Ingénierie",
+        "PROFSERVICES": "Services professionnels",
+        "PURCHASE": "Acheter",
+        "SALES": "Ventes",
+        "SERVICES": "Prestations de service"
+      },
+      "INVOICEOPTION": {
+        "DAYOFCURRENTMONTH": "du mois en cours",
+        "DAYOFNEXTMONTH": "du mois suivant",
+        "DAYSAFTER": "Jour(s) après la date de facturation",
+        "DAYSAFTERBILLMONTH": "jour(s) après la fin du mois de facturation",
+        "FIRSTDAY": "Premier jour du mois prochain",
+        "LASTDAY": "Dernier jour du mois en cours"
+      },
+      "LINEOFBUSINESS": {
+        "AGRICULTURE": "Agriculture",
+        "CONSTRUCTION": "Construction",
+        "FINANCE": "La finance",
+        "INSURANCE": "Assurance",
+        "MANUFACTURING": "Fabrication",
+        "MINING": "Exploitation minière",
+        "OTHERS": "Les autres",
+        "REALESTATE": "Immobilier",
+        "SERVIES": "Prestations de service",
+        "TRADE": "Échanger"
+      },
+      "ORGTYPE": {
+        "CLUB": "club",
+        "COMPANY": "Compagnie",
+        "INDIVIDUAL": "Individuel",
+        "NONPROFIT": "non lucratif",
+        "PARTNER": "Partenaire",
+        "SOLETRADER": "Commerçant Individuel",
+        "TRUST": "Confiance"
+      }
+    }
+  },
+  "PAGE": {
+    "DASHBOARD": {
+      "TITLE": "Tableau de bord"
+    }
+  },
+  "PERMISSIONS": {
+    "PAGE-TITLE": "Autorisations"
+  },
+  "PROJECTS": {
+    "ACCOUNT-MANAGER": {
+      "ERROR": {
+        "REQUIRED": "Le gestionnaire de compte est requis"
+      },
+      "TITLE": "Gestionnaire de compte"
+    },
+    "CLIENT": {
+      "ERROR": {
+        "REQUIRED": "Le client est requis"
+      },
+      "TITLE": "Client"
+    },
+    "CREATE": "Créer des projets",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "La description est requise"
+      },
+      "TITLE": "La description"
+    },
+    "EDIT": "Modifier les projets",
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "Le nom est requis"
+      },
+      "TITLE": "Nom"
+    },
+    "PAGE-TITLE": "Projets",
+    "PROJECT-HEAD": {
+      "ERROR": {
+        "REQUIRED": "Le chef de projet est requis"
+      },
+      "TITLE": "Chef de projet"
+    },
+    "SEARCH-PLACEHOLDER": "Rechercher des projets",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "Le statut est requis"
+      },
+      "TITLE": "Statut"
+    }
+  },
+  "ROLES": {
+    "CREATE": "Créer",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "La description est requise"
+      },
+      "TITLE": "La description"
+    },
+    "EDIT": "Éditer",
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création du rôle",
+      "DELETE": "Une erreur s'est produite lors de la suppression du rôle",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour du rôle"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "Le nom est requis"
+      },
+      "TITLE": "Nom"
+    },
+    "PAGE-TITLE": "Les rôles",
+    "SEARCH-PLACEHOLDER": "Rechercher des rôles",
+    "SUCCESS": {
+      "CREATE": "Rôle créé avec succès",
+      "DELETE": "Rôle supprimé avec succès",
+      "UPDATE": "Rôle mis à jour avec succès"
+    }
+  },
+  "SETTINGS": {
+    "METADATA": {
+      "COMMON": {
+        "FALSE": "Faux",
+        "NO": "Non",
+        "TRUE": "Vrai",
+        "YES": "Oui"
+      },
+      "LOGLEVEL": {
+        "DEBUG": "Déboguer",
+        "ERROR": "Erreur",
+        "FATAL": "Fatal",
+        "INFO": "Info",
+        "TRACE": "Trace",
+        "WARN": "Prévenir"
+      }
+    }
+  },
+  "SYSLOGGER": {
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création de l'enregistreur",
+      "DELETE": "Une erreur s'est produite lors de la suppression de Logger",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour de Logger"
+    },
+    "EXTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "L'adresse IP externe n'est pas valide",
+        "REQUIRED": "Une adresse IP externe est requise"
+      },
+      "PLACEHOLDER": "Entrez l'IP externe",
+      "TITLE": "IP externe"
+    },
+    "INTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "L'adresse IP interne n'est pas valide",
+        "REQUIRED": "Une adresse IP interne est requise"
+      },
+      "PLACEHOLDER": "Entrez l'IP interne",
+      "TITLE": "IP interne"
+    },
+    "PAGE-TITLE": "Paramètres SYSLOG",
+    "SUCCESS": {
+      "CREATE": "Enregistreur créé avec succès",
+      "DELETE": "L'enregistreur a été supprimé avec succès",
+      "UPDATE": "L'enregistreur a été mis à jour avec succès"
+    }
+  },
+  "USERS": {
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "Le niveau de carrière est requis"
+      },
+      "TITLE": "Niveau de carrière"
+    },
+    "CREATE": "Créer",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "La division est requise"
+      },
+      "TITLE": "Division"
+    },
+    "EDIT": "Éditer",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "Le courriel est invalide",
+        "REQUIRED": "L'e-mail est requis"
+      },
+      "PLACEHOLDER": "Entrez l'e-mail",
+      "TITLE": "E-mail"
+    },
+    "ERROR": {
+      "CREATE": "Une erreur s'est produite lors de la création de l'utilisateur",
+      "DELETE": "Une erreur s'est produite lors de la suppression de l'utilisateur",
+      "UPDATE": "Une erreur s'est produite lors de la mise à jour de l'utilisateur"
+    },
+    "FIRST-NAME": {
+      "ERROR": {
+        "REQUIRED": "Le prénom est requis"
+      },
+      "PLACEHOLDER": "Entrez votre prénom",
+      "TITLE": "Prénom"
+    },
+    "JOB-LOCATION": {
+      "ERROR": {
+        "REQUIRED": "Le lieu de travail est requis"
+      },
+      "TITLE": "lieu de travail"
+    },
+    "LAST-NAME": {
+      "ERROR": {
+        "INVALID": "Le nom de famille est invalide",
+        "MIN": "Le nom de famille doit être au minimum de 5",
+        "REQUIRED": "Le nom de famille est requis"
+      },
+      "PLACEHOLDER": "Entrer le nom de famille",
+      "TITLE": "Nom de famille"
+    },
+    "LOCATION": {
+      "ERROR": {
+        "REQUIRED": "L'emplacement est requis"
+      },
+      "PLACEHOLDER": "Entrer l'emplacement",
+      "TITLE": "Lieu"
+    },
+    "LOCATIONS": {
+      "ERROR": {
+        "REQUIRED": "Les emplacements sont obligatoires"
+      }
+    },
+    "PAGE-TITLE": "Utilisateurs",
+    "PASSWORD": {
+      "ERROR": {
+        "INVALID-FORMAT": "Mot de passe incorrect"
+      },
+      "PLACEHOLDER": "Entrer le mot de passe",
+      "TITLE": "Mot de passe"
+    },
+    "PHONE": {
+      "ERROR": {
+        "INVALID": "Le numéro de téléphone n'est pas valide",
+        "REQUIRED": "Le numéro de téléphone est requis"
+      },
+      "PLACEHOLDER": "Entrez le numéro de téléphone",
+      "TITLE": "Numéro de téléphone"
+    },
+    "ROLE": {
+      "ERROR": {
+        "REQUIRED": "Le rôle est requis"
+      },
+      "PLACEHOLDER": "Entrer le rôle",
+      "TITLE": "Rôle"
+    },
+    "SEARCH-PLACEHOLDER": "Rechercher des utilisateurs",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "le statut de l'utilisateur est requis"
+      },
+      "PLACEHOLDER": "Entrer le statut de l'utilisateur",
+      "TITLE": "Statut de l'utilisateur"
+    },
+    "SUCCESS": {
+      "CREATE": "Utilisateur créé avec succès",
+      "DELETE": "Utilisateur supprimé avec succès",
+      "UPDATE": "Utilisateur mis à jour avec succès"
+    },
+    "TYPE": {
+      "ERROR": {
+        "REQUIRED": "le type d'utilisateur est requis"
+      },
+      "PLACEHOLDER": "Entrez le type d'utilisateur",
+      "TITLE": "Type d'utilisateur"
+    },
+    "USER-ID": {
+      "ERROR": {
+        "REQUIRED": "L'identifiant de l'utilisateur est requis"
+      },
+      "TITLE": "Identifiant d'utilisateur"
+    }
+  }
+}

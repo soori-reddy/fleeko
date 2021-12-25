@@ -1,0 +1,2958 @@
+{
+  "ABOUT": {
+    "COPYRIGHT": "కాపీ రిజర్వు",
+    "SPONSOR": "ప్రాయోజితం",
+    "VERSION": "సంస్కరణ: తెలుగు"
+  },
+  "ACCOUNT": {
+    "ACCOUNT": "ఖాతా",
+    "ADD": "జోడించు",
+    "ADD-CREDIT-NOTE": "క్రెడిట్ గమనికను జోడించండి",
+    "AMOUNT": "మొత్తం",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "మొత్తాలు అవసరం"
+      },
+      "TITLE": "మొత్తాలు"
+    },
+    "ATTACHMENT": "జోడింపు",
+    "AUDIT-HISTORY-AND-NOTES": "ఆడిట్ చరిత్ర & గమనికలు",
+    "BILL": {
+      "CREATE": "బిల్ సృష్టించండి",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "బిల్ తేదీ చెల్లదు",
+          "REQUIRED": "బిల్ తేదీ అవసరం"
+        },
+        "TITLE": "బిల్ తేదీ"
+      },
+      "EDIT": "బిల్లును సవరించండి",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "బిల్ నంబర్ అవసరం"
+        },
+        "TITLE": "బిల్ నంబర్"
+      },
+      "OPTIONS": "బిల్ ఎంపికలు",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "బిల్ టూ అవసరం"
+        },
+        "TITLE": "బిల్ టు"
+      }
+    },
+    "CLASS": "తరగతి",
+    "COPY-TO": "కు కాపీ చేయండి",
+    "CREATE-COPY": "కాపీని సృష్టించండి",
+    "CREDIT-MEMO": {
+      "CREATE": "క్రెడిట్ మెమోని సృష్టించండి",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "క్రెడిట్ మెమో తేదీ చెల్లదు",
+          "REQUIRED": "క్రెడిట్ మెమో తేదీ అవసరం"
+        },
+        "TITLE": "క్రెడిట్ మెమో తేదీ"
+      },
+      "EDIT": "క్రెడిట్ మెమోను సవరించండి",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "క్రెడిట్ మెమో నంబర్ అవసరం"
+        },
+        "TITLE": "క్రెడిట్ మెమో నంబర్"
+      },
+      "OPTIONS": "క్రెడిట్ మెమో ఎంపికలు",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "క్రెడిట్ మెమో టూ అవసరం"
+        },
+        "TITLE": "క్రెడిట్ మెమో"
+      }
+    },
+    "DESCRIPTION": "వివరణ",
+    "DISCOUNT": "డిస్కౌంట్",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "గడువు తేదీ చెల్లదు",
+        "REQUIRED": "గడువు తేదీ అవసరం"
+      },
+      "TITLE": "గడువు తేది"
+    },
+    "EDIT": "సవరించండి",
+    "INVOICE": {
+      "CREATE": "ఇన్వాయిస్ సృష్టించండి",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "ఇన్వాయిస్ తేదీ చెల్లదు",
+          "REQUIRED": "ఇన్వాయిస్ తేదీ అవసరం"
+        },
+        "TITLE": "చలానా తారీకు"
+      },
+      "EDIT": "ఇన్వాయిస్ సవరించండి",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "ఇన్వాయిస్ నంబర్ అవసరం"
+        },
+        "TITLE": "ఇన్వాయిస్ సంఖ్యా"
+      },
+      "OPTIONS": "ఇన్వాయిస్ సంఖ్య ఎంపికలు",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "ఇన్వాయిస్ అవసరం"
+        },
+        "TITLE": "ఇన్వాయిస్"
+      }
+    },
+    "ITEM": "అంశం",
+    "NO-ITEM-FOUND": "అంశం కనుగొనబడలేదు",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "చెల్లింపును జోడించండి",
+      "AMOUNT-RECIEVED": "మొత్తం స్వీకరించబడింది",
+      "AMOUNT-UNPAID": "చెల్లించని మొత్తం",
+      "REFERENCE": "సూచన",
+      "TDS-PAID": "టిడిఎస్ చెల్లించారు",
+      "TITLE": "చెల్లింపు సమాచారం"
+    },
+    "QUANTITY": "పరిమాణం",
+    "QUOTE": {
+      "CREATE": "కోట్ సృష్టించండి",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "కోట్ తేదీ చెల్లదు",
+          "REQUIRED": "కోట్ తేదీ అవసరం"
+        },
+        "TITLE": "కోట్ తేదీ"
+      },
+      "EDIT": "కోట్ సవరించండి",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "కోట్ సంఖ్య అవసరం"
+        },
+        "TITLE": "కోట్ సంఖ్య"
+      },
+      "OPTIONS": "కోట్ ఎంపికలు",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "కోట్ టు అవసరం"
+        },
+        "TITLE": "కోట్"
+      }
+    },
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "ఖాతా సూచన అవసరం"
+      }
+    },
+    "REFERENCE": "సూచన",
+    "SALE-ORDER": {
+      "CREATE": "అమ్మకపు ఆర్డర్‌ను సృష్టించండి",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "అమ్మకపు ఆర్డర్ తేదీ చెల్లదు",
+          "REQUIRED": "అమ్మకపు ఆర్డర్ తేదీ అవసరం"
+        },
+        "TITLE": "అమ్మకపు ఆర్డర్ తేదీ"
+      },
+      "EDIT": "అమ్మకపు ఆర్డర్‌ను సవరించండి",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "అమ్మకపు ఆర్డర్ సంఖ్య అవసరం"
+        },
+        "TITLE": "అమ్మకపు ఆర్డర్ సంఖ్య"
+      },
+      "OPTIONS": "అమ్మకపు ఆర్డర్ ఎంపికలు",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "అమ్మకానికి ఆర్డర్ అవసరం"
+        },
+        "TITLE": "అమ్మకానికి ఆర్డర్"
+      }
+    },
+    "STATUS": {
+      "ACCEPTED": "ఆమోదించబడిన",
+      "ALL": "అన్నీ",
+      "ALLOCATION": "కేటాయింపు",
+      "APPROVED": "ఆమోదించబడింది",
+      "AWAITING-FOR-PAYMENT": "చెల్లింపు కోసం వేచి ఉంది",
+      "DECLINED": "క్షీణించింది",
+      "DRAFT": "చిత్తుప్రతి",
+      "INVOICED": "ఇన్వాయిస్",
+      "PAID": "చెల్లించారు",
+      "SENT": "పంపారు",
+      "WAITING-FOR-APPROVAL": "అంగీకారం కోసం వేచియుండుట"
+    },
+    "SUB-TOTAL": "ఉప మొత్తం",
+    "TAX": "పన్ను",
+    "TAX-RATE": "పన్ను శాతమ్",
+    "TOTAL": "మొత్తం",
+    "TYPES": {
+      "BILLS": "బిల్లులు",
+      "CREDIT-MEMO": "జమ రశీదు",
+      "INVOICE": "ఇన్వాయిస్",
+      "QUOTE": "కోట్",
+      "SALE-ORDER": "అమ్మకపు ఆర్డర్"
+    },
+    "UNIT-PRICE": "యూనిట్ ధర",
+    "VOID": "రద్దు"
+  },
+  "ACCOUNTS": {
+    "ACCOUNT": "ఖాతా",
+    "ADD": "జోడించు",
+    "ADD-CREDIT-NOTE": "క్రెడిట్ నోట్ జోడించండి",
+    "AMOUNT": "మొత్తం",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "మొత్తాలు అవసరం"
+      },
+      "TITLE": "మొత్తాలు ఉన్నాయి"
+    },
+    "ATTACHMENT": "అటాచ్మెంట్",
+    "AUDIT-HISTORY-AND-NOTES": "ఆడిట్ చరిత్ర & నోట్స్",
+    "CLASS": "తరగతి",
+    "COPY-TO": "కు కాపీ చేయండి",
+    "CREATE-COPY": "ఒక కాపీని సృష్టించండి",
+    "DESCRIPTION": "వివరణ",
+    "DISCOUNT": "డిస్కౌంట్",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "గడువు తేదీ చెల్లదు",
+        "REQUIRED": "గడువు తేదీ అవసరం"
+      },
+      "TITLE": "గడువు తేది"
+    },
+    "EDIT": "సవరించు",
+    "INVOICE": {
+      "CREATE": "ఇన్‌వాయిస్‌ని సృష్టించండి",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "ఇన్‌వాయిస్ తేదీ చెల్లదు",
+          "REQUIRED": "ఇన్వాయిస్ తేదీ అవసరం"
+        },
+        "TITLE": "చలానా తారీకు"
+      },
+      "EDIT": "ఇన్‌వాయిస్‌ని సవరించండి",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "ఇన్‌వాయిస్ నంబర్ అవసరం"
+        },
+        "TITLE": "ఇన్వాయిస్ సంఖ్యా"
+      },
+      "OPTIONS": "ఇన్‌వాయిస్ నంబర్ ఎంపికలు",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "ఇన్వాయిస్ టు అవసరం"
+        },
+        "TITLE": "ఇన్వాయిస్"
+      }
+    },
+    "ITEM": "అంశం",
+    "METADATA": {
+      "ORDERSTATUS": {
+        "ACCEPTED": "ఆమోదించబడిన",
+        "ALL": "అన్నీ",
+        "ALLOCATION": "కేటాయింపు",
+        "APPROVED": "ఆమోదించబడింది",
+        "AWAITINGFORPAYMENT": "చెల్లింపు కోసం వేచి ఉంది",
+        "DECLINED": "క్షీణించింది",
+        "DRAFT": "చిత్తుప్రతి",
+        "EXPIRED": "గడువు ముగిసింది",
+        "INVOICED": "ఇన్వాయిస్",
+        "OVERDUE": "మీరిన",
+        "PAID": "చెల్లించారు",
+        "PENDING": "పెండింగ్‌లో ఉంది",
+        "REPEAT": "పునరావృతం చేయండి",
+        "SENT": "పంపారు",
+        "VOID": "రద్దు",
+        "WAITINGFORAPPROVAL": "అంగీకారం కోసం వేచియుండుట"
+      },
+      "ORDERTYPE": {
+        "BILLS": "బిల్లులు",
+        "CREDITMEMO": "జమ రశీదు",
+        "INVOICE": "ఇన్వాయిస్",
+        "QUOTE": "కోట్",
+        "SALEORDER": "అమ్మకపు ఆర్డర్"
+      },
+      "TAXOPTION": {
+        "EXCLUSIVE": "పన్ను ప్రత్యేకమైనది",
+        "INCLUSIVE": "పన్ను కలుపుకొని"
+      }
+    },
+    "NO-ITEM-FOUND": "అంశం కనుగొనబడలేదు",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "చెల్లింపు జోడించండి",
+      "AMOUNT-RECIEVED": "మొత్తం స్వీకరించబడింది",
+      "AMOUNT-UNPAID": "చెల్లించని మొత్తం",
+      "REFERENCE": "సూచన",
+      "TDS-PAID": "TDS చెల్లించబడింది",
+      "TITLE": "చెల్లింపు సమాచారం"
+    },
+    "QUANTITY": "పరిమాణం",
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "ఖాతా సూచన అవసరం"
+      }
+    },
+    "REFERENCE": "సూచన",
+    "SUB-TOTAL": "సబ్ టోటల్",
+    "TAX": "పన్ను",
+    "TAX-RATE": "పన్ను శాతమ్",
+    "TOTAL": "మొత్తం",
+    "UNIT-PRICE": "యూనిట్ ధర",
+    "VOID": "శూన్యం"
+  },
+  "APP": {
+    "TITLE": "కంపెనీ"
+  },
+  "APP-SERVER": {
+    "ERROR": {
+      "CREATE": "అప్లికేషన్ సర్వర్‌ను సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "అప్లికేషన్ సర్వర్‌ను తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "అప్లికేషన్ సర్వర్‌ను నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP చిరునామా చెల్లదు",
+        "REQUIRED": "IP చిరునామా అవసరం"
+      },
+      "TITLE": "IP చిరునామా"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "క్రొత్త అప్లికేషన్ సర్వర్",
+      "EDIT": "అప్లికేషన్ సర్వర్‌ను సవరించండి",
+      "HOME": "అప్లికేషన్ సర్వర్లు"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "పోర్ట్ చెల్లదు",
+        "REQUIRED": "పోర్ట్ అవసరం"
+      },
+      "TITLE": "పోర్ట్"
+    },
+    "SEARCH-PLACEHOLDER": "శోధన సర్వర్",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "సర్వర్ పేరు చెల్లదు",
+        "REQUIRED": "సర్వర్ పేరు అవసరం"
+      },
+      "TITLE": "సర్వర్ పేరు"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "సేవా ఖాతా పేరు చెల్లదు",
+        "REQUIRED": "సేవా ఖాతా పేరు అవసరం"
+      },
+      "TITLE": "సేవా ఖాతా పేరు"
+    },
+    "SUCCESS": {
+      "CREATE": "అప్లికేషన్ సర్వర్ విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "అప్లికేషన్ సర్వర్ విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "అప్లికేషన్ సర్వర్ విజయవంతంగా నవీకరించబడింది"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "వ్యవస్థ చెల్లదు",
+        "REQUIRED": "వ్యవస్థ అవసరం"
+      },
+      "TITLE": "వ్యవస్థ IP"
+    }
+  },
+  "AUTH-SERVER": {
+    "ERROR": {
+      "CREATE": "ప్రామాణీకరణ సర్వర్‌ను సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "ప్రామాణీకరణ సర్వర్‌ను తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "ప్రామాణీకరణ సర్వర్‌ను నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP చిరునామా చెల్లదు",
+        "REQUIRED": "IP చిరునామా అవసరం"
+      },
+      "TITLE": "IP చిరునామా"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "క్రొత్త ప్రామాణీకరణ సర్వర్",
+      "EDIT": "ప్రామాణీకరణ సర్వర్‌ను సవరించండి",
+      "HOME": "ప్రామాణీకరణ సర్వర్లు"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "పోర్ట్ చెల్లదు",
+        "REQUIRED": "పోర్ట్ అవసరం"
+      },
+      "TITLE": "పోర్ట్"
+    },
+    "SEARCH-PLACEHOLDER": "శోధన సర్వర్",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "సర్వర్ పేరు చెల్లదు",
+        "REQUIRED": "సర్వర్ పేరు అవసరం"
+      },
+      "TITLE": "సర్వర్ పేరు"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "సేవా ఖాతా పేరు చెల్లదు",
+        "REQUIRED": "సేవా ఖాతా పేరు అవసరం"
+      },
+      "TITLE": "సేవా ఖాతా పేరు"
+    },
+    "SUCCESS": {
+      "CREATE": "ప్రామాణీకరణ సర్వర్ విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "ప్రామాణీకరణ సర్వర్ విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "ప్రామాణీకరణ సర్వర్ విజయవంతంగా నవీకరించబడింది"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "వ్యవస్థ చెల్లదు",
+        "REQUIRED": "వ్యవస్థ అవసరం"
+      },
+      "TITLE": "వ్యవస్థ"
+    }
+  },
+  "AUTHORIZATION": {
+    "ERROR": {
+      "CREATE": "ప్రామాణీకరణ సర్వర్‌ను సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "ప్రామాణీకరణ సర్వర్‌ను తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "ప్రామాణీకరణ సర్వర్‌ను నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP చిరునామా చెల్లదు",
+        "REQUIRED": "IP చిరునామా అవసరం"
+      },
+      "TITLE": "IP చిరునామా"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "క్రొత్త ప్రామాణీకరణ సర్వర్",
+      "EDIT": "ప్రామాణీకరణ సర్వర్‌ను సవరించండి",
+      "HOME": "ప్రామాణీకరణ సర్వర్లు"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "పోర్ట్ చెల్లదు",
+        "REQUIRED": "పోర్ట్ అవసరం"
+      },
+      "TITLE": "పోర్ట్"
+    },
+    "SEARCH-PLACEHOLDER": "శోధన సర్వర్",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "సర్వర్ పేరు చెల్లదు",
+        "REQUIRED": "సర్వర్ పేరు అవసరం"
+      },
+      "TITLE": "సర్వర్ పేరు"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "సేవా ఖాతా పేరు చెల్లదు",
+        "REQUIRED": "సేవా ఖాతా పేరు అవసరం"
+      },
+      "TITLE": "సేవా ఖాతా పేరు"
+    },
+    "SUCCESS": {
+      "CREATE": "ప్రామాణీకరణ సర్వర్ విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "ప్రామాణీకరణ సర్వర్ విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "ప్రామాణీకరణ సర్వర్ విజయవంతంగా నవీకరించబడింది"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "వ్యవస్థ చెల్లదు",
+        "REQUIRED": "వ్యవస్థ అవసరం"
+      },
+      "TITLE": "వ్యవస్థ"
+    }
+  },
+  "BUILDER": {
+    "DESIGNER": {
+      "PAGE": {
+        "FOOTER": "ఫుటర్",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "విస్తరించదగినది",
+            "CLONE": "క్లోన్",
+            "NAME": "పేజీ పేరు",
+            "SCOPE": "పరిధి"
+          }
+        }
+      }
+    },
+    "MENU": {
+      "APPBUILDER": {
+        "APPAUTHPRV": "ప్రమాణీకరణ",
+        "APPDESIGN": "యాప్ డిజైనర్",
+        "BUILDAPP": "నిర్మించు",
+        "DEPLOYAPP": "మోహరించేందుకు",
+        "SECURITYSCAN": "భద్రతా స్కాన్",
+        "TITLE": "యాప్ బిల్డర్"
+      },
+      "APPSTORE": {
+        "TITLE": "యాప్ స్టోర్"
+      },
+      "BLOCKS": {
+        "BANNER": "బ్యానర్",
+        "BOTTOMSHEET": "దిగువ షీట్",
+        "CARD": "కార్డు",
+        "CHART": "చార్ట్",
+        "DIALOG": "డైలాగ్",
+        "FORM": "ఫారం",
+        "GRID": "గ్రిడ్",
+        "STEPPER": "స్టెప్పర్",
+        "TAB": "ట్యాబ్",
+        "TITLE": "బ్లాక్స్",
+        "TREE": "చెట్టు"
+      },
+      "DATABUILDER": {
+        "REST": "REST మెటాడేటా",
+        "TABLE": "API పట్టిక",
+        "TITLE": " డేటా ఎక్స్‌ప్లోరర్"
+      },
+      "DESIGNER": {
+        "PAGE": "పేజీ డిజైనర్",
+        "STATEMACHNE": "రాష్ట్ర యంత్రం",
+        "TITLE": " పేజీ బిల్డర్",
+        "WORKFLOW": "వర్క్‌ఫ్లో"
+      },
+      "TITLE": "బిల్డర్"
+    },
+    "METADATA": {
+      "APPTYPE": {
+        "ANDROID": "ఆండ్రాయిడ్",
+        "IOS": "iOS",
+        "KIOSK": "కియోస్క్",
+        "WEB": "వెబ్",
+        "WINDOWS": "విండోస్"
+      },
+      "AUTHENTICATIONTYPE": {
+        "FACEBOOK": "ఫేస్బుక్",
+        "FACEDETECTION": "ముఖం",
+        "FINGERPRINT": "వేలు",
+        "FIREBASEUI": "ఫైర్బేస్",
+        "GITHUB": "GitHub",
+        "GOOGLE": "Google",
+        "LINKEDIN": "లింక్డ్ ఇన్",
+        "PHONENUMBER": "ఫోను నంబరు",
+        "QRCODE": "QR",
+        "SSO": "సింగిల్ సైన్ ఆన్",
+        "USERIDPASSWORD": "పాస్వర్డ్"
+      },
+      "COMP-SUB-TYPE": {
+        "AREA": "ప్రాంతం",
+        "BAR": "బార్",
+        "BUBBLE": "బుడగ",
+        "COLOR": "రంగు",
+        "DOUGHNUT": "డోనట్",
+        "EMAIL": "ఇమెయిల్",
+        "FAB-BUTTON": "ఫ్యాబ్ బటన్",
+        "FLAT-BUTTON": "ఫ్లాట్ బటన్",
+        "HEAT MAP": "ఉష్ణోగ్రత పటం",
+        "ICON-BUTTON": "ఐకాన్ బటన్",
+        "LINE": "లైన్",
+        "MAP": "మ్యాప్",
+        "MINIFAB-BUTTON": "మినీఫాబ్ బటన్",
+        "NUMBER": "సంఖ్య",
+        "PASSWORD": "పాస్వర్డ్",
+        "PIE": "పై",
+        "RADAR": "రాడార్",
+        "RAISED-BUTTON": "పెంచిన బటన్",
+        "SCATTER": "స్కాటర్",
+        "STROKED-BUTTON": "స్ట్రోక్డ్ బటన్",
+        "TEL": "ఫోన్",
+        "TEXT": "టెక్స్ట్",
+        "URL": "Url"
+      },
+      "COMP-TYPE": {
+        "AUTO-COMPLETE": "ఆటో పూర్తి",
+        "BADGE": "బ్యాడ్జ్",
+        "BANNER": "బ్యానర్",
+        "BOTTOM-SHEET": "దిగువ షీట్",
+        "BUTTON": "బటన్",
+        "BUTTON-TOGGLE": "బటన్ టోగుల్",
+        "CARD": "కార్డు",
+        "CHART": "చార్ట్",
+        "CHECKBOX": "చెక్ బాక్స్",
+        "CHIPS": "చిప్స్",
+        "DATE-PICKER": "తేదీ ఎంపిక",
+        "DIALOG": "డైలాగ్",
+        "DIVIDER": "డివైడర్",
+        "DROPDOWN": "కింద పడేయి",
+        "EXPANSION-PANEL": "విస్తరణ ప్యానెల్",
+        "GRID": "గ్రిడ్",
+        "ICON": "చిహ్నం",
+        "IMAGE": "చిత్రం",
+        "INPUT": "ఇన్పుట్",
+        "LABEL": "లేబుల్",
+        "LIST": "జాబితా",
+        "MENU": "మెను",
+        "PAGINATOR": "పేజినేటర్",
+        "PROGRESS-BAR": "ప్రోగ్రెస్ బార్",
+        "PROGRESS-SPINNER": "ప్రగతి స్పిన్నర్",
+        "RADIO-BUTTON": "రేడియో బటన్",
+        "SIDENAV": "వైపు",
+        "SLIDE-TOGGLE": "స్లయిడ్ టోగుల్",
+        "SLIDER": "స్లైడర్",
+        "SNACKBAR": "స్నాక్ బార్",
+        "STEPPER": "స్టెప్పర్",
+        "TAB": "ట్యాబ్",
+        "TEXT-AREA": "టెక్స్ట్ ప్రాంతం",
+        "TOOLBAR": "టూల్‌బార్",
+        "TOOLTIP": "టూల్‌టిప్",
+        "TREE": "చెట్టు"
+      },
+      "COMPTYPE": {
+        "AUTOCOMPLETE": "ఆటో కంప్లీట్",
+        "BADGE": "బ్యాడ్జ్",
+        "BANNER": "బ్యానర్",
+        "BOTTOMSHEET": "దిగువ షీట్",
+        "BUTTON": "బటన్",
+        "BUTTONTOGGLE": "బటన్ టోగుల్",
+        "CAMERA": "కెమెరా",
+        "CARD": "కార్డ్",
+        "CHART": "చార్ట్",
+        "CHECKBOX": "చెక్‌బాక్స్",
+        "CHIPS": "చిప్స్",
+        "DATEPICKER": "తేదీ పికర్",
+        "DIALOG": "డైలాగ్",
+        "DIVIDER": "డివైడర్",
+        "DROPDOWN": "కింద పడేయి",
+        "EXPANSIONPANEL": "విస్తరణ ప్యానెల్",
+        "FILE": "ఫైల్",
+        "FORM": "రూపం",
+        "GRID": "గ్రిడ్",
+        "ICON": "చిహ్నం",
+        "IMAGE": "చిత్రం",
+        "LABEL": "లేబుల్",
+        "LIST": "జాబితా",
+        "MAP": "మ్యాప్",
+        "MENU": "మెను",
+        "PAGINATOR": "పేజినేటర్",
+        "PROGRESSBAR": "ప్రోగ్రెస్ బార్",
+        "PROGRESSSPINNER": "ప్రోగ్రెస్ స్పిన్నర్",
+        "RADIOBUTTON": "రేడియో బటన్",
+        "SIDENAV": "వైపు",
+        "SLIDER": "స్లైడర్",
+        "SLIDETOGGLE": "స్లయిడ్ టోగుల్",
+        "SNACKBAR": "స్నాక్ బార్",
+        "STEPPER": "స్టెప్పర్",
+        "TAB": "ట్యాబ్",
+        "TEXTAREA": "టెక్స్ట్ ప్రాంతం",
+        "TEXTINPUT": "ఇన్పుట్",
+        "TOOLBAR": "టూల్ బార్",
+        "TOOLTIP": "ఉపకరణ చిట్కా",
+        "TREE": "చెట్టు"
+      },
+      "FORM": {
+        "BUTTON-ROW": {
+          "DISPLAY": {
+            "BOTTOM": "దిగువన",
+            "TOP": "టాప్"
+          }
+        },
+        "DISPLAY-TYPE": {
+          "DYNAMIC": "డైనమిక్",
+          "FIXED": "స్థిర / స్థిరమైన"
+        },
+        "ERROR-DISPLAY-TYPE": {
+          "INLINE": "లైన్ లో",
+          "SNACKBAR": "చిరుతిండి బార్"
+        },
+        "FIELD-APPEARANCE-TYPE": {
+          "FILL": "పూరించండి",
+          "LEGACY": "వారసత్వం",
+          "OUTLINE": "రూపురేఖలు",
+          "STANDARD": "ప్రామాణిక"
+        },
+        "FIELD-TYPE": {
+          "BUTTON": "బటన్",
+          "CHECKBOX": "చెక్ బాక్స్",
+          "DATE-PICKER": "తేదీ ఎంపిక",
+          "DROPDOWN": "కింద పడేయి",
+          "LABEL": "లేబుల్",
+          "RADIOBUTTON": "రేడియోబటన్",
+          "TEXT-AREA": "టెక్స్టేరియా",
+          "TEXTBOX": "టెక్స్ట్ బాక్స్"
+        },
+        "LAYOUT-ALIGNMENT": {
+          "CENTER": "కేంద్రం",
+          "END": "ముగింపు",
+          "SPACE-AROUND": "ఖాళీ చుట్టూ",
+          "SPACE-BETWEEN": "ఖాళీ-మధ్య",
+          "SPACE-EVENLY": "ఖాళీ-సమానంగా",
+          "START": "ప్రారంభం",
+          "STRETCH": "సాగదీయడం"
+        },
+        "LAYOUT-TYPE": {
+          "COLUMN": "కాలమ్",
+          "ROW": "వరుస"
+        },
+        "ROW-COLUMNS": {
+          "FIVE": "ఐదు కాలమ్",
+          "FOUR": "నాలుగు కాలమ్",
+          "ONE": "ఒక కాలమ్",
+          "THREE": "మూడు కాలమ్",
+          "TWO": "రెండు కాలమ్"
+        }
+      }
+    },
+    "METAREST": {
+      "DISPLAYNAME": {
+        "ERROR": {
+          "REQUIRED": "ప్రదర్శన పేరు అవసరం"
+        },
+        "TITLE": "ప్రదర్శన పేరు"
+      },
+      "GRID": {
+        "NAME": "పేరు",
+        "SCOPE": "పరిధి",
+        "URL": "ఎండ్ పాయింట్"
+      },
+      "NAME": {
+        "ERROR": {
+          "REQUIRED": "పేరు అవసరం"
+        },
+        "TITLE": "పేరు"
+      },
+      "PAGE-TITLE": "API మెటాడేటా",
+      "ROUTE": {
+        "ERROR": {
+          "REQUIRED": "రూట్ అవసరం"
+        },
+        "TITLE": "మార్గం"
+      },
+      "SCOPE": {
+        "ERROR": {
+          "REQUIRED": "పరిధి అవసరం"
+        },
+        "TITLE": "పరిధి"
+      },
+      "SEARCH-PLACEHOLDER": "శోధన మెటాడేటా API",
+      "TABLENAME": {
+        "ERROR": {
+          "REQUIRED": "టేబుల్ పేరు అవసరం"
+        },
+        "TITLE": "పట్టిక పేరు"
+      }
+    },
+    "PAGE": {
+      "CONFIGURATION": {
+        "HEADER": {
+          "BUTTONS": "బటన్లు",
+          "CREATEAPI": "APIని సృష్టించండి",
+          "CREATETABLE": "పట్టికను సృష్టించండి",
+          "EDITPAGE": "పేజీని సవరించండి",
+          "ENDPOINT": "ఎండ్ పాయింట్",
+          "HOMEPAGE": "హోమ్ పేజీ",
+          "NAME": "పేరు",
+          "NEWPAGE": "కొత్త పేజీ",
+          "PAGEACTIONS": "పేజీ చర్యలను కాన్ఫిగర్ చేయండి",
+          "PERMISSION": "అనుమతి",
+          "URL": "Url"
+        }
+      },
+      "ERROR": {
+        "CREATE": "పేజీ రూపకల్పనను సేవ్ చేస్తున్నప్పుడు లోపం !!",
+        "DELETE": "పేజీ రూపకల్పనను తొలగిస్తున్నప్పుడు లోపం !!",
+        "UPDATE": "పేజీ రూపకల్పనను నవీకరిస్తున్నప్పుడు లోపం !!"
+      },
+      "SUCCESS": {
+        "CREATE": "పేజీ రూపకల్పన విజయవంతంగా సేవ్ చేయబడింది",
+        "DELETE": "పేజీ రూపకల్పన విజయవంతంగా తొలగించబడింది",
+        "UPDATE": "పేజీ రూపకల్పన విజయవంతంగా నవీకరించబడింది"
+      }
+    },
+    "TEMPLATE": {
+      "BOTTOM-SHEET": {
+        "BUTTON-LABEL": "బటన్ లేబుల్",
+        "BUTTON-NAVIGATE-URL": "బటన్ నావిగేట్ URL",
+        "BUTTON-SUB-LABEL": "బటన్ ఉప లేబుల్",
+        "CREATE": "సృష్టించు",
+        "DRAG&DROP-BOTTOM-SHEET-ITEMS": "దిగువ షీట్ ఐటెమ్‌లను ఇక్కడ లాగండి మరియు వదలండి",
+        "DRAG&DROP-CUSTOMISE-BOTTOM-SHEET": "దిగువ షీట్‌ను అనుకూలీకరించడానికి లాగండి మరియు వదలండి",
+        "ENTER-TEXT-HERE": "వచనాన్ని ఇక్కడ నమోదు చేయండి ...",
+        "TITLE": "దిగువ షీట్"
+      },
+      "CARD": {
+        "ADD-FIELD": "ఫీల్డ్‌ని జోడించండి",
+        "ALIGNMENT": "అమరిక",
+        "DISPLAY-IMAGE": "ప్రదర్శన చిత్రం",
+        "DRAG&DROP-CARD-ITEMS": "కార్డ్ అంశాలను ఇక్కడికి లాగండి మరియు వదలండి",
+        "DRAG&DROP-CUSTOMISE-CARDS": "కార్డ్‌లను అనుకూలీకరించడానికి లాగండి మరియు వదలండి",
+        "FLEX": "ఫ్లెక్స్",
+        "HORIZONTAL": "క్షితిజసమాంతర",
+        "IMAGE-SIZE": "చిత్ర పరిమాణం",
+        "IMAGE-TYPE": "చిత్రం రకం",
+        "PREVIEW": "ప్రివ్యూ",
+        "TITLE": "కార్డులు",
+        "VALIDATION": {
+          "CONTENT-REQUIRED": "కంటెంట్ అవసరం",
+          "FOOTER-REQUIRED": " ఫుటర్ అవసరం",
+          "HEADER-REQUIRED": "శీర్షిక పేరు అవసరం",
+          "SUB-HEADER-REQUIRED": "సబ్ హెడర్ అవసరం"
+        },
+        "VERTICAL": "నిలువుగా"
+      },
+      "COMPONENT-BULIDER": "కాంపోనెంట్ బిల్డర్",
+      "CONFIGURATION": {
+        "BUTTON-CONFIGURATION": "బటన్ కాన్ఫిగరేషన్",
+        "BUTTON-ROW": {
+          "POSITION": "బటన్ వరుస స్థానం",
+          "TITLE": "బటన్ రో ఉంది"
+        },
+        "DIRECTION-LAYOUT": "దిశ లేఅవుట్",
+        "DISPLAY": "ప్రదర్శన",
+        "EDIT": "సవరించు",
+        "ENTER-FLEX-VALUE": "ఫ్లెక్స్ విలువను నమోదు చేయండి",
+        "FLEX-CONFIGURATION": "ఫ్లెక్స్ కాన్ఫిగరేషన్",
+        "HORIZONTAL-ALIGNMENT": "క్షితిజసమాంతర అమరిక",
+        "RESPONSIVE-LAYOUT": "రెస్పాన్సివ్ లేఅవుట్",
+        "SELECT-FORM-FIELDS-STYLE": "ఫారం ఫీల్డ్స్ శైలిని ఎంచుకోండి",
+        "SELECT-LAYOUT": "లేఅవుట్ ఎంచుకోండి",
+        "SELECT-NO-OF-COLUMNS": "నిలువు వరుసల సంఖ్యను ఎంచుకోండి",
+        "TEMPLATE-NATURE": "మూస స్వభావం",
+        "THEME-CONFIGURATION": "థీమ్ కాన్ఫిగరేషన్",
+        "VALIDATION": {
+          "ERROR-MESSAGES-DISPLAY": "దోష సందేశాల ప్రదర్శన",
+          "FLEX-REQUIRED": "ఫ్లెక్స్ విలువ అవసరం",
+          "LAYOUT-REQUIRED": "లేఅవుట్ అవసరం",
+          "NO-OF-COLUMNS-REQUIRED": "నిలువు వరుసల సంఖ్య అవసరం",
+          "TYPE-REQUIRED": "రకం అవసరం",
+          "VALUE-REQUIRED": "విలువ అవసరం"
+        },
+        "VALIDATION-LAYOUT-REQUIRED": "లేఅవుట్ అవసరం",
+        "VERTICAL-ALIGNMENT": "నిలువు అమరిక"
+      },
+      "DETAILS": "వివరాలు",
+      "DIALOG": {
+        "CREATE": "సృష్టించు",
+        "DRAG&DROP-DIALOG-ITEMS": "డైలాగ్ అంశాలను ఇక్కడ లాగండి మరియు వదలండి",
+        "START-CREATE-DIALOG-BOX": "అంశాలను లాగడం మరియు వదలడం ద్వారా డైలాగ్ బాక్స్‌ను సృష్టించడం ప్రారంభించండి",
+        "TITLE": "డైలాగ్",
+        "VIEW": "వీక్షించండి"
+      },
+      "FORM": {
+        "ADD-OPTION": "ఎంపికను జోడించండి",
+        "ALLOW-OVERRIDE": "భర్తీ చేయడానికి అనుమతించు",
+        "CONFIG": {
+          "BASIC": {
+            "ISREADONLY": "చదవడానికి మాత్రమే",
+            "ISVISISBLE": "కనిపిస్తుంది",
+            "LABEL": {
+              "ERROR": {
+                "REQUIRED": " ఫీల్డ్ పేరు అవసరం"
+              },
+              "TITLE": "క్షేత్రనామం"
+            },
+            "PLACEHOLDER": "ప్లేస్‌హోల్డర్",
+            "TOOLTIP": "టూల్‌టిప్",
+            "VIEWPORT": "వ్యూపోర్ట్"
+          },
+          "DATA": {
+            "AUTOGENERATED": "ఆటో జనరేట్ చేయబడింది",
+            "DATATYPE": "సమాచార తరహా",
+            "DEFAULTVALUE": "డిఫాల్ట్ విలువ",
+            "MANDATORY": "తప్పనిసరి",
+            "MODELNAME": {
+              "ERROR": {
+                "REQUIRED": "మోడల్ పేరు అవసరం"
+              },
+              "TITLE": "మోడల్ పేరు"
+            }
+          },
+          "HEADER": {
+            "BASIC": "ప్రాథమిక",
+            "DATA": "సమాచారం",
+            "MISC": "ఇతరులు",
+            "SECURITY": "భద్రత",
+            "VALIDATIONS": "ధ్రువీకరణలు"
+          },
+          "MISC": {
+            "HINT": "సూచన",
+            "HINTEND": "సూచన ముగింపు",
+            "MAXLENGTH": "గరిష్ట పొడవు",
+            "MAXLENGTHERROR": "గరిష్ట పొడవు లోపం",
+            "MINLENGTH": "కనీస పొడవు",
+            "MINLENGTHERROR": "కనీస పొడవు లోపం",
+            "PREFIX": "ఉపసర్గ",
+            "REGEX": "రెగెక్స్",
+            "REGEXERROR": "Reqex లోపం సందేశం",
+            "SUFFIX": "ప్రత్యయం"
+          },
+          "SECURITY": {
+            "ENCRYPT": "గుప్తీకరించు",
+            "PERMCODE": "అనుమతి కోడ్",
+            "SHOWPASSWORD": "పాస్‌వర్డ్ చిహ్నాన్ని చూపడాన్ని ప్రారంభించండి"
+          },
+          "VALIDATIONRULE": {
+            "MESSAGE": "ఎర్రర్ మెసేజ్",
+            "NAME": "టైప్ చేయండి",
+            "VALUE": "విలువ"
+          }
+        },
+        "DISPLAY-NAME": "ప్రదర్శన పేరు",
+        "DISPLAY-TYPE": "డిస్పాలీ రకం",
+        "DRAG": "ఫారం స్థలాలను లాగండి",
+        "DRAG&DROP-ITEMS": "ఫారం అంశాలను ఇక్కడ లాగండి మరియు వదలండి",
+        "ENCRYPT-DATA": "డేటాను గుప్తీకరించండి",
+        "ERROR": {
+          "CREATE": "ఫారం మూసను సృష్టిస్తున్నప్పుడు లోపం సంభవించింది",
+          "DELETE": "ఫారమ్ టెంప్లేట్‌ను తొలగిస్తున్నప్పుడు లోపం సంభవించింది",
+          "UPDATE": "ఫారమ్ టెంప్లేట్‌ను నవీకరిస్తున్నప్పుడు లోపం సంభవించింది"
+        },
+        "FIELD-ATTRIBUTES": "ఫారం ఫీల్డ్ గుణాలు",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "విస్తరించదగినది",
+            "CLONE": "క్లోన్",
+            "NAME": "ఫారమ్ పేరు",
+            "SCOPE": "పరిధి"
+          }
+        },
+        "ITEM": {
+          "LABEL": "క్షేత్రనామం",
+          "PLACEHOLDER": "ఫీల్డ్ పేరు నమోదు చేయండి"
+        },
+        "MANDATORY-FIELD": "తప్పనిసరి ఫీల్డ్",
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "ఫారం పేరు అవసరం"
+          },
+          "TITLE": "ఫారమ్ పేరు"
+        },
+        "SAME-EMPTY-NAME-NOT-SHOWN": "*ఒకే లేదా ఖాళీ మోడల్ పేరుతో బహుళ ఫారమ్ ఫీల్డ్‌లు చూపబడవు",
+        "SECURITY-ATTRIBUTES": "భద్రతా లక్షణాలు",
+        "SHOW-GROUP": "ఫారం సమూహంలో చూపించు",
+        "SUCCESS": {
+          "CREATE": "ఫారం మూస విజయవంతంగా సృష్టించబడింది",
+          "DELETE": "ఫారమ్ టెంప్లేట్ విజయవంతంగా తొలగించబడింది",
+          "UPDATE": "ఫారమ్ టెంప్లేట్ విజయవంతంగా నవీకరించబడింది"
+        },
+        "TITLE": "ఫారం",
+        "VALIDATION": {
+          "ALLOW-SPACE&SPECIAL-CHARACTERS": "మోడల్ పదాల మధ్య వ్యవధి మినహా స్పేస్ మరియు ప్రత్యేక అక్షరాలను అనుమతించదు",
+          "DATE-REQUIRED": "తేదీ అవసరం",
+          "ENDPOINT-REQUIRED": "ముగింపు పాయింట్ అవసరం",
+          "EXCEED-50CHARACTERS-LENGTH": "మోడల్ పేరు పొడవు 50 అక్షరాలకు మించకూడదు",
+          "INVAILD-DATE": "చెల్లని తేదీ",
+          "INVALID-DATE": "చెల్లని తేదీ",
+          "MAX-DATE": "గరిష్ట తేదీ",
+          "MIN-DATE": "కనీస తేదీ",
+          "MODEL-REQUIRED": "మోడల్ పేరు అవసరం",
+          "MUST-3CHARACTERS-LENGTH": "మోడల్ పేరు తప్పనిసరిగా 3 అక్షరాల పొడవు ఉండాలి",
+          "TITLE": {
+            "NAME": "ధ్రువీకరణ"
+          }
+        },
+        "VALUE": "విలువ",
+        "VISIBILITY": "దృశ్యమానత"
+      },
+      "GRID": {
+        "CREATE": "సృష్టించు",
+        "SHOW-PAGINATION": "గ్రిడ్ పేజీని చూపించు",
+        "TITLE": "గ్రిడ్",
+        "VALIDATION": {
+          "COLUMN-ENDPOINT-REQUIRED": "డేటా ఎండ్ పాయింట్ అవసరం",
+          "DATA-ENDPOINT-REQUIRED": "డేటా ఎండ్ పాయింట్ అవసరం"
+        }
+      },
+      "IMAGE": {
+        "CREATE": "వచనంతో చిత్రాన్ని సృష్టించండి",
+        "DRAG-DROP": "చిత్రం మరియు టెక్స్ట్ ఫీల్డ్‌ను అనుకూలీకరించడానికి లాగండి మరియు వదలండి",
+        "DRAG&DROP-IMAGE-ITEMS": "చిత్ర అంశాలను ఇక్కడ లాగండి మరియు వదలండి",
+        "DRAG&DROP-TEXT-FIELD-ITEMS": "టెక్స్ట్ ఫీల్డ్ అంశాలను ఇక్కడ లాగండి మరియు వదలండి",
+        "TITLE": "చిత్రం"
+      },
+      "NAME": "పేరు",
+      "PAGE-ACTION": {
+        "CONFIGURATION": "బటన్ కాన్ఫిగరేషన్",
+        "DRAG-DROP-BUTTON": "అనుకూలీకరించడానికి బటన్‌ను లాగండి మరియు వదలండి",
+        "DRAG&DROP-BUTTON-ITEMS": "బటన్ అంశాలను ఇక్కడ లాగండి మరియు వదలండి",
+        "SELECT-BUTTON-ACTION": "బటన్ చర్యను ఎంచుకోండి",
+        "SELECT-COLOR": "రంగును ఎంచుకోండి",
+        "TITLE": "బటన్లు"
+      },
+      "STEPPER": {
+        "CREATE": "సృష్టించు",
+        "CREATE-STEPPER-DRAG&DROP-ITEMS": "అంశాలను లాగడం మరియు వదలడం ద్వారా స్టెప్పర్‌ను సృష్టించడం ప్రారంభించండి",
+        "DRAG&DROP-ITEMS": "ఇక్కడ స్టెప్పర్ అంశాలను లాగండి మరియు వదలండి",
+        "STEPPER-VIEW": "స్టెప్పర్ వ్యూ",
+        "TITLE": "స్టెప్పర్"
+      },
+      "TAB": {
+        "ADDTAB": "ట్యాబ్ జోడించండి",
+        "BACKGROUND-COLOR": "నేపథ్య రంగు",
+        "COLOR": "రంగు",
+        "CREATE": "సృష్టించు",
+        "DISABLED-TAB": "డిసేబుల్ ట్యాబ్",
+        "DRAG&DROP-TAB-CONTENT": "ట్యాబ్ కంటెంట్‌ను ఇక్కడ లాగండి మరియు వదలండి",
+        "HEADER-POSITION": "శీర్షిక స్థానం",
+        "TITLE": "ట్యాబ్‌లు"
+      },
+      "TREE": {
+        "CREATE": "సృష్టించు",
+        "ENDPOINT": "ఎండ్ పాయింట్ ఎంటర్ చేయండి",
+        "FETCH": "పొందండి",
+        "MODIFY": "సవరించు",
+        "NODE-SELECTABLE": "నోడ్ ఎంచుకోదగినది",
+        "TITLE": "చెట్టు",
+        "TREE-OUTPUT-NAME": "ట్రీ అవుట్‌పుట్ పేరు నమోదు చేయండి"
+      },
+      "TYPE": "టైప్ చేయండి",
+      "VALIDATION": {
+        "INPUT-TYPE-REQUIRED": "ఇన్‌పుట్ రకం అవసరం",
+        "TYPE-REQUIRED": "పేరు అవసరం"
+      },
+      "WIZARD": {
+        "ADVANCED": "ఆధునిక",
+        "BANNER": "బ్యానర్",
+        "BASIC": "ప్రాథమిక",
+        "BOTTOM-SHEET": "దిగువ షీట్",
+        "BUTTON": "బటన్",
+        "CARD": "కార్డు",
+        "CHARTS": "చార్ట్‌లు",
+        "CREATE-TEMPLATE": "మూసను ఎంచుకోండి",
+        "DIALOG": "డైలాగ్",
+        "FORM": "ఫారం",
+        "GRID": "గ్రిడ్",
+        "SELECT-COMPONENT": "ఒక భాగాన్ని ఎంచుకోవడం ద్వారా మూసను సృష్టించడం ప్రారంభించండి",
+        "STEPPER": "స్టెప్పర్",
+        "TAB": "ట్యాబ్",
+        "TOOLBAR-BREADCRUMB": "టూల్ బార్ మరియు బ్రెడ్‌క్రంబ్",
+        "TREE": "చెట్టు"
+      }
+    }
+  },
+  "BUTTON": {
+    "ADD": "జోడించు",
+    "APPROVAL": "ఆమోదం",
+    "BACK": "తిరిగి",
+    "CANCEL": "రద్దు చేయండి",
+    "CLOSE": "దగ్గరగా",
+    "DELETE": "తొలగించు",
+    "DELETE-CONFIRMATION": "మీరు తొలగించాలనుకుంటున్నారా?",
+    "DOWNLOAD": "డౌన్‌లాడ్",
+    "EDIT": "సవరించండి",
+    "EMAIL": "ఇమెయిల్",
+    "MODIFY": "సవరించండి",
+    "NEW": "క్రొత్తది",
+    "NEXT": "తరువాత",
+    "OK": "అలాగే",
+    "PREVIOUS": "మునుపటి",
+    "PRINT": "ముద్రణ",
+    "PRINT-PDF": "పిడిఎఫ్ ముద్రించండి",
+    "SAVE": "సేవ్ చేయండి",
+    "UPDATE": "నవీకరణ"
+  },
+  "CAREERLEVEL": {
+    "ANALYST": "విశ్లేషకుడు",
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "బిల్ కోడ్ అవసరం"
+      },
+      "TITLE": "బిల్ కోడ్‌లు"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "కెరీర్ స్థాయి అవసరం"
+      },
+      "TITLE": "కెరీర్ స్థాయి"
+    },
+    "CONSULTANT": "కన్సల్టెంట్",
+    "CREATE": "కెరీర్ స్థాయిని సృష్టించండి",
+    "EDIT": "కెరీర్ స్థాయిని సవరించండి",
+    "ERROR": {
+      "CREATE": "కెరీర్ స్థాయిని సృష్టించేటప్పుడు లోపం",
+      "DELETE": "కెరీర్ స్థాయిని తొలగించేటప్పుడు లోపం",
+      "UPDATE": "కెరీర్ స్థాయిని నవీకరించేటప్పుడు లోపం"
+    },
+    "EXECUTIVE": "ఎగ్జిక్యూటివ్",
+    "INTERN": "అంతర్గత",
+    "MANAGER": "నిర్వాహకుడు",
+    "PAGE-TITLE": "కెరీర్ స్థాయి",
+    "SEARCH-PLACEHOLDER": "కెరీర్ స్థాయిని శోధించండి",
+    "SENIOR-ANALYST": "సీనియర్ విశ్లేషకుడు",
+    "SENIOR-CONSULTANT": "సీనియర్ కన్సల్టెంట్",
+    "SENIOR-MANAGER": "సీనియర్ మేనేజర్",
+    "SUCCESS": {
+      "CREATE": "కెరీర్ స్థాయి విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "కెరీర్ స్థాయి విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "కెరీర్ స్థాయి విజయవంతంగా నవీకరించబడింది"
+    },
+    "UPDATE-SUCESS": "కెరీర్ లెవెల్ విజయవంతంగా నవీకరించబడింది"
+  },
+  "CLIENT": {
+    "ACCOUNT-DETAILS": "ఖాతా వివరాలు",
+    "ADDRESS-LINE-1": {
+      "ERROR": {
+        "REQUIRED": "చిరునామా పంక్తి 1 అవసరం"
+      },
+      "TITLE": "చిరునామా పంక్తి 1"
+    },
+    "ADDRESS-LINE-2": {
+      "TITLE": "చిరునామా లైన్ 2"
+    },
+    "BILLING-ADDRESS": "రశీదు చిరునామా",
+    "BILLS-DUE-DATE": {
+      "ERROR": {
+        "REQUIRED": "బిల్లుల గడువు తేదీ అవసరం",
+        "TYPE-REQUIRED": "బిల్లుల గడువు తేదీ ఎంపిక అవసరం"
+      },
+      "INPUT": "తేదీ",
+      "SELECT-TYPE": "ఎంపిక",
+      "TITLE": "బిల్లులు గడువు తేదీ"
+    },
+    "CIN": "చైనా",
+    "CITY": {
+      "ERROR": {
+        "REQUIRED": "నగరం అవసరం"
+      },
+      "TITLE": "నగరం"
+    },
+    "COMPANY-REG-NUM": {
+      "ERROR": {
+        "REQUIRED": "కంపెనీ రిజిస్ట్రేషన్ నం అవసరం"
+      },
+      "TITLE": "కంపెనీ రిజిస్ట్రేషన్ నం."
+    },
+    "CONTACT-PERSON-DETAILS": "వ్యక్తి వివరాలను సంప్రదించండి",
+    "COUNTRY": {
+      "ERROR": {
+        "REQUIRED": "దేశం అవసరం"
+      },
+      "TITLE": "దేశం"
+    },
+    "CREATE": "క్లయింట్‌ను సృష్టించండి",
+    "CREDIT-LIMIT": {
+      "ERROR": {
+        "REQUIRED": "క్రెడిట్ పరిమితి అవసరం"
+      },
+      "TITLE": "క్రెడిట్ పరిమితి"
+    },
+    "CURRENCY": {
+      "ERROR": {
+        "REQUIRED": "కరెన్సీ అవసరం"
+      },
+      "TITLE": "కరెన్సీ"
+    },
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "వివరణ అవసరం"
+      },
+      "TITLE": "వివరణ"
+    },
+    "EDIT": "క్లయింట్‌ను సవరించండి",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "ఇమెయిల్ చెల్లదు",
+        "REQUIRED": "ఇమెయిల్ అవసరం"
+      },
+      "TITLE": "ఇమెయిల్"
+    },
+    "ERROR": {
+      "CREATE": "క్లయింట్‌ను సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "క్లయింట్‌ను తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "క్లయింట్‌ను నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "FOLLOWING-ATTR-TEXT": "క్లయింట్ స్థానం (దేశం) ప్రకారం క్రింది లక్షణాలు మారుతాయి",
+    "GST": "జీఎస్టీ",
+    "GST-PURCHASE": {
+      "ERROR": {
+        "REQUIRED": "జీఎస్టీ కొనుగోలు అవసరం"
+      },
+      "TITLE": "జీఎస్టీ కొనుగోలు"
+    },
+    "GST-SALES": {
+      "ERROR": {
+        "REQUIRED": "జీఎస్టీ అమ్మకాలు అవసరం"
+      },
+      "TITLE": "జీఎస్టీ అమ్మకాలు"
+    },
+    "INVOICE-DUE-DATE": {
+      "ERROR": {
+        "INVALID": "చెల్లని తేదీ",
+        "REQUIRED": "ఇన్వాయిస్ గడువు తేదీ అవసరం",
+        "TYPE-REQUIRED": "ఇన్వాయిస్ గడువు తేదీ ఎంపిక అవసరం"
+      },
+      "INPUT": "తేదీ",
+      "SELECT-TYPE": "ఎంపిక",
+      "TITLE": "ఇన్వాయిస్ గడువు తేదీ"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "పేరు అవసరం"
+      },
+      "TITLE": "పేరు"
+    },
+    "NO-COUNTRY-FOUND": "ఏ దేశం కనుగొనబడలేదు",
+    "NO-STATE-FOUND": "ఏ రాష్ట్రం కనుగొనబడలేదు",
+    "PAGE-TITLE": "క్లయింట్లు",
+    "PHONE-NUMBER": {
+      "ERROR": {
+        "REQUIRED": "ఫోన్ నంబర్ అవసరం"
+      },
+      "TITLE": "ఫోను నంబరు"
+    },
+    "POST-CODE": {
+      "ERROR": {
+        "REQUIRED": "పోస్ట్ కోడ్ అవసరం"
+      },
+      "TITLE": "పోస్ట్ కోడ్"
+    },
+    "SAME-AS-BILLING-ADDRESS": "బిల్లింగ్ చిరునామా వలె ఉపయోగించండి",
+    "SAME-AS-SHIPPING-ADDRESS": "షిప్పింగ్ చిరునామా వలె ఉపయోగించండి",
+    "SEARCH-PLACEHOLDER": "క్లయింట్‌ను శోధించండి",
+    "SELECT": {
+      "ERROR": {
+        "REQUIRED": "ఎంపిక అవసరం"
+      },
+      "TITLE": "ఎంచుకోండి"
+    },
+    "SETUP-CURRENCY-TAX-RATES": "కరెన్సీ & పన్ను రేట్లను సెటప్ చేయండి",
+    "SHIPPING-ADDRESS": "షిప్పింగ్ చిరునామా",
+    "STATE": {
+      "ERROR": {
+        "REQUIRED": "రాష్ట్రం అవసరం"
+      },
+      "TITLE": "రాష్ట్రం"
+    },
+    "SUCCESS": {
+      "CREATE": "క్లయింట్ విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "క్లయింట్ విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "క్లయింట్ విజయవంతంగా నవీకరించబడింది"
+    },
+    "TAB": {
+      "ADDRESS": "చిరునామా",
+      "CLIENT-DETAILS": "క్లయింట్ వివరాలు",
+      "FINANCIAL-DETAILS": "ఆర్థిక వివరాలు",
+      "REVIEW": "సమీక్ష"
+    },
+    "TAN": {
+      "ERROR": {
+        "REQUIRED": "టాన్ అవసరం"
+      },
+      "TITLE": "కాబట్టి"
+    },
+    "TAX-ID": {
+      "ERROR": {
+        "REQUIRED": "పన్ను ఐడి అవసరం"
+      },
+      "TITLE": "పన్ను గుర్తింపు"
+    },
+    "TIN": {
+      "ERROR": {
+        "REQUIRED": "టిన్ అవసరం"
+      },
+      "TITLE": "నమ్మండి"
+    }
+  },
+  "COMMON": {
+    "CONN-MGMT": "కనెక్షన్ మేనేజ్మెంట్",
+    "CREATE": "సృష్టించండి",
+    "DELETE": "తొలగించు",
+    "EXPORT": "ఎగుమతి",
+    "IS-REQUIRED": " అవసరం",
+    "MAIL": "మెయిల్",
+    "NO": "లేదు",
+    "ORPHAN-MGMT": "అనాధ ఖాతా నిర్వహణ",
+    "PRINT": "ముద్రణ",
+    "PROV-CONFIG": "నియమం",
+    "READ": "చదవడానికి మాత్రమే (వీక్షించండి)",
+    "RECON": "సయోధ్య",
+    "RECON-CONFIG": "రీకాన్ కాన్ఫిగరేషన్",
+    "REPORT": {
+      "EXPORT": "ఎగుమతి",
+      "FILTERS": "ఫిల్టర్లు",
+      "PRINT": "ముద్రణ"
+    },
+    "SEARCH": "వెతకండి",
+    "SYSTEM-OWNER": "సిస్టమ్ యజమాని",
+    "UPDATE": "నవీకరణ",
+    "USERID-CONFIG": "యూజర్ ఐడి కాన్ఫిగరేషన్",
+    "YES": "అవును"
+  },
+  "COMPANY": {
+    "CREATE": "సృష్టించండి",
+    "EDIT": "సవరించండి",
+    "ERROR": {
+      "CREATE": "కంపెనీని సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "కంపెనీని తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "కంపెనీని నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "PAGE-TITLE": "కంపెనీ",
+    "SEARCH-PLACEHOLDER": "పేరు, ట్రేడింగ్ పేరు, దేశం వారీగా శోధించండి",
+    "SUCCESS": {
+      "CREATE": "కంపెనీ విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "కంపెనీ విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "కంపెనీ విజయవంతంగా నవీకరించబడింది"
+    },
+    "TAB": {
+      "BASIC-INFORMATION": {
+        "CURRENCY": {
+          "ERROR": {
+            "REQUIRED": "కరెన్సీ అవసరం"
+          },
+          "TITLE": "కరెన్సీ"
+        },
+        "DELETE": "తొలగించు",
+        "DESCRIPTION": {
+          "TITLE": "వివరణ"
+        },
+        "DISPLAY-NAME": {
+          "ERROR": {
+            "REQUIRED": "ప్రదర్శన పేరు అవసరం"
+          },
+          "TITLE": "ప్రదర్శన పేరు"
+        },
+        "EDIT-LOGO": "లోగోను సవరించండి",
+        "LINE-OF-BUSSINESS": {
+          "ERROR": {
+            "REQUIRED": "లైన్ ఆఫ్ బిజినెస్ అవసరం"
+          },
+          "TITLE": "లైన్ ఆఫ్ బిజినెస్"
+        },
+        "ORGANISATION-TYPE": {
+          "ERROR": {
+            "REQUIRED": "సంస్థ రకం అవసరం"
+          },
+          "TITLE": "సంస్థ రకం"
+        },
+        "TAX-ID": {
+          "ERROR": {
+            "REQUIRED": "పన్ను ID అవసరం"
+          },
+          "TITLE": "పన్ను గుర్తింపు"
+        },
+        "TITLE": "ప్రాథమిక సమాచారం",
+        "TRADING-NAME": {
+          "ERROR": {
+            "REQUIRED": "ట్రేడింగ్ పేరు అవసరం"
+          },
+          "TITLE": "పంపిణీదారు పేరు"
+        },
+        "UPLOAD-LOGO": "లోగోను అప్‌లోడ్ చేయండి"
+      },
+      "LOCATION": {
+        "ADDRESS1": {
+          "ERROR": {
+            "REQUIRED": "చిరునామా పంక్తి 1 అవసరం"
+          },
+          "TITLE": "చిరునామా పంక్తి 1"
+        },
+        "ADDRESS2": {
+          "ERROR": {
+            "REQUIRED": "చిరునామా పంక్తి 2 అవసరం"
+          },
+          "TITLE": "చిరునామా లైన్ 2"
+        },
+        "CITY": {
+          "ERROR": {
+            "REQUIRED": "నగరం అవసరం"
+          },
+          "TITLE": "నగరం"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "దేశం అవసరం"
+          },
+          "TITLE": "దేశం"
+        },
+        "EMAIL": {
+          "ERROR": {
+            "INVALID": "చెల్లని ఇమెయిల్",
+            "REQUIRED": "ఇమెయిల్ అవసరం"
+          },
+          "TITLE": "ఇమెయిల్"
+        },
+        "PHONE": {
+          "ERROR": {
+            "REQUIRED": "ఫోన్ అవసరం"
+          },
+          "TITLE": "ఫోన్"
+        },
+        "POSTAL-CODE": {
+          "ERROR": {
+            "REQUIRED": "పోస్టల్ కోడ్ అవసరం"
+          },
+          "TITLE": "పోస్టల్ కోడ్"
+        },
+        "STATE": {
+          "ERROR": {
+            "REQUIRED": "రాష్ట్రం అవసరం"
+          },
+          "TITLE": "రాష్ట్రం"
+        },
+        "TITLE": "స్థానం",
+        "WEBSITE": {
+          "ERROR": {
+            "REQUIRED": "వెబ్‌సైట్ అవసరం"
+          },
+          "TITLE": "వెబ్‌సైట్"
+        }
+      }
+    }
+  },
+  "CONNECTOR": {
+    "METADATA": {
+      "CATEGORY": {
+        "APPLICATION": "అప్లికేషన్",
+        "AUTHENTICATION": "ప్రామాణీకరణ",
+        "AUTHORIZATION": "అధికారం",
+        "CLOUD-APP": "క్లౌడ్ అనువర్తనం",
+        "SAAS": "సాస్"
+      },
+      "IMP-TYPE": {
+        "DB": "డేటాబేస్",
+        "REST": "REST Api",
+        "RPA": "RPA",
+        "SOAP": "SOAP Api"
+      },
+      "SYSTEM-NAME": {
+        "AD": "యాక్టివ్ డైరెక్టరీ",
+        "ADP": "ADP",
+        "AIRWATCHADMINPORTAL": "ఎయిర్ వాచ్",
+        "AMAZONEC2": "అమెజాన్ ఇసి 2",
+        "AMERICNAEXPRESSCORPORATE": "అమెరికన్ ఎక్స్‌ప్రెస్",
+        "AML": "AML",
+        "API": "మంట",
+        "APPLE": "ఆపిల్",
+        "APPLICATION": "అప్లికేషన్",
+        "ARIBACONTRACTMANAGEMENT": "అరిబా కాంట్రాక్ట్ మేనేజ్మెంట్",
+        "ARIBANETWORK": "అరిబా నెట్‌వర్క్",
+        "AWS": "AWS",
+        "BAMBOOHR": "బాంబూహర్",
+        "BETTERWORKS": "మంచి రచనలు",
+        "BIOMETRICS": "బయో మెట్రిక్స్",
+        "BLACKLINE": "బ్లాక్ లైన్",
+        "BLUEDIAMOND": "బ్లూ డైమండ్",
+        "BLUESCAPE": "నీలం సురక్షితం",
+        "BMCREMEDYFORCE": "BMC రెమెడీ ఫోర్స్",
+        "BOXCOM": "బాక్స్ com",
+        "BRIGHTEDGE": "బ్రైట్ ఎడ్జ్",
+        "BRITISHAIRWAYS": "బ్రిటిష్ ఎయిర్‌వేస్",
+        "CALLIDUS": "కాలిడస్",
+        "CARDPRINTERS": "కార్డ్ ప్రింటర్లు",
+        "CARDS": "కార్డులు",
+        "CERIDIAN": "సెరిడియన్",
+        "CERTIFY": "ధృవీకరించండి",
+        "CITIBANK": "సిఐటిఐ బ్యాంక్",
+        "CLOUDLOCK": "క్లౌడ్ లాక్",
+        "CLOUDPAY": "క్లౌడ్ పే",
+        "CONCUR": "కాంకర్",
+        "CONFER": "చర్చించే",
+        "CONFLUENCE": "సంగమం",
+        "CONVO": "కాన్వో",
+        "CORPEDIA": "కార్పీడియా",
+        "COSTCO": "కాస్ట్కో",
+        "COUPA": "CO UPA",
+        "CSV": "Csv",
+        "CUSTOM": "కస్టమ్",
+        "CVENT": "CVENT",
+        "DATABASE": "డేటాబేస్",
+        "DESKCOM": "డెస్కామ్",
+        "DOCUSIGN": "DOCUSIGN",
+        "DOMO": "డోమో",
+        "DROPBOX": "డ్రాప్ బాక్స్",
+        "EGNECIA": "EGNECIA",
+        "EGNYTE": "EGNYTE",
+        "ELEAP": "ELEAP",
+        "EMPLOYEEREFERRALSCOM": "ఉద్యోగి రెఫరల్స్ com",
+        "ENVOY": "ఆనందించండి",
+        "EVENTBRIGHT": "ఈవెంట్ బ్రైట్",
+        "EVERNOTE": "ఎప్పుడైనా గమనించండి",
+        "EVERNOTEBUSINESS": "ఎవర్ నోట్ బిజినెస్",
+        "EXPENSEWATCH": "ఖర్చు వాచ్",
+        "EXPENSIFY": "ఖర్చు చేయండి",
+        "FACEBOOK": "ఫేస్బుక్",
+        "FIDELITY": "విశ్వసనీయత",
+        "FILE": "ఫైల్",
+        "FLATTERFILESSAML": "ఫ్లాట్ ఫైల్స్ SAML",
+        "FLOWDOCKSAML": "ఫ్లో డాక్ SAML",
+        "GLOBOFORCE": "గ్లోబ్ ఫోర్స్",
+        "GLOBUS": "భూగోళం",
+        "GOODDATA": "మంచి డేటా",
+        "GOOGLEAPPS": "Google Apps",
+        "GOTOMEETING": "సమావేశానికి వెళ్ళండి",
+        "GOTOWEBINAR": "వెబ్‌నార్‌కు వెళ్లండి",
+        "GROVOSAML": "గ్రోవో SAML",
+        "GYMBOREE": "జింబోరీ",
+        "HACKERONE": "హ్యాకేరోన్",
+        "HISEC": "HISEC",
+        "HOOTSUITE": "HOOT SUITE",
+        "HRMS": "HRMS",
+        "IGLOO": "ఇగ్లూ",
+        "INFORMATICASSOINTEGRATION": "IT SSO ఇంటిగ్రేషన్",
+        "ITUNES": "మరియు ట్యూన్స్",
+        "JIRA": "జిరా",
+        "JIRAON-PREMISE": "జిరాన్-ప్రీమిస్",
+        "JIVE": "జీవ్",
+        "JOINME": "నాతో కలువు",
+        "LDAP": "LDAP",
+        "LENEL": "లెనెల్",
+        "LINKEDIN": "లింకెడిన్",
+        "MERILLLYNCHCREDITCARD": "మెరిల్ లించ్ క్రెడిట్ కార్డ్",
+        "MERILLREWARDS": "మెరిల్ రివార్డ్స్",
+        "MICROSOFTAZURE": "మైక్రోసాఫ్ట్ అజూర్",
+        "MSOFFICE365": "MSOFFICE 365",
+        "NETFLIX": "NETFLIX",
+        "NETSUITE": "NET SUITE",
+        "NEXSENTRY": "నెక్స్ ఎంట్రీ",
+        "OKTA": "OKTA",
+        "ONGUARD": "కాపలాగా",
+        "OPENLADAPUNIX": "లాడాప్ యునిక్స్ తెరవండి",
+        "OPENLDAPW": "LDAP తెరవండి",
+        "OTHER": "ఇతర",
+        "PEGASYS2000": "PEGASYS 2000",
+        "PEOPLESOFT": "పీపుల్స్ సాఫ్ట్",
+        "PINGBOARD": "పింగ్ బోర్డు",
+        "PROWATCH": "PRO WATCH",
+        "RACKSPACE": "ర్యాక్ స్థలం",
+        "RACKSPACECLOUD": "ర్యాక్ స్పేస్ క్లౌడ్",
+        "RADIUS": "వ్యాసార్థం",
+        "RALLYSOFTWARE": "ర్యాలీ",
+        "RELIANCEINDIAONLINE": "రిలయన్స్ ఇండియా ఆన్‌లైన్",
+        "REST": "విశ్రాంతి",
+        "RFID": "RFID",
+        "SALESFORCECOM": "సేల్స్ఫోర్స్",
+        "SAMBA": "సాంబా",
+        "SAP": "SAP",
+        "SAPHR": "SAP HR",
+        "SECURITYMANAGER": "సెక్యూరిటీ మేనేజర్",
+        "SELECTICA": "సెలెక్టికా",
+        "SERVICENOW": "ఇప్పుడు సేవ",
+        "SERVICENOW-EUREKARELEASE": "సర్వీస్ ఇప్పుడు యురేకా విడుదల",
+        "SHAREFILE": "ఫైల్‌ను భాగస్వామ్యం చేయండి",
+        "SHAREPOINT-ON-PREMISE)": "షేర్ పాయింట్",
+        "SHELFARI": "షెల్ఫారి",
+        "SLACK": "మందగింపు",
+        "SNAPLOGIC": "స్నాప్ లాజిక్",
+        "SPLUNK": "స్ప్లంక్",
+        "SPRINGCM": "SPRING CM",
+        "SUCCESSFACTORS": "విజయవంతమైన కారకాలు",
+        "SUGARCRM": "సుగర్ CRM",
+        "SUMOLOGIC": "SUM OLOGIC",
+        "SUNLDAP": "SUN LDAP",
+        "SURVEYMONKEY": "సర్వే మంకీ",
+        "SYMMETRY": "సమరూపత",
+        "SYNATA": "సినాటా",
+        "TELLO": "ట్రెల్లో",
+        "TRINETHRSERVICES": "STEP HR సేవలు",
+        "UNIX": "యునిక్స్",
+        "UNIXFLATFILE": "యునిక్స్ ఫ్లాట్ ఫైల్",
+        "UNIXNODES": "యునిక్స్ నోడ్స్",
+        "WAGEWORKS": "వేతన పనులు",
+        "WEBAPP": "వెబ్ అనువర్తనం",
+        "WINDOWCSV": "విండోస్ CSV",
+        "WORKBOARD": "వర్క్ బోర్డు",
+        "WORKCOM": "వ్రోక్కామ్",
+        "WORKDAY": "పని రోజు",
+        "YAMMER": "యమ్మర్",
+        "ZENDESK": "జెన్ డెస్క్",
+        "ZOOM": "జూమ్ చేయండి",
+        "ZSCALER": "Z స్కేలార్"
+      },
+      "TYPE": {
+        "ASSET": "ఆస్తి",
+        "LMS": "LMS",
+        "LOGICAL": "లాజికల్",
+        "PHYSICAL": "భౌతిక"
+      }
+    }
+  },
+  "COSTRATE": {
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "బిల్ కోడ్ అవసరం"
+      },
+      "TITLE": "బిల్ కోడ్‌లు"
+    },
+    "CAPACITY": {
+      "ERROR": {
+        "MAX": " గరిష్ట సామర్థ్యం 100",
+        "MIN": " కనిష్ట సామర్థ్యం 1",
+        "REQUIRED": "సామర్థ్యం అవసరం"
+      },
+      "TITLE": "సామర్థ్యం"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "కెరీర్ స్థాయి అవసరం"
+      },
+      "TITLE": "కెరీర్ స్థాయి"
+    },
+    "COSTRATE": {
+      "ERROR": {
+        "REQUIRED": "ఖర్చు రేటు అవసరం"
+      },
+      "TITLE": "ఖర్చు రేటు"
+    },
+    "CREATE": "ఖర్చు రేటు సృష్టించండి",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "విభజన అవసరం"
+      },
+      "TITLE": "విభజన"
+    },
+    "EDIT": "ఖర్చు రేటును సవరించండి",
+    "ERROR": {
+      "CREATE": "ఖర్చు రేటును సృష్టించేటప్పుడు లోపం",
+      "DELETE": "ఖర్చు రేటును తొలగించేటప్పుడు లోపం",
+      "UPDATE": "ఖర్చు రేటును నవీకరించేటప్పుడు లోపం"
+    },
+    "PAGE-TITLE": "ఖర్చు రేటు",
+    "SALARY": "జీతం",
+    "SALARY-MAX": "గరిష్ట జీతం",
+    "SALARY-MIN": "కనీస జీతం",
+    "SEARCH-PLACEHOLDER": "డివిజన్, సబ్ డివిజన్, కెరీర్ స్థాయి, బిల్ కోడ్, లోడ్, ఖర్చు రేటు వారీగా ఖర్చు రేటును శోధించండి",
+    "SUBDIVISION": {
+      "ERROR": {
+        "REQUIRED": "సబ్ డివిజన్ అవసరం"
+      },
+      "TITLE": "సబ్ డివిజన్"
+    },
+    "SUCCESS": {
+      "CREATE": "ఖర్చు రేటు విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "ఖర్చు రేటు విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "ఖర్చు రేటు విజయవంతంగా నవీకరించబడింది"
+    },
+    "UPDATE-SUCESS": "ఖర్చు రేటు విజయవంతంగా నవీకరించబడింది"
+  },
+  "COUNTRY": {
+    "AFGHANISTAN": "ఆఫ్ఘనిస్తాన్",
+    "ALBANIA": "అల్బేనియా",
+    "ALGERIA": "అల్జీరియా",
+    "AMERICAN SAMOA": "అమెరికన్ సమోవా",
+    "ANDORRA": "అండోరా",
+    "ANGOLA": "అంగోలా",
+    "ANGUILLA": "అంగుయిల్లా",
+    "ANTARCTICA": "అంటార్కిటికా",
+    "ANTIGUA AND BARBUDA": "ఆంటిగ్వా మరియు బార్బుడా",
+    "ARGENTINA": "అర్జెంటీనా",
+    "ARMENIA": "అర్మేనియా",
+    "ARUBA": "అరుబా",
+    "AUSTRALIA": "ఆస్ట్రేలియా",
+    "AUSTRIA": "ఆస్ట్రియా",
+    "AZERBAIJAN": "అజర్‌బైజాన్",
+    "BAHAMAS THE": "బహామాస్",
+    "BAHRAIN": "బహ్రెయిన్",
+    "BANGLADESH": "బంగ్లాదేశ్",
+    "BARBADOS": "బార్బడోస్",
+    "BELARUS": "బెలారస్",
+    "BELGIUM": "బెల్జియం",
+    "BELIZE": "బెలిజ్",
+    "BENIN": "బెనిన్",
+    "BERMUDA": "బెర్ముడా",
+    "BHUTAN": "భూటాన్",
+    "BOLIVIA": "బొలీవియా",
+    "BOSNIA AND HERZEGOVINA": "బోస్నియా మరియు హెర్జెగోవినా",
+    "BOTSWANA": "బోట్స్వానా",
+    "BOUVET ISLAND": "బౌవెట్ ద్వీపం",
+    "BRAZIL": "బ్రెజిల్",
+    "BRITISH INDIAN OCEAN TERRITORY": "బ్రిటిష్ హిందూ మహాసముద్రం భూభాగం",
+    "BRUNEI": "బ్రూనై",
+    "BULGARIA": "బల్గేరియా",
+    "BURKINA FASO": "బుర్కినా ఫాసో",
+    "BURUNDI": "బురుండి",
+    "CAMBODIA": "కంబోడియా",
+    "CAMEROON": "కామెరూన్",
+    "CANADA": "కెనడా",
+    "CAPE VERDE": "కేప్ వర్దె",
+    "CAYMAN ISLANDS": "కేమాన్ దీవులు",
+    "CENTRAL AFRICAN REPUBLIC": "సెంట్రల్ ఆఫ్రికన్ రిపబ్లిక్",
+    "CHAD": "చాడ్",
+    "CHILE": "మిరప",
+    "CHINA": "చైనా",
+    "CHRISTMAS ISLAND": "క్రిస్మస్ ద్వీపం",
+    "COCOS (KEELING) ISLANDS": "కోకోస్ (కీలింగ్) దీవులు",
+    "COLOMBIA": "కొలంబియా",
+    "COMOROS": "కొమొరోస్",
+    "COOK ISLANDS": "కుక్ దీవులు",
+    "COSTA RICA": "కోస్టా రికా",
+    "COTE D'IVOIRE (IVORY COAST)": "కోట్ డివోయిర్ ఎకెఎ ఐవరీ కోస్ట్",
+    "CROATIA (HRVATSKA)": "క్రొయేషియా (హర్వాట్స్కా)",
+    "CUBA": "క్యూబా",
+    "CYPRUS": "సైప్రస్",
+    "CZECH REPUBLIC": "చెక్ రిపబ్లిక్",
+    "DEMOCRATIC REPUBLIC OF THE CONGO": "కాంగో డెమొక్రాటిక్ రిపబ్లిక్",
+    "DENMARK": "డెన్మార్క్",
+    "DJIBOUTI": "జిబౌటి",
+    "DOMINICA": "డొమినికా",
+    "DOMINICAN REPUBLIC": "డొమినికన్ రిపబ్లిక్",
+    "EAST TIMOR": "తూర్పు తైమూర్",
+    "ECUADOR": "ఈక్వెడార్",
+    "EGYPT": "ఈజిప్ట్",
+    "EL SALVADOR": "రక్షకుడు",
+    "EQUATORIAL GUINEA": "ఈక్వటోరియల్ గినియా",
+    "ERITREA": "ఎరిట్రియా",
+    "ESTONIA": "ఎస్టోనియా",
+    "ETHIOPIA": "ఇథియోపియా",
+    "EXTERNAL TERRITORIES OF AUSTRALIA": "ఆస్ట్రేలియా యొక్క బాహ్య భూభాగాలు",
+    "FALKLAND ISLANDS": "ఫాక్లాండ్ దీవులు",
+    "FAROE ISLANDS": "ఫారో దీవులు",
+    "FIJI ISLANDS": "ఫిజి దీవులు",
+    "FINLAND": "ఫిన్లాండ్",
+    "FRANCE": "ఫ్రాన్స్",
+    "FRENCH GUIANA": "ఫ్రెంచ్ గయానా",
+    "FRENCH POLYNESIA": "ఫ్రెంచ్ పాలినేషియా",
+    "FRENCH SOUTHERN TERRITORIES": "ఫ్రెంచ్ దక్షిణ భూభాగాలు",
+    "GABON": "గాబన్",
+    "GAMBIA THE": "గాంబియా",
+    "GEORGIA": "జార్జియా",
+    "GERMANY": "జర్మనీ",
+    "GHANA": "ఘనా",
+    "GIBRALTAR": "జిబ్రాల్టర్",
+    "GREECE": "గ్రీస్",
+    "GREENLAND": "గ్రీన్లాండ్",
+    "GRENADA": "గ్రెనడా",
+    "GUADELOUPE": "గ్వాడెలోప్",
+    "GUAM": "గువామ్",
+    "GUATEMALA": "గ్వాటెమాల",
+    "GUERNSEY AND ALDERNEY": "గ్వెర్న్సీ మరియు అల్డెర్నీ",
+    "GUINEA": "గినియా",
+    "GUINEA-BISSAU": "గినియా-బిసావు",
+    "GUYANA": "గయానా",
+    "HAITI": "హైతీ",
+    "HEARD AND MCDONALD ISLANDS": "విన్న మరియు మెక్డొనాల్డ్ దీవులు",
+    "HONDURAS": "హోండురాస్",
+    "HONG KONG S": {
+      "A": {
+        "R": "హాంకాంగ్ S.A.R."
+      }
+    },
+    "HUNGARY": "హంగరీ",
+    "ICELAND": "ఐస్లాండ్",
+    "INDIA": "భారతదేశం",
+    "INDONESIA": "ఇండోనేషియా",
+    "IRAN": "ఇరాన్",
+    "IRAQ": "ఇరాక్",
+    "IRELAND": "ఐర్లాండ్",
+    "ISRAEL": "ఇజ్రాయెల్",
+    "ITALY": "ఇటలీ",
+    "JAMAICA": "జమైకా",
+    "JAPAN": "జపాన్",
+    "JERSEY": "జెర్సీ",
+    "JORDAN": "జోర్డాన్",
+    "KAZAKHSTAN": "కజాఖ్స్తాన్",
+    "KENYA": "కెన్యా",
+    "KIRIBATI": "కిరిబాటి",
+    "KOREA NORTH": "ఉత్తర కొరియ",
+    "KOREA SOUTH": "దక్షిణ కొరియా",
+    "KUWAIT": "కువైట్",
+    "KYRGYZSTAN": "కిర్గిజ్స్తాన్",
+    "LAOS": "లావోస్",
+    "LATVIA": "లాట్వియా",
+    "LEBANON": "లెబనాన్",
+    "LESOTHO": "లెసోతో",
+    "LIBERIA": "లైబీరియా",
+    "LIBYA": "లిబియా",
+    "LIECHTENSTEIN": "లిచ్టెన్స్టెయిన్",
+    "LITHUANIA": "లిథువేనియా",
+    "LUXEMBOURG": "లక్సెంబర్గ్",
+    "MACAU S": {
+      "A": {
+        "R": "మకావు S.A.R."
+      }
+    },
+    "MACEDONIA": "మాసిడోనియా",
+    "MADAGASCAR": "మడగాస్కర్",
+    "MALAWI": "మాలావి",
+    "MALAYSIA": "మలేషియా",
+    "MALDIVES": "మాల్దీవులు",
+    "MALI": "మాలి",
+    "MALTA": "మాల్టా",
+    "MAN (ISLE OF)": "మనిషి (ఐల్ ఆఫ్)",
+    "MARSHALL ISLANDS": "మార్షల్ దీవులు",
+    "MARTINIQUE": "మార్టినిక్",
+    "MAURITANIA": "మౌరిటానియా",
+    "MAURITIUS": "మారిషస్",
+    "MAYOTTE": "మయోట్టే",
+    "MEXICO": "మెక్సికో",
+    "MICRONESIA": "మైక్రోనేషియా",
+    "MOLDOVA": "మోల్దవియా",
+    "MONACO": "మొనాకో",
+    "MONGOLIA": "మంగోలియా",
+    "MONTSERRAT": "మోంట్సెరాట్",
+    "MOROCCO": "మొరాకో",
+    "MOZAMBIQUE": "మొజాంబిక్",
+    "MYANMAR": "మయన్మార్",
+    "NAMIBIA": "నమీబియా",
+    "NAURU": "నౌరు",
+    "NEPAL": "నేపాల్",
+    "NETHERLANDS ANTILLES": "నెదర్లాండ్స్ ఆంటిల్లెస్",
+    "NETHERLANDS THE": "నెదర్లాండ్స్",
+    "NEW CALEDONIA": "న్యూ కాలెడోనియా",
+    "NEW ZEALAND": "న్యూజిలాండ్",
+    "NICARAGUA": "నికరాగువా",
+    "NIGER": "నైజర్",
+    "NIGERIA": "నైజీరియా",
+    "NIUE": "నియు",
+    "NORFOLK ISLAND": "నార్ఫోక్ ద్వీపం",
+    "NORTHERN MARIANA ISLANDS": "ఉత్తర మరియానా దీవులు",
+    "NORWAY": "నార్వే",
+    "OMAN": "ఒమన్",
+    "PAKISTAN": "పాకిస్తాన్",
+    "PALAU": "పలావు",
+    "PALESTINIAN TERRITORY OCCUPIED": "పాలస్తీనా భూభాగం ఆక్రమించింది",
+    "PANAMA": "పనామా",
+    "PAPUA NEW GUINEA": "పాపువా న్యూ గినియా",
+    "PARAGUAY": "పరాగ్వే",
+    "PERU": "పెరూ",
+    "PHILIPPINES": "ఫిలిప్పీన్స్",
+    "PITCAIRN ISLAND": "పిట్కైర్న్ ద్వీపం",
+    "POLAND": "పోలాండ్",
+    "PORTUGAL": "పోర్చుగల్",
+    "PUERTO RICO": "ప్యూర్టో రికో",
+    "QATAR": "ఖతార్",
+    "REPUBLIC OF THE CONGO": "రిపబ్లిక్ ఆఫ్ ది కాంగో",
+    "REUNION": "పున un కలయిక",
+    "ROMANIA": "రొమేనియా",
+    "RUSSIA": "రష్యా",
+    "RWANDA": "రువాండా",
+    "SAINT HELENA": "సెయింట్ హెలెనా",
+    "SAINT KITTS AND NEVIS": "సెయింట్ కిట్స్ మరియు నెవిస్",
+    "SAINT LUCIA": "సెయింట్ లూసియా",
+    "SAINT PIERRE AND MIQUELON": "సెయింట్ పియరీ మరియు మిక్వెలాన్",
+    "SAINT VINCENT AND THE GRENADINES": "సెయింట్ విన్సెంట్ మరియు గ్రెనడిన్స్",
+    "SAMOA": "సమోవా",
+    "SAN MARINO": "శాన్ మారినో",
+    "SAO TOME AND PRINCIPE": "సావో టోమ్ మరియు ప్రిన్సిపీ",
+    "SAUDI ARABIA": "సౌదీ అరేబియా",
+    "SENEGAL": "సెనెగల్",
+    "SERBIA": "సెర్బియా",
+    "SEYCHELLES": "సీషెల్స్",
+    "SIERRA LEONE": "సియర్రా లియోన్",
+    "SINGAPORE": "సింగపూర్",
+    "SLOVAKIA": "స్లోవేకియా",
+    "SLOVENIA": "స్లోవేనియా",
+    "SMALLER TERRITORIES OF THE UK": "యుకె యొక్క చిన్న భూభాగాలు",
+    "SOLOMON ISLANDS": "సోలమన్ దీవులు",
+    "SOMALIA": "సోమాలియా",
+    "SOUTH AFRICA": "దక్షిణ ఆఫ్రికా",
+    "SOUTH GEORGIA": "దక్షిణ జార్జియా",
+    "SOUTH SUDAN": "దక్షిణ సూడాన్",
+    "SPAIN": "స్పెయిన్",
+    "SRI LANKA": "శ్రీలంక",
+    "SUDAN": "సుడాన్",
+    "SURINAME": "సురినామ్",
+    "SVALBARD AND JAN MAYEN ISLANDS": "స్వాల్బార్డ్ మరియు జాన్ మాయెన్ దీవులు",
+    "SWAZILAND": "స్వాజిలాండ్",
+    "SWEDEN": "స్వీడన్",
+    "SWITZERLAND": "స్విట్జర్లాండ్",
+    "SYRIA": "సిరియా",
+    "TAIWAN": "తైవాన్",
+    "TAJIKISTAN": "తజికిస్తాన్",
+    "TANZANIA": "టాంజానియా",
+    "THAILAND": "థాయిలాండ్",
+    "TOGO": "వెళ్ళడానికి",
+    "TOKELAU": "తోకెలావ్",
+    "TONGA": "టోంగా",
+    "TRINIDAD AND TOBAGO": "ట్రినిడాడ్ మరియు టొబాగో",
+    "TUNISIA": "ట్యునీషియా",
+    "TURKEY": "టర్కీ",
+    "TURKMENISTAN": "తుర్క్మెనిస్తాన్",
+    "TURKS AND CAICOS ISLANDS": "టర్క్స్ మరియు కైకోస్ దీవులు",
+    "TUVALU": "తువలు",
+    "UGANDA": "ఉగాండా",
+    "UKRAINE": "ఉక్రెయిన్",
+    "UNITED ARAB EMIRATES": "యునైటెడ్ అరబ్ ఎమిరేట్స్",
+    "UNITED KINGDOM": "యునైటెడ్ కింగ్‌డమ్",
+    "UNITED STATES": "సంయుక్త రాష్ట్రాలు",
+    "UNITED STATES MINOR OUTLYING ISLANDS": "యునైటెడ్ స్టేట్స్ మైనర్ అవుట్‌లైయింగ్ దీవులు",
+    "URUGUAY": "ఉరుగ్వే",
+    "UZBEKISTAN": "ఉజ్బెకిస్తాన్",
+    "VANUATU": "వనాటు",
+    "VATICAN CITY STATE (HOLY SEE)": "వాటికన్ సిటీ స్టేట్ (హోలీ సీ)",
+    "VENEZUELA": "వెనిజులా",
+    "VIETNAM": "వియత్నాం",
+    "VIRGIN ISLANDS (BRITISH)": "వర్జిన్ ఐలాండ్స్ (బ్రిటిష్)",
+    "VIRGIN ISLANDS (US)": "వర్జిన్ దీవులు (మా)",
+    "WALLIS AND FUTUNA ISLANDS": "వాలిస్ మరియు ఫుటునా దీవులు",
+    "WESTERN SAHARA": "పశ్చిమ సహారా",
+    "YEMEN": "యెమెన్",
+    "YUGOSLAVIA": "యుగోస్లేవియా",
+    "ZAMBIA": "జాంబియా",
+    "ZIMBABWE": "జింబాబ్వే"
+  },
+  "DEALS": {
+    "CREATE": "ఒప్పందాలను సృష్టించండి",
+    "EDIT": "ఒప్పందాలను సవరించండి",
+    "PAGE-TITLE": "ఒప్పందాలు",
+    "SEARCH-PLACEHOLDER": "శోధన ఒప్పందాలు",
+    "TAB": {
+      "ASSUMPTIONS": {
+        "BD-COST": {
+          "ERROR": {
+            "REQUIRED": "BD ఖర్చు అవసరం"
+          },
+          "TITLE": "BD ఖర్చు"
+        },
+        "CONTIGENCY": {
+          "ERROR": {
+            "REQUIRED": "ఆకస్మిక అవసరం"
+          },
+          "TITLE": "ఆకస్మికత"
+        },
+        "EARLY-PAYMENTS": {
+          "ERROR": {
+            "REQUIRED": "ప్రారంభ చెల్లింపులు అవసరం"
+          },
+          "TITLE": "ప్రారంభ చెల్లింపులు"
+        },
+        "END-DATE": {
+          "ERROR": {
+            "REQUIRED": "ముగింపు తేదీ అవసరం"
+          },
+          "TITLE": "చివరి తేది"
+        },
+        "NON-BILLABLE": {
+          "ERROR": {
+            "REQUIRED": "నాన్ బిల్ చేయదగినది అవసరం"
+          },
+          "TITLE": "బిల్ చేయలేనిది"
+        },
+        "OTHER-OVER-HEADS": {
+          "ERROR": {
+            "REQUIRED": "ఇతర ఓవర్ హెడ్స్ అవసరం"
+          },
+          "TITLE": "ఇతర ఓవర్ హెడ్స్"
+        },
+        "PROJECT-NAME": {
+          "ERROR": {
+            "REQUIRED": "ప్రాజెక్ట్ పేరు అవసరం"
+          },
+          "TITLE": "ప్రాజెక్ట్ పేరు"
+        },
+        "RATE-CARD-DISCOUNT": {
+          "ERROR": {
+            "REQUIRED": "రేట్ కార్డ్ డిస్కౌంట్ అవసరం"
+          },
+          "TITLE": "రేట్ కార్డ్ డిస్కౌంట్"
+        },
+        "REVENUE-RECOGNITION": {
+          "ERROR": {
+            "REQUIRED": "రెవెన్యూ గుర్తింపు అవసరం"
+          },
+          "TITLE": "ఆదాయపు గుర్తింపు"
+        },
+        "SEAT-CHARGES": {
+          "ERROR": {
+            "REQUIRED": "సీట్ల ఛార్జీలు అవసరం"
+          },
+          "TITLE": "సీట్ల ఛార్జీలు"
+        },
+        "START-DATE": {
+          "ERROR": {
+            "REQUIRED": "ప్రారంభ తేదీ అవసరం"
+          },
+          "TITLE": "ప్రారంబపు తేది"
+        },
+        "TITLE": "Ump హలు"
+      },
+      "RESOURCES": {
+        "BILL-CODE": {
+          "ERROR": {
+            "REQUIRED": "బిల్ కోడ్ అవసరం"
+          },
+          "TITLE": "బిల్ కోడ్"
+        },
+        "BILL-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "బిల్ రేట్ / గంట అవసరం"
+          },
+          "TITLE": "బిల్ రేట్ / గంట"
+        },
+        "CAREER-LEVEL": {
+          "ERROR": {
+            "REQUIRED": "కెరీర్ స్థాయి అవసరం"
+          },
+          "TITLE": "కెరీర్ స్థాయి"
+        },
+        "CLASS": {
+          "ERROR": {
+            "REQUIRED": "తరగతి అవసరం"
+          },
+          "TITLE": "తరగతి"
+        },
+        "COST-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "ఖర్చు రేటు / గంట అవసరం"
+          },
+          "TITLE": "ఖర్చు రేటు / గంట"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "దేశం అవసరం"
+          },
+          "TITLE": "దేశం"
+        },
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "వనరులు అవసరం"
+          },
+          "TITLE": "వనరులు"
+        },
+        "RESOURCE-NAME": "వనరు పేరు",
+        "SUB-CLASS": {
+          "ERROR": {
+            "REQUIRED": "సబ్ క్లాస్ అవసరం"
+          },
+          "TITLE": "సబ్ క్లాస్"
+        },
+        "TITLE": "వనరులు"
+      },
+      "REVIEW": {
+        "TITLE": "సమీక్ష"
+      }
+    }
+  },
+  "DIVISION": {
+    "CREATE": "సృష్టించండి",
+    "EDIT": "సవరించండి",
+    "ERROR": {
+      "CREATE": "విభజనను సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "విభాగాన్ని తొలగించేటప్పుడు లోపం సంభవించింది",
+      "PARENT-REQUIRED": "తల్లిదండ్రులు అవసరం",
+      "TITLE-DISPLAYNAME-REQUIRED": "ప్రదర్శన పేరు అవసరం",
+      "TITLE-REQUIRED": "విభజన పేరు అవసరం",
+      "UPDATE": "విభాగాన్ని నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "GANDA": {
+      "ADMIN": "అడ్మిన్",
+      "FACILITIES": "సౌకర్యాలు",
+      "HR": "హెచ్.ఆర్",
+      "TITLE": "జి & ఎ"
+    },
+    "HASCHILDREN": "పిల్లలు ఉన్నారు",
+    "PAGE-TITLE": "విభజన",
+    "PARENT": "తల్లిదండ్రులు",
+    "PROF-SERVICES": "వృత్తి సేవలు",
+    "RANDD": {
+      "DOC": "డాక్యుమెంటేషన్",
+      "ENGG": "ఇంజనీరింగ్",
+      "IT": "ఐటి",
+      "PM": "ఉత్పత్తి నిర్వహణ",
+      "QA": "QA",
+      "QC": "క్యూసి",
+      "SANDM": "సేల్స్ & మార్కెటింగ్",
+      "TITLE": "ఆర్‌అండ్‌డి",
+      "TRAINING": "శిక్షణ"
+    },
+    "SANDM": {
+      "BD": "బిడి",
+      "MARKETING": "మార్కెటింగ్",
+      "SALES": "అమ్మకాలు",
+      "TITLE": "సేల్స్ & మార్కెటింగ్"
+    },
+    "SEARCH-PLACEHOLDER": "శోధన విభాగం",
+    "SUCCESS": {
+      "CREATE": "విభజన విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "విభజన విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "విభజన విజయవంతంగా నవీకరించబడింది"
+    },
+    "TITLE": "డివిజన్ / క్లాస్",
+    "TITLE-DISPLAYNAME": "ప్రదర్శన పేరు",
+    "TITLE-NAME": "విభజన పేరు",
+    "UPDATE-SUCESS": "విభాగం విజయవంతంగా నవీకరించబడింది"
+  },
+  "FINANCE": {
+    "MENU": {
+      "ACCOUNTS": {
+        "BILL": "బిల్లులు",
+        "CREDITMEMO": "జమ రశీదు",
+        "INVOICE": "ఇన్వాయిస్",
+        "QUOTE": "కోట్",
+        "SALEORDER": "అమ్మకపు ఆర్డర్",
+        "TITLE": "ఖాతాలు"
+      },
+      "BUDGET": "బడ్జెట్",
+      "COSTING": "ప్రాజెక్ట్ వ్యయం",
+      "FORECAST": "సూచన",
+      "INVOICE-SETTINGS": {
+        "REMINDER": "రిమైండర్‌లు",
+        "THEME": "థీమ్స్",
+        "TITLE": "ఇన్వాయిస్ సెట్టింగులు"
+      },
+      "PRICING": {
+        "CLIENT": "క్లయింట్లు",
+        "DEAL": "ఒప్పందాలు",
+        "PROJECT": "ప్రాజెక్టులు",
+        "TITLE": "ధర"
+      },
+      "REPORTS": {
+        "BOOKINGS": "బుకింగ్స్",
+        "COMPARISION": "పోలిక",
+        "PIPELINE": "పైప్‌లైన్",
+        "REVENUE": "ఆదాయం",
+        "SALES": "అమ్మకాలు",
+        "TITLE": "నివేదికలు",
+        "WONLOST": "గెలిచింది vs లాస్ట్"
+      },
+      "TIMESHEET": "సమయ పట్టిక",
+      "TITLE": "ఫైనాన్స్"
+    }
+  },
+  "FINANCECUSTOMER": {
+    "CREATE-SUCESS": "కస్టమర్ విజయవంతంగా సృష్టించబడింది",
+    "UPDATE-SUCESS": "కస్టమర్ విజయవంతంగా నవీకరించబడింది"
+  },
+  "GRID": {
+    "ACCOUNT": "ఖాతా",
+    "ACCOUNT-MANAGER": "ఖాతా మేనేజర్",
+    "AMOUNT": "మొత్తం",
+    "BILL-NO": "బిల్ నంబర్",
+    "BILLCODE": "బిల్ కోడ్",
+    "CAREERLEVEL": "కెరీర్ స్థాయి",
+    "CITY": "నగరం",
+    "CLASS": "తరగతి",
+    "CLIENT": "క్లయింట్",
+    "COMPANY": "కంపెనీ",
+    "COSTRATE": "ఖర్చు రేటు",
+    "COUNTRY": "దేశం",
+    "CREDIT-MEMO-NO": "క్రెడిట్ మెమో నంబర్",
+    "CURRENCY": "కరెన్సీ",
+    "DATE": "తేదీ",
+    "DESCRIPTION": "వివరణ",
+    "DEVICE-SRNO": "పరికర సంఖ్య",
+    "DISPLAY-NAME": "ప్రదర్శన పేరు",
+    "DIVISION": "విభజన",
+    "DUE-DATE": "గడువు తేది",
+    "EMAIL": "ఇమెయిల్",
+    "FIRST-NAME": "మొదటి పేరు",
+    "INST-DATE": "సంస్థాపనా తేదీ",
+    "INVOICE-NO": "ఇన్వాయిస్ సంఖ్యా",
+    "IPADDRESS": "IP చిరునామా",
+    "LAST-NAME": "చివరి పేరు",
+    "LOAD": "లోడ్ చేయండి",
+    "LOB": "లైన్ ఆఫ్ బిజినెస్",
+    "LOCATION": "స్థానం",
+    "NAME": "పేరు",
+    "NO-RECORDS-FOUND": "ఎటువంటి పత్రాలు లభించలేదు",
+    "OPERATOR-NAME": "ఆపరేటర్ పేరు",
+    "ORG-NAME": "సంస్థ",
+    "PANCHAYAT": "పంచాయతీ",
+    "PHONE": "ఫోన్",
+    "PORT": "పోర్ట్",
+    "PRICE": "ధర",
+    "PROJECT-MANAGER": "ప్రాజెక్ట్ మేనేజర్",
+    "QUOTE-NO": "కోట్ సంఖ్య",
+    "REFERENCE": "సూచన",
+    "SALE-ORDER-NO": "అమ్మకపు ఆర్డర్ సంఖ్య",
+    "SEARCH": "వెతకండి",
+    "SELECT": "ఎంచుకోండి",
+    "SERVER-NAME": "సర్వర్ పేరు",
+    "SERVICE-ACCOUNT": "సేవా ఖాతా",
+    "STATE": "రాష్ట్రం",
+    "STATUS": "స్థితి",
+    "SUB-DIVISION": "సబ్ డివిజన్",
+    "SUBCLASS": "సబ్ క్లాస్",
+    "TAX-ID": "పన్ను గుర్తింపు",
+    "TAXRATE": "పన్ను శాతమ్",
+    "USERID": "వినియోగదారుని గుర్తింపు"
+  },
+  "HEADER": {
+    "ACCOUNTS": "ఖాతాలు",
+    "ADD-COMPANY": "కంపెనీని జోడించండి",
+    "COMPANY": "కంపెనీ",
+    "COMPANY-NAME": "కంపెనీ పేరు",
+    "DASHBOARD": "డాష్బోర్డ్",
+    "REPORTS": "నివేదికలు",
+    "SETUP": "సెటప్",
+    "UPLOAD-LOGO": "లోగోను అప్‌లోడ్ చేయండి"
+  },
+  "IDM": {
+    "MENU": {
+      "ID-CONSOLIDATION": {
+        "APP-CONSOLIDATION": "అప్లికేషన్",
+        "AUTH-CONSOLIDATION": "ప్రామాణీకరణ",
+        "EMPLIST": "ఉద్యోగుల జాబితా",
+        "TITLE": "ID కన్సాలిడేషన్"
+      },
+      "MANAGE-SERVER": {
+        "APP-SERVER": "అప్లికేషన్",
+        "AUTH-SERVER": "ప్రామాణీకరణ",
+        "AUTHORIZATION-SERVER": "అధికారం",
+        "TITLE": "సర్వర్‌లను నిర్వహించండి"
+      },
+      "TITLE": "IDM"
+    }
+  },
+  "IOT": {
+    "INSTALLATION": {
+      "BLOCK": {
+        "ERROR": {
+          "INVALID": "చెల్లని బ్లాక్",
+          "REQUIRED": "లైన్ ఆఫ్ బిజినెస్ అవసరం"
+        },
+        "TITLE": "బ్లాక్"
+      },
+      "BOREWELL-DEPTH": {
+        "ERROR": {
+          "MAX": "బోర్‌వెల్ లోతు 0-1999 మధ్య ఉండాలి",
+          "MIN": "బోర్‌వెల్ లోతు 0-1999 మధ్య ఉండాలి",
+          "REQUIRED": "బోర్‌వెల్ లోతు అవసరం"
+        },
+        "TITLE": "బోర్వెల్ లోతు"
+      },
+      "COMMENTS": {
+        "ERROR": {
+          "REQUIRED": "వ్యాఖ్యలు అవసరం"
+        },
+        "TITLE": "వ్యాఖ్యలు"
+      },
+      "CREATE": "సృష్టించండి",
+      "CREATE-ERROR": "సంస్థాపన విజయవంతంగా సృష్టించబడింది",
+      "CREATE-SUCESS": "సంస్థాపన విజయవంతంగా సృష్టించబడింది",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "ఇన్‌స్టాలేషన్ తేదీ చెల్లదు",
+          "REQUIRED": "సంస్థాపనా తేదీ అవసరం"
+        },
+        "TITLE": "సంస్థాపనా తేదీ"
+      },
+      "DEVICE-SERIAL-NUMBER": {
+        "ERROR": {
+          "MAX": "పరికర క్రమ సంఖ్య 1-99999 మధ్య ఉండాలి",
+          "MIN": "పరికర క్రమ సంఖ్య 1-99999 మధ్య ఉండాలి",
+          "REQUIRED": "పరికర క్రమ సంఖ్య అవసరం"
+        },
+        "TITLE": "పరికర క్రమ సంఖ్య"
+      },
+      "DIVISION": {
+        "ERROR": {
+          "REQUIRED": "విభజన అవసరం"
+        },
+        "TITLE": "విభజన"
+      },
+      "EARTHING": {
+        "ERROR": {
+          "REQUIRED": "ఎర్తింగ్ అవసరం"
+        },
+        "TITLE": "ఎర్తింగ్"
+      },
+      "EDIT": "సవరించండి",
+      "GEO-LOCATION": {
+        "ERROR": {
+          "REQUIRED": "జియో స్థానం అవసరం"
+        },
+        "TITLE": "జియో స్థానం"
+      },
+      "IMAGE": {
+        "ERROR": {
+          "REQUIRED": "చిత్రం అవసరం"
+        },
+        "TITLE": "చిత్రం"
+      },
+      "IMAGES": "చిత్రాలు",
+      "LIST": {
+        "ALL": "అన్ని",
+        "SELF": "నేనే"
+      },
+      "METADATA": {
+        "PHOTO-TYPE": {
+          "BARCODE": "బార్‌కోడ్",
+          "BOREWELL": "బోర్‌వెల్",
+          "DIST-LINE": "పంపిణీ లైన్",
+          "IOT-DEVICE": "IOT పరికరం",
+          "MAP": "మ్యాప్",
+          "METER": "మీటర్",
+          "OPERATOR": "ఆపరేటర్",
+          "SITE": "సైట్",
+          "STARTER": "స్టార్టర్"
+        }
+      },
+      "METER-TYPE": {
+        "ERROR": {
+          "REQUIRED": "మీటర్ రకం అవసరం"
+        },
+        "TITLE": "మీటర్ రకం"
+      },
+      "MOTOR-CAPACITY": {
+        "ERROR": {
+          "REQUIRED": "మోటార్ సామర్థ్యం అవసరం"
+        },
+        "TITLE": "మోటార్ సామర్థ్యం"
+      },
+      "NO-PHASE": {
+        "ERROR": {
+          "REQUIRED": "దశల సంఖ్య అవసరం"
+        },
+        "TITLE": "దశ సంఖ్య"
+      },
+      "NO-PIPE-BEND": {
+        "ERROR": {
+          "MAX": "పైప్ బెండ్ సంఖ్య 0-10 మధ్య ఉండాలి",
+          "MIN": "పైప్ బెండ్ సంఖ్య 0-10 మధ్య ఉండాలి",
+          "REQUIRED": "పైప్ బెండ్ అవసరం లేదు"
+        },
+        "TITLE": "పైప్ బెండ్ సంఖ్య"
+      },
+      "OPERATOR-NAME": {
+        "ERROR": {
+          "REQUIRED": "ఆపరేటర్ పేరు అవసరం"
+        },
+        "TITLE": "ఆపరేటర్ పేరు"
+      },
+      "PAGE-TITLE": "సంస్థాపన",
+      "PANCHAYAT": {
+        "ERROR": {
+          "REQUIRED": "పంచాయతీ అవసరం"
+        },
+        "TITLE": "పంచాయతీ"
+      },
+      "PIPE-DIAMETER": {
+        "ERROR": {
+          "REQUIRED": "పైప్ వ్యాసం అవసరం"
+        },
+        "TITLE": "పైప్ వ్యాసం"
+      },
+      "PIPE-QUALITY": {
+        "ERROR": {
+          "REQUIRED": "పైప్ నాణ్యత అవసరం"
+        },
+        "TITLE": "పైప్ నాణ్యత"
+      },
+      "SEARCH-PLACEHOLDER": "పేరు, ఆపరేటర్ ద్వారా సంస్థాపనను శోధించండి",
+      "STATUS": {
+        "ERROR": {
+          "REQUIRED": "స్థితి అవసరం"
+        },
+        "TITLE": "స్థితి"
+      },
+      "TANK-CAPACITY": {
+        "ERROR": {
+          "MAX": "ట్యాంక్ సామర్థ్యం 0-500000 మధ్య ఉండాలి",
+          "MIN": "ట్యాంక్ సామర్థ్యం 0-500000 మధ్య ఉండాలి",
+          "REQUIRED": "ట్యాంక్ సామర్థ్యం అవసరం"
+        },
+        "TITLE": "ట్యాంక్ సామర్థ్యం"
+      },
+      "UPDATE-SUCESS": "సంస్థాపన విజయవంతంగా నవీకరించబడింది",
+      "WARD": {
+        "ERROR": {
+          "REQUIRED": "వార్డ్ అవసరం"
+        },
+        "TITLE": "వార్డ్"
+      }
+    },
+    "MENU": {
+      "INSTALLATION": "సంస్థాపన"
+    }
+  },
+  "IPADRESS": {
+    "ERROR": {
+      "CREATE": "IP చిరునామాను సృష్టించేటప్పుడు లోపం",
+      "DELETE": "IP చిరునామాను తొలగించేటప్పుడు లోపం",
+      "UPDATE": "IP చిరునామాను నవీకరించేటప్పుడు లోపం"
+    },
+    "GATEWAY": {
+      "ERROR": {
+        "INVALID": "గేట్వే అవసరం",
+        "REQUIRED": "గేట్వే అవసరం"
+      },
+      "TITLE": "గేట్వే"
+    },
+    "PAGE-TITLE": "IP చిరునామా",
+    "PRIMARY-IP": {
+      "ERROR": {
+        "INVALID": "ప్రాథమిక IP చెల్లదు",
+        "REQUIRED": "ప్రాథమిక IP అవసరం"
+      },
+      "TITLE": "ప్రాథమిక IP"
+    },
+    "PROXY-IP": {
+      "ERROR": {
+        "INVALID": "ప్రాక్సీ IP చెల్లదు",
+        "REQUIRED": "ప్రాక్సీ IP అవసరం"
+      },
+      "TITLE": " ప్రాక్సీ IP"
+    },
+    "PROXY-PORT": {
+      "ERROR": {
+        "INVALID": "ప్రాక్సీ పోర్ట్ చెల్లదు",
+        "MAX": "పోర్ట్ 0 మరియు 65535 మధ్య ఉండాలి",
+        "MIN": "పోర్ట్ 0 మరియు 65535 మధ్య ఉండాలి",
+        "REQUIRED": "ప్రాక్సీ పోర్ట్ అవసరం"
+      },
+      "TITLE": "ప్రాక్సీ పోర్ట్"
+    },
+    "PROXY-REQUIRED": {
+      "ERROR": {
+        "INVALID": "ప్రాక్సీ అవసరం చెల్లదు",
+        "REQUIRED": "ప్రాక్సీ అవసరం"
+      },
+      "TITLE": "ప్రాక్సీ అవసరం"
+    },
+    "SECONDARY-IP": {
+      "ERROR": {
+        "INVALID": "ద్వితీయ IP చెల్లదు",
+        "REQUIRED": "ద్వితీయ IP అవసరం"
+      },
+      "TITLE": "ద్వితీయ IP"
+    },
+    "SUBNET-MASK": {
+      "ERROR": {
+        "INVALID": "సబ్నెట్ మాస్క్ చెల్లదు",
+        "REQUIRED": "సబ్నెట్ మాస్క్ అవసరం"
+      },
+      "TITLE": "సబ్నెట్ మాస్క్"
+    },
+    "SUCCESS": {
+      "CREATE": "IP చిరునామా వివరాలు విజయవంతంగా సృష్టించబడతాయి",
+      "DELETE": "IP చిరునామా వివరాలు విజయవంతంగా తొలగించబడతాయి",
+      "UPDATE": "IP చిరునామా వివరాలు విజయవంతంగా నవీకరించబడతాయి"
+    }
+  },
+  "ITEM": {
+    "ACCOUNT": {
+      "ERROR": {
+        "REQUIRED": "ఖాతా అవసరం"
+      },
+      "TITLE": "ఖాతా"
+    },
+    "CREATE": "సృష్టించండి",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "వివరణ అవసరం"
+      },
+      "TITLE": "వివరణ"
+    },
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "విభజన అవసరం"
+      },
+      "TITLE": "విభజన"
+    },
+    "EDIT": "సవరించండి",
+    "ERROR": {
+      "CREATE": "సేవా అంశాన్ని సృష్టించేటప్పుడు లోపం",
+      "DELETE": "సేవా అంశాన్ని తొలగించేటప్పుడు లోపం",
+      "UPDATE": "సేవా అంశాన్ని నవీకరించేటప్పుడు లోపం"
+    },
+    "ERROR-DELETE": "అంశాన్ని తొలగించేటప్పుడు లోపం సంభవించింది",
+    "ERROR-SAVE": "అంశాన్ని సేవ్ చేస్తున్నప్పుడు లోపం సంభవించింది",
+    "ERROR-UPDATE": "అంశాన్ని నవీకరించేటప్పుడు లోపం సంభవించింది",
+    "ITEM-CODE": {
+      "ERROR": {
+        "REQUIRED": "పేరు అవసరం"
+      },
+      "TITLE": "పేరు"
+    },
+    "PAGE-TITLE": "అంశాలు",
+    "PRICE": {
+      "ERROR": {
+        "MIN": "కనిష్ట ధర 1",
+        "REQUIRED": "ధర అవసరం"
+      },
+      "TITLE": "ధర"
+    },
+    "PRICE-TYPE": {
+      "ERROR": {
+        "REQUIRED": "ధర రకం అవసరం"
+      },
+      "TITLE": "ధర రకం"
+    },
+    "SEARCH-PLACEHOLDER": "పేరు, వివరణ, తరగతి, సబ్ క్లాస్ ఖాతా, పన్ను రేటు, ధరల వారీగా వస్తువులను శోధించండి",
+    "SUB-DIVISION": {
+      "ERROR": {
+        "REQUIRED": "సబ్ డివిజన్ అవసరం"
+      },
+      "TITLE": "సబ్ డివిజన్"
+    },
+    "SUCCESS": {
+      "CREATE": "సేవా అంశం విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "సేవా అంశం విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "సేవా అంశం విజయవంతంగా నవీకరించబడింది"
+    },
+    "TAX-RATE": {
+      "ERROR": {
+        "MAX": "గరిష్ట పన్ను రేటు 100",
+        "MIN": "కనీస పన్ను రేటు 1",
+        "REQUIRED": "పన్ను రేటు అవసరం"
+      },
+      "TITLE": "పన్ను శాతమ్"
+    },
+    "UPDATE-SUCESS": "అంశం విజయవంతంగా నవీకరించబడింది"
+  },
+  "LOCATION": {
+    "CREATE": "స్థానాన్ని సృష్టించండి",
+    "CREATE-FAILURE": "స్థాన సృష్టి విజయవంతం కాలేదు",
+    "CREATE-SUCESS": "స్థానం విజయవంతంగా సృష్టించబడింది",
+    "EDIT": "స్థానాన్ని సవరించండి",
+    "ERROR": {
+      "CREATE": "స్థానాన్ని సృష్టించేటప్పుడు లోపం",
+      "DELETE": "స్థానాన్ని తొలగించేటప్పుడు లోపం",
+      "TITLE-DISPLAYNAME-REQUIRED": "ప్రదర్శన పేరు అవసరం",
+      "TITLE-REQUIRED": "శీర్షిక అవసరం",
+      "TYPE-REQUIRED": "స్థాన రకం అవసరం",
+      "UPDATE": "స్థానాన్ని నవీకరించేటప్పుడు లోపం"
+    },
+    "HASCHILDREN": "పిల్లలు ఉన్నారు",
+    "PAGE-TITLE": "స్థానాలు",
+    "PARENT": "తల్లిదండ్రుల స్థానం",
+    "SEARCH-PLACEHOLDER": "స్థానాలను శోధించండి",
+    "SUCCESS": {
+      "CREATE": "స్థానం విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "స్థానం విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "స్థానం విజయవంతంగా నవీకరించబడింది"
+    },
+    "TITLE-DISPLAYNAME": "స్థాన ప్రదర్శన పేరు",
+    "TITLE-NAME": "స్థానం పేరు",
+    "TYPE": "స్థాన రకం",
+    "UPDATE-SUCESS": "స్థానం విజయవంతంగా నవీకరించబడింది"
+  },
+  "LOGGER": {
+    "ERROR": {
+      "CREATE": "లాగర్ సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "లాగర్‌ను తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "లాగర్‌ను నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "PAGE-TITLE": "లాగ్ సెట్టింగులు",
+    "SERVER": {
+      "ERROR": {
+        "REQUIRED": "లాగ్ స్థాయి అవసరం"
+      },
+      "TITLE": "లాగ్ స్థాయి"
+    },
+    "SUCCESS": {
+      "CREATE": "లాగర్ విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "లాగర్ విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "లాగర్ విజయవంతంగా నవీకరించబడింది"
+    }
+  },
+  "LOGIN-PAGE": {
+    "CONTINUE-SESSION": "సెషన్ కొనసాగించండి",
+    "ERROR": {
+      "USERID-FORMAT": "ఇమెయిల్ లేదా ఫోన్ నంబర్ తప్పనిసరిగా ఇమెయిల్ లేదా ఫోన్ నంబర్ అయి ఉండాలి",
+      "USERID-FORMAT ": "చెల్లని వినియోగదారు ఐడి"
+    },
+    "EXPIRE-IN": "మీ సెషన్ గడువు ముగుస్తుంది",
+    "FORGOT-PASSWORD": "పాస్‌వర్డ్ మర్చిపోయారా?",
+    "HELP": "సహాయం",
+    "INFO": {
+      "PASSWORD-LENGTH": "పాస్‌వర్డ్ కనీసం 4 అక్షరాలు ఉండాలి",
+      "USERID-LENGTH": "ఇమెయిల్ లేదా ఫోన్ నంబర్ కనీసం 4 అక్షరాలు ఉండాలి"
+    },
+    "LOGIN": "ప్రవేశించండి",
+    "LOGIN-ERROR": "ప్రామాణీకరణ లోపం",
+    "LOGIN-ERROR-UNAUTHORISED": "అనధికారిక ప్రవేశము",
+    "LOGIN-INVALID-CREDENATIALS": "చెల్లని ఆధారాలు",
+    "LOGIN-REQUEST-ERROR": "అభ్యర్థనను మరింత ప్రాసెస్ చేయడం సాధ్యం కాలేదు",
+    "PASSWORD": "పాస్వర్డ్",
+    "PRIVACY": "గోప్యత",
+    "REMEMBER-ME": "నన్ను గుర్తు పెట్టుకో!",
+    "SECONDS": " సెకన్లు",
+    "SESSION-EXPIRED": "సెషన్ సమయం ముగిసింది",
+    "SIGNIN-CONTINUE": "కొనసాగించడానికి సైన్ ఇన్ చేయండి",
+    "TERMS": "నిబంధనలు",
+    "TITLE": "ప్రవేశించండి",
+    "USERID": "ఇమెయిల్ లేదా ఫోన్ నంబర్",
+    "WARN": {
+      "PASSWORD-REQUIRED": "పాస్వర్డ్ అవసరం",
+      "USERID-REQUIRED": "ఇమెయిల్ లేదా ఫోన్ నంబర్ అవసరం"
+    },
+    "WELCOME": "స్వాగతం"
+  },
+  "MAILSERVER": {
+    "ERROR": {
+      "CREATE": "మెయిల్ సర్వర్‌ను సృష్టిస్తున్నప్పుడు లోపం",
+      "DELETE": "మెయిల్ సర్వర్‌ను తొలగించేటప్పుడు లోపం",
+      "UPDATE": "మెయిల్ సర్వర్‌ను నవీకరించేటప్పుడు లోపం"
+    },
+    "MAIL-SERVER": {
+      "ERROR": {
+        "REQUIRED": "మెయిల్ సర్వర్ అవసరం"
+      },
+      "TITLE": "మెయిల్ సర్వర్"
+    },
+    "METADATA": {
+      "SECURITY-TYPE": {
+        "NONE": "ఏదీ లేదు",
+        "SSL": "ఎస్ఎస్ఎల్",
+        "TLS": "టిఎల్‌ఎస్"
+      }
+    },
+    "PAGE-TITLE": "మెయిల్ సెట్టింగులు",
+    "PASSWORD": {
+      "ERROR": {
+        "REQUIRED": "పాస్వర్డ్ అవసరం"
+      },
+      "TITLE": "పాస్వర్డ్"
+    },
+    "PORT": {
+      "ERROR": {
+        "MAX": "పోర్ట్ 0 మరియు 65535 మధ్య ఉండాలి",
+        "MIN": "పోర్ట్ 0 మరియు 65535 మధ్య ఉండాలి",
+        "REQUIRED": "పోర్ట్ అవసరం"
+      },
+      "TITLE": "పోర్ట్"
+    },
+    "SECURITY": {
+      "ERROR": {
+        "REQUIRED": "భద్రత అవసరం"
+      },
+      "TITLE": "భద్రత"
+    },
+    "SUCCESS": {
+      "CREATE": "మెయిల్ సర్వర్ విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "మెయిల్ సర్వర్ విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "మెయిల్ సర్వర్ విజయవంతంగా నవీకరించబడింది"
+    },
+    "USERNAME": {
+      "ERROR": {
+        "REQUIRED": "వినియోగదారు పేరు / ఇమెయిల్ అవసరం"
+      },
+      "TITLE": "వినియోగదారు పేరు / ఇమెయిల్"
+    }
+  },
+  "MENU": {
+    "BUILDER": {
+      "BLOCKS": {
+        "BANNER": "బ్యానర్",
+        "BOTTOMSHEET": "దిగువ షీట్",
+        "CARD": "కార్డు",
+        "CHART": "చార్ట్",
+        "DIALOG": "డైలాగ్",
+        "FORM": "ఫారం",
+        "GRID": "గ్రిడ్",
+        "STEPPER": "స్టెప్పర్",
+        "TAB": "ట్యాబ్",
+        "TITLE": "బ్లాక్స్",
+        "TREE": "చెట్టు"
+      },
+      "DESIGNER": {
+        "PAGE": "పేజీ",
+        "STATEMACHNE": "రాష్ట్ర యంత్రం",
+        "TITLE": "డిజైనర్",
+        "WORKFLOW": "వర్క్‌ఫ్లో"
+      },
+      "TITLE": "బిల్డర్"
+    },
+    "CONFIGURATION": {
+      "IPADD": "IP చిరునామా",
+      "LOGLEVEL": "లాగ్ స్థాయి",
+      "MAIL-CONFIG": "మెయిల్ కాన్ఫిగరేషన్",
+      "SYSLOG-SERVER": "SYSLOG సర్వర్",
+      "TITLE": "ఆకృతీకరణ"
+    },
+    "DASHBOARD": "డాష్బోర్డ్",
+    "FEATURE": {
+      "ADD-COMPANY": "కంపెనీని జోడించండి",
+      "CHANGE-COMPANY": "కంపెనీని మార్చండి",
+      "FAVORITE": "ఇష్టమైనవి",
+      "FULLSCREEN": "పూర్తి స్క్రీన్",
+      "GLOBAL-SEARCH": "గ్లోబల్ సెర్చ్",
+      "LANGUAGE": "భాష",
+      "NOTIFICATION": "నోటిఫికేషన్‌లు",
+      "SUB-HEADER": {
+        "BREADCRUMB": "బ్రెడ్‌క్రంబ్",
+        "BUG": "బగ్ రిపోర్టింగ్",
+        "HELP": "సహాయం",
+        "PHOTO-CAPTURE": "ఫోటో క్యాప్చర్",
+        "TIMER": "స్క్రీన్ టైమర్",
+        "TITLE": "ఉప శీర్షిక",
+        "VOICE": "మాటలు గుర్తుపట్టుట"
+      },
+      "THEME": "థీమ్స్",
+      "TITLE": "లక్షణాలు"
+    },
+    "HOME": "హోమ్",
+    "IOT": "IOT",
+    "ORG": {
+      "CAREER-LEVEL": "కెరీర్ స్థాయి",
+      "CLIENTS": "క్లయింట్లు",
+      "COMPANY": "కంపెనీ",
+      "COSTRATE": "ఖర్చు రేటు",
+      "DEPARTMENT": "విభాగం",
+      "DIVISION": "విభజన",
+      "LOCATION": "స్థానం",
+      "SERVICES": "సేవలు",
+      "TITLE": "సంస్థ"
+    },
+    "SETUP": "సెటప్",
+    "TROUBLESHOOT": {
+      "LOGS": "సర్వర్ లాగ్‌లు",
+      "PATCH-MGMT": "ప్యాచ్ నిర్వహణ",
+      "TITLE": "ట్రబుల్షూట్"
+    },
+    "USER-MGMT": {
+      "CHANGE-PASSWORD": "పాస్వర్డ్ మార్చండి / రీసెట్ చేయండి",
+      "PERMISSION": "అనుమతులు",
+      "ROLE": "పాత్రలు",
+      "TITLE": "వాడుకరి నిర్వహణ",
+      "USER": "వినియోగదారులు"
+    }
+  },
+  "ORG": {
+    "METADATA": {
+      "ACCOUNT": {
+        "ENGINEERING": "ఇంజనీరింగ్",
+        "PROFSERVICES": "వృత్తి సేవలు",
+        "PURCHASE": "కొనుగోలు",
+        "SALES": "అమ్మకాలు",
+        "SERVICES": "సేవలు"
+      },
+      "INVOICEOPTION": {
+        "DAYOFCURRENTMONTH": "ప్రస్తుత నెల",
+        "DAYOFNEXTMONTH": "తరువాతి నెలలో",
+        "DAYSAFTER": "బిల్ తేదీ తర్వాత రోజు (లు)",
+        "DAYSAFTERBILLMONTH": "బిల్లు నెల ముగిసిన తర్వాత రోజు (లు)",
+        "FIRSTDAY": "తదుపరి నెల మొదటి రోజు",
+        "LASTDAY": "ప్రస్తుత నెల చివరి రోజు"
+      },
+      "LINEOFBUSINESS": {
+        "AGRICULTURE": "వ్యవసాయం",
+        "CONSTRUCTION": "నిర్మాణం",
+        "FINANCE": "ఫైనాన్స్",
+        "INSURANCE": "భీమా",
+        "MANUFACTURING": "తయారీ",
+        "MINING": "గనుల తవ్వకం",
+        "OTHERS": "ఇతరులు",
+        "REALESTATE": "రియల్ ఎస్టేట్",
+        "SERVIES": "సేవలు",
+        "TRADE": "వాణిజ్యం"
+      },
+      "ORGTYPE": {
+        "CLUB": "క్లబ్",
+        "COMPANY": "కంపెనీ",
+        "INDIVIDUAL": "వ్యక్తిగత",
+        "NONPROFIT": "లాభాపేక్షలేనిది",
+        "PARTNER": "భాగస్వామి",
+        "SOLETRADER": "ఏకైక వ్యాపారి",
+        "TRUST": "నమ్మండి"
+      }
+    }
+  },
+  "PAGE": {
+    "DASHBOARD": {
+      "TITLE": "డాష్బోర్డ్"
+    }
+  },
+  "PERMISSIONS": {
+    "PAGE-TITLE": "అనుమతులు"
+  },
+  "PROJECTS": {
+    "ACCOUNT-MANAGER": {
+      "ERROR": {
+        "REQUIRED": "ఖాతా మేనేజర్ అవసరం"
+      },
+      "TITLE": "ఖాతా మేనేజర్"
+    },
+    "CLIENT": {
+      "ERROR": {
+        "REQUIRED": "క్లయింట్ అవసరం"
+      },
+      "TITLE": "క్లయింట్"
+    },
+    "CREATE": "ప్రాజెక్టులను సృష్టించండి",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "వివరణ అవసరం"
+      },
+      "TITLE": "వివరణ"
+    },
+    "EDIT": "ప్రాజెక్టులను సవరించండి",
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "పేరు అవసరం"
+      },
+      "TITLE": "పేరు"
+    },
+    "PAGE-TITLE": "ప్రాజెక్టులు",
+    "PROJECT-HEAD": {
+      "ERROR": {
+        "REQUIRED": "ప్రాజెక్ట్ హెడ్ అవసరం"
+      },
+      "TITLE": "ప్రాజెక్ట్ హెడ్"
+    },
+    "SEARCH-PLACEHOLDER": "శోధన ప్రాజెక్టులు",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "స్థితి అవసరం"
+      },
+      "TITLE": "స్థితి"
+    }
+  },
+  "ROLES": {
+    "CREATE": "పాత్రలను సృష్టించండి",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "వివరణ అవసరం"
+      },
+      "TITLE": "వివరణ"
+    },
+    "EDIT": "పాత్రలను సవరించండి",
+    "ERROR": {
+      "CREATE": "పాత్రను సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "పాత్రను తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "పాత్రను నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "పేరు అవసరం"
+      },
+      "TITLE": "పేరు"
+    },
+    "PAGE-TITLE": "పాత్రలు",
+    "SEARCH-PLACEHOLDER": "శోధన పాత్రలు",
+    "SUCCESS": {
+      "CREATE": "పాత్ర విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "పాత్ర విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "పాత్ర విజయవంతంగా నవీకరించబడింది"
+    }
+  },
+  "SETTINGS": {
+    "METADATA": {
+      "COMMON": {
+        "FALSE": "తప్పుడు",
+        "NO": "లేదు",
+        "TRUE": "నిజం",
+        "YES": "అవును"
+      },
+      "LOGLEVEL": {
+        "DEBUG": "డీబగ్",
+        "ERROR": "లోపం",
+        "FATAL": "ప్రాణాంతకం",
+        "INFO": "సమాచారం",
+        "TRACE": "జాడ కనుగొను",
+        "WARN": "హెచ్చరించండి"
+      }
+    }
+  },
+  "SYSLOGGER": {
+    "ERROR": {
+      "CREATE": "లాగర్ సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "లాగర్‌ను తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "లాగర్‌ను నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "EXTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "బాహ్య IP చెల్లదు",
+        "REQUIRED": "బాహ్య IP అవసరం"
+      },
+      "PLACEHOLDER": "బాహ్య IPని నమోదు చేయండి",
+      "TITLE": "బాహ్య IP"
+    },
+    "INTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "అంతర్గత IP చెల్లదు",
+        "REQUIRED": "అంతర్గత IP అవసరం"
+      },
+      "PLACEHOLDER": "అంతర్గత IPని నమోదు చేయండి",
+      "TITLE": "అంతర్గత IP"
+    },
+    "PAGE-TITLE": "SYSLOG సెట్టింగులు",
+    "SUCCESS": {
+      "CREATE": "లాగర్ విజయవంతంగా సృష్టించబడింది",
+      "DELETE": "లాగర్ విజయవంతంగా తొలగించబడింది",
+      "UPDATE": "లాగర్ విజయవంతంగా నవీకరించబడింది"
+    }
+  },
+  "USERS": {
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "కెరీర్ స్థాయి అవసరం"
+      },
+      "TITLE": "కెరీర్ స్థాయి"
+    },
+    "CREATE": "వినియోగదారులను సృష్టించండి",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "విభజన అవసరం"
+      },
+      "TITLE": "విభజన"
+    },
+    "EDIT": "వినియోగదారులను సవరించండి",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "ఇమెయిల్ చెల్లదు",
+        "REQUIRED": "ఇమెయిల్ అవసరం"
+      },
+      "PLACEHOLDER": "ఇమెయిల్ నమోదు చేయండి",
+      "TITLE": "ఇమెయిల్"
+    },
+    "ERROR": {
+      "CREATE": "వినియోగదారుని సృష్టించేటప్పుడు లోపం సంభవించింది",
+      "DELETE": "వినియోగదారుని తొలగించేటప్పుడు లోపం సంభవించింది",
+      "UPDATE": "వినియోగదారుని నవీకరించేటప్పుడు లోపం సంభవించింది"
+    },
+    "FIRST-NAME": {
+      "ERROR": {
+        "REQUIRED": "మొదటి పేరు అవసరం"
+      },
+      "PLACEHOLDER": "మొదటి పేరును నమోదు చేయండి",
+      "TITLE": "మొదటి పేరు"
+    },
+    "JOB-LOCATION": {
+      "ERROR": {
+        "REQUIRED": "ఉద్యోగ స్థానం అవసరం"
+      },
+      "TITLE": "ఉద్యోగ స్థానం"
+    },
+    "LAST-NAME": {
+      "ERROR": {
+        "INVALID": "చివరి పేరు చెల్లదు",
+        "MIN": "చివరి పేరు కనీసం 5 ఉండాలి",
+        "REQUIRED": "చివరి పేరు అవసరం"
+      },
+      "PLACEHOLDER": "చివరి పేరును నమోదు చేయండి",
+      "TITLE": "చివరి పేరు"
+    },
+    "LOCATION": {
+      "ERROR": {
+        "REQUIRED": "స్థానం అవసరం"
+      },
+      "PLACEHOLDER": "స్థానాన్ని నమోదు చేయండి",
+      "TITLE": "స్థానం"
+    },
+    "LOCATIONS": {
+      "ERROR": {
+        "REQUIRED": "స్థానాలు అవసరం"
+      }
+    },
+    "PAGE-TITLE": "వినియోగదారులు",
+    "PASSWORD": {
+      "ERROR": {
+        "INVALID-FORMAT": "చెల్లని పాస్వర్డ్"
+      },
+      "PLACEHOLDER": "రహస్య సంకేతం తెలపండి",
+      "TITLE": "పాస్వర్డ్"
+    },
+    "PHONE": {
+      "ERROR": {
+        "INVALID": "ఫోన్ నంబర్ చెల్లదు",
+        "REQUIRED": "ఫోన్ నంబర్ అవసరం"
+      },
+      "PLACEHOLDER": "ఫోన్ నంబర్‌ని నమోదు చేయండి",
+      "TITLE": "ఫోను నంబరు"
+    },
+    "ROLE": {
+      "ERROR": {
+        "REQUIRED": "పాత్ర అవసరం"
+      },
+      "PLACEHOLDER": "పాత్రను నమోదు చేయండి",
+      "TITLE": "పాత్ర"
+    },
+    "SEARCH-PLACEHOLDER": "వినియోగదారులను శోధించండి",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "వినియోగదారు స్థితి అవసరం"
+      },
+      "PLACEHOLDER": "వినియోగదారు స్థితిని నమోదు చేయండి",
+      "TITLE": "వినియోగదారు స్థితి"
+    },
+    "SUCCESS": {
+      "CREATE": "వినియోగదారు విజయవంతంగా సృష్టించబడ్డారు",
+      "DELETE": "వినియోగదారు విజయవంతంగా తొలగించబడ్డారు",
+      "UPDATE": "వినియోగదారు విజయవంతంగా నవీకరించబడ్డారు"
+    },
+    "TYPE": {
+      "ERROR": {
+        "REQUIRED": "వినియోగదారు రకం అవసరం"
+      },
+      "PLACEHOLDER": "వినియోగదారు రకాన్ని నమోదు చేయండి",
+      "TITLE": "వినియోగదారు రకం"
+    },
+    "USER-ID": {
+      "ERROR": {
+        "REQUIRED": "యూజర్ ఐడి అవసరం"
+      },
+      "TITLE": "వినియోగదారుని గుర్తింపు"
+    }
+  }
+}

@@ -1,0 +1,2589 @@
+{
+    "ABOUT": {
+        "COPYRIGHT": "Copy Right Reserved",
+        "SPONSOR": "Sponsered By ",
+        "VERSION": "Version"
+    },
+    "ACCOUNT": {
+        "ACCOUNT": "Account",
+        "ADD": "Add",
+        "ADD-CREDIT-NOTE": "Add Credit Note",
+        "AMOUNT": "Amount",
+        "AMOUNTS-ARE": {
+            "ERROR": {
+                "REQUIRED": "Amounts are is required"
+            },
+            "TITLE": "Amounts are"
+        },
+        "ATTACHMENT": "Attachment",
+        "AUDIT-HISTORY-AND-NOTES": "Audit History & Notes",
+        "BILL": {
+            "CREATE": "Create Bill",
+            "DATE": {
+                "ERROR": {
+                    "INVALID": "Bill Date is Invalid",
+                    "REQUIRED": "Bill Date is required"
+                },
+                "TITLE": "Bill Date"
+            },
+            "EDIT": "Edit Bill",
+            "NUMBER": {
+                "ERROR": {
+                    "REQUIRED": "Bill Number is required"
+                },
+                "TITLE": "Bill Number"
+            },
+            "OPTIONS": "Bill Options",
+            "TO": {
+                "ERROR": {
+                    "REQUIRED": "Bill To is required"
+                },
+                "TITLE": "Bill To"
+            }
+        },
+        "CLASS": "Class",
+        "COPY-TO": "Copy To",
+        "CREATE-COPY": "Create a Copy",
+        "CREDIT-MEMO": {
+            "CREATE": "Create Credit Memo",
+            "DATE": {
+                "ERROR": {
+                    "INVALID": "Credit Memo Date is Invalid",
+                    "REQUIRED": "Credit Memo Date is required"
+                },
+                "TITLE": "Credit Memo Date"
+            },
+            "EDIT": "Edit Credit Memo",
+            "NUMBER": {
+                "ERROR": {
+                    "REQUIRED": "Credit Memo Number is required"
+                },
+                "TITLE": "Credit Memo Number"
+            },
+            "OPTIONS": "Credit Memo Options",
+            "TO": {
+                "ERROR": {
+                    "REQUIRED": "Credit Memo To is required"
+                },
+                "TITLE": "Credit Memo To"
+            }
+        },
+        "DESCRIPTION": "Description",
+        "DISCOUNT": "Discount",
+        "DUE-DATE": {
+            "ERROR": {
+                "INVALID": "Due Date is Invalid",
+                "REQUIRED": "Due Date is required"
+            },
+            "TITLE": "Due Date"
+        },
+        "EDIT": "Edit",
+        "INVOICE": {
+            "CREATE": "Create Invoice",
+            "DATE": {
+                "ERROR": {
+                    "INVALID": "Invoice Date is Invalid",
+                    "REQUIRED": "Invoice Date is required"
+                },
+                "TITLE": "Invoice Date"
+            },
+            "EDIT": "Edit Invoice",
+            "NUMBER": {
+                "ERROR": {
+                    "REQUIRED": "Invoice Number is required"
+                },
+                "TITLE": "Invoice Number"
+            },
+            "OPTIONS": "Invoice Number Options",
+            "TO": {
+                "ERROR": {
+                    "REQUIRED": "Invoice To is required"
+                },
+                "TITLE": "Invoice To"
+            }
+        },
+        "ITEM": "Item",
+        "NO-ITEM-FOUND": "No Item Found",
+        "PAYMENT-INFORMATION": {
+            "ADD-PAYMENT": "Add payment",
+            "AMOUNT-RECIEVED": "Amount Recieved",
+            "AMOUNT-UNPAID": "Amount Unpaid",
+            "REFERENCE": "Reference",
+            "TDS-PAID": "TDS Paid",
+            "TITLE": "Payment Information"
+        },
+        "QUANTITY": "Quantity",
+        "QUOTE": {
+            "CREATE": "Create Quote",
+            "DATE": {
+                "ERROR": {
+                    "INVALID": "Quote Date is Invalid",
+                    "REQUIRED": "Quote Date is required"
+                },
+                "TITLE": "Quote Date"
+            },
+            "EDIT": "Edit Quote",
+            "NUMBER": {
+                "ERROR": {
+                    "REQUIRED": "Quote Number is required"
+                },
+                "TITLE": "Quote Number"
+            },
+            "OPTIONS": "Quote Options",
+            "TO": {
+                "ERROR": {
+                    "REQUIRED": "Quote To is required"
+                },
+                "TITLE": "Quote To"
+            }
+        },
+        "REF": {
+            "ERROR": {
+                "REQUIRED": "Account Reference is required"
+            }
+        },
+        "REFERENCE": "Reference",
+        "SALE-ORDER": {
+            "CREATE": "Create Sale Order",
+            "DATE": {
+                "ERROR": {
+                    "INVALID": "Sale Order Date is Invalid",
+                    "REQUIRED": "Sale Order Date is required"
+                },
+                "TITLE": "Sale Order Date"
+            },
+            "EDIT": "Edit Sale Order",
+            "NUMBER": {
+                "ERROR": {
+                    "REQUIRED": "Sale Order Number is required"
+                },
+                "TITLE": "Sale Order Number"
+            },
+            "OPTIONS": "Sale Order Options",
+            "TO": {
+                "ERROR": {
+                    "REQUIRED": "Sale Order To is required"
+                },
+                "TITLE": "Sale Order To"
+            }
+        },
+        "STATUS": {
+            "ACCEPTED": "Accepted",
+            "ALL": "All",
+            "ALLOCATION": "Allocation",
+            "APPROVED": "Approved",
+            "AWAITING-FOR-PAYMENT": "Awaiting for payment",
+            "DECLINED": "Declined",
+            "DRAFT": "Draft",
+            "INVOICED": "Invoiced",
+            "PAID": "Paid",
+            "SENT": "Sent",
+            "WAITING-FOR-APPROVAL": "Waiting for Approval"
+        },
+        "SUB-TOTAL": "Sub Total",
+        "TAX": "Tax",
+        "TAX-RATE": "Tax Rate",
+        "TOTAL": "Total",
+        "TYPES": {
+            "BILLS": "Bills",
+            "CREDIT-MEMO": "Credit Memo",
+            "INVOICE": "Invoice",
+            "QUOTE": "Quote",
+            "SALE-ORDER": "Sale Order"
+        },
+        "UNIT-PRICE": "Unit Price",
+        "VOID": "Void"
+    },
+    "ACCOUNTS": {
+        "METADATA": {
+            "ORDERSTATUS": {
+                "ACCEPTED": "Accepted",
+                "ALL": "All",
+                "ALLOCATION": "Allocation",
+                "APPROVED": "Approved",
+                "AWAITINGFORPAYMENT": "Awaiting for Payment",
+                "DECLINED": "Declined",
+                "DRAFT": "Draft",
+                "EXPIRED": "Expired",
+                "INVOICED": "Invoiced",
+                "OVERDUE": "Overdue",
+                "PAID": "Paid",
+                "PENDING": "Pending",
+                "REPEAT": "Repeat",
+                "SENT": "Sent",
+                "VOID": "Void",
+                "WAITINGFORAPPROVAL": "Waiting for Approval"
+            },
+            "ORDERTYPE": {
+                "BILLS": "Bills",
+                "CREDITMEMO": "Credit Memo",
+                "INVOICE": "Invoice",
+                "QUOTE": "Quote",
+                "SALEORDER": "Sale Order"
+            },
+            "TAXOPTION": {
+                "EXCLUSIVE": "Tax Exclusive",
+                "INCLUSIVE": "Tax Inclusive"
+            }
+        }
+    },
+    "APP": {
+        "TITLE": "Company"
+    },
+    "APP-SERVER": {
+        "ERROR": {
+            "CREATE": "Error occured while creating Application Server",
+            "DELETE": "Error occured while deleting Application Server",
+            "UPDATE": "Error occured while updating Application Server"
+        },
+        "IPADDRESS": {
+            "ERROR": {
+                "INVALID": "IP Address is invalid",
+                "REQUIRED": "IP Address is required"
+            },
+            "TITLE": "IP Address"
+        },
+        "PAGE-TITLE": {
+            "CREATE": "New Application Server",
+            "EDIT": "Edit Application Server",
+            "HOME": "Application Servers"
+        },
+        "PORT": {
+            "ERROR": {
+                "INVALID": "Port is invalid",
+                "REQUIRED": "Port is required"
+            },
+            "TITLE": "Port"
+        },
+        "SEARCH-PLACEHOLDER": "Search Server",
+        "SERVER-NAME": {
+            "ERROR": {
+                "INVALID": "Server Name is invalid",
+                "REQUIRED": "Server Name is required"
+            },
+            "TITLE": "Server Name"
+        },
+        "SERVICE-ACCOUNT-NAME": {
+            "ERROR": {
+                "INVALID": "Service Account name is invalid",
+                "REQUIRED": "Service Account name is required"
+            },
+            "TITLE": "Service Account name"
+        },
+        "SUCCESS": {
+            "CREATE": "Application Server created successfully",
+            "DELETE": "Application Server deleted successfully",
+            "UPDATE": "Application Server updated successfully"
+        },
+        "SYSTEM": {
+            "ERROR": {
+                "INVALID": "System is invalid",
+                "REQUIRED": "System is required"
+            },
+            "TITLE": "System"
+        }
+    },
+    "AUTH-SERVER": {
+        "ERROR": {
+            "CREATE": "Error occured while creating Authentication Server",
+            "DELETE": "Error occured while deleting Authentication Server",
+            "UPDATE": "Error occured while updating Authentication Server"
+        },
+        "IPADDRESS": {
+            "ERROR": {
+                "INVALID": "IP Address is invalid",
+                "REQUIRED": "IP Address is required"
+            },
+            "TITLE": "IP Address"
+        },
+        "PAGE-TITLE": {
+            "CREATE": "New Authentication Server",
+            "EDIT": "Edit Authentication Server",
+            "HOME": "Authentication Servers"
+        },
+        "PORT": {
+            "ERROR": {
+                "INVALID": "Port is invalid",
+                "REQUIRED": "Port is required"
+            },
+            "TITLE": "Port"
+        },
+        "SEARCH-PLACEHOLDER": "Search Server",
+        "SERVER-NAME": {
+            "ERROR": {
+                "INVALID": "Server Name is invalid",
+                "REQUIRED": "Server Name is required"
+            },
+            "TITLE": "Server Name"
+        },
+        "SERVICE-ACCOUNT-NAME": {
+            "ERROR": {
+                "INVALID": "Service Account name is invalid",
+                "REQUIRED": "Service Account name is required"
+            },
+            "TITLE": "Service Account name"
+        },
+        "SUCCESS": {
+            "CREATE": "Authentication Server created successfully",
+            "DELETE": "Authentication Server deleted successfully",
+            "UPDATE": "Authentication Server updated successfully"
+        },
+        "SYSTEM": {
+            "ERROR": {
+                "INVALID": "System  is invalid",
+                "REQUIRED": "System is required"
+            },
+            "TITLE": "System "
+        }
+    },
+    "AUTHORIZATION": {
+        "ERROR": {
+            "CREATE": "Error occured while creating Authorization Server",
+            "DELETE": "Error occured while deleting Authorization Server",
+            "UPDATE": "Error occured while updating Authorization Server"
+        },
+        "IPADDRESS": {
+            "ERROR": {
+                "INVALID": "IP Address is invalid",
+                "REQUIRED": "IP Address is required"
+            },
+            "TITLE": "IP Address"
+        },
+        "PAGE-TITLE": {
+            "CREATE": "New Authorization Server",
+            "EDIT": "Edit Authorization Server",
+            "HOME": "Authorization Servers"
+        },
+        "PORT": {
+            "ERROR": {
+                "INVALID": "Port is invalid",
+                "REQUIRED": "Port is required"
+            },
+            "TITLE": "Port"
+        },
+        "SEARCH-PLACEHOLDER": "Search Server",
+        "SERVER-NAME": {
+            "ERROR": {
+                "INVALID": "Server Name is invalid",
+                "REQUIRED": "Server Name is required"
+            },
+            "TITLE": "Server Name"
+        },
+        "SERVICE-ACCOUNT-NAME": {
+            "ERROR": {
+                "INVALID": "Service Account name is invalid",
+                "REQUIRED": "Service Account name is required"
+            },
+            "TITLE": "Service Account name"
+        },
+        "SUCCESS": {
+            "CREATE": "Authorization Server created successfully",
+            "DELETE": "Authorization Server deleted successfully",
+            "UPDATE": "Authorization Server updated successfully"
+        },
+        "SYSTEM": {
+            "ERROR": {
+                "INVALID": "System is invalid",
+                "REQUIRED": "System is required"
+            },
+            "TITLE": "System"
+        }
+    },
+    "BUILDER": {
+        "METADATA": {
+            "COMP-TYPE": {
+                "INPUT": "Input",
+                "CARD": "Card",
+                "TAB": "Tab",
+                "TREE": "Tree",
+                "GRID": "Grid",
+                "STEPPER": "Stepper",
+                "BANNER": "Banner",
+                "DIALOG": "Dialog",
+                "BOTTOM-SHEET": "Bottom Sheet",
+                "CHART": "Chart",
+                "AUTO-COMPLETE": "Auto Complete",
+                "BADGE": "Badge",
+                "BUTTON": "Button",
+                "BUTTON-TOGGLE": "Button Toggle",
+                "CHIPS": "Chips",
+                "DATE-PICKER": "Date Picker",
+                "DIVIDER": "Divider",
+                "ICON": "Icon",
+                "LIST": "List",
+                "MENU": "Menu",
+                "PAGINATOR": "Paginator",
+                "PROGRESS-BAR": "Progress Bar",
+                "PROGRESS-SPINNER": "Progress Spinner",
+                "SIDENAV": "Sidenav",
+                "SLIDE-TOGGLE": "Slide Toggle",
+                "SLIDER": "Slider",
+                "SNACKBAR": "Snackbar",
+                "TOOLTIP": "Tooltip",
+                "TOOLBAR": "Toolbar",
+                "EXPANSION-PANEL": "Expansion Panel",
+                "DROPDOWN": "Dropdown",
+                "CHECKBOX": "Checkbox",
+                "RADIO-BUTTON": "Radio Button",
+                "LABEL": "Label",
+                "TEXT-AREA": "Text Area"
+            },
+            "COMP-SUB-TYPE": {
+                "RAISED-BUTTON": "Raised Button",
+                "STROKED-BUTTON": "Stroked Button",
+                "FLAT-BUTTON": "Flat Button",
+                "ICON-BUTTON": "Icon Button",
+                "FAB-BUTTON": "Fab Button",
+                "MINIFAB-BUTTON": "Minifab Button",
+                "TEXT": "Text",
+                "COLOR": "Color",
+                "NUMBER": "Number",
+                "EMAIL": "Email",
+                "PASSWORD": "Password",
+                "TEL": "Tel",
+                "URL": "Url",
+                "BAR": "Bar",
+                "LINE": "Line",
+                "MAP": "Map",
+                "HEAT MAP": "Heat Map",
+                "PIE": "Pie",
+                "RADAR": "Radar",
+                "BUBBLE": "Bubble",
+                "SCATTER": "Scatter",
+                "AREA": "Area",
+                "DOUGHNUT": "Doughnut"
+            },
+            "FORM": {
+                "ERROR-DISPLAY-TYPE": {
+                    "INLINE": "inline",
+                    "SNACKBAR": "snackbar"
+                },
+                "FIELD-APPEARANCE-TYPE": {
+                    "LEGACY": "legacy",
+                    "STANDARD": "standard",
+                    "FILL": "fill",
+                    "OUTLINE": "outline"
+                },
+                "FIELD-TYPE": {
+                    "TEXTBOX": "Textbox",
+                    "DATE-PICKER": "Datepicker",
+                    "TEXT-AREA": "Textarea",
+                    "CHECKBOX": "Checkbox",
+                    "RADIOBUTTON": "Radiobutton",
+                    "DROPDOWN": "Dropdown",
+                    "LABEL": "Label",
+                    "BUTTON": "Button"
+                },
+                "LAYOUT-ALIGNMENT": {
+                    "START": "start",
+                    "CENTER": "center",
+                    "END": "end",
+                    "SPACE-AROUND": "space-around",
+                    "SPACE-BETWEEN": "space-between",
+                    "SPACE-EVENLY": "space-evenly",
+                    "STRETCH": "stretch"
+                },
+                "LAYOUT-TYPE": {
+                    "ROW": "Row",
+                    "COLUMN": "Column"
+                },
+                "ROW-COLUMNS": {
+                    "ONE": "One Column",
+                    "TWO": "Two Column",
+                    "THREE": "Three Column",
+                    "FOUR": "Four Column",
+                    "FIVE": "Five Column"
+                }
+            }
+        },
+        "TEMPLATE": {
+            "COMPONENT-BULIDER": "Component Builder",
+            "DETAILS": "Details",
+            "TYPE": "Type",
+            "NAME": "Name",
+            "VALIDATION": {
+                "INPUT-TYPE-REQUIRED": "Input type is Required",
+                "TYPE-REQUIRED": "Name is Required"
+            },
+            "FORM": {
+                "TITLE": "Form",
+                "DRAG&DROP-ITEMS": "Drag and Drop Form items Here",
+                "FIELD-ATTRIBUTES": "Form Field Attributes",
+                "SHOW-GROUP": "Show in Form group",
+                "MANDATORY-FIELD": "Mandatory Field",
+                "ADD-OPTION": "Add Option",
+                "DISPLAY-NAME": "Display Name",
+                "VALUE": "Value",
+                "SECURITY-ATTRIBUTES": "Security attributes",
+                "DISPLAY-TYPE": "Dispaly Type",
+                "VISIBILITY": "Visibility",
+                "ALLOW-OVERRIDE": "Allow Override",
+                "ENCRYPT-DATA": "Encrypt Data",
+                "SAME-EMPTY-NAME-NOT-SHOWN": "*Multiple form fields with the same or empty model name will not be shown",
+                "VALIDATION": {
+                    "TITLE": {
+                        "NAME": "Validation"
+                    },
+                    "ENDPOINT-REQUIRED": "End point is required",
+                    "MODEL-REQUIRED": "Model name is required",
+                    "MUST-3CHARACTERS-LENGTH": "Model name must be 3 characters in length",
+                    "EXCEED-50CHARACTERS-LENGTH": "Model name must not exceed 50 characters in length",
+                    "ALLOW-SPACE&SPECIAL-CHARACTERS": "Model doesnt allow space and special characters except period in between words",
+                    "INVAILD-DATE": "Invalid Date",
+                    "DATE-REQUIRED": "Date required",
+                    "MIN-DATE": "Min Date",
+                    "MAX-DATE": "Max Date",
+                    "INVALID-DATE": "Invalid Date"
+                }
+            },
+            "PAGE-ACTION": {
+                "TITLE": "Buttons",
+                "DRAG-DROP-BUTTON": "Drag and drop to customise button",
+                "CONFIGURATION": "Button Configuration",
+                "DRAG&DROP-BUTTON-ITEMS": "Drag and Drop Button items Here",
+                "SELECT-COLOR": "Select Color",
+                "SELECT-BUTTON-ACTION": "Select Button action"
+            },
+            "TAB": {
+                "TITLE": "Tabs",
+                "CREATE": "Create",
+                "DRAG&DROP-TAB-CONTENT": "Drag and Drop Tab content Here",
+                "ADDTAB": "Add Tab",
+                "DISABLED-TAB": "Disabled Tab",
+                "COLOR": "Color",
+                "BACKGROUND-COLOR": "Background Color",
+                "HEADER-POSITION": "Header Position"
+            },
+            "GRID": {
+                "CREATE": "Create",
+                "TITLE": "Grid",
+                "SHOW-PAGINATION": "Show Grid Pagination",
+                "VALIDATION": {
+                    "DATA-ENDPOINT-REQUIRED": "Data endpoint is required",
+                    "COLUMN-ENDPOINT-REQUIRED": "Data endpoint is required"
+                }
+            },
+            "DIALOG": {
+                "TITLE": "DIALOG",
+                "CREATE": "Create",
+                "VIEW": "View",
+                "START-CREATE-DIALOG-BOX": "Start creating a Dialog box by drag and dropping items",
+                "DRAG&DROP-DIALOG-ITEMS": "Drag and Drop Dialog items here"
+            },
+            "CARD": {
+                "TITLE": "Cards",
+                "DRAG&DROP-CUSTOMISE-CARDS": "Drag and drop to customise cards",
+                "DRAG&DROP-CARD-ITEMS": "Drag and Drop Card items Here",
+                "PREVIEW": "Preview",
+                "DISPLAY-IMAGE": "Display image",
+                "IMAGE-TYPE": "Image type",
+                "ADD-FIELD": "Add field",
+                "ALIGNMENT": "Alignment",
+                "HORIZONTAL": "Horizontal",
+                "VERTICAL": "Vertical",
+                "FLEX": "Flex",
+                "IMAGE-SIZE": "Image size",
+                "VALIDATION": {
+                    "HEADER-REQUIRED": "Header name is required",
+                    "SUB-HEADER-REQUIRED": "Sub header is required",
+                    "CONTENT-REQUIRED": "Content is required",
+                    "FOOTER-REQUIRED": " Footer is required"
+                }
+            },
+            "IMAGE": {
+                "TITLE": "Image",
+                "DRAG-DROP": "Drag and drop to customise image and text field",
+                "CREATE": "Create Image with Text",
+                "DRAG&DROP-IMAGE-ITEMS": "Drag and Drop image items Here",
+                "DRAG&DROP-TEXT-FIELD-ITEMS": "Drag and Drop text field items Here"
+            },
+            "BOTTOM-SHEET": {
+                "TITLE": "Bottom Sheet",
+                "CREATE": "Create",
+                "DRAG&DROP-CUSTOMISE-BOTTOM-SHEET": "Drag and drop to customise Bottom sheet",
+                "DRAG&DROP-BOTTOM-SHEET-ITEMS": "Drag and Drop Bottom sheet items Here ",
+                "BUTTON-LABEL": "Button label",
+                "BUTTON-SUB-LABEL": "Button sub label",
+                "BUTTON-NAVIGATE-URL": "Button navigate URL",
+                "ENTER-TEXT-HERE": "Enter text here..."
+            },
+            "STEPPER": {
+                "TITLE": "Stepper",
+                "CREATE-STEPPER-DRAG&DROP-ITEMS": "Start creating a Stepper by drag and dropping items",
+                "CREATE": "Create",
+                "STEPPER-VIEW": "Stepper View",
+                "DRAG&DROP-ITEMS": "Drag and Drop Stepper items Here"
+            },
+            "TREE": {
+                "TITLE": "Tree",
+                "NODE-SELECTABLE": "Node Selectable",
+                "FETCH": "Fetch",
+                "CREATE": "Create",
+                "MODIFY": "Modify",
+                "ENDPOINT": "Enter endpoint",
+                "TREE-OUTPUT-NAME": "Enter Tree output name"
+            },
+            "CONFIGURATION": {
+                "FLEX-CONFIGURATION": "Flex Configuration",
+                "RESPONSIVE-LAYOUT": "Responsive Layout",
+                "SELECT-LAYOUT": "Select Layout",
+                "SELECT-NO-OF-COLUMNS": "Select no of columns",
+                "THEME-CONFIGURATION": "Theme Configuration",
+                "TEMPLATE-NATURE": "Template Nature",
+                "BUTTON-CONFIGURATION": "Button Configuration",
+                "DIRECTION-LAYOUT": "Direction layout",
+                "VERTICAL-ALIGNMENT": "Vertical alignment",
+                "HORIZONTAL-ALIGNMENT": "Horizontal alignment",
+                "EDIT": "Edit",
+                "ENTER-FLEX-VALUE": "Enter Flex Value",
+                "SELECT-FORM-FIELDS-STYLE": "Select Form Fields Style",
+                "VALIDATION": {
+                    "LAYOUT-REQUIRED": "Layout is Required",
+                    "NO-OF-COLUMNS-REQUIRED": "No of columns is Required",
+                    "VALUE-REQUIRED": "Value is Required",
+                    "TYPE-REQUIRED": "Type is Required",
+                    "ERROR-MESSAGES-DISPLAY": "Error Messages Display",
+                    "FLEX-REQUIRED": "Flex Value is Required"
+                }
+            },
+            "WIZARD": {
+                "FORM": "Form",
+                "CARD": "Card",
+                "TAB": "Tab",
+                "GRID": "Grid",
+                "BUTTON": "Button",
+                "TOOLBAR-BREADCRUMB": "Toolbar and Breadcrumb",
+                "STEPPER": "Stepper",
+                "BOTTOM-SHEET": "Bottom sheet",
+                "DIALOG": "Dialog",
+                "TREE": "Tree",
+                "CHARTS": "Charts",
+                "BANNER": "Banner",
+                "CREATE-TEMPLATE": "Select Template",
+                "SELECT-COMPONENT": "Start creating Template by selecting a Component",
+                "BASIC": "Basic",
+                "ADVANCED": "Advanced"
+            }
+        }
+    },
+    "BUTTON": {
+        "ADD": "Add",
+        "APPROVAL": "Approval",
+        "BACK": "Back",
+        "CANCEL": "Cancel",
+        "CLOSE": "Close",
+        "DELETE": "Delete",
+        "DOWNLOAD": "Downlaod",
+        "EDIT": "Edit",
+        "EMAIL": "Email",
+        "MODIFY": "Modify",
+        "NEW": "New",
+        "NEXT": "Next",
+        "OK": "Ok",
+        "PREVIOUS": "Previous",
+        "PRINT": "Print",
+        "PRINT-PDF": "Print Pdf",
+        "SAVE": "Save",
+        "UPDATE": "Update"
+    },
+    "CAREERLEVEL": {
+        "ANALYST": "Analyst",
+        "BILLCODE": {
+            "ERROR": {
+                "REQUIRED": "Bill Code is required"
+            },
+            "TITLE": "Bill Codes"
+        },
+        "CAREERLEVEL": {
+            "ERROR": {
+                "REQUIRED": "Career Level is required"
+            },
+            "TITLE": "Career Level"
+        },
+        "CONSULTANT": "Consultant",
+        "CREATE": "Create Career Level",
+        "EDIT": "Edit Career Level",
+        "ERROR": {
+            "CREATE": "Error while creating Career Level",
+            "DELETE": "Error while deleting Career Level",
+            "UPDATE": "Error while updating Career Level"
+        },
+        "EXECUTIVE": "Executive",
+        "INTERN": "Intern",
+        "MANAGER": "Manager",
+        "PAGE-TITLE": "Career Level",
+        "SEARCH-PLACEHOLDER": "Search Career Level",
+        "SENIOR-ANALYST": "Senior Analyst",
+        "SENIOR-CONSULTANT": "Senior Consultant",
+        "SENIOR-MANAGER": "Senior Manager",
+        "SUCCESS": {
+            "CREATE": "Career Level created successfully",
+            "DELETE": "Career Level deleted successfully",
+            "UPDATE": "Career Level updated successfully"
+        },
+        "UPDATE-SUCESS": "CareerLevel Updated Successfully"
+    },
+    "CLIENT": {
+        "ACCOUNT-DETAILS": "Account Details",
+        "ADDRESS-LINE-1": {
+            "ERROR": {
+                "REQUIRED": "Address Line 1 is required"
+            },
+            "TITLE": "Address Line 1"
+        },
+        "ADDRESS-LINE-2": {
+            "TITLE": "Address Line 2"
+        },
+        "BILLING-ADDRESS": "Billing Address",
+        "BILLS-DUE-DATE": {
+            "ERROR": {
+                "REQUIRED": "Bills Due Date is required",
+                "TYPE-REQUIRED": "Bills Due Date Option is required"
+            },
+            "INPUT": "Date",
+            "SELECT-TYPE": "Option",
+            "TITLE": "Bills Due Date"
+        },
+        "CIN": "CIN",
+        "CITY": {
+            "ERROR": {
+                "REQUIRED": "City is required"
+            },
+            "TITLE": "City"
+        },
+        "COMPANY-REG-NUM": {
+            "ERROR": {
+                "REQUIRED": "Company Registration No. is required"
+            },
+            "TITLE": "Company Registration No."
+        },
+        "CONTACT-PERSON-DETAILS": "Contact Person Details",
+        "COUNTRY": {
+            "ERROR": {
+                "REQUIRED": "Country is required"
+            },
+            "TITLE": "Country"
+        },
+        "CREATE": "Create Client",
+        "CREDIT-LIMIT": {
+            "ERROR": {
+                "REQUIRED": "Credit Limit is required"
+            },
+            "TITLE": "Credit Limit"
+        },
+        "CURRENCY": {
+            "ERROR": {
+                "REQUIRED": "Currency is required"
+            },
+            "TITLE": "Currency"
+        },
+        "DESCRIPTION": {
+            "ERROR": {
+                "REQUIRED": "Description is required"
+            },
+            "TITLE": "Description"
+        },
+        "EDIT": "Edit Client",
+        "EMAIL": {
+            "ERROR": {
+                "INVALID": "Email is Invalid",
+                "REQUIRED": "Email is required"
+            },
+            "TITLE": "Email"
+        },
+        "ERROR": {
+            "CREATE": "Error occured while creating Client",
+            "DELETE": "Error occured while deleting Client",
+            "UPDATE": "Error occured while updating Client"
+        },
+        "FOLLOWING-ATTR-TEXT": "Following attributes will change as per client location (Country)",
+        "GST": "GST",
+        "GST-PURCHASE": {
+            "ERROR": {
+                "REQUIRED": "GST Purchase is required"
+            },
+            "TITLE": "GST Purchase"
+        },
+        "GST-SALES": {
+            "ERROR": {
+                "REQUIRED": "GST Sales is required"
+            },
+            "TITLE": "GST Sales"
+        },
+        "INVOICE-DUE-DATE": {
+            "ERROR": {
+                "INVALID": "Invalid Date",
+                "REQUIRED": "Invoice Due Date is required",
+                "TYPE-REQUIRED": "Invoice Due Date Option is required"
+            },
+            "INPUT": "Date",
+            "SELECT-TYPE": "Option",
+            "TITLE": "Invoice Due Date"
+        },
+        "NAME": {
+            "ERROR": {
+                "REQUIRED": "Name is required"
+            },
+            "TITLE": "Name"
+        },
+        "NO-COUNTRY-FOUND": "No Country found",
+        "NO-STATE-FOUND": "No State found",
+        "PAGE-TITLE": "Clients",
+        "PHONE-NUMBER": {
+            "ERROR": {
+                "REQUIRED": "Phone number is required"
+            },
+            "TITLE": "Phone number"
+        },
+        "POST-CODE": {
+            "ERROR": {
+                "REQUIRED": "Post Code is required"
+            },
+            "TITLE": "Post Code"
+        },
+        "SAME-AS-BILLING-ADDRESS": "Use Same as Billing Address",
+        "SAME-AS-SHIPPING-ADDRESS": "Use Same as Shipping Address",
+        "SEARCH-PLACEHOLDER": "Search Client",
+        "SELECT": {
+            "ERROR": {
+                "REQUIRED": "Select is required"
+            },
+            "TITLE": "Select"
+        },
+        "SETUP-CURRENCY-TAX-RATES": "Setup Currency & Tax Rates",
+        "SHIPPING-ADDRESS": "Shipping Address",
+        "STATE": {
+            "ERROR": {
+                "REQUIRED": "State is required"
+            },
+            "TITLE": "State"
+        },
+        "SUCCESS": {
+            "CREATE": "Client created successfully",
+            "DELETE": "Client deleted successfully",
+            "UPDATE": "Client updated successfully"
+        },
+        "TAB": {
+            "ADDRESS": "Address",
+            "CLIENT-DETAILS": "Client Details",
+            "FINANCIAL-DETAILS": "Financial Details",
+            "REVIEW": "Review"
+        },
+        "TAN": {
+            "ERROR": {
+                "REQUIRED": "Tan is required"
+            },
+            "TITLE": "Tan"
+        },
+        "TAX-ID": {
+            "ERROR": {
+                "REQUIRED": "Tax Id is required"
+            },
+            "TITLE": "Tax Id"
+        },
+        "TIN": {
+            "ERROR": {
+                "REQUIRED": "Tin is required"
+            },
+            "TITLE": "Tin"
+        }
+    },
+    "COMMON": {
+        "CONN-MGMT": "Connection Managment",
+        "CREATE": "Create",
+        "DELETE": "Delete",
+        "EXPORT": "Export",
+        "IS-REQUIRED": " is required",
+        "MAIL": "Mail",
+        "NO": "No",
+        "ORPHAN-MGMT": "Orphan Account Management",
+        "PRINT": "Print",
+        "PROV-CONFIG": "Provision",
+        "READ": "Read only (view)",
+        "RECON": "Reconciliation",
+        "RECON-CONFIG": "Recon Configuration",
+        "REPORT": {
+            "EXPORT": "Export",
+            "FILTERS": "Filters",
+            "PRINT": "Print"
+        },
+        "SEARCH": "Search",
+        "SYSTEM-OWNER": "System Owner",
+        "UPDATE": "Update",
+        "USERID-CONFIG": "User Id Configuration",
+        "YES": "Yes"
+    },
+    "COMPANY": {
+        "CREATE": "Create",
+        "EDIT": "Edit",
+        "ERROR": {
+            "CREATE": "Error occured while creating Company",
+            "DELETE": "Error occured while deleting Company",
+            "UPDATE": "Error occured while updating Company"
+        },
+        "PAGE-TITLE": "Company",
+        "SEARCH-PLACEHOLDER": "Search Company ",
+        "SUCCESS": {
+            "CREATE": "Company created successfully",
+            "DELETE": "Company deleted successfully",
+            "UPDATE": "Company updated successfully"
+        },
+        "TAB": {
+            "BASIC-INFORMATION": {
+                "CURRENCY": {
+                    "ERROR": {
+                        "REQUIRED": "Currency is required"
+                    },
+                    "TITLE": "Currency"
+                },
+                "DELETE": "Delete",
+                "DESCRIPTION": {
+                    "TITLE": "Description"
+                },
+                "DISPLAY-NAME": {
+                    "ERROR": {
+                        "REQUIRED": "Display Name is required"
+                    },
+                    "TITLE": "Display Name"
+                },
+                "EDIT-LOGO": "Edit Logo",
+                "LINE-OF-BUSSINESS": {
+                    "ERROR": {
+                        "REQUIRED": "Line of Bussiness is required"
+                    },
+                    "TITLE": "Line of Bussiness"
+                },
+                "ORGANISATION-TYPE": {
+                    "ERROR": {
+                        "REQUIRED": "Organisation Type is required"
+                    },
+                    "TITLE": "Organisation Type"
+                },
+                "TAX-ID": {
+                    "ERROR": {
+                        "REQUIRED": "Tax ID is required"
+                    },
+                    "TITLE": "Tax ID"
+                },
+                "TITLE": "Basic Information",
+                "TRADING-NAME": {
+                    "ERROR": {
+                        "REQUIRED": "Trading Name is required"
+                    },
+                    "TITLE": "Trading Name"
+                },
+                "UPLOAD-LOGO": "Upload Logo"
+            },
+            "LOCATION": {
+                "ADDRESS1": {
+                    "ERROR": {
+                        "REQUIRED": "Address Line 1 is required"
+                    },
+                    "TITLE": "Address Line 1"
+                },
+                "ADDRESS2": {
+                    "ERROR": {
+                        "REQUIRED": "Address Line 2 is required"
+                    },
+                    "TITLE": "Address Line 2"
+                },
+                "CITY": {
+                    "ERROR": {
+                        "REQUIRED": "City is required"
+                    },
+                    "TITLE": "City"
+                },
+                "COUNTRY": {
+                    "ERROR": {
+                        "REQUIRED": "Country is required"
+                    },
+                    "TITLE": "Country"
+                },
+                "EMAIL": {
+                    "ERROR": {
+                        "INVALID": "Invalid Email",
+                        "REQUIRED": "Email is required"
+                    },
+                    "TITLE": "Email"
+                },
+                "PHONE": {
+                    "ERROR": {
+                        "REQUIRED": "Phone is required"
+                    },
+                    "TITLE": "Phone"
+                },
+                "POSTAL-CODE": {
+                    "ERROR": {
+                        "REQUIRED": "Postal Code is required"
+                    },
+                    "TITLE": "Postal Code"
+                },
+                "STATE": {
+                    "ERROR": {
+                        "REQUIRED": "State is required"
+                    },
+                    "TITLE": "State"
+                },
+                "TITLE": "Location",
+                "WEBSITE": {
+                    "ERROR": {
+                        "REQUIRED": "Website is required"
+                    },
+                    "TITLE": "Website"
+                }
+            }
+        }
+    },
+    "CONNECTOR": {
+        "METADATA": {
+            "CATEGORY": {
+                "APPLICATION": "Application",
+                "AUTHENTICATION": "Authentication",
+                "AUTHORIZATION": "Authorization",
+                "CLOUD-APP": "Cloud App",
+                "SAAS": "SaaS"
+            },
+            "IMP-TYPE": {
+                "DB": "Database",
+                "REST": "REST Api",
+                "RPA": "RPA",
+                "SOAP": "SOAP Api"
+            },
+            "SYSTEM-NAME": {
+                "AD": "Active Directory",
+                "ADP": "ADP",
+                "AIRWATCHADMINPORTAL": "Air watch",
+                "AMAZONEC2": "Amazon EC2",
+                "AMERICNAEXPRESSCORPORATE": "American Express",
+                "AML": "AML",
+                "API": "API",
+                "APPLE": "Apple",
+                "APPLICATION": "Application",
+                "ARIBACONTRACTMANAGEMENT": "ARIBA Contract Mangement",
+                "ARIBANETWORK": "ARIBA Network",
+                "AWS": "AWS",
+                "BAMBOOHR": "BAMBOOHR",
+                "BETTERWORKS": "Better Works",
+                "BIOMETRICS": "Bio Metrics",
+                "BLACKLINE": "Black Line",
+                "BLUEDIAMOND": "Blue Diamond",
+                "BLUESCAPE": "Blue safe",
+                "BMCREMEDYFORCE": "BMC Remedy Force",
+                "BOXCOM": "Box com",
+                "BRIGHTEDGE": "Bright Edge",
+                "BRITISHAIRWAYS": "British Airways",
+                "CALLIDUS": "Callidus",
+                "CARDPRINTERS": "Card Printers",
+                "CARDS": "Cards",
+                "CERIDIAN": "Ceridian",
+                "CERTIFY": "Certify",
+                "CITIBANK": "CITI Bank",
+                "CLOUDLOCK": "Cloud Lock",
+                "CLOUDPAY": "Cloud Pay",
+                "CONCUR": "Concur",
+                "CONFER": "Confer",
+                "CONFLUENCE": "Confluence",
+                "CONVO": "Convo",
+                "CORPEDIA": "Corpedia",
+                "COSTCO": "Costco",
+                "COUPA": "CO UPA",
+                "CSV": "Csv",
+                "CUSTOM": "Custom",
+                "CVENT": "CVENT",
+                "DATABASE": "Database",
+                "DESKCOM": "DESKCOM",
+                "DOCUSIGN": "DOCUSIGN",
+                "DOMO": "DOMO",
+                "DROPBOX": "Drop Box",
+                "EGNECIA": "EGNECIA",
+                "EGNYTE": "EGNYTE",
+                "ELEAP": "ELEAP",
+                "EMPLOYEEREFERRALSCOM": "Emploee Referrals com",
+                "ENVOY": "ENVOY",
+                "EVENTBRIGHT": "Event Bright",
+                "EVERNOTE": "Ever note",
+                "EVERNOTEBUSINESS": "Ever note Business",
+                "EXPENSEWATCH": "Expense Watch",
+                "EXPENSIFY": "Expensify",
+                "FACEBOOK": "Facebook",
+                "FIDELITY": "Fidelity",
+                "FILE": "File",
+                "FLATTERFILESSAML": "Flat Files SAML",
+                "FLOWDOCKSAML": "Flow Dock SAML",
+                "GLOBOFORCE": "Glob Force",
+                "GLOBUS": "Globus",
+                "GOODDATA": "Good Data",
+                "GOOGLEAPPS": "Google Apps",
+                "GOTOMEETING": "Go to Meeting",
+                "GOTOWEBINAR": "Go to Webinar",
+                "GROVOSAML": "Grovo SAML",
+                "GYMBOREE": "GYMBOREE",
+                "HACKERONE": "HACKERONE",
+                "HISEC": "HISEC",
+                "HOOTSUITE": "HOOT SUITE",
+                "HRMS": "HRMS",
+                "IGLOO": "IGLOO",
+                "INFORMATICASSOINTEGRATION": "Informatica SSO Integration",
+                "ITUNES": "i Tunes",
+                "JIRA": "Jira",
+                "JIRAON-PREMISE": "JIRAON-PREMISE",
+                "JIVE": "Jive",
+                "JOINME": "JOINME",
+                "LDAP": "LDAP",
+                "LENEL": "Lenel",
+                "LINKEDIN": "LINKEDIN",
+                "MERILLLYNCHCREDITCARD": "MERILL LYNCH CREDITCARD",
+                "MERILLREWARDS": "MERILL REWARDS",
+                "MICROSOFTAZURE": "Microsoft Azure",
+                "MSOFFICE365": "MSOFFICE 365",
+                "NETFLIX": "NETFLIX",
+                "NETSUITE": "NET SUITE",
+                "NEXSENTRY": "NEXS ENTRY",
+                "OKTA": "OKTA",
+                "ONGUARD": "ON GUARD",
+                "OPENLADAPUNIX": "OPEN LADAP UNIX",
+                "OPENLDAPW": "OPEN LDAP",
+                "OTHER": "Other",
+                "PEGASYS2000": "PEGASYS 2000",
+                "PEOPLESOFT": "Peoplesoft",
+                "PINGBOARD": "PING Board",
+                "PROWATCH": "PRO WATCH",
+                "RACKSPACE": "Rack space",
+                "RACKSPACECLOUD": "Rack Space Cloud",
+                "RADIUS": "Radius",
+                "RALLYSOFTWARE": "Rally",
+                "RELIANCEINDIAONLINE": "Reliance India Online",
+                "REST": "Rest",
+                "RFID": "RFID",
+                "SALESFORCECOM": "Salesforce",
+                "SAMBA": "Samba",
+                "SAP": "SAP",
+                "SAPHR": "SAP HR",
+                "SECURITYMANAGER": "Security Manager",
+                "SELECTICA": "Selectica",
+                "SERVICENOW": "Service Now",
+                "SERVICENOW-EUREKARELEASE": "Service Now Eureka Release",
+                "SHAREFILE": "Share File",
+                "SHAREPOINT-ON-PREMISE)": "Share point",
+                "SHELFARI": "SHELFARI",
+                "SLACK": "Slack",
+                "SNAPLOGIC": "Snap Logic",
+                "SPLUNK": "Splunk",
+                "SPRINGCM": "SPRING CM",
+                "SUCCESSFACTORS": "SUCCESS FACTORS",
+                "SUGARCRM": "SUGAR CRM",
+                "SUMOLOGIC": "SUM OLOGIC",
+                "SUNLDAP": "SUN LDAP",
+                "SURVEYMONKEY": "Survey Monkey",
+                "SYMMETRY": "Symmetry",
+                "SYNATA": "Synata",
+                "TELLO": "Trello",
+                "TRINETHRSERVICES": "TRINET HR Services",
+                "UNIX": "UNIX",
+                "UNIXFLATFILE": "UNIX Flat File",
+                "UNIXNODES": "UNIX Nodes",
+                "WAGEWORKS": "Wage Works",
+                "WEBAPP": "Web App",
+                "WINDOWCSV": "Windows CSV",
+                "WORKBOARD": "Work Board",
+                "WORKCOM": "Wrokcom",
+                "WORKDAY": "Workday",
+                "YAMMER": "YAMMER",
+                "ZENDESK": "ZEN Desk",
+                "ZOOM": "Zoom",
+                "ZSCALER": "Z Scalar"
+            },
+            "TYPE": {
+                "ASSET": "Asset",
+                "LMS": "LMS",
+                "LOGICAL": "Logical",
+                "PHYSICAL": "Physical"
+            }
+        }
+    },
+    "COSTRATE": {
+        "BILLCODE": {
+            "ERROR": {
+                "REQUIRED": "Bill Code is required"
+            },
+            "TITLE": "Bill Codes"
+        },
+        "CAPACITY": {
+            "ERROR": {
+                "MAX": " Maximum Capacity is 100",
+                "MIN": " Minimum Capacity is 1",
+                "REQUIRED": "Capacity is required"
+            },
+            "TITLE": "Capacity"
+        },
+        "CAREERLEVEL": {
+            "ERROR": {
+                "REQUIRED": "Career Level is required"
+            },
+            "TITLE": "Career Level"
+        },
+        "COSTRATE": {
+            "ERROR": {
+                "REQUIRED": "Cost Rate is required"
+            },
+            "TITLE": "Cost Rate"
+        },
+        "CREATE": "Create",
+        "DIVISION": {
+            "ERROR": {
+                "REQUIRED": "Division is required"
+            },
+            "TITLE": "Division"
+        },
+        "EDIT": "Edit",
+        "ERROR": {
+            "CREATE": "Error while creating Cost Rate",
+            "DELETE": "Error while deleting Cost Rate",
+            "UPDATE": "Error while updating Cost Rate"
+        },
+        "PAGE-TITLE": "Cost Rate",
+        "SALARY": "Salary",
+        "SEARCH-PLACEHOLDER": "Search Cost Rate",
+        "SUBDIVISION": {
+            "ERROR": {
+                "REQUIRED": "Sub Division is required"
+            },
+            "TITLE": "Sub Division"
+        },
+        "SUCCESS": {
+            "CREATE": "Cost Rate created successfully",
+            "DELETE": "Cost Rate deleted successfully",
+            "UPDATE": "Cost Rate updated successfully"
+        },
+        "UPDATE-SUCESS": "Cost Rate Updated Successfully"
+    },
+    "COUNTRY": {
+        "AFGHANISTAN": "Afghanistan",
+        "ALBANIA": "Albania",
+        "ALGERIA": "Algeria",
+        "AMERICAN SAMOA": "American Samoa",
+        "ANDORRA": "Andorra",
+        "ANGOLA": "Angola",
+        "ANGUILLA": "Anguilla",
+        "ANTARCTICA": "Antarctica",
+        "ANTIGUA AND BARBUDA": "Antigua And Barbuda",
+        "ARGENTINA": "Argentina",
+        "ARMENIA": "Armenia",
+        "ARUBA": "Aruba",
+        "AUSTRALIA": "Australia",
+        "AUSTRIA": "Austria",
+        "AZERBAIJAN": "Azerbaijan",
+        "BAHAMAS THE": "Bahamas",
+        "BAHRAIN": "Bahrain",
+        "BANGLADESH": "Bangladesh",
+        "BARBADOS": "Barbados",
+        "BELARUS": "Belarus",
+        "BELGIUM": "Belgium",
+        "BELIZE": "Belize",
+        "BENIN": "Benin",
+        "BERMUDA": "Bermuda",
+        "BHUTAN": "Bhutan",
+        "BOLIVIA": "Bolivia",
+        "BOSNIA AND HERZEGOVINA": "Bosnia And Herzegovina",
+        "BOTSWANA": "Botswana",
+        "BOUVET ISLAND": "Bouvet Island",
+        "BRAZIL": "Brazil",
+        "BRITISH INDIAN OCEAN TERRITORY": "British Indian Ocean Territory",
+        "BRUNEI": "Brunei",
+        "BULGARIA": "Bulgaria",
+        "BURKINA FASO": "Burkina Faso",
+        "BURUNDI": "Burundi",
+        "CAMBODIA": "Cambodia",
+        "CAMEROON": "Cameroon",
+        "CANADA": "Canada",
+        "CAPE VERDE": "Cape Verde",
+        "CAYMAN ISLANDS": "Cayman Islands",
+        "CENTRAL AFRICAN REPUBLIC": "Central African Republic",
+        "CHAD": "Chad",
+        "CHILE": "Chile",
+        "CHINA": "China",
+        "CHRISTMAS ISLAND": "Christmas Island",
+        "COCOS (KEELING) ISLANDS": "Cocos (Keeling) Islands",
+        "COLOMBIA": "Colombia",
+        "COMOROS": "Comoros",
+        "COOK ISLANDS": "Cook Islands",
+        "COSTA RICA": "Costa Rica",
+        "COTE D'IVOIRE (IVORY COAST)": "Cote DIvoire AKA Ivory Coast",
+        "CROATIA (HRVATSKA)": "Croatia (Hrvatska)",
+        "CUBA": "Cuba",
+        "CYPRUS": "Cyprus",
+        "CZECH REPUBLIC": "Czech Republic",
+        "DEMOCRATIC REPUBLIC OF THE CONGO": "Democratic Republic Of The Congo",
+        "DENMARK": "Denmark",
+        "DJIBOUTI": "Djibouti",
+        "DOMINICA": "Dominica",
+        "DOMINICAN REPUBLIC": "Dominican Republic",
+        "EAST TIMOR": "East Timor",
+        "ECUADOR": "Ecuador",
+        "EGYPT": "Egypt",
+        "EL SALVADOR": "El Salvador",
+        "EQUATORIAL GUINEA": "Equatorial Guinea",
+        "ERITREA": "Eritrea",
+        "ESTONIA": "Estonia",
+        "ETHIOPIA": "Ethiopia",
+        "EXTERNAL TERRITORIES OF AUSTRALIA": "External Territories Of Australia",
+        "FALKLAND ISLANDS": "Falkland Islands",
+        "FAROE ISLANDS": "Faroe Islands",
+        "FIJI ISLANDS": "Fiji Islands",
+        "FINLAND": "Finland",
+        "FRANCE": "France",
+        "FRENCH GUIANA": "French Guiana",
+        "FRENCH POLYNESIA": "French Polynesia",
+        "FRENCH SOUTHERN TERRITORIES": "French Southern Territories",
+        "GABON": "Gabon",
+        "GAMBIA THE": "Gambia",
+        "GEORGIA": "Georgia",
+        "GERMANY": "Germany",
+        "GHANA": "Ghana",
+        "GIBRALTAR": "Gibraltar",
+        "GREECE": "Greece",
+        "GREENLAND": "Greenland",
+        "GRENADA": "Grenada",
+        "GUADELOUPE": "Guadeloupe",
+        "GUAM": "Guam",
+        "GUATEMALA": "Guatemala",
+        "GUERNSEY AND ALDERNEY": "Guernsey And Alderney",
+        "GUINEA": "Guinea",
+        "GUINEA-BISSAU": "Guinea-Bissau",
+        "GUYANA": "Guyana",
+        "HAITI": "Haiti",
+        "HEARD AND MCDONALD ISLANDS": "Heard And Mcdonald Islands",
+        "HONDURAS": "Honduras",
+        "HONG KONG S": {
+            "A": {
+                "R": "Hong Kong S.A.R."
+            }
+        },
+        "HUNGARY": "Hungary",
+        "ICELAND": "Iceland",
+        "INDIA": "India",
+        "INDONESIA": "Indonesia",
+        "IRAN": "Iran",
+        "IRAQ": "Iraq",
+        "IRELAND": "Ireland",
+        "ISRAEL": "Israel",
+        "ITALY": "Italy",
+        "JAMAICA": "Jamaica",
+        "JAPAN": "Japan",
+        "JERSEY": "Jersey",
+        "JORDAN": "Jordan",
+        "KAZAKHSTAN": "Kazakhstan",
+        "KENYA": "Kenya",
+        "KIRIBATI": "Kiribati",
+        "KOREA NORTH": "North Korea ",
+        "KOREA SOUTH": "South Korea ",
+        "KUWAIT": "Kuwait",
+        "KYRGYZSTAN": "Kyrgyzstan",
+        "LAOS": "Laos",
+        "LATVIA": "Latvia",
+        "LEBANON": "Lebanon",
+        "LESOTHO": "Lesotho",
+        "LIBERIA": "Liberia",
+        "LIBYA": "Libya",
+        "LIECHTENSTEIN": "Liechtenstein",
+        "LITHUANIA": "Lithuania",
+        "LUXEMBOURG": "Luxembourg",
+        "MACAU S": {
+            "A": {
+                "R": "Macau S.A.R."
+            }
+        },
+        "MACEDONIA": "Macedonia",
+        "MADAGASCAR": "Madagascar",
+        "MALAWI": "Malawi",
+        "MALAYSIA": "Malaysia",
+        "MALDIVES": "Maldives",
+        "MALI": "Mali",
+        "MALTA": "Malta",
+        "MAN (ISLE OF)": "Man (Isle Of)",
+        "MARSHALL ISLANDS": "Marshall Islands",
+        "MARTINIQUE": "Martinique",
+        "MAURITANIA": "Mauritania",
+        "MAURITIUS": "Mauritius",
+        "MAYOTTE": "Mayotte",
+        "MEXICO": "Mexico",
+        "MICRONESIA": "Micronesia",
+        "MOLDOVA": "Moldova",
+        "MONACO": "Monaco",
+        "MONGOLIA": "Mongolia",
+        "MONTSERRAT": "Montserrat",
+        "MOROCCO": "Morocco",
+        "MOZAMBIQUE": "Mozambique",
+        "MYANMAR": "Myanmar",
+        "NAMIBIA": "Namibia",
+        "NAURU": "Nauru",
+        "NEPAL": "Nepal",
+        "NETHERLANDS ANTILLES": "Netherlands Antilles",
+        "NETHERLANDS THE": "Netherlands",
+        "NEW CALEDONIA": "New Caledonia",
+        "NEW ZEALAND": "New Zealand",
+        "NICARAGUA": "Nicaragua",
+        "NIGER": "Niger",
+        "NIGERIA": "Nigeria",
+        "NIUE": "Niue",
+        "NORFOLK ISLAND": "Norfolk Island",
+        "NORTHERN MARIANA ISLANDS": "Northern Mariana Islands",
+        "NORWAY": "Norway",
+        "OMAN": "Oman",
+        "PAKISTAN": "Pakistan",
+        "PALAU": "Palau",
+        "PALESTINIAN TERRITORY OCCUPIED": "Palestinian Territory Occupied",
+        "PANAMA": "Panama",
+        "PAPUA NEW GUINEA": "Papua New Guinea",
+        "PARAGUAY": "Paraguay",
+        "PERU": "Peru",
+        "PHILIPPINES": "Philippines",
+        "PITCAIRN ISLAND": "Pitcairn Island",
+        "POLAND": "Poland",
+        "PORTUGAL": "Portugal",
+        "PUERTO RICO": "Puerto Rico",
+        "QATAR": "Qatar",
+        "REPUBLIC OF THE CONGO": "Republic Of The Congo",
+        "REUNION": "Reunion",
+        "ROMANIA": "Romania",
+        "RUSSIA": "Russia",
+        "RWANDA": "Rwanda",
+        "SAINT HELENA": "Saint Helena",
+        "SAINT KITTS AND NEVIS": "Saint Kitts And Nevis",
+        "SAINT LUCIA": "Saint Lucia",
+        "SAINT PIERRE AND MIQUELON": "Saint Pierre And Miquelon",
+        "SAINT VINCENT AND THE GRENADINES": "Saint Vincent And The Grenadines",
+        "SAMOA": "Samoa",
+        "SAN MARINO": "San Marino",
+        "SAO TOME AND PRINCIPE": "Sao Tome And Principe",
+        "SAUDI ARABIA": "Saudi Arabia",
+        "SENEGAL": "Senegal",
+        "SERBIA": "Serbia",
+        "SEYCHELLES": "Seychelles",
+        "SIERRA LEONE": "Sierra Leone",
+        "SINGAPORE": "Singapore",
+        "SLOVAKIA": "Slovakia",
+        "SLOVENIA": "Slovenia",
+        "SMALLER TERRITORIES OF THE UK": "Smaller Territories Of The Uk",
+        "SOLOMON ISLANDS": "Solomon Islands",
+        "SOMALIA": "Somalia",
+        "SOUTH AFRICA": "South Africa",
+        "SOUTH GEORGIA": "South Georgia",
+        "SOUTH SUDAN": "South Sudan",
+        "SPAIN": "Spain",
+        "SRI LANKA": "Sri Lanka",
+        "SUDAN": "Sudan",
+        "SURINAME": "Suriname",
+        "SVALBARD AND JAN MAYEN ISLANDS": "Svalbard And Jan Mayen Islands",
+        "SWAZILAND": "Swaziland",
+        "SWEDEN": "Sweden",
+        "SWITZERLAND": "Switzerland",
+        "SYRIA": "Syria",
+        "TAIWAN": "Taiwan",
+        "TAJIKISTAN": "Tajikistan",
+        "TANZANIA": "Tanzania",
+        "THAILAND": "Thailand",
+        "TOGO": "Togo",
+        "TOKELAU": "Tokelau",
+        "TONGA": "Tonga",
+        "TRINIDAD AND TOBAGO": "Trinidad And Tobago",
+        "TUNISIA": "Tunisia",
+        "TURKEY": "Turkey",
+        "TURKMENISTAN": "Turkmenistan",
+        "TURKS AND CAICOS ISLANDS": "Turks And Caicos Islands",
+        "TUVALU": "Tuvalu",
+        "UGANDA": "Uganda",
+        "UKRAINE": "Ukraine",
+        "UNITED ARAB EMIRATES": "United Arab Emirates",
+        "UNITED KINGDOM": "United Kingdom",
+        "UNITED STATES": "United States",
+        "UNITED STATES MINOR OUTLYING ISLANDS": "United States Minor Outlying Islands",
+        "URUGUAY": "Uruguay",
+        "UZBEKISTAN": "Uzbekistan",
+        "VANUATU": "Vanuatu",
+        "VATICAN CITY STATE (HOLY SEE)": "Vatican City State (Holy See)",
+        "VENEZUELA": "Venezuela",
+        "VIETNAM": "Vietnam",
+        "VIRGIN ISLANDS (BRITISH)": "Virgin Islands (British)",
+        "VIRGIN ISLANDS (US)": "Virgin Islands (Us)",
+        "WALLIS AND FUTUNA ISLANDS": "Wallis And Futuna Islands",
+        "WESTERN SAHARA": "Western Sahara",
+        "YEMEN": "Yemen",
+        "YUGOSLAVIA": "Yugoslavia",
+        "ZAMBIA": "Zambia",
+        "ZIMBABWE": "Zimbabwe"
+    },
+    "DEALS": {
+        "CREATE": "Create Deals",
+        "EDIT": "Edit Deals",
+        "PAGE-TITLE": "Deals",
+        "SEARCH-PLACEHOLDER": "Search Deals",
+        "TAB": {
+            "ASSUMPTIONS": {
+                "BD-COST": {
+                    "ERROR": {
+                        "REQUIRED": "BD Cost is required"
+                    },
+                    "TITLE": "BD Cost"
+                },
+                "CONTIGENCY": {
+                    "ERROR": {
+                        "REQUIRED": "Contigency is required"
+                    },
+                    "TITLE": "Contigency"
+                },
+                "EARLY-PAYMENTS": {
+                    "ERROR": {
+                        "REQUIRED": "Early Payments is required"
+                    },
+                    "TITLE": "Early Payments"
+                },
+                "END-DATE": {
+                    "ERROR": {
+                        "REQUIRED": "End Date is required"
+                    },
+                    "TITLE": "End Date"
+                },
+                "NON-BILLABLE": {
+                    "ERROR": {
+                        "REQUIRED": "Non Billable is required"
+                    },
+                    "TITLE": "Non Billable"
+                },
+                "OTHER-OVER-HEADS": {
+                    "ERROR": {
+                        "REQUIRED": "Other Over Heads is required"
+                    },
+                    "TITLE": "Other Over Heads"
+                },
+                "PROJECT-NAME": {
+                    "ERROR": {
+                        "REQUIRED": "Project Name is required"
+                    },
+                    "TITLE": "Project Name"
+                },
+                "RATE-CARD-DISCOUNT": {
+                    "ERROR": {
+                        "REQUIRED": "Rate card Discount is required"
+                    },
+                    "TITLE": "Rate card Discount"
+                },
+                "REVENUE-RECOGNITION": {
+                    "ERROR": {
+                        "REQUIRED": "Revenue Recognition is required"
+                    },
+                    "TITLE": "Revenue Recognition"
+                },
+                "SEAT-CHARGES": {
+                    "ERROR": {
+                        "REQUIRED": "Seat Charges is required"
+                    },
+                    "TITLE": "Seat Charges"
+                },
+                "START-DATE": {
+                    "ERROR": {
+                        "REQUIRED": "Start Date is required"
+                    },
+                    "TITLE": "Start Date"
+                },
+                "TITLE": "Assumptions"
+            },
+            "RESOURCES": {
+                "BILL-CODE": {
+                    "ERROR": {
+                        "REQUIRED": "Bill Code is required"
+                    },
+                    "TITLE": "Bill Code"
+                },
+                "BILL-RATE/HOUR": {
+                    "ERROR": {
+                        "REQUIRED": "Bill Rate/Hour is required"
+                    },
+                    "TITLE": "Bill Rate/Hour"
+                },
+                "CAREER-LEVEL": {
+                    "ERROR": {
+                        "REQUIRED": "Career Level is required"
+                    },
+                    "TITLE": "Career Level"
+                },
+                "CLASS": {
+                    "ERROR": {
+                        "REQUIRED": "Class is required"
+                    },
+                    "TITLE": "Class"
+                },
+                "COST-RATE/HOUR": {
+                    "ERROR": {
+                        "REQUIRED": "Cost Rate/Hour is required"
+                    },
+                    "TITLE": "Cost Rate/Hour"
+                },
+                "COUNTRY": {
+                    "ERROR": {
+                        "REQUIRED": "Country is required"
+                    },
+                    "TITLE": "Country"
+                },
+                "NAME": {
+                    "ERROR": {
+                        "REQUIRED": "Resources is required"
+                    },
+                    "TITLE": "Resources"
+                },
+                "RESOURCE-NAME": "Resource Name",
+                "SUB-CLASS": {
+                    "ERROR": {
+                        "REQUIRED": "Sub Class is required"
+                    },
+                    "TITLE": "Sub Class"
+                },
+                "TITLE": "Resources"
+            },
+            "REVIEW": {
+                "TITLE": "Review"
+            }
+        }
+    },
+    "DIVISION": {
+        "CREATE": "Create",
+        "EDIT": "Edit",
+        "ERROR": {
+            "CREATE": "Error occured while creating Division",
+            "DELETE": "Error occured while deleting Division",
+            "PARENT-REQUIRED": "Parent is required",
+            "TITLE-DISPLAYNAME-REQUIRED": "Display Name is required",
+            "TITLE-REQUIRED": "Division Name is required",
+            "UPDATE": "Error occured while updating Division"
+        },
+        "GANDA": {
+            "ADMIN": "Admin",
+            "FACILITIES": "Facilities",
+            "HR": "HR",
+            "TITLE": "G&A"
+        },
+        "HASCHILDREN": "Has Children",
+        "PAGE-TITLE": "Division",
+        "PARENT": "Parent",
+        "PROF-SERVICES": "Professional Services",
+        "RANDD": {
+            "DOC": "Documentation",
+            "ENGG": "Engineering",
+            "IT": "IT",
+            "PM": "Product Management",
+            "QA": "QA",
+            "QC": "QC",
+            "SANDM": "Sales & Marketing",
+            "TITLE": "R&D",
+            "TRAINING": "Training"
+        },
+        "SANDM": {
+            "BD": "BD",
+            "MARKETING": "Marketing",
+            "SALES": "Sales",
+            "TITLE": "Sales & Marketing"
+        },
+        "SEARCH-PLACEHOLDER": "Search Division",
+        "SUCCESS": {
+            "CREATE": "Division created successfully",
+            "DELETE": "Division deleted successfully",
+            "UPDATE": "Division updated successfully"
+        },
+        "TITLE": "Division / Class",
+        "TITLE-DISPLAYNAME": "Display Name",
+        "TITLE-NAME": "Division Name",
+        "UPDATE-SUCESS": "Division Updated Successfully"
+    },
+    "FINANCE": {
+        "MENU": {
+            "ACCOUNTS": {
+                "BILL": "Bills",
+                "CREDITMEMO": "CreditMemo",
+                "INVOICE": "Invoice",
+                "QUOTE": "Quote",
+                "SALEORDER": "Sale Order",
+                "TITLE": "Accounts"
+            },
+            "BUDGET": "Budget",
+            "COSTING": "Project Costing",
+            "FORECAST": "Forecast",
+            "INVOICE-SETTINGS": {
+                "REMINDER": "Reminders",
+                "THEME": "Themes",
+                "TITLE": "Invoice Settings"
+            },
+            "PRICING": {
+                "CLIENT": "Clients",
+                "DEAL": "Deals",
+                "PROJECT": "Projects",
+                "TITLE": "Pricing"
+            },
+            "REPORTS": {
+                "BOOKINGS": "Bookings",
+                "COMPARISION": "Comparision",
+                "PIPELINE": "Pipeline",
+                "REVENUE": "Revenue",
+                "SALES": "Sales",
+                "TITLE": "Reports",
+                "WONLOST": "Won vs Lost"
+            },
+            "TIMESHEET": "Timesheet",
+            "TITLE": "Finance"
+        }
+    },
+    "FINANCECUSTOMER": {
+        "CREATE-SUCESS": "Customer Created Successfully",
+        "UPDATE-SUCESS": "Customer Updated Successfully"
+    },
+    "GRID": {
+        "ACCOUNT": "Account",
+        "ACCOUNT-MANAGER": "Account Manager",
+        "AMOUNT": "Amount",
+        "BILL-NO": "Bill Number",
+        "BILLCODE": "Bill Code",
+        "CAREERLEVEL": "Career Level",
+        "CITY": "City",
+        "CLASS": "Class",
+        "CLIENT": "Client",
+        "COMPANY": "Company",
+        "COSTRATE": "Cost Rate",
+        "COUNTRY": "Country",
+        "CREDIT-MEMO-NO": "Credit Memo Number",
+        "CURRENCY": "Currency",
+        "DATE": "Date",
+        "DESCRIPTION": "Description",
+        "DEVICE-SRNO": "Device Number",
+        "DISPLAY-NAME": "Display Name",
+        "DIVISION": "Division",
+        "DUE-DATE": "Due Date",
+        "EMAIL": "Email",
+        "FIRST-NAME": "First Name",
+        "INST-DATE": "Installation Date",
+        "INVOICE-NO": "Invoice Number",
+        "IPADDRESS": "IP Address",
+        "LAST-NAME": "Last Name",
+        "LOAD": "Load",
+        "LOB": "Line of Business",
+        "LOCATION": "Location",
+        "NAME": "Name",
+        "NO-RECORDS-FOUND": "No Records Found",
+        "OPERATOR-NAME": "Operator name",
+        "ORG-NAME": "Organisation",
+        "PANCHAYAT": "Panchayat",
+        "PHONE": "Phone",
+        "PORT": "Port",
+        "PRICE": "Price",
+        "PROJECT-MANAGER": "Project Manager",
+        "QUOTE-NO": "Quote Number",
+        "REFERENCE": "Reference",
+        "SALE-ORDER-NO": "Sale Order Number",
+        "SEARCH": "Search",
+        "SELECT": "Select",
+        "SERVER-NAME": "Server Name",
+        "SERVICE-ACCOUNT": "Service Account",
+        "STATE": "State",
+        "STATUS": "Status",
+        "SUB-DIVISION": "Sub Division",
+        "SUBCLASS": "Sub Class",
+        "TAX-ID": "Tax ID",
+        "TAXRATE": "Tax Rate",
+        "USERID": "User Id"
+    },
+    "HEADER": {
+        "ACCOUNTS": "Accounts",
+        "ADD-COMPANY": "Add Company",
+        "COMPANY": "Company",
+        "COMPANY-NAME": "Company name",
+        "DASHBOARD": "Dashboard",
+        "REPORTS": "Reports",
+        "SETUP": "Setup",
+        "UPLOAD-LOGO": "Upload Logo"
+    },
+    "IDM": {
+        "MENU": {
+            "ID-CONSOLIDATION": {
+                "APP-CONSOLIDATION": "Application",
+                "AUTH-CONSOLIDATION": "Authentication",
+                "EMPLIST": "Employee List",
+                "TITLE": "ID Consolidation"
+            },
+            "MANAGE-SERVER": {
+                "APP-SERVER": "Application",
+                "AUTH-SERVER": "Authentication",
+                "AUTHORIZATION-SERVER": "Authorization",
+                "TITLE": "Manage Servers"
+            },
+            "TITLE": "IDM"
+        }
+    },
+    "IOT": {
+        "INSTALLATION": {
+            "BLOCK": {
+                "ERROR": {
+                    "INVALID": "Invalid Block",
+                    "REQUIRED": "Block is required"
+                },
+                "TITLE": "Block"
+            },
+            "BOREWELL-DEPTH": {
+                "ERROR": {
+                    "REQUIRED": "Borewell Depth is required",
+                    "MIN": "Borewell Depth should be between 0-1999",
+                    "MAX": "Borewell Depth should be between 0-1999"
+                },
+                "TITLE": "Borewell Depth in feet"
+            },
+            "COMMENTS": {
+                "ERROR": {
+                    "REQUIRED": "Comments is required"
+                },
+                "TITLE": "Comments"
+            },
+            "CREATE": "Create",
+            "CREATE-ERROR": "Error while creating Record",
+            "CREATE-SUCESS": "Installation created successfully",
+            "DATE": {
+                "ERROR": {
+                    "INVALID": "Installation Date is invalid",
+                    "REQUIRED": "Installation Date is required"
+                },
+                "TITLE": "Installation Date"
+            },
+            "DEVICE-SERIAL-NUMBER": {
+                "ERROR": {
+                    "REQUIRED": "Device Serial Number is required",
+                    "MIN": "Device Serial number should be between 1-99999",
+                    "MAX": "Device Serial number should be between 1-99999"
+                },
+                "TITLE": "Device Serial Number"
+            },
+            "DIVISION": {
+                "ERROR": {
+                    "REQUIRED": "Division is required"
+                },
+                "TITLE": "Division"
+            },
+            "EARTHING": {
+                "ERROR": {
+                    "REQUIRED": "Earthing is required"
+                },
+                "TITLE": "Earthing"
+            },
+            "EDIT": "Edit",
+            "GEO-LOCATION": {
+                "ERROR": {
+                    "REQUIRED": "Geo Location is required"
+                },
+                "TITLE": "Geo Location"
+            },
+            "IMAGE": {
+                "ERROR": {
+                    "REQUIRED": "Image is required"
+                },
+                "TITLE": "Image"
+            },
+            "IMAGES": "Images",
+            "LIST": {
+                "SELF": "Self",
+                "ALL": "All"
+            },
+            "METADATA": {
+                "PHOTO-TYPE": {
+                    "SITE": "Site",
+                    "BOREWELL": "Borewell",
+                    "STARTER": "Starter",
+                    "METER": "Meter",
+                    "DIST-LINE": "Distribution Line",
+                    "IOT-DEVICE": "IOT Device",
+                    "BARCODE": "Barcode",
+                    "OPERATOR": "Operator",
+                    "MAP": "Map"
+                }
+            },
+            "METER-TYPE": {
+                "ERROR": {
+                    "REQUIRED": "Meter Type is required"
+                },
+                "TITLE": "Meter Type"
+            },
+            "MOTOR-CAPACITY": {
+                "ERROR": {
+                    "REQUIRED": "Motor Capacity is required"
+                },
+                "TITLE": "Motor Capacity in HP"
+            },
+            "NO-PHASE": {
+                "ERROR": {
+                    "REQUIRED": "Number of Phase is required"
+                },
+                "TITLE": "Number of Phase"
+            },
+            "NO-PIPE-BEND": {
+                "ERROR": {
+                    "REQUIRED": "No of Pipe Bend is required",
+                    "MIN": "No of Pipe Bend should be between 0-10",
+                    "MAX": "No of Pipe Bend should be between 0-10"
+                },
+                "TITLE": "No of Pipe Bend"
+            },
+            "OPERATOR-NAME": {
+                "ERROR": {
+                    "REQUIRED": "Operator Name is required"
+                },
+                "TITLE": "Operator Name"
+            },
+            "PAGE-TITLE": "INSTALLATION",
+            "PANCHAYAT": {
+                "ERROR": {
+                    "REQUIRED": "Panchayat is required"
+                },
+                "TITLE": "Panchayat"
+            },
+            "PIPE-DIAMETER": {
+                "ERROR": {
+                    "REQUIRED": "Pipe Diameter is required"
+                },
+                "TITLE": "Pipe Diameter"
+            },
+            "PIPE-QUALITY": {
+                "ERROR": {
+                    "REQUIRED": "Pipe Quality is required"
+                },
+                "TITLE": "Pipe Quality"
+            },
+            "SEARCH-PLACEHOLDER": "Search Installations",
+            "STATUS": {
+                "ERROR": {
+                    "REQUIRED": "Status is required"
+                },
+                "TITLE": "Status"
+            },
+            "TANK-CAPACITY": {
+                "ERROR": {
+                    "REQUIRED": "Tank Capacity is required",
+                    "MIN": "Tank Capacity  should be between 0-500000",
+                    "MAX": "Tank Capacity  should be between 0-500000"
+                },
+                "TITLE": "Tank Capacity in Liters"
+            },
+            "UPDATE-SUCESS": "Installation updated successfully",
+            "WARD": {
+                "ERROR": {
+                    "REQUIRED": "Ward is required"
+                },
+                "TITLE": "Ward"
+            }
+        },
+        "MENU": {
+            "INSTALLATION": "Installation"
+        }
+    },
+    "IPADRESS": {
+        "ERROR": {
+            "CREATE": "Error while creating IP  Address",
+            "DELETE": "Error while deleting IP  Address",
+            "UPDATE": "Error while updating IP  Address"
+        },
+        "GATEWAY": {
+            "ERROR": {
+                "INVALID": "Gateway is required",
+                "REQUIRED": "Gateway is required"
+            },
+            "TITLE": "Gateway"
+        },
+        "PAGE-TITLE": "IP Address",
+        "PRIMARY-IP": {
+            "ERROR": {
+                "INVALID": "Primary IP is invalid",
+                "REQUIRED": "Primary IP is required"
+            },
+            "TITLE": "Primary IP"
+        },
+        "PROXY-IP": {
+            "ERROR": {
+                "INVALID": "Proxy IP is invalid",
+                "REQUIRED": "Proxy IP is required"
+            },
+            "TITLE": " Proxy IP"
+        },
+        "PROXY-PORT": {
+            "ERROR": {
+                "INVALID": "proxy Port is invalid",
+                "REQUIRED": "proxy Port is required",
+                "MIN": "Port should be between  0  and 65535",
+                "MAX": "Port should be between  0  and 65535"
+            },
+            "TITLE": "Proxy Port"
+        },
+        "PROXY-REQUIRED": {
+            "ERROR": {
+                "INVALID": "Is Proxy required is invalid",
+                "REQUIRED": "Is Proxy required is required"
+            },
+            "TITLE": "Is Proxy required"
+        },
+        "SECONDARY-IP": {
+            "ERROR": {
+                "INVALID": "Secondary IP is invalid",
+                "REQUIRED": "Secondary IP is required"
+            },
+            "TITLE": "Secondary IP"
+        },
+        "SUBNET-MASK": {
+            "ERROR": {
+                "INVALID": "Subnet mask is invalid",
+                "REQUIRED": "Subnet mask is required"
+            },
+            "TITLE": "subnet mask"
+        },
+        "SUCCESS": {
+            "CREATE": "IP  Address details are created successfully",
+            "DELETE": "IP  Address details are delete successfully",
+            "UPDATE": "IP  Address details are updated successfully"
+        }
+    },
+    "ITEM": {
+        "ACCOUNT": {
+            "ERROR": {
+                "REQUIRED": "Account is required"
+            },
+            "TITLE": "Account"
+        },
+        "CREATE": "Create",
+        "DESCRIPTION": {
+            "ERROR": {
+                "REQUIRED": "Description is required"
+            },
+            "TITLE": "Description"
+        },
+        "DIVISION": {
+            "ERROR": {
+                "REQUIRED": "Division is required"
+            },
+            "TITLE": "Division"
+        },
+        "EDIT": "Edit",
+        "ERROR": {
+            "CREATE": "Error while creating Service item",
+            "DELETE": "Error while deleting Service item",
+            "UPDATE": "Error while updating Service item"
+        },
+        "ERROR-DELETE": "Error occured, while deleting item",
+        "ERROR-SAVE": "Error occured, while saving item",
+        "ERROR-UPDATE": "Error occured, while updating item",
+        "ITEM-CODE": {
+            "ERROR": {
+                "REQUIRED": "Name is required"
+            },
+            "TITLE": "Name"
+        },
+        "PAGE-TITLE": "Items",
+        "PRICE": {
+            "ERROR": {
+                "MIN": "Minimum price is 1",
+                "REQUIRED": "Price is required"
+            },
+            "TITLE": "Price"
+        },
+        "PRICE-TYPE": {
+            "ERROR": {
+                "REQUIRED": "Price Type is required"
+            },
+            "TITLE": "Price Type"
+        },
+        "SEARCH-PLACEHOLDER": "Search Items ",
+        "SUB-DIVISION": {
+            "ERROR": {
+                "REQUIRED": "Sub Division is required"
+            },
+            "TITLE": "Sub Division"
+        },
+        "SUCCESS": {
+            "CREATE": "Service item created successfully",
+            "DELETE": "Service item deleted successfully",
+            "UPDATE": "Service item updated successfully"
+        },
+        "TAX-RATE": {
+            "ERROR": {
+                "MAX": "Maximum Tax Rate is 100",
+                "MIN": "Minimum Tax Rate is 1",
+                "REQUIRED": "Tax Rate is required"
+            },
+            "TITLE": "Tax Rate"
+        },
+        "UPDATE-SUCESS": "Item Updated Successfully"
+    },
+    "LOCATION": {
+        "CREATE": "Create",
+        "CREATE-FAILURE": "Location creation is unsuccessful",
+        "CREATE-SUCESS": "Location Created successfully",
+        "EDIT": "Edit",
+        "ERROR": {
+            "CREATE": "Error while creating Location",
+            "DELETE": "Error while deleting Location",
+            "TITLE-DISPLAYNAME-REQUIRED": "Display Name is required",
+            "TITLE-REQUIRED": "Location name is required",
+            "TYPE-REQUIRED": "Location type is required",
+            "UPDATE": "Error while updating Location"
+        },
+        "HASCHILDREN": "has Children",
+        "PAGE-TITLE": "Locations",
+        "PARENT": "Parent Location",
+        "SEARCH-PLACEHOLDER": "Search Locations",
+        "SUCCESS": {
+            "CREATE": "Location created successfully",
+            "DELETE": "Location deleted successfully",
+            "UPDATE": "Location updated successfully"
+        },
+        "TITLE-DISPLAYNAME": "Location display name",
+        "TITLE-NAME": "Location Name",
+        "TYPE": "Location Type",
+        "UPDATE-SUCESS": "Location Updated Successfully"
+    },
+    "LOGGER": {
+        "ERROR": {
+            "CREATE": "Error occured while creating Logger",
+            "DELETE": "Error occured while deleting Logger",
+            "UPDATE": "Error occured while updating Logger"
+        },
+        "PAGE-TITLE": "Log Settings",
+        "SERVER": {
+            "ERROR": {
+                "REQUIRED": "Log Level is required"
+            },
+            "TITLE": "Log Level"
+        },
+        "SUCCESS": {
+            "CREATE": "Logger created successfully",
+            "DELETE": "Logger deleted successfully",
+            "UPDATE": "Logger updated successfully"
+        }
+    },
+    "LOGIN-PAGE": {
+        "CONTINUE-SESSION": "Continue Session",
+        "ERROR": {
+            "USERID-FORMAT": "Email or Phone number must be an email or phone number",
+            "USERID-FORMAT ": "Invalid User Id"
+        },
+        "EXPIRE-IN": "Your session will expire in ",
+        "FORGOT-PASSWORD": "Forgot Password?",
+        "HELP": "Help",
+        "INFO": {
+            "PASSWORD-LENGTH": "Password must be at least 4 characters",
+            "USERID-LENGTH": "Email or Phone number must be at least 4 characters"
+        },
+        "LOGIN": "Log In",
+        "LOGIN-ERROR": "Authentication Error",
+        "LOGIN-ERROR-UNAUTHORISED": "Unauthorized Access",
+        "LOGIN-INVALID-CREDENATIALS": "Invalid Credentials",
+        "LOGIN-REQUEST-ERROR": "Unable to process request further",
+        "PASSWORD": "Password",
+        "PRIVACY": "Privcay",
+        "REMEMBER-ME": "Remember me!",
+        "SECONDS": " seconds",
+        "SESSION-EXPIRED": "Session Timeout",
+        "SIGNIN-CONTINUE": "Signin to continue",
+        "TERMS": "Terms",
+        "TITLE": "Login",
+        "USERID": "Email or Phone number",
+        "WARN": {
+            "PASSWORD-REQUIRED": "Password is required",
+            "USERID-REQUIRED": "Email or Phone number is required"
+        },
+        "WELCOME": "Welcome"
+    },
+    "MAILSERVER": {
+        "ERROR": {
+            "CREATE": "Error While Creating Mail Server",
+            "DELETE": "Error While Deleting Mail Server",
+            "UPDATE": "Error While Updating Mail Server"
+        },
+        "MAIL-SERVER": {
+            "ERROR": {
+                "REQUIRED": "Mail Server is required"
+            },
+            "TITLE": "Mail Server"
+        },
+        "METADATA": {
+            "SECURITY-TYPE": {
+                "NONE": "None",
+                "SSL": "SSL",
+                "TLS": "TLS"
+            }
+        },
+        "PAGE-TITLE": "Mail Settings",
+        "PASSWORD": {
+            "ERROR": {
+                "REQUIRED": "Password is required"
+            },
+            "TITLE": "Password"
+        },
+        "PORT": {
+            "ERROR": {
+                "REQUIRED": "Port is required",
+                "MIN": "Port should be between  0  and 65535",
+                "MAX": "Port should be between  0  and 65535"
+            },
+            "TITLE": "Port"
+        },
+        "SECURITY": {
+            "ERROR": {
+                "REQUIRED": "Security is required"
+            },
+            "TITLE": "Security"
+        },
+        "SUCCESS": {
+            "CREATE": "Mail Server Created successfully",
+            "DELETE": "Mail Server Deleted successfully",
+            "UPDATE": "Mail Server Updated successfully"
+        },
+        "USERNAME": {
+            "ERROR": {
+                "REQUIRED": "Username / Email  is required"
+            },
+            "TITLE": "Username / Email "
+        }
+    },
+    "MENU": {
+        "BUILDER": {
+            "BLOCKS": {
+                "TITLE": "Blocks",
+                "FORM": "Form",
+                "GRID": "Grid",
+                "CHART": "Chart",
+                "CARD": "Card",
+                "BOTTOMSHEET": "Bottom Sheet",
+                "DIALOG": "Dialog",
+                "BANNER": "Banner",
+                "TAB": "Tab",
+                "STEPPER": "Stepper",
+                "TREE": "Tree"
+            },
+            "DESIGNER": {
+                "TITLE": "Designer",
+                "PAGE": "Page",
+                "STATEMACHNE": "State machine",
+                "WORKFLOW": "Workflow"
+            },
+            "TITLE": "Builder"
+        },
+        "CONFIGURATION": {
+            "IPADD": "IP Address",
+            "LOGLEVEL": "Log Level",
+            "MAIL-CONFIG": "Mail Configuration",
+            "SYSLOG-SERVER": "SYSLOG server",
+            "TITLE": "Configuration"
+        },
+        "DASHBOARD": "Dashboard",
+        "FEATURE": {
+            "ADD-COMPANY": "Add Company",
+            "CHANGE-COMPANY": "Change Company",
+            "FAVORITE": "Favourites",
+            "FULLSCREEN": "Full Screen",
+            "GLOBAL-SEARCH": "Global Search",
+            "LANGUAGE": "Language",
+            "NOTIFICATION": "Notifications",
+            "SUB-HEADER": {
+                "BREADCRUMB": "Breadcrumb",
+                "BUG": "Bug Reporting",
+                "HELP": "Help",
+                "PHOTO-CAPTURE": "Photo Capture",
+                "TIMER": "Screen Timer",
+                "TITLE": "Sub Header"
+            },
+            "THEME": "Themes",
+            "TITLE": "Features"
+        },
+        "HOME": "Home",
+        "IOT": "IOT",
+        "ORG": {
+            "CAREER-LEVEL": "Career Level",
+            "CLIENTS": "Clients",
+            "COMPANY": "Company",
+            "COSTRATE": "Costrate",
+            "DEPARTMENT": "Department",
+            "DIVISION": "Division",
+            "LOCATION": "Location",
+            "SERVICES": "Services",
+            "TITLE": "Organization"
+        },
+        "SETUP": "Setup",
+        "TROUBLESHOOT": {
+            "LOGS": "Server logs",
+            "PATCH-MGMT": "Patch management",
+            "TITLE": "Troubleshoot"
+        },
+        "USER-MGMT": {
+            "PERMISSION": "Permissions",
+            "ROLE": "Roles",
+            "TITLE": "User Management",
+            "USER": "Users",
+            "CHANGE-PASSWORD": "Change / Reset Password"
+        }
+    },
+    "ORG": {
+        "METADATA": {
+            "ACCOUNT": {
+                "ENGINEERING": "Engineering",
+                "PROFSERVICES": "Professional Services",
+                "PURCHASE": "Purchase",
+                "SALES": "Sales",
+                "SERVICES": "Services"
+            },
+            "INVOICEOPTION": {
+                "DAYOFCURRENTMONTH": "of the current Month",
+                "DAYOFNEXTMONTH": "of the following Month",
+                "DAYSAFTER": "Day(s) after Bill Date",
+                "DAYSAFTERBILLMONTH": "day(s) after the end of the bill month",
+                "FIRSTDAY": "First Day of Next Month",
+                "LASTDAY": "Last Day of current Month"
+            },
+            "LINEOFBUSINESS": {
+                "AGRICULTURE": "Agriculture",
+                "CONSTRUCTION": "Construction",
+                "FINANCE": "Finance",
+                "INSURANCE": "Insurance",
+                "MANUFACTURING": "Manufacturing",
+                "MINING": "Mining",
+                "OTHERS": "Others",
+                "REALESTATE": "Real Estate",
+                "SERVIES": "Services",
+                "TRADE": "Trade"
+            },
+            "ORGTYPE": {
+                "CLUB": "Club",
+                "COMPANY": "Company",
+                "INDIVIDUAL": "Individual",
+                "NONPROFIT": "Non Profit",
+                "PARTNER": "Partner",
+                "SOLETRADER": "Sole Trader",
+                "TRUST": "Trust"
+            }
+        }
+    },
+    "PAGE": {
+        "DASHBOARD": {
+            "TITLE": "Dashboard"
+        }
+    },
+    "PERMISSIONS": {
+        "PAGE-TITLE": "Permissions"
+    },
+    "PROJECTS": {
+        "ACCOUNT-MANAGER": {
+            "ERROR": {
+                "REQUIRED": "Account Manager is required"
+            },
+            "TITLE": "Account Manager"
+        },
+        "CLIENT": {
+            "ERROR": {
+                "REQUIRED": "Client is required"
+            },
+            "TITLE": "Client"
+        },
+        "CREATE": "Create Projects",
+        "DESCRIPTION": {
+            "ERROR": {
+                "REQUIRED": "Description is required"
+            },
+            "TITLE": "Description"
+        },
+        "EDIT": "Edit Projects",
+        "NAME": {
+            "ERROR": {
+                "REQUIRED": "Name is required"
+            },
+            "TITLE": "Name"
+        },
+        "PAGE-TITLE": "Projects",
+        "PROJECT-HEAD": {
+            "ERROR": {
+                "REQUIRED": "Project Head is required"
+            },
+            "TITLE": "Project Head"
+        },
+        "SEARCH-PLACEHOLDER": "Search Projects",
+        "STATUS": {
+            "ERROR": {
+                "REQUIRED": "Status is required"
+            },
+            "TITLE": "Status"
+        }
+    },
+    "ROLES": {
+        "CREATE": "Create",
+        "DESCRIPTION": {
+            "ERROR": {
+                "REQUIRED": "Description is required"
+            },
+            "TITLE": "Description"
+        },
+        "EDIT": "Edit",
+        "ERROR": {
+            "CREATE": "Error occured while creating Role",
+            "DELETE": "Error occured while deleting Role",
+            "UPDATE": "Error occured while updating Role"
+        },
+        "NAME": {
+            "ERROR": {
+                "REQUIRED": "Name is required"
+            },
+            "TITLE": "Name"
+        },
+        "PAGE-TITLE": "Roles",
+        "SEARCH-PLACEHOLDER": "Search Roles",
+        "SUCCESS": {
+            "CREATE": "Role created successfully",
+            "DELETE": "Role deleted successfully",
+            "UPDATE": "Role updated successfully"
+        }
+    },
+    "SETTINGS": {
+        "METADATA": {
+            "COMMON": {
+                "FALSE": "False",
+                "NO": "No",
+                "TRUE": "True",
+                "YES": "Yes"
+            },
+            "LOGLEVEL": {
+                "DEBUG": "Debug",
+                "ERROR": "Error",
+                "FATAL": "Fatal",
+                "INFO": "Info",
+                "TRACE": "Trace",
+                "WARN": "Warn"
+            }
+        }
+    },
+    "SYSLOGGER": {
+        "ERROR": {
+            "CREATE": "Error occured while creating Logger",
+            "DELETE": "Error occured while deleting Logger",
+            "UPDATE": "Error occured while updating Logger"
+        },
+        "EXTERNAL-IP": {
+            "ERROR": {
+                "INVALID": "External IP is invalid",
+                "REQUIRED": "External IP is required"
+            },
+            "TITLE": "External IP"
+        },
+        "INTERNAL-IP": {
+            "ERROR": {
+                "INVALID": "Internal IP is invalid",
+                "REQUIRED": "Internal IP is required"
+            },
+            "TITLE": "Internal IP"
+        },
+        "PAGE-TITLE": "SYSLOG Settings",
+        "SUCCESS": {
+            "CREATE": "Logger created successfully",
+            "DELETE": "Logger deleted successfully",
+            "UPDATE": "Logger updated successfully"
+        }
+    },
+    "USERS": {
+        "CAREERLEVEL": {
+            "ERROR": {
+                "REQUIRED": "Career Level is required"
+            },
+            "TITLE": "Career Level"
+        },
+        "CREATE": "Create",
+        "DIVISION": {
+            "ERROR": {
+                "REQUIRED": "Division is required"
+            },
+            "TITLE": "Division"
+        },
+        "EDIT": "Edit",
+        "EMAIL": {
+            "ERROR": {
+                "INVALID": "Email is Invalid",
+                "REQUIRED": "Email is required"
+            },
+            "TITLE": "Email"
+        },
+        "ERROR": {
+            "CREATE": "Error occured while creating User",
+            "DELETE": "Error occured while deleting User",
+            "UPDATE": "Error occured while updating User"
+        },
+        "FIRST-NAME": {
+            "ERROR": {
+                "REQUIRED": "First Name is required"
+            },
+            "TITLE": "First Name"
+        },
+        "JOB-LOCATION": {
+            "ERROR": {
+                "REQUIRED": "Job Location is required"
+            },
+            "TITLE": "Job Location"
+        },
+        "LAST-NAME": {
+            "ERROR": {
+                "INVALID": "Last Name is Invalid",
+                "REQUIRED": "Last Name is required"
+            },
+            "TITLE": "Last Name"
+        },
+        "LOCATION": {
+            "ERROR": {
+                "REQUIRED": "Location is required"
+            },
+            "TITLE": "Location"
+        },
+        "LOCATIONS": {
+            "ERROR": {
+                "REQUIRED": "Locations are required"
+            }
+        },
+        "PAGE-TITLE": "Users",
+        "PASSWORD": {
+            "ERROR": {
+                "INVALID-FORMAT": "Invalid Password"
+            },
+            "TITLE": "Password"
+        },
+        "PHONE": {
+            "ERROR": {
+                "REQUIRED": "Phone Number is required",
+                "INVALID": "Phone Number is invalid"
+            },
+            "TITLE": "Phone Number"
+        },
+        "ROLE": {
+            "ERROR": {
+                "REQUIRED": "Role is required"
+            },
+            "TITLE": "Role"
+        },
+        "SEARCH-PLACEHOLDER": "Search Users",
+        "STATUS": {
+            "ERROR": {
+                "REQUIRED": "user status is required"
+            },
+            "TITLE": "User Status"
+        },
+        "SUCCESS": {
+            "CREATE": "User created successfully",
+            "DELETE": "User deleted successfully",
+            "UPDATE": "User updated successfully"
+        },
+        "TYPE": {
+            "ERROR": {
+                "REQUIRED": "user type is required"
+            },
+            "TITLE": "User Type"
+        },
+        "USER-ID": {
+            "ERROR": {
+                "REQUIRED": "User Id is required"
+            },
+            "TITLE": "User Id"
+        }
+    }
+}

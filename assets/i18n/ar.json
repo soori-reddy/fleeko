@@ -1,0 +1,2958 @@
+{
+  "ABOUT": {
+    "COPYRIGHT": "حقوق النشر محفوظة",
+    "SPONSOR": "برعاية",
+    "VERSION": "إصدار"
+  },
+  "ACCOUNT": {
+    "ACCOUNT": "الحساب",
+    "ADD": "يضيف",
+    "ADD-CREDIT-NOTE": "إضافة مذكرة ائتمان",
+    "AMOUNT": "مقدار",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "المبالغ مطلوبة"
+      },
+      "TITLE": "المبالغ"
+    },
+    "ATTACHMENT": "مرفق",
+    "AUDIT-HISTORY-AND-NOTES": "سجل المراجعة والملاحظات",
+    "BILL": {
+      "CREATE": "إنشاء الفاتورة",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "تاريخ الفاتورة غير صحيح",
+          "REQUIRED": "تاريخ الفاتورة مطلوب"
+        },
+        "TITLE": "تاريخ الفاتورة"
+      },
+      "EDIT": "تحرير الفاتورة",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "رقم الفاتورة مطلوب"
+        },
+        "TITLE": "رقم الفاتوره"
+      },
+      "OPTIONS": "خيارات الفاتورة",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "الفاتورة مطلوبة"
+        },
+        "TITLE": "فاتورة الى"
+      }
+    },
+    "CLASS": "فصل",
+    "COPY-TO": "نسخ الى",
+    "CREATE-COPY": "قم بإنشاء نسخة",
+    "CREDIT-MEMO": {
+      "CREATE": "إنشاء مذكرة ائتمان",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "تاريخ مذكرة الائتمان غير صالح",
+          "REQUIRED": "تاريخ مذكرة الائتمان مطلوب"
+        },
+        "TITLE": "تاريخ مذكرة الائتمان"
+      },
+      "EDIT": "تحرير مذكرة الائتمان",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "رقم مذكرة الائتمان مطلوب"
+        },
+        "TITLE": "رقم مذكرة الائتمان"
+      },
+      "OPTIONS": "خيارات مذكرة الائتمان",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "مطلوب مذكرة الائتمان إلى"
+        },
+        "TITLE": "مذكرة الائتمان إلى"
+      }
+    },
+    "DESCRIPTION": "وصف",
+    "DISCOUNT": "تخفيض",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "تاريخ الاستحقاق غير صالح",
+        "REQUIRED": "تاريخ الاستحقاق مطلوب"
+      },
+      "TITLE": "تاريخ الاستحقاق"
+    },
+    "EDIT": "يحرر",
+    "INVOICE": {
+      "CREATE": "إنشاء فاتورة",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "تاريخ الفاتورة غير صالح",
+          "REQUIRED": "تاريخ الفاتورة مطلوب"
+        },
+        "TITLE": "تاريخ الفاتورة"
+      },
+      "EDIT": "تحرير الفاتورة",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "رقم الفاتورة مطلوب"
+        },
+        "TITLE": "رقم الفاتورة"
+      },
+      "OPTIONS": "خيارات رقم الفاتورة",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "مطلوب الفاتورة"
+        },
+        "TITLE": "فاتورة إلى"
+      }
+    },
+    "ITEM": "العنصر",
+    "NO-ITEM-FOUND": "لم يتم العثور على عنصر",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "إضافة الدفع",
+      "AMOUNT-RECIEVED": "المبلغ المستلم",
+      "AMOUNT-UNPAID": "المبلغ غير المسدد",
+      "REFERENCE": "المرجعي",
+      "TDS-PAID": "مدفوعة المواد الصلبة الذائبة",
+      "TITLE": "معلومات الدفع"
+    },
+    "QUANTITY": "كمية",
+    "QUOTE": {
+      "CREATE": "إنشاء اقتباس",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "تاريخ الاقتباس غير صالح",
+          "REQUIRED": "تاريخ الاقتباس مطلوب"
+        },
+        "TITLE": "تاريخ الاقتباس"
+      },
+      "EDIT": "تحرير الاقتباس",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "رقم الاقتباس مطلوب"
+        },
+        "TITLE": "رقم الإقتباس"
+      },
+      "OPTIONS": "خيارات الاقتباس",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "مطلوب اقتباس إلى"
+        },
+        "TITLE": "اقتبس ل"
+      }
+    },
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "مرجع الحساب مطلوب"
+      }
+    },
+    "REFERENCE": "المرجعي",
+    "SALE-ORDER": {
+      "CREATE": "إنشاء أمر بيع",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "تاريخ أمر البيع غير صالح",
+          "REQUIRED": "تاريخ أمر البيع مطلوب"
+        },
+        "TITLE": "تاريخ أمر البيع"
+      },
+      "EDIT": "تحرير أمر البيع",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "رقم أمر البيع مطلوب"
+        },
+        "TITLE": "رقم أمر البيع"
+      },
+      "OPTIONS": "خيارات أوامر البيع",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "أمر البيع إلى مطلوب"
+        },
+        "TITLE": "أمر بيع ل"
+      }
+    },
+    "STATUS": {
+      "ACCEPTED": "وافقت",
+      "ALL": "الجميع",
+      "ALLOCATION": "توزيع",
+      "APPROVED": "وافق",
+      "AWAITING-FOR-PAYMENT": "في انتظار الدفع",
+      "DECLINED": "انخفض",
+      "DRAFT": "مسودة",
+      "INVOICED": "مفوترة",
+      "PAID": "دفع",
+      "SENT": "مرسل",
+      "WAITING-FOR-APPROVAL": "بانتظار الموافقة"
+    },
+    "SUB-TOTAL": "المجموع الفرعي",
+    "TAX": "ضريبة",
+    "TAX-RATE": "معدل الضريبة",
+    "TOTAL": "مجموع",
+    "TYPES": {
+      "BILLS": "الفواتير",
+      "CREDIT-MEMO": "ملاحظة ائتمانية",
+      "INVOICE": "فاتورة",
+      "QUOTE": "اقتبس",
+      "SALE-ORDER": "أمر بيع"
+    },
+    "UNIT-PRICE": "سعر الوحدة",
+    "VOID": "فارغ"
+  },
+  "ACCOUNTS": {
+    "ACCOUNT": "حساب",
+    "ADD": "يضيف",
+    "ADD-CREDIT-NOTE": "إضافة مذكرة ائتمان",
+    "AMOUNT": "كمية",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "المبالغ مطلوبة"
+      },
+      "TITLE": "المبالغ"
+    },
+    "ATTACHMENT": "مرفق",
+    "AUDIT-HISTORY-AND-NOTES": "سجل المراجعة والملاحظات",
+    "CLASS": "فصل",
+    "COPY-TO": "نسخ الى",
+    "CREATE-COPY": "قم بإنشاء نسخة",
+    "DESCRIPTION": "وصف",
+    "DISCOUNT": "خصم",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "تاريخ الاستحقاق غير صالح",
+        "REQUIRED": "تاريخ الاستحقاق مطلوب"
+      },
+      "TITLE": "تاريخ الاستحقاق"
+    },
+    "EDIT": "يحرر",
+    "INVOICE": {
+      "CREATE": "إنشاء فاتورة",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "تاريخ الفاتورة غير صالح",
+          "REQUIRED": "تاريخ الفاتورة مطلوب"
+        },
+        "TITLE": "تاريخ الفاتورة"
+      },
+      "EDIT": "تحرير الفاتورة",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "رقم الفاتورة مطلوب"
+        },
+        "TITLE": "رقم الفاتورة"
+      },
+      "OPTIONS": "خيارات رقم الفاتورة",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "مطلوب الفاتورة"
+        },
+        "TITLE": "فاتورة إلى"
+      }
+    },
+    "ITEM": "غرض",
+    "METADATA": {
+      "ORDERSTATUS": {
+        "ACCEPTED": "وافقت",
+        "ALL": "الجميع",
+        "ALLOCATION": "توزيع",
+        "APPROVED": "وافق",
+        "AWAITINGFORPAYMENT": "في انتظار الدفع",
+        "DECLINED": "انخفض",
+        "DRAFT": "مسودة",
+        "EXPIRED": "منتهي الصلاحية",
+        "INVOICED": "مفوترة",
+        "OVERDUE": "متأخر",
+        "PAID": "دفع",
+        "PENDING": "قيد الانتظار",
+        "REPEAT": "يكرر",
+        "SENT": "مرسل",
+        "VOID": "فارغ",
+        "WAITINGFORAPPROVAL": "بانتظار الموافقة"
+      },
+      "ORDERTYPE": {
+        "BILLS": "الفواتير",
+        "CREDITMEMO": "ملاحظة ائتمانية",
+        "INVOICE": "فاتورة",
+        "QUOTE": "اقتبس",
+        "SALEORDER": "أمر بيع"
+      },
+      "TAXOPTION": {
+        "EXCLUSIVE": "شامل الضريبة",
+        "INCLUSIVE": "شامل الضريبة"
+      }
+    },
+    "NO-ITEM-FOUND": "لم يتم العثور على عنصر",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "إضافة الدفع",
+      "AMOUNT-RECIEVED": "المبلغ المستلم",
+      "AMOUNT-UNPAID": "المبلغ غير المسدد",
+      "REFERENCE": "المرجعي",
+      "TDS-PAID": "مدفوعة المواد الصلبة الذائبة",
+      "TITLE": "معلومات الدفع"
+    },
+    "QUANTITY": "كمية",
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "مرجع الحساب مطلوب"
+      }
+    },
+    "REFERENCE": "المرجعي",
+    "SUB-TOTAL": "المجموع الفرعي",
+    "TAX": "ضريبة",
+    "TAX-RATE": "معدل الضريبة",
+    "TOTAL": "المجموع",
+    "UNIT-PRICE": "سعر الوحدة",
+    "VOID": "فارغ"
+  },
+  "APP": {
+    "TITLE": "شركة"
+  },
+  "APP-SERVER": {
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء خادم التطبيق",
+      "DELETE": "حدث خطأ أثناء حذف خادم التطبيق",
+      "UPDATE": "حدث خطأ أثناء تحديث خادم التطبيق"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "عنوان IP غير صالح",
+        "REQUIRED": "عنوان IP مطلوب"
+      },
+      "TITLE": "عنوان IP"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "خادم تطبيق جديد",
+      "EDIT": "تحرير خادم التطبيق",
+      "HOME": "خوادم التطبيق"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "المنفذ غير صالح",
+        "REQUIRED": "المنفذ مطلوب"
+      },
+      "TITLE": "ميناء"
+    },
+    "SEARCH-PLACEHOLDER": "خادم البحث",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "اسم الخادم غير صالح",
+        "REQUIRED": "اسم الخادم مطلوب"
+      },
+      "TITLE": "اسم الخادم"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "اسم حساب الخدمة غير صالح",
+        "REQUIRED": "اسم حساب الخدمة مطلوب"
+      },
+      "TITLE": "اسم حساب الخدمة"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء خادم التطبيق بنجاح",
+      "DELETE": "تم حذف خادم التطبيق بنجاح",
+      "UPDATE": "تم تحديث خادم التطبيق بنجاح"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "IP الخارجي غير صالح",
+        "REQUIRED": "مطلوب IP الخارجي"
+      },
+      "TITLE": "IP خارجي"
+    }
+  },
+  "AUTH-SERVER": {
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء خادم المصادقة",
+      "DELETE": "حدث خطأ أثناء حذف خادم المصادقة",
+      "UPDATE": "حدث خطأ أثناء تحديث خادم المصادقة"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "عنوان IP غير صالح",
+        "REQUIRED": "عنوان IP مطلوب"
+      },
+      "TITLE": "عنوان IP"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "خادم مصادقة جديد",
+      "EDIT": "تحرير خادم المصادقة",
+      "HOME": "خوادم المصادقة"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "المنفذ غير صالح",
+        "REQUIRED": "المنفذ مطلوب"
+      },
+      "TITLE": "ميناء"
+    },
+    "SEARCH-PLACEHOLDER": "خادم البحث",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "اسم الخادم غير صالح",
+        "REQUIRED": "اسم الخادم مطلوب"
+      },
+      "TITLE": "اسم الخادم"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "اسم حساب الخدمة غير صالح",
+        "REQUIRED": "اسم حساب الخدمة مطلوب"
+      },
+      "TITLE": "اسم حساب الخدمة"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء خادم المصادقة بنجاح",
+      "DELETE": "تم حذف خادم المصادقة بنجاح",
+      "UPDATE": "تم تحديث خادم المصادقة بنجاح"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "IP الخارجي غير صالح",
+        "REQUIRED": "مطلوب IP الخارجي"
+      },
+      "TITLE": "IP خارجي"
+    }
+  },
+  "AUTHORIZATION": {
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء خادم التفويض",
+      "DELETE": "حدث خطأ أثناء حذف خادم التفويض",
+      "UPDATE": "حدث خطأ أثناء تحديث خادم التفويض"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "عنوان IP غير صالح",
+        "REQUIRED": "عنوان IP مطلوب"
+      },
+      "TITLE": "عنوان IP"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "خادم تفويض جديد",
+      "EDIT": "تحرير خادم التفويض",
+      "HOME": "خوادم التفويض"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "المنفذ غير صالح",
+        "REQUIRED": "المنفذ مطلوب"
+      },
+      "TITLE": "ميناء"
+    },
+    "SEARCH-PLACEHOLDER": "خادم البحث",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "اسم الخادم غير صالح",
+        "REQUIRED": "اسم الخادم مطلوب"
+      },
+      "TITLE": "اسم الخادم"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "اسم حساب الخدمة غير صالح",
+        "REQUIRED": "اسم حساب الخدمة مطلوب"
+      },
+      "TITLE": "اسم حساب الخدمة"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء خادم التفويض بنجاح",
+      "DELETE": "تم حذف خادم التفويض بنجاح",
+      "UPDATE": "تم تحديث خادم التفويض بنجاح"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "IP الخارجي غير صالح",
+        "REQUIRED": "مطلوب IP الخارجي"
+      },
+      "TITLE": "IP خارجي"
+    }
+  },
+  "BUILDER": {
+    "DESIGNER": {
+      "PAGE": {
+        "FOOTER": "تذييل",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "قابل للتمديد",
+            "CLONE": "استنساخ",
+            "NAME": "اسم الصفحة",
+            "SCOPE": "نطاق"
+          }
+        }
+      }
+    },
+    "MENU": {
+      "APPBUILDER": {
+        "APPAUTHPRV": "المصادقة",
+        "APPDESIGN": "مصمم التطبيق",
+        "BUILDAPP": "يبني",
+        "DEPLOYAPP": "نشر",
+        "SECURITYSCAN": "فحص الأمان",
+        "TITLE": "منشئ التطبيق"
+      },
+      "APPSTORE": {
+        "TITLE": "متجر التطبيقات"
+      },
+      "BLOCKS": {
+        "BANNER": "لافتة",
+        "BOTTOMSHEET": "نهاية الورقة",
+        "CARD": "بطاقة",
+        "CHART": "جدول",
+        "DIALOG": "حوار",
+        "FORM": "استمارة",
+        "GRID": "جريد",
+        "STEPPER": "السائر",
+        "TAB": "فاتورة غير مدفوعة",
+        "TITLE": "كتل",
+        "TREE": "شجرة"
+      },
+      "DATABUILDER": {
+        "REST": "REST البيانات الوصفية",
+        "TABLE": "جدول API",
+        "TITLE": " مستكشف البيانات"
+      },
+      "DESIGNER": {
+        "PAGE": "مصمم الصفحة",
+        "STATEMACHNE": "آلة الدولة",
+        "TITLE": " منشئ الصفحة",
+        "WORKFLOW": "سير العمل"
+      },
+      "TITLE": "باني"
+    },
+    "METADATA": {
+      "APPTYPE": {
+        "ANDROID": "ذكري المظهر",
+        "IOS": "iOS",
+        "KIOSK": "كشك",
+        "WEB": "الويب",
+        "WINDOWS": "شبابيك"
+      },
+      "AUTHENTICATIONTYPE": {
+        "FACEBOOK": "موقع التواصل الاجتماعي الفيسبوك",
+        "FACEDETECTION": "وجه",
+        "FINGERPRINT": "اصبع اليد",
+        "FIREBASEUI": "Firebase",
+        "GITHUB": "جيثب",
+        "GOOGLE": "متصفح الجوجل",
+        "LINKEDIN": "مرتبط في",
+        "PHONENUMBER": "رقم الهاتف",
+        "QRCODE": "ريال قطري",
+        "SSO": "علامة واحدة على",
+        "USERIDPASSWORD": "كلمه السر"
+      },
+      "COMP-SUB-TYPE": {
+        "AREA": "منطقة",
+        "BAR": "شريط",
+        "BUBBLE": "فقاعة",
+        "COLOR": "اللون",
+        "DOUGHNUT": "الدونات",
+        "EMAIL": "بريد الالكتروني",
+        "FAB-BUTTON": "زر فاب",
+        "FLAT-BUTTON": "زر مسطح",
+        "HEAT MAP": "خريطة الحرارة",
+        "ICON-BUTTON": "زر الرمز",
+        "LINE": "خط",
+        "MAP": "خريطة",
+        "MINIFAB-BUTTON": "زر Minifab",
+        "NUMBER": "عدد",
+        "PASSWORD": "كلمه السر",
+        "PIE": "فطيرة",
+        "RADAR": "رادار",
+        "RAISED-BUTTON": "زر مرتفع",
+        "SCATTER": "مبعثر",
+        "STROKED-BUTTON": "زر مضغوط",
+        "TEL": "هاتف",
+        "TEXT": "نص",
+        "URL": "عنوان Url"
+      },
+      "COMP-TYPE": {
+        "AUTO-COMPLETE": "الإكمال التلقائي",
+        "BADGE": "شارة",
+        "BANNER": "لافتة",
+        "BOTTOM-SHEET": "نهاية الورقة",
+        "BUTTON": "زر",
+        "BUTTON-TOGGLE": "زر تبديل",
+        "CARD": "بطاقة",
+        "CHART": "جدول",
+        "CHECKBOX": "خانة اختيار",
+        "CHIPS": "رقائق",
+        "DATE-PICKER": "منتقي التاريخ",
+        "DIALOG": "حوار",
+        "DIVIDER": "مقسم",
+        "DROPDOWN": "اسقاط",
+        "EXPANSION-PANEL": "لوحة التوسع",
+        "GRID": "جريد",
+        "ICON": "أيقونة",
+        "IMAGE": "صورة",
+        "INPUT": "مدخل",
+        "LABEL": "ملصق",
+        "LIST": "قائمة",
+        "MENU": "قائمة طعام",
+        "PAGINATOR": "مرقم",
+        "PROGRESS-BAR": "شريط التقدم",
+        "PROGRESS-SPINNER": "التقدم سبينر",
+        "RADIO-BUTTON": "زر الراديو",
+        "SIDENAV": "بجانب",
+        "SLIDE-TOGGLE": "تبديل الشرائح",
+        "SLIDER": "المنزلق",
+        "SNACKBAR": "مطعم الوجبات الخفيفة",
+        "STEPPER": "السائر",
+        "TAB": "فاتورة غير مدفوعة",
+        "TEXT-AREA": "منطقة النص",
+        "TOOLBAR": "شريط الأدوات",
+        "TOOLTIP": "تلميح",
+        "TREE": "شجرة"
+      },
+      "COMPTYPE": {
+        "AUTOCOMPLETE": "الإكمال التلقائي",
+        "BADGE": "شارة",
+        "BANNER": "لافتة",
+        "BOTTOMSHEET": "نهاية الورقة",
+        "BUTTON": "زر",
+        "BUTTONTOGGLE": "زر تبديل",
+        "CAMERA": "الة تصوير",
+        "CARD": "بطاقة",
+        "CHART": "جدول",
+        "CHECKBOX": "خانة اختيار",
+        "CHIPS": "رقائق",
+        "DATEPICKER": "منتقي التاريخ",
+        "DIALOG": "حوار",
+        "DIVIDER": "مقسم",
+        "DROPDOWN": "اسقاط",
+        "EXPANSIONPANEL": "لوحة التوسع",
+        "FILE": "ملف",
+        "FORM": "استمارة",
+        "GRID": "جريد",
+        "ICON": "أيقونة",
+        "IMAGE": "صورة",
+        "LABEL": "ملصق",
+        "LIST": "قائمة",
+        "MAP": "خريطة",
+        "MENU": "قائمة طعام",
+        "PAGINATOR": "مرقم",
+        "PROGRESSBAR": "شريط التقدم",
+        "PROGRESSSPINNER": "التقدم سبينر",
+        "RADIOBUTTON": "زر الراديو",
+        "SIDENAV": "بجانب",
+        "SLIDER": "المنزلق",
+        "SLIDETOGGLE": "تبديل الشرائح",
+        "SNACKBAR": "مطعم الوجبات الخفيفة",
+        "STEPPER": "السائر",
+        "TAB": "فاتورة غير مدفوعة",
+        "TEXTAREA": "منطقة النص",
+        "TEXTINPUT": "مدخل",
+        "TOOLBAR": "شريط الأدوات",
+        "TOOLTIP": "تلميح",
+        "TREE": "شجرة"
+      },
+      "FORM": {
+        "BUTTON-ROW": {
+          "DISPLAY": {
+            "BOTTOM": "قاع",
+            "TOP": "قمة"
+          }
+        },
+        "DISPLAY-TYPE": {
+          "DYNAMIC": "متحرك",
+          "FIXED": "ثابت / ثابت"
+        },
+        "ERROR-DISPLAY-TYPE": {
+          "INLINE": "في النسق",
+          "SNACKBAR": "مطعم الوجبات الخفيفة"
+        },
+        "FIELD-APPEARANCE-TYPE": {
+          "FILL": "يملأ",
+          "LEGACY": "ميراث",
+          "OUTLINE": "الخطوط العريضة",
+          "STANDARD": "اساسي"
+        },
+        "FIELD-TYPE": {
+          "BUTTON": "زر",
+          "CHECKBOX": "خانة اختيار",
+          "DATE-PICKER": "منتقي البيانات",
+          "DROPDOWN": "اسقاط",
+          "LABEL": "ملصق",
+          "RADIOBUTTON": "زر الراديو",
+          "TEXT-AREA": "تيكستاريا",
+          "TEXTBOX": "مربع الكتابة"
+        },
+        "LAYOUT-ALIGNMENT": {
+          "CENTER": "المركز",
+          "END": "نهاية",
+          "SPACE-AROUND": "حول الفضاء",
+          "SPACE-BETWEEN": "الفضاء بين",
+          "SPACE-EVENLY": "مسافات متساوية",
+          "START": "بداية",
+          "STRETCH": "تمتد"
+        },
+        "LAYOUT-TYPE": {
+          "COLUMN": "عمودي",
+          "ROW": "صف"
+        },
+        "ROW-COLUMNS": {
+          "FIVE": "خمسة أعمدة",
+          "FOUR": "أربعة أعمدة",
+          "ONE": "عمود واحد",
+          "THREE": "ثلاثة أعمدة",
+          "TWO": "عمودان"
+        }
+      }
+    },
+    "METAREST": {
+      "DISPLAYNAME": {
+        "ERROR": {
+          "REQUIRED": "اسم العرض مطلوب"
+        },
+        "TITLE": "اسم العرض"
+      },
+      "GRID": {
+        "NAME": "اسم",
+        "SCOPE": "نطاق",
+        "URL": "نقطة النهاية"
+      },
+      "NAME": {
+        "ERROR": {
+          "REQUIRED": "مطلوب اسم"
+        },
+        "TITLE": "اسم"
+      },
+      "PAGE-TITLE": "البيانات الوصفية لواجهة برمجة التطبيقات",
+      "ROUTE": {
+        "ERROR": {
+          "REQUIRED": "الطريق مطلوب"
+        },
+        "TITLE": "طريق"
+      },
+      "SCOPE": {
+        "ERROR": {
+          "REQUIRED": "النطاق مطلوب"
+        },
+        "TITLE": "نطاق"
+      },
+      "SEARCH-PLACEHOLDER": "واجهة برمجة تطبيقات البيانات الوصفية للبحث",
+      "TABLENAME": {
+        "ERROR": {
+          "REQUIRED": "اسم الجدول مطلوب"
+        },
+        "TITLE": "اسم الطاولة"
+      }
+    },
+    "PAGE": {
+      "CONFIGURATION": {
+        "HEADER": {
+          "BUTTONS": "أزرار",
+          "CREATEAPI": "إنشاء API",
+          "CREATETABLE": "اصنع جدول",
+          "EDITPAGE": "تعديل الصفحة",
+          "ENDPOINT": "نقطة النهاية",
+          "HOMEPAGE": "الصفحة الرئيسية",
+          "NAME": "اسم",
+          "NEWPAGE": "صفحة جديدة",
+          "PAGEACTIONS": "تكوين إجراءات الصفحة",
+          "PERMISSION": "إذن",
+          "URL": "عنوان Url"
+        }
+      },
+      "ERROR": {
+        "CREATE": "خطأ أثناء حفظ تصميم الصفحة !!",
+        "DELETE": "خطأ أثناء حذف تصميم الصفحة !!",
+        "UPDATE": "خطأ أثناء تحديث تصميم الصفحة !!"
+      },
+      "SUCCESS": {
+        "CREATE": "تم حفظ تصميم الصفحة بنجاح",
+        "DELETE": "تم حذف تصميم الصفحة بنجاح",
+        "UPDATE": "تم تحديث تصميم الصفحة بنجاح"
+      }
+    },
+    "TEMPLATE": {
+      "BOTTOM-SHEET": {
+        "BUTTON-LABEL": "تسمية الزر",
+        "BUTTON-NAVIGATE-URL": "زر التنقل URL",
+        "BUTTON-SUB-LABEL": "التسمية الفرعية للزر",
+        "CREATE": "إنشاء",
+        "DRAG&DROP-BOTTOM-SHEET-ITEMS": "قم بسحب وإسقاط عناصر الورقة السفلية هنا",
+        "DRAG&DROP-CUSTOMISE-BOTTOM-SHEET": "قم بالسحب والإفلات لتخصيص الورقة السفلية",
+        "ENTER-TEXT-HERE": "أدخل النص هنا...",
+        "TITLE": "نهاية الورقة"
+      },
+      "CARD": {
+        "ADD-FIELD": "إضافة حقل",
+        "ALIGNMENT": "انتقام",
+        "DISPLAY-IMAGE": "هذه الصورة ليست للعرض",
+        "DRAG&DROP-CARD-ITEMS": "قم بسحب وإسقاط عناصر البطاقة هنا",
+        "DRAG&DROP-CUSTOMISE-CARDS": "قم بالسحب والإفلات لتخصيص البطاقات",
+        "FLEX": "ثني",
+        "HORIZONTAL": "أفقي",
+        "IMAGE-SIZE": "حجم الصورة",
+        "IMAGE-TYPE": "نوع الصورة",
+        "PREVIEW": "معاينة",
+        "TITLE": "البطاقات",
+        "VALIDATION": {
+          "CONTENT-REQUIRED": "المحتوى مطلوب",
+          "FOOTER-REQUIRED": " التذييل مطلوب",
+          "HEADER-REQUIRED": "اسم العنوان مطلوب",
+          "SUB-HEADER-REQUIRED": "العنوان الفرعي مطلوب"
+        },
+        "VERTICAL": "عمودي"
+      },
+      "COMPONENT-BULIDER": "مكون منشئ",
+      "CONFIGURATION": {
+        "BUTTON-CONFIGURATION": "تكوين الزر",
+        "BUTTON-ROW": {
+          "POSITION": "موضع صف الزر",
+          "TITLE": "لديه صف زر"
+        },
+        "DIRECTION-LAYOUT": "تخطيط الاتجاه",
+        "DISPLAY": "عرض",
+        "EDIT": "يحرر",
+        "ENTER-FLEX-VALUE": "أدخل قيمة فليكس",
+        "FLEX-CONFIGURATION": "تكوين المرن",
+        "HORIZONTAL-ALIGNMENT": "محاذاة أفقية",
+        "RESPONSIVE-LAYOUT": "تصميم متجاوب",
+        "SELECT-FORM-FIELDS-STYLE": "حدد نمط حقول النموذج",
+        "SELECT-LAYOUT": "حدد التخطيط",
+        "SELECT-NO-OF-COLUMNS": "حدد أي أعمدة",
+        "TEMPLATE-NATURE": "طبيعة القالب",
+        "THEME-CONFIGURATION": "تكوين السمة",
+        "VALIDATION": {
+          "ERROR-MESSAGES-DISPLAY": "عرض رسائل الخطأ",
+          "FLEX-REQUIRED": "مطلوب قيمة فليكس",
+          "LAYOUT-REQUIRED": "التخطيط مطلوب",
+          "NO-OF-COLUMNS-REQUIRED": "لا يلزم وجود أعمدة",
+          "TYPE-REQUIRED": "النوع مطلوب",
+          "VALUE-REQUIRED": "القيمة مطلوبة"
+        },
+        "VALIDATION-LAYOUT-REQUIRED": "التخطيط مطلوب",
+        "VERTICAL-ALIGNMENT": "انحياز عمودي"
+      },
+      "DETAILS": "تفاصيل",
+      "DIALOG": {
+        "CREATE": "إنشاء",
+        "DRAG&DROP-DIALOG-ITEMS": "قم بسحب وإفلات عناصر الحوار هنا",
+        "START-CREATE-DIALOG-BOX": "ابدأ في إنشاء مربع حوار عن طريق سحب العناصر وإفلاتها",
+        "TITLE": "حوار",
+        "VIEW": "رأي"
+      },
+      "FORM": {
+        "ADD-OPTION": "إضافة خيار",
+        "ALLOW-OVERRIDE": "السماح بالتجاوز",
+        "CONFIG": {
+          "BASIC": {
+            "ISREADONLY": "للقراءة فقط",
+            "ISVISISBLE": "مرئي",
+            "LABEL": {
+              "ERROR": {
+                "REQUIRED": " اسم الحقل مطلوب"
+              },
+              "TITLE": "اسم الحقل"
+            },
+            "PLACEHOLDER": "عنصر نائب",
+            "TOOLTIP": "تلميح",
+            "VIEWPORT": "منفذ العرض"
+          },
+          "DATA": {
+            "AUTOGENERATED": "يتم إنشاؤه تلقائيًا",
+            "DATATYPE": "نوع البيانات",
+            "DEFAULTVALUE": "القيمة الافتراضية",
+            "MANDATORY": "إلزامي",
+            "MODELNAME": {
+              "ERROR": {
+                "REQUIRED": "اسم الموديل مطلوب"
+              },
+              "TITLE": "اسم النموذج"
+            }
+          },
+          "HEADER": {
+            "BASIC": "أساسي",
+            "DATA": "البيانات",
+            "MISC": "آحرون",
+            "SECURITY": "حماية",
+            "VALIDATIONS": "عمليات التحقق"
+          },
+          "MISC": {
+            "HINT": "ملحوظة",
+            "HINTEND": "نهاية تلميح",
+            "MAXLENGTH": "الحد الأقصى لطول",
+            "MAXLENGTHERROR": "الحد الأقصى لطول الخطأ",
+            "MINLENGTH": "الطول الأدنى",
+            "MINLENGTHERROR": "الحد الأدنى لطول الخطأ",
+            "PREFIX": "اختصار",
+            "REGEX": "Regex",
+            "REGEXERROR": "رسالة خطأ Reqex",
+            "SUFFIX": "لاحقة"
+          },
+          "SECURITY": {
+            "ENCRYPT": "تشفير",
+            "PERMCODE": "كود الإذن",
+            "SHOWPASSWORD": "تفعيل إظهار رمز كلمة المرور"
+          },
+          "VALIDATIONRULE": {
+            "MESSAGE": "رسالة خطأ",
+            "NAME": "نوع",
+            "VALUE": "قيمة"
+          }
+        },
+        "DISPLAY-NAME": "اسم العرض",
+        "DISPLAY-TYPE": "نوع العرض",
+        "DRAG": "اسحب مواضع النموذج",
+        "DRAG&DROP-ITEMS": "قم بسحب وإسقاط عناصر النموذج هنا",
+        "ENCRYPT-DATA": "تشفير البيانات",
+        "ERROR": {
+          "CREATE": "حدث خطأ أثناء إنشاء نموذج النموذج",
+          "DELETE": "حدث خطأ أثناء حذف نموذج النموذج",
+          "UPDATE": "حدث خطأ أثناء تحديث نموذج النموذج"
+        },
+        "FIELD-ATTRIBUTES": "سمات حقل النموذج",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "قابل للتمديد",
+            "CLONE": "استنساخ",
+            "NAME": "اسم النموذج",
+            "SCOPE": "نطاق"
+          }
+        },
+        "ITEM": {
+          "LABEL": "اسم الحقل",
+          "PLACEHOLDER": "أدخل اسم الحقل"
+        },
+        "MANDATORY-FIELD": "حقل الزامي",
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "اسم النموذج مطلوب"
+          },
+          "TITLE": "اسم النموذج"
+        },
+        "SAME-EMPTY-NAME-NOT-SHOWN": "* لن يتم عرض حقول نماذج متعددة بنفس اسم النموذج أو فارغة",
+        "SECURITY-ATTRIBUTES": "سمات الأمان",
+        "SHOW-GROUP": "إظهار في مجموعة النموذج",
+        "SUCCESS": {
+          "CREATE": "تم إنشاء قالب النموذج بنجاح",
+          "DELETE": "تم حذف قالب النموذج بنجاح",
+          "UPDATE": "تم تحديث قالب النموذج بنجاح"
+        },
+        "TITLE": "استمارة",
+        "VALIDATION": {
+          "ALLOW-SPACE&SPECIAL-CHARACTERS": "لا يسمح النموذج بمسافة وأحرف خاصة باستثناء النقطة بين الكلمات",
+          "DATE-REQUIRED": "التاريخ مطلوب",
+          "ENDPOINT-REQUIRED": "نقطة النهاية مطلوبة",
+          "EXCEED-50CHARACTERS-LENGTH": "يجب ألا يتجاوز طول اسم الطراز 50 حرفًا",
+          "INVAILD-DATE": "تاريخ غير صالح",
+          "INVALID-DATE": "تاريخ غير صالح",
+          "MAX-DATE": "التاريخ الأقصى",
+          "MIN-DATE": "تاريخ الحد الأدنى",
+          "MODEL-REQUIRED": "اسم النموذج مطلوب",
+          "MUST-3CHARACTERS-LENGTH": "يجب أن يكون طول اسم الطراز 3 أحرف",
+          "TITLE": {
+            "NAME": "تصديق"
+          }
+        },
+        "VALUE": "قيمة",
+        "VISIBILITY": "الرؤية"
+      },
+      "GRID": {
+        "CREATE": "إنشاء",
+        "SHOW-PAGINATION": "إظهار ترقيم الصفحات على الشبكة",
+        "TITLE": "جريد",
+        "VALIDATION": {
+          "COLUMN-ENDPOINT-REQUIRED": "نقطة نهاية البيانات مطلوبة",
+          "DATA-ENDPOINT-REQUIRED": "نقطة نهاية البيانات مطلوبة"
+        }
+      },
+      "IMAGE": {
+        "CREATE": "إنشاء صورة مع النص",
+        "DRAG-DROP": "قم بالسحب والإفلات لتخصيص الصورة وحقل النص",
+        "DRAG&DROP-IMAGE-ITEMS": "قم بسحب وإسقاط عناصر الصورة هنا",
+        "DRAG&DROP-TEXT-FIELD-ITEMS": "قم بسحب وإسقاط عناصر الحقول النصية هنا",
+        "TITLE": "صورة"
+      },
+      "NAME": "اسم",
+      "PAGE-ACTION": {
+        "CONFIGURATION": "تكوين الزر",
+        "DRAG-DROP-BUTTON": "قم بالسحب والإفلات لتخصيص الزر",
+        "DRAG&DROP-BUTTON-ITEMS": "سحب وإسقاط عناصر الزر هنا",
+        "SELECT-BUTTON-ACTION": "حدد إجراء الزر",
+        "SELECT-COLOR": "إختر لون",
+        "TITLE": "أزرار"
+      },
+      "STEPPER": {
+        "CREATE": "إنشاء",
+        "CREATE-STEPPER-DRAG&DROP-ITEMS": "ابدأ في إنشاء Stepper عن طريق سحب العناصر وإفلاتها",
+        "DRAG&DROP-ITEMS": "قم بسحب وإسقاط عناصر Stepper هنا",
+        "STEPPER-VIEW": "عرض السائر",
+        "TITLE": "السائر"
+      },
+      "TAB": {
+        "ADDTAB": "إضافة علامة تبويب",
+        "BACKGROUND-COLOR": "لون الخلفية",
+        "COLOR": "اللون",
+        "CREATE": "إنشاء",
+        "DISABLED-TAB": "علامة تبويب معطل",
+        "DRAG&DROP-TAB-CONTENT": "قم بسحب وإفلات محتوى علامة التبويب هنا",
+        "HEADER-POSITION": "موقف الرأس",
+        "TITLE": "نوافذ التبويب"
+      },
+      "TREE": {
+        "CREATE": "إنشاء",
+        "ENDPOINT": "أدخل نقطة النهاية",
+        "FETCH": "أحضر",
+        "MODIFY": "تعديل",
+        "NODE-SELECTABLE": "العقدة للاختيار",
+        "TITLE": "شجرة",
+        "TREE-OUTPUT-NAME": "أدخل اسم إخراج الشجرة"
+      },
+      "TYPE": "نوع",
+      "VALIDATION": {
+        "INPUT-TYPE-REQUIRED": "نوع الإدخال مطلوب",
+        "TYPE-REQUIRED": "مطلوب اسم"
+      },
+      "WIZARD": {
+        "ADVANCED": "متقدم",
+        "BANNER": "لافتة",
+        "BASIC": "أساسي",
+        "BOTTOM-SHEET": "نهاية الورقة",
+        "BUTTON": "زر",
+        "CARD": "بطاقة",
+        "CHARTS": "الرسوم البيانية",
+        "CREATE-TEMPLATE": "حدد قالب",
+        "DIALOG": "حوار",
+        "FORM": "استمارة",
+        "GRID": "جريد",
+        "SELECT-COMPONENT": "ابدأ في إنشاء قالب عن طريق تحديد مكون",
+        "STEPPER": "السائر",
+        "TAB": "فاتورة غير مدفوعة",
+        "TOOLBAR-BREADCRUMB": "شريط الأدوات ومسار التنقل",
+        "TREE": "شجرة"
+      }
+    }
+  },
+  "BUTTON": {
+    "ADD": "يضيف",
+    "APPROVAL": "موافقة",
+    "BACK": "عودة",
+    "CANCEL": "يلغي",
+    "CLOSE": "يغلق",
+    "DELETE": "حذف",
+    "DELETE-CONFIRMATION": "هل تريد أن تحذف ؟",
+    "DOWNLOAD": "تحميل",
+    "EDIT": "يحرر",
+    "EMAIL": "بريد إلكتروني",
+    "MODIFY": "يعدل",
+    "NEW": "جديد",
+    "NEXT": "التالي",
+    "OK": "حسنا",
+    "PREVIOUS": "سابق",
+    "PRINT": "مطبعة",
+    "PRINT-PDF": "طباعة PDF",
+    "SAVE": "يحفظ",
+    "UPDATE": "تحديث"
+  },
+  "CAREERLEVEL": {
+    "ANALYST": "المحلل",
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "رمز الفاتورة مطلوب"
+      },
+      "TITLE": "رموز بيل"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "المستوى الوظيفي مطلوب"
+      },
+      "TITLE": "المستوى الوظيفي"
+    },
+    "CONSULTANT": "مستشار",
+    "CREATE": "خلق المستوى الوظيفي",
+    "EDIT": "تحرير المستوى الوظيفي",
+    "ERROR": {
+      "CREATE": "خطأ أثناء إنشاء المستوى الوظيفي",
+      "DELETE": "خطأ أثناء حذف المستوى الوظيفي",
+      "UPDATE": "خطأ أثناء تحديث المستوى الوظيفي"
+    },
+    "EXECUTIVE": "تنفيذي",
+    "INTERN": "داخلي",
+    "MANAGER": "مدير",
+    "PAGE-TITLE": "المستوى الوظيفي",
+    "SEARCH-PLACEHOLDER": "البحث في المستوى الوظيفي",
+    "SENIOR-ANALYST": "مدقق خبير",
+    "SENIOR-CONSULTANT": "مستشار كبير",
+    "SENIOR-MANAGER": "مدير مرشد",
+    "SUCCESS": {
+      "CREATE": "تم إنشاء المستوى الوظيفي بنجاح",
+      "DELETE": "تم حذف المستوى الوظيفي بنجاح",
+      "UPDATE": "تم تحديث المستوى الوظيفي بنجاح"
+    },
+    "UPDATE-SUCESS": "تم تحديث المستوى الوظيفي بنجاح"
+  },
+  "CLIENT": {
+    "ACCOUNT-DETAILS": "تفاصيل الحساب",
+    "ADDRESS-LINE-1": {
+      "ERROR": {
+        "REQUIRED": "سطر العنوان 1 مطلوب"
+      },
+      "TITLE": "العنوان الأول"
+    },
+    "ADDRESS-LINE-2": {
+      "TITLE": "سطر العنوان 2"
+    },
+    "BILLING-ADDRESS": "عنوان وصول الفواتير",
+    "BILLS-DUE-DATE": {
+      "ERROR": {
+        "REQUIRED": "تاريخ استحقاق الفواتير مطلوب",
+        "TYPE-REQUIRED": "مطلوب خيار تاريخ استحقاق الفواتير"
+      },
+      "INPUT": "تاريخ",
+      "SELECT-TYPE": "خيار",
+      "TITLE": "تاريخ استحقاق الفواتير"
+    },
+    "CIN": "شرك",
+    "CITY": {
+      "ERROR": {
+        "REQUIRED": "المدينة مطلوبة"
+      },
+      "TITLE": "مدينة"
+    },
+    "COMPANY-REG-NUM": {
+      "ERROR": {
+        "REQUIRED": "رقم تسجيل الشركة مطلوب"
+      },
+      "TITLE": "تسجيل الشركة لا."
+    },
+    "CONTACT-PERSON-DETAILS": "تفاصيل جهة الاتصال",
+    "COUNTRY": {
+      "ERROR": {
+        "REQUIRED": "الدولة مطلوبة"
+      },
+      "TITLE": "دولة"
+    },
+    "CREATE": "إنشاء عميل",
+    "CREDIT-LIMIT": {
+      "ERROR": {
+        "REQUIRED": "مطلوب حد الائتمان"
+      },
+      "TITLE": "الحد الائتماني"
+    },
+    "CURRENCY": {
+      "ERROR": {
+        "REQUIRED": "العملة مطلوبة"
+      },
+      "TITLE": "عملة"
+    },
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "الوصف مطلوب"
+      },
+      "TITLE": "وصف"
+    },
+    "EDIT": "تحرير العميل",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "البريد الإلكتروني غير صالح",
+        "REQUIRED": "البريد الالكتروني مطلوب"
+      },
+      "TITLE": "بريد إلكتروني"
+    },
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء العميل",
+      "DELETE": "حدث خطأ أثناء حذف العميل",
+      "UPDATE": "حدث خطأ أثناء تحديث العميل"
+    },
+    "FOLLOWING-ATTR-TEXT": "ستتغير السمات التالية حسب موقع العميل (البلد)",
+    "GST": "ضريبة السلع والخدمات",
+    "GST-PURCHASE": {
+      "ERROR": {
+        "REQUIRED": "مطلوب شراء ضريبة السلع والخدمات"
+      },
+      "TITLE": "شراء ضريبة السلع والخدمات"
+    },
+    "GST-SALES": {
+      "ERROR": {
+        "REQUIRED": "مطلوب مبيعات GST"
+      },
+      "TITLE": "مبيعات GST"
+    },
+    "INVOICE-DUE-DATE": {
+      "ERROR": {
+        "INVALID": "تاريخ غير صالح",
+        "REQUIRED": "تاريخ استحقاق الفاتورة مطلوب",
+        "TYPE-REQUIRED": "مطلوب خيار تاريخ استحقاق الفاتورة"
+      },
+      "INPUT": "تاريخ",
+      "SELECT-TYPE": "خيار",
+      "TITLE": "تاريخ استحقاق الفاتورة"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "مطلوب اسم"
+      },
+      "TITLE": "اسم"
+    },
+    "NO-COUNTRY-FOUND": "لم يتم العثور على بلد",
+    "NO-STATE-FOUND": "لم يتم العثور على ولاية",
+    "PAGE-TITLE": "عملاء",
+    "PHONE-NUMBER": {
+      "ERROR": {
+        "REQUIRED": "رقم الهاتف مطلوب"
+      },
+      "TITLE": "رقم التليفون"
+    },
+    "POST-CODE": {
+      "ERROR": {
+        "REQUIRED": "الرمز البريدي مطلوب"
+      },
+      "TITLE": "الرمز البريدي"
+    },
+    "SAME-AS-BILLING-ADDRESS": "استخدم نفس عنوان الفواتير",
+    "SAME-AS-SHIPPING-ADDRESS": "استخدم نفس عنوان الشحن",
+    "SEARCH-PLACEHOLDER": "عميل البحث",
+    "SELECT": {
+      "ERROR": {
+        "REQUIRED": "تحديد مطلوب"
+      },
+      "TITLE": "يختار"
+    },
+    "SETUP-CURRENCY-TAX-RATES": "إعداد أسعار العملات والضرائب",
+    "SHIPPING-ADDRESS": "عنوان الشحن",
+    "STATE": {
+      "ERROR": {
+        "REQUIRED": "الدولة مطلوبة"
+      },
+      "TITLE": "حالة"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء العميل بنجاح",
+      "DELETE": "تم حذف العميل بنجاح",
+      "UPDATE": "تم تحديث العميل بنجاح"
+    },
+    "TAB": {
+      "ADDRESS": "تبوك",
+      "CLIENT-DETAILS": "تفاصيل العميل",
+      "FINANCIAL-DETAILS": "التفاصيل المالية",
+      "REVIEW": "إعادة النظر"
+    },
+    "TAN": {
+      "ERROR": {
+        "REQUIRED": "مطلوب تان"
+      },
+      "TITLE": "وبالتالي"
+    },
+    "TAX-ID": {
+      "ERROR": {
+        "REQUIRED": "المعرف الضريبي مطلوب"
+      },
+      "TITLE": "الرقم الضريبي"
+    },
+    "TIN": {
+      "ERROR": {
+        "REQUIRED": "القصدير مطلوب"
+      },
+      "TITLE": "يعتقد"
+    }
+  },
+  "COMMON": {
+    "CONN-MGMT": "إدارة الاتصال",
+    "CREATE": "يخلق",
+    "DELETE": "حذف",
+    "EXPORT": "يصدر",
+    "IS-REQUIRED": " مطلوب",
+    "MAIL": "بريد",
+    "NO": "رقم",
+    "ORPHAN-MGMT": "إدارة حساب اليتيم",
+    "PRINT": "مطبعة",
+    "PROV-CONFIG": "رزق",
+    "READ": "للقراءة فقط (عرض)",
+    "RECON": "مصالحة",
+    "RECON-CONFIG": "تكوين ريكون",
+    "REPORT": {
+      "EXPORT": "يصدر",
+      "FILTERS": "المرشحات",
+      "PRINT": "مطبعة"
+    },
+    "SEARCH": "بحث",
+    "SYSTEM-OWNER": "مالك النظام",
+    "UPDATE": "تحديث",
+    "USERID-CONFIG": "تكوين هوية المستخدم",
+    "YES": "نعم"
+  },
+  "COMPANY": {
+    "CREATE": "يخلق",
+    "EDIT": "يحرر",
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء الشركة",
+      "DELETE": "حدث خطأ أثناء حذف الشركة",
+      "UPDATE": "حدث خطأ أثناء تحديث الشركة"
+    },
+    "PAGE-TITLE": "شركة",
+    "SEARCH-PLACEHOLDER": "البحث عن شركة",
+    "SUCCESS": {
+      "CREATE": "تم إنشاء الشركة بنجاح",
+      "DELETE": "تم حذف الشركة بنجاح",
+      "UPDATE": "تم تحديث الشركة بنجاح"
+    },
+    "TAB": {
+      "BASIC-INFORMATION": {
+        "CURRENCY": {
+          "ERROR": {
+            "REQUIRED": "العملة مطلوبة"
+          },
+          "TITLE": "عملة"
+        },
+        "DELETE": "حذف",
+        "DESCRIPTION": {
+          "TITLE": "وصف"
+        },
+        "DISPLAY-NAME": {
+          "ERROR": {
+            "REQUIRED": "اسم العرض مطلوب"
+          },
+          "TITLE": "اسم العرض"
+        },
+        "EDIT-LOGO": "تحرير الشعار",
+        "LINE-OF-BUSSINESS": {
+          "ERROR": {
+            "REQUIRED": "مطلوب خط الأعمال"
+          },
+          "TITLE": "خط الأعمال"
+        },
+        "ORGANISATION-TYPE": {
+          "ERROR": {
+            "REQUIRED": "نوع المؤسسة مطلوب"
+          },
+          "TITLE": "نوع المنظمة"
+        },
+        "TAX-ID": {
+          "ERROR": {
+            "REQUIRED": "المعرّف الضريبي مطلوب"
+          },
+          "TITLE": "الرقم الضريبي"
+        },
+        "TITLE": "معلومات اساسية",
+        "TRADING-NAME": {
+          "ERROR": {
+            "REQUIRED": "الاسم التجاري مطلوب"
+          },
+          "TITLE": "إسم تجاري"
+        },
+        "UPLOAD-LOGO": "تحميل الشعار"
+      },
+      "LOCATION": {
+        "ADDRESS1": {
+          "ERROR": {
+            "REQUIRED": "سطر العنوان 1 مطلوب"
+          },
+          "TITLE": "العنوان الأول"
+        },
+        "ADDRESS2": {
+          "ERROR": {
+            "REQUIRED": "مطلوب سطر العنوان 2"
+          },
+          "TITLE": "سطر العنوان 2"
+        },
+        "CITY": {
+          "ERROR": {
+            "REQUIRED": "المدينة مطلوبة"
+          },
+          "TITLE": "مدينة"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "الدولة مطلوبة"
+          },
+          "TITLE": "دولة"
+        },
+        "EMAIL": {
+          "ERROR": {
+            "INVALID": "بريد إلكتروني خاطئ",
+            "REQUIRED": "البريد الالكتروني مطلوب"
+          },
+          "TITLE": "بريد إلكتروني"
+        },
+        "PHONE": {
+          "ERROR": {
+            "REQUIRED": "الهاتف مطلوب"
+          },
+          "TITLE": "هاتف"
+        },
+        "POSTAL-CODE": {
+          "ERROR": {
+            "REQUIRED": "الرمز البريدي مطلوب"
+          },
+          "TITLE": "رمز بريدي"
+        },
+        "STATE": {
+          "ERROR": {
+            "REQUIRED": "الدولة مطلوبة"
+          },
+          "TITLE": "حالة"
+        },
+        "TITLE": "موقع",
+        "WEBSITE": {
+          "ERROR": {
+            "REQUIRED": "الموقع مطلوب"
+          },
+          "TITLE": "موقع إلكتروني"
+        }
+      }
+    }
+  },
+  "CONNECTOR": {
+    "METADATA": {
+      "CATEGORY": {
+        "APPLICATION": "طلب",
+        "AUTHENTICATION": "المصادقة",
+        "AUTHORIZATION": "تفويض",
+        "CLOUD-APP": "التطبيق السحابي",
+        "SAAS": "SaaS"
+      },
+      "IMP-TYPE": {
+        "DB": "قاعدة البيانات",
+        "REST": "REST Api",
+        "RPA": "RPA",
+        "SOAP": "SOAP Api"
+      },
+      "SYSTEM-NAME": {
+        "AD": "الدليل النشط",
+        "ADP": "ADP",
+        "AIRWATCHADMINPORTAL": "مراقبة الهواء",
+        "AMAZONEC2": "أمازون EC2",
+        "AMERICNAEXPRESSCORPORATE": "أمريكان اكسبريس",
+        "AML": "AML",
+        "API": "إطلاق النار",
+        "APPLE": "تفاح",
+        "APPLICATION": "طلب",
+        "ARIBACONTRACTMANAGEMENT": "أريبا إدارة العقود",
+        "ARIBANETWORK": "شبكة ARIBA",
+        "AWS": "AWS",
+        "BAMBOOHR": "بامبوهر",
+        "BETTERWORKS": "يعمل بشكل أفضل",
+        "BIOMETRICS": "المقاييس الحيوية",
+        "BLACKLINE": "خط أسود",
+        "BLUEDIAMOND": "الماسة الزرقاء",
+        "BLUESCAPE": "بلو سيف",
+        "BMCREMEDYFORCE": "قوة العلاج BMC",
+        "BOXCOM": "بوكس كوم",
+        "BRIGHTEDGE": "برايت إيدج",
+        "BRITISHAIRWAYS": "الخطوط الجوية البريطانية",
+        "CALLIDUS": "كاليدوس",
+        "CARDPRINTERS": "طابعات البطاقات",
+        "CARDS": "البطاقات",
+        "CERIDIAN": "سيريديان",
+        "CERTIFY": "تصديق",
+        "CITIBANK": "بنك CITI",
+        "CLOUDLOCK": "قفل السحابة",
+        "CLOUDPAY": "الدفع السحابي",
+        "CONCUR": "كونكور",
+        "CONFER": "تشاور",
+        "CONFLUENCE": "التقاء نهرين",
+        "CONVO": "كونفو",
+        "CORPEDIA": "كوربيديا",
+        "COSTCO": "كوستكو",
+        "COUPA": "CO UPA",
+        "CSV": "Csv",
+        "CUSTOM": "مخصص",
+        "CVENT": "كفينت",
+        "DATABASE": "قاعدة البيانات",
+        "DESKCOM": "سطح المكتب",
+        "DOCUSIGN": "DOCUSIGN",
+        "DOMO": "دومو",
+        "DROPBOX": "بصندوق الإسقاط",
+        "EGNECIA": "اغنيسيا",
+        "EGNYTE": "ايجنيت",
+        "ELEAP": "ELEAP",
+        "EMPLOYEEREFERRALSCOM": "Emploee Referrals com",
+        "ENVOY": "مبعوث",
+        "EVENTBRIGHT": "إيفنت برايت",
+        "EVERNOTE": "لاحظ من أي وقت مضى",
+        "EVERNOTEBUSINESS": "لاحظ من أي وقت مضى الأعمال",
+        "EXPENSEWATCH": "مراقبة النفقات",
+        "EXPENSIFY": "تكلف",
+        "FACEBOOK": "فيسبوك",
+        "FIDELITY": "الاخلاص",
+        "FILE": "ملف",
+        "FLATTERFILESSAML": "الملفات المسطحة SAML",
+        "FLOWDOCKSAML": "Flow Dock SAML",
+        "GLOBOFORCE": "قوة الكرة الأرضية",
+        "GLOBUS": "كره ارضيه",
+        "GOODDATA": "بيانات جيدة",
+        "GOOGLEAPPS": "تطبيقات جوجل",
+        "GOTOMEETING": "اذهب للأجتماع",
+        "GOTOWEBINAR": "انتقل إلى الويبينار",
+        "GROVOSAML": "Grovo SAML",
+        "GYMBOREE": "جيمبوري",
+        "HACKERONE": "هاكيرون",
+        "HISEC": "هيسك",
+        "HOOTSUITE": "جناح هوت",
+        "HRMS": "HRMS",
+        "IGLOO": "المبني القبني",
+        "INFORMATICASSOINTEGRATION": "تكامل تكنولوجيا المعلومات SSO",
+        "ITUNES": "والإيقاعات",
+        "JIRA": "جيرا",
+        "JIRAON-PREMISE": "JIRAON-PREMISE",
+        "JIVE": "جيف",
+        "JOINME": "انضم الي",
+        "LDAP": "LDAP",
+        "LENEL": "لينيل",
+        "LINKEDIN": "لينكيدين",
+        "MERILLLYNCHCREDITCARD": "بطاقة ائتمان ميريل لينش",
+        "MERILLREWARDS": "مكافآت ميريل",
+        "MICROSOFTAZURE": "مايكروسوفت أزور",
+        "MSOFFICE365": "MSOFFICE 365",
+        "NETFLIX": "نتفليكس",
+        "NETSUITE": "جناح صافي",
+        "NEXSENTRY": "الدخول التالي",
+        "OKTA": "OKTA",
+        "ONGUARD": "على الحرس",
+        "OPENLADAPUNIX": "افتح LADAP UNIX",
+        "OPENLDAPW": "فتح LDAP",
+        "OTHER": "آخر",
+        "PEGASYS2000": "بيجاسيس 2000",
+        "PEOPLESOFT": "بيبولسوفت",
+        "PINGBOARD": "مجلس بينغ",
+        "PROWATCH": "ساعة للمحترفين",
+        "RACKSPACE": "مساحة الرف",
+        "RACKSPACECLOUD": "رف الفضاء سحابة",
+        "RADIUS": "نصف القطر",
+        "RALLYSOFTWARE": "تجمع",
+        "RELIANCEINDIAONLINE": "ريلاينس انديا اون لاين",
+        "REST": "راحة",
+        "RFID": "RFID",
+        "SALESFORCECOM": "قوة المبيعات",
+        "SAMBA": "سامبا",
+        "SAP": "العصارة",
+        "SAPHR": "ساب HR",
+        "SECURITYMANAGER": "مدير الامن",
+        "SELECTICA": "سيليتيكا",
+        "SERVICENOW": "الخدمة الآن",
+        "SERVICENOW-EUREKARELEASE": "خدمة الآن إصدار يوريكا",
+        "SHAREFILE": "مشاركة الملفات",
+        "SHAREPOINT-ON-PREMISE)": "نقطة مشاركة",
+        "SHELFARI": "شلفاري",
+        "SLACK": "تثاقل",
+        "SNAPLOGIC": "التقط المنطق",
+        "SPLUNK": "سبلينك",
+        "SPRINGCM": "الربيع سم",
+        "SUCCESSFACTORS": "عوامل النجاح",
+        "SUGARCRM": "سكر CRM",
+        "SUMOLOGIC": "سوم أولوجيك",
+        "SUNLDAP": "أحد LDAP",
+        "SURVEYMONKEY": "قرد المسح",
+        "SYMMETRY": "تناظر",
+        "SYNATA": "سيناتا",
+        "TELLO": "تريلو",
+        "TRINETHRSERVICES": "خدمات الموارد البشرية STEP",
+        "UNIX": "يونيكس",
+        "UNIXFLATFILE": "UNIX ملف ثابت",
+        "UNIXNODES": "عقد UNIX",
+        "WAGEWORKS": "يعمل مقابل أجر",
+        "WEBAPP": "التطبيق على شبكة الإنترنت",
+        "WINDOWCSV": "Windows CSV",
+        "WORKBOARD": "مجلس العمل",
+        "WORKCOM": "Wrokcom",
+        "WORKDAY": "يوم عمل",
+        "YAMMER": "انتحب",
+        "ZENDESK": "مكتب ZEN",
+        "ZOOM": "تكبير",
+        "ZSCALER": "عددي Z"
+      },
+      "TYPE": {
+        "ASSET": "أصل",
+        "LMS": "LMS",
+        "LOGICAL": "منطقي",
+        "PHYSICAL": "بدني"
+      }
+    }
+  },
+  "COSTRATE": {
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "رمز الفاتورة مطلوب"
+      },
+      "TITLE": "رموز بيل"
+    },
+    "CAPACITY": {
+      "ERROR": {
+        "MAX": " السعة القصوى 100",
+        "MIN": " الحد الأدنى للسعة هو 1",
+        "REQUIRED": "القدرة مطلوبة"
+      },
+      "TITLE": "الاهلية"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "المستوى الوظيفي مطلوب"
+      },
+      "TITLE": "المستوى الوظيفي"
+    },
+    "COSTRATE": {
+      "ERROR": {
+        "REQUIRED": "معدل التكلفة مطلوب"
+      },
+      "TITLE": "معدل التكلفة"
+    },
+    "CREATE": "يخلق",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "مطلوب تقسيم"
+      },
+      "TITLE": "قسم"
+    },
+    "EDIT": "يحرر",
+    "ERROR": {
+      "CREATE": "خطأ أثناء إنشاء معدل التكلفة",
+      "DELETE": "خطأ أثناء حذف معدل التكلفة",
+      "UPDATE": "خطأ أثناء تحديث معدل التكلفة"
+    },
+    "PAGE-TITLE": "معدل التكلفة",
+    "SALARY": "مرتب",
+    "SALARY-MAX": "الحد الأقصى للراتب",
+    "SALARY-MIN": "الحد الأدنى للراتب",
+    "SEARCH-PLACEHOLDER": "معدل تكلفة البحث",
+    "SUBDIVISION": {
+      "ERROR": {
+        "REQUIRED": "القسم الفرعي مطلوب"
+      },
+      "TITLE": "القسم الفرعي"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء معدل التكلفة بنجاح",
+      "DELETE": "تم حذف معدل التكلفة بنجاح",
+      "UPDATE": "تم تحديث معدل التكلفة بنجاح"
+    },
+    "UPDATE-SUCESS": "تم تحديث معدل التكلفة بنجاح"
+  },
+  "COUNTRY": {
+    "AFGHANISTAN": "أفغانستان",
+    "ALBANIA": "ألبانيا",
+    "ALGERIA": "الجزائر",
+    "AMERICAN SAMOA": "ساموا الأمريكية",
+    "ANDORRA": "أندورا",
+    "ANGOLA": "أنغولا",
+    "ANGUILLA": "أنغيلا",
+    "ANTARCTICA": "أنتاركتيكا",
+    "ANTIGUA AND BARBUDA": "أنتيغوا وبربودا",
+    "ARGENTINA": "الأرجنتين",
+    "ARMENIA": "أرمينيا",
+    "ARUBA": "أروبا",
+    "AUSTRALIA": "أستراليا",
+    "AUSTRIA": "النمسا",
+    "AZERBAIJAN": "أذربيجان",
+    "BAHAMAS THE": "جزر البهاما",
+    "BAHRAIN": "البحرين",
+    "BANGLADESH": "بنغلاديش",
+    "BARBADOS": "بربادوس",
+    "BELARUS": "بيلاروسيا",
+    "BELGIUM": "بلجيكا",
+    "BELIZE": "بليز",
+    "BENIN": "بنين",
+    "BERMUDA": "برمودا",
+    "BHUTAN": "بوتان",
+    "BOLIVIA": "بوليفيا",
+    "BOSNIA AND HERZEGOVINA": "البوسنة والهرسك",
+    "BOTSWANA": "بوتسوانا",
+    "BOUVET ISLAND": "جزيرة بوفيت",
+    "BRAZIL": "البرازيل",
+    "BRITISH INDIAN OCEAN TERRITORY": "إقليم المحيط البريطاني الهندي",
+    "BRUNEI": "بروناي",
+    "BULGARIA": "بلغاريا",
+    "BURKINA FASO": "بوركينا فاسو",
+    "BURUNDI": "بوروندي",
+    "CAMBODIA": "كمبوديا",
+    "CAMEROON": "الكاميرون",
+    "CANADA": "كندا",
+    "CAPE VERDE": "الرأس الأخضر",
+    "CAYMAN ISLANDS": "جزر كايمان",
+    "CENTRAL AFRICAN REPUBLIC": "جمهورية افريقيا الوسطى",
+    "CHAD": "تشاد",
+    "CHILE": "الفلفل الحار",
+    "CHINA": "الصين",
+    "CHRISTMAS ISLAND": "جزيرة الكريسماس",
+    "COCOS (KEELING) ISLANDS": "جزر كوكوس (كيلينغ)",
+    "COLOMBIA": "كولومبيا",
+    "COMOROS": "جزر القمر",
+    "COOK ISLANDS": "جزر كوك",
+    "COSTA RICA": "كوستا ريكا",
+    "COTE D'IVOIRE (IVORY COAST)": "ساحل العاج AKA ساحل العاج",
+    "CROATIA (HRVATSKA)": "كرواتيا (هرفاتسكا)",
+    "CUBA": "كوبا",
+    "CYPRUS": "قبرص",
+    "CZECH REPUBLIC": "جمهورية التشيك",
+    "DEMOCRATIC REPUBLIC OF THE CONGO": "جمهورية الكونغو الديموقراطية",
+    "DENMARK": "الدنمارك",
+    "DJIBOUTI": "جيبوتي",
+    "DOMINICA": "دومينيكا",
+    "DOMINICAN REPUBLIC": "جمهورية الدومنيكان",
+    "EAST TIMOR": "تيمور الشرقية",
+    "ECUADOR": "الاكوادور",
+    "EGYPT": "مصر",
+    "EL SALVADOR": "المنقذ",
+    "EQUATORIAL GUINEA": "غينيا الإستوائية",
+    "ERITREA": "إريتريا",
+    "ESTONIA": "إستونيا",
+    "ETHIOPIA": "أثيوبيا",
+    "EXTERNAL TERRITORIES OF AUSTRALIA": "الأقاليم الخارجية لأستراليا",
+    "FALKLAND ISLANDS": "جزر فوكلاند",
+    "FAROE ISLANDS": "جزر فاروس",
+    "FIJI ISLANDS": "جزر فيجي",
+    "FINLAND": "فنلندا",
+    "FRANCE": "فرنسا",
+    "FRENCH GUIANA": "غيانا الفرنسية",
+    "FRENCH POLYNESIA": "بولينيزيا الفرنسية",
+    "FRENCH SOUTHERN TERRITORIES": "المناطق الجنوبية لفرنسا",
+    "GABON": "الجابون",
+    "GAMBIA THE": "غامبيا",
+    "GEORGIA": "جورجيا",
+    "GERMANY": "ألمانيا",
+    "GHANA": "غانا",
+    "GIBRALTAR": "جبل طارق",
+    "GREECE": "اليونان",
+    "GREENLAND": "الأرض الخضراء",
+    "GRENADA": "غرينادا",
+    "GUADELOUPE": "جوادلوب",
+    "GUAM": "غوام",
+    "GUATEMALA": "غواتيمالا",
+    "GUERNSEY AND ALDERNEY": "غيرنسي وألدرني",
+    "GUINEA": "غينيا",
+    "GUINEA-BISSAU": "غينيا بيساو",
+    "GUYANA": "غيانا",
+    "HAITI": "هايتي",
+    "HEARD AND MCDONALD ISLANDS": "جزر هيرد وماكدونالد",
+    "HONDURAS": "هندوراس",
+    "HONG KONG S": {
+      "A": {
+        "R": "هونج كونج S.A.R."
+      }
+    },
+    "HUNGARY": "هنغاريا",
+    "ICELAND": "أيسلندا",
+    "INDIA": "الهند",
+    "INDONESIA": "إندونيسيا",
+    "IRAN": "إيران",
+    "IRAQ": "العراق",
+    "IRELAND": "أيرلندا",
+    "ISRAEL": "إسرائيل",
+    "ITALY": "إيطاليا",
+    "JAMAICA": "جامايكا",
+    "JAPAN": "اليابان",
+    "JERSEY": "جيرسي",
+    "JORDAN": "الأردن",
+    "KAZAKHSTAN": "كازاخستان",
+    "KENYA": "كينيا",
+    "KIRIBATI": "كيريباتي",
+    "KOREA NORTH": "كوريا الشمالية",
+    "KOREA SOUTH": "كوريا الجنوبية",
+    "KUWAIT": "الكويت",
+    "KYRGYZSTAN": "قيرغيزستان",
+    "LAOS": "لاوس",
+    "LATVIA": "لاتفيا",
+    "LEBANON": "لبنان",
+    "LESOTHO": "ليسوتو",
+    "LIBERIA": "ليبيريا",
+    "LIBYA": "ليبيا",
+    "LIECHTENSTEIN": "ليختنشتاين",
+    "LITHUANIA": "ليتوانيا",
+    "LUXEMBOURG": "لوكسمبورغ",
+    "MACAU S": {
+      "A": {
+        "R": "ماكاو ش."
+      }
+    },
+    "MACEDONIA": "مقدونيا",
+    "MADAGASCAR": "مدغشقر",
+    "MALAWI": "ملاوي",
+    "MALAYSIA": "ماليزيا",
+    "MALDIVES": "جزر المالديف",
+    "MALI": "مالي",
+    "MALTA": "مالطا",
+    "MAN (ISLE OF)": "رجل (جزيرة)",
+    "MARSHALL ISLANDS": "جزر مارشال",
+    "MARTINIQUE": "مارتينيك",
+    "MAURITANIA": "موريتانيا",
+    "MAURITIUS": "موريشيوس",
+    "MAYOTTE": "مايوت",
+    "MEXICO": "المكسيك",
+    "MICRONESIA": "ميكرونيزيا",
+    "MOLDOVA": "مولدافيا",
+    "MONACO": "موناكو",
+    "MONGOLIA": "منغوليا",
+    "MONTSERRAT": "مونتسيرات",
+    "MOROCCO": "المغرب",
+    "MOZAMBIQUE": "موزمبيق",
+    "MYANMAR": "ميانمار",
+    "NAMIBIA": "ناميبيا",
+    "NAURU": "ناورو",
+    "NEPAL": "نيبال",
+    "NETHERLANDS ANTILLES": "جزر الأنتيل الهولندية",
+    "NETHERLANDS THE": "هولندا",
+    "NEW CALEDONIA": "كاليدونيا الجديدة",
+    "NEW ZEALAND": "نيوزيلاندا",
+    "NICARAGUA": "نيكاراغوا",
+    "NIGER": "النيجر",
+    "NIGERIA": "نيجيريا",
+    "NIUE": "نيوي",
+    "NORFOLK ISLAND": "جزيرة نورفولك",
+    "NORTHERN MARIANA ISLANDS": "جزر مريانا الشمالية",
+    "NORWAY": "النرويج",
+    "OMAN": "سلطنة عمان",
+    "PAKISTAN": "باكستان",
+    "PALAU": "بالاو",
+    "PALESTINIAN TERRITORY OCCUPIED": "الأراضي الفلسطينية المحتلة",
+    "PANAMA": "بنما",
+    "PAPUA NEW GUINEA": "بابوا غينيا الجديدة",
+    "PARAGUAY": "باراغواي",
+    "PERU": "بيرو",
+    "PHILIPPINES": "فيلبيني",
+    "PITCAIRN ISLAND": "جزيرة بيتكيرن",
+    "POLAND": "بولندا",
+    "PORTUGAL": "البرتغال",
+    "PUERTO RICO": "بورتوريكو",
+    "QATAR": "دولة قطر",
+    "REPUBLIC OF THE CONGO": "جمهورية الكونغو",
+    "REUNION": "جمع شمل",
+    "ROMANIA": "رومانيا",
+    "RUSSIA": "روسيا",
+    "RWANDA": "رواندا",
+    "SAINT HELENA": "سانت هيلانة",
+    "SAINT KITTS AND NEVIS": "سانت كيتس ونيفيس",
+    "SAINT LUCIA": "القديسة لوسيا",
+    "SAINT PIERRE AND MIQUELON": "سانت بيير وميكلون",
+    "SAINT VINCENT AND THE GRENADINES": "سانت فنسنت وجزر غرينادين",
+    "SAMOA": "ساموا",
+    "SAN MARINO": "سان مارينو",
+    "SAO TOME AND PRINCIPE": "ساو تومي وبرينسيبي",
+    "SAUDI ARABIA": "المملكة العربية السعودية",
+    "SENEGAL": "السنغال",
+    "SERBIA": "صربيا",
+    "SEYCHELLES": "سيشيل",
+    "SIERRA LEONE": "سيرا ليون",
+    "SINGAPORE": "سنغافورة",
+    "SLOVAKIA": "سلوفاكيا",
+    "SLOVENIA": "سلوفينيا",
+    "SMALLER TERRITORIES OF THE UK": "أقاليم أصغر من المملكة المتحدة",
+    "SOLOMON ISLANDS": "جزر سليمان",
+    "SOMALIA": "الصومال",
+    "SOUTH AFRICA": "جنوب أفريقيا",
+    "SOUTH GEORGIA": "جورجيا الجنوبية",
+    "SOUTH SUDAN": "جنوب السودان",
+    "SPAIN": "إسبانيا",
+    "SRI LANKA": "سيريلانكا",
+    "SUDAN": "السودان",
+    "SURINAME": "سورينام",
+    "SVALBARD AND JAN MAYEN ISLANDS": "جزر سفالبارد وجان ماين",
+    "SWAZILAND": "سوازيلاند",
+    "SWEDEN": "السويد",
+    "SWITZERLAND": "سويسرا",
+    "SYRIA": "سوريا",
+    "TAIWAN": "تايوان",
+    "TAJIKISTAN": "طاجيكستان",
+    "TANZANIA": "تنزانيا",
+    "THAILAND": "تايلاند",
+    "TOGO": "توجو",
+    "TOKELAU": "توكيلاو",
+    "TONGA": "تونغا",
+    "TRINIDAD AND TOBAGO": "ترينداد وتوباغو",
+    "TUNISIA": "تونس",
+    "TURKEY": "ديك رومى",
+    "TURKMENISTAN": "تركمانستان",
+    "TURKS AND CAICOS ISLANDS": "جزر تركس وكايكوس",
+    "TUVALU": "توفالو",
+    "UGANDA": "أوغندا",
+    "UKRAINE": "أوكرانيا",
+    "UNITED ARAB EMIRATES": "الإمارات العربية المتحدة",
+    "UNITED KINGDOM": "المملكة المتحدة",
+    "UNITED STATES": "الولايات المتحدة الأمريكية",
+    "UNITED STATES MINOR OUTLYING ISLANDS": "جزر الولايات المتحدة البعيدة الصغرى",
+    "URUGUAY": "أوروغواي",
+    "UZBEKISTAN": "أوزبكستان",
+    "VANUATU": "فانواتو",
+    "VATICAN CITY STATE (HOLY SEE)": "دولة الفاتيكان (الكرسي الرسولي)",
+    "VENEZUELA": "فنزويلا",
+    "VIETNAM": "فيتنام",
+    "VIRGIN ISLANDS (BRITISH)": "جزر العذراء البريطانية)",
+    "VIRGIN ISLANDS (US)": "جزر فيرجن (الولايات المتحدة)",
+    "WALLIS AND FUTUNA ISLANDS": "جزر واليس وفوتونا",
+    "WESTERN SAHARA": "الصحراء الغربية",
+    "YEMEN": "اليمن",
+    "YUGOSLAVIA": "يوغوسلافيا",
+    "ZAMBIA": "زامبيا",
+    "ZIMBABWE": "زيمبابوي"
+  },
+  "DEALS": {
+    "CREATE": "إنشاء الصفقات",
+    "EDIT": "تحرير الصفقات",
+    "PAGE-TITLE": "صفقات",
+    "SEARCH-PLACEHOLDER": "صفقات البحث",
+    "TAB": {
+      "ASSUMPTIONS": {
+        "BD-COST": {
+          "ERROR": {
+            "REQUIRED": "مطلوب BD التكلفة"
+          },
+          "TITLE": "تكلفة دينار بحريني"
+        },
+        "CONTIGENCY": {
+          "ERROR": {
+            "REQUIRED": "مطلوب طوارئ"
+          },
+          "TITLE": "التواضع"
+        },
+        "EARLY-PAYMENTS": {
+          "ERROR": {
+            "REQUIRED": "مطلوب المدفوعات المبكرة"
+          },
+          "TITLE": "المدفوعات المبكرة"
+        },
+        "END-DATE": {
+          "ERROR": {
+            "REQUIRED": "تاريخ الانتهاء مطلوب"
+          },
+          "TITLE": "تاريخ الانتهاء"
+        },
+        "NON-BILLABLE": {
+          "ERROR": {
+            "REQUIRED": "مطلوب غير قابل للفوترة"
+          },
+          "TITLE": "غير قابل للفوترة"
+        },
+        "OTHER-OVER-HEADS": {
+          "ERROR": {
+            "REQUIRED": "مطلوب رؤوس أخرى"
+          },
+          "TITLE": "رؤساء أخرى"
+        },
+        "PROJECT-NAME": {
+          "ERROR": {
+            "REQUIRED": "اسم المشروع مطلوب"
+          },
+          "TITLE": "اسم المشروع"
+        },
+        "RATE-CARD-DISCOUNT": {
+          "ERROR": {
+            "REQUIRED": "مطلوب خصم بطاقة السعر"
+          },
+          "TITLE": "سعر بطاقة الخصم"
+        },
+        "REVENUE-RECOGNITION": {
+          "ERROR": {
+            "REQUIRED": "مطلوب الاعتراف بالإيرادات"
+          },
+          "TITLE": "تحقق الإيرادات"
+        },
+        "SEAT-CHARGES": {
+          "ERROR": {
+            "REQUIRED": "رسوم المقعد مطلوبة"
+          },
+          "TITLE": "رسوم المقعد"
+        },
+        "START-DATE": {
+          "ERROR": {
+            "REQUIRED": "تاريخ البدء مطلوب"
+          },
+          "TITLE": "تاريخ البدء"
+        },
+        "TITLE": "الافتراضات"
+      },
+      "RESOURCES": {
+        "BILL-CODE": {
+          "ERROR": {
+            "REQUIRED": "رمز الفاتورة مطلوب"
+          },
+          "TITLE": "قانون الفاتورة"
+        },
+        "BILL-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "مطلوب معدل الفاتورة / الساعة"
+          },
+          "TITLE": "معدل الفاتورة / الساعة"
+        },
+        "CAREER-LEVEL": {
+          "ERROR": {
+            "REQUIRED": "المستوى الوظيفي مطلوب"
+          },
+          "TITLE": "المستوى الوظيفي"
+        },
+        "CLASS": {
+          "ERROR": {
+            "REQUIRED": "فئة مطلوبة"
+          },
+          "TITLE": "فصل"
+        },
+        "COST-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "مطلوب معدل التكلفة / الساعة"
+          },
+          "TITLE": "معدل التكلفة / الساعة"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "الدولة مطلوبة"
+          },
+          "TITLE": "دولة"
+        },
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "الموارد مطلوبة"
+          },
+          "TITLE": "موارد"
+        },
+        "RESOURCE-NAME": "اسم المورد",
+        "SUB-CLASS": {
+          "ERROR": {
+            "REQUIRED": "مطلوب فئة فرعية"
+          },
+          "TITLE": "فئة فرعية"
+        },
+        "TITLE": "موارد"
+      },
+      "REVIEW": {
+        "TITLE": "إعادة النظر"
+      }
+    }
+  },
+  "DIVISION": {
+    "CREATE": "يخلق",
+    "EDIT": "يحرر",
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء القسمة",
+      "DELETE": "حدث خطأ أثناء حذف القسم",
+      "PARENT-REQUIRED": "الوالد مطلوب",
+      "TITLE-DISPLAYNAME-REQUIRED": "اسم العرض مطلوب",
+      "TITLE-REQUIRED": "اسم القسم مطلوب",
+      "UPDATE": "حدث خطأ أثناء تحديث القسم"
+    },
+    "GANDA": {
+      "ADMIN": "مشرف",
+      "FACILITIES": "خدمات",
+      "HR": "الموارد البشرية",
+      "TITLE": "G & A"
+    },
+    "HASCHILDREN": "لديها اطفال",
+    "PAGE-TITLE": "قسم",
+    "PARENT": "الأبوين",
+    "PROF-SERVICES": "خدمات احترافية",
+    "RANDD": {
+      "DOC": "توثيق",
+      "ENGG": "هندسة",
+      "IT": "هو - هي",
+      "PM": "ادارة المنتج",
+      "QA": "سؤال وجواب",
+      "QC": "مراقبة الجودة",
+      "SANDM": "المبيعات والتسويق",
+      "TITLE": "بحث وتطوير",
+      "TRAINING": "تمرين"
+    },
+    "SANDM": {
+      "BD": "BD",
+      "MARKETING": "تسويق",
+      "SALES": "مبيعات",
+      "TITLE": "المبيعات والتسويق"
+    },
+    "SEARCH-PLACEHOLDER": "قسم البحث",
+    "SUCCESS": {
+      "CREATE": "تم إنشاء القسم بنجاح",
+      "DELETE": "تم حذف القسم بنجاح",
+      "UPDATE": "تم تحديث القسم بنجاح"
+    },
+    "TITLE": "القسم / الدرجة",
+    "TITLE-DISPLAYNAME": "اسم العرض",
+    "TITLE-NAME": "اسم القسم",
+    "UPDATE-SUCESS": "تم تحديث القسم بنجاح"
+  },
+  "FINANCE": {
+    "MENU": {
+      "ACCOUNTS": {
+        "BILL": "الفواتير",
+        "CREDITMEMO": "ملاحظة ائتمانية",
+        "INVOICE": "فاتورة",
+        "QUOTE": "اقتبس",
+        "SALEORDER": "أمر بيع",
+        "TITLE": "حسابات"
+      },
+      "BUDGET": "الدخل",
+      "COSTING": "تكلفة المشروع",
+      "FORECAST": "تنبؤ بالمناخ",
+      "INVOICE-SETTINGS": {
+        "REMINDER": "تذكير",
+        "THEME": "ثيمات",
+        "TITLE": "إعدادات الفاتورة"
+      },
+      "PRICING": {
+        "CLIENT": "عملاء",
+        "DEAL": "صفقات",
+        "PROJECT": "المشاريع",
+        "TITLE": "التسعير"
+      },
+      "REPORTS": {
+        "BOOKINGS": "الحجوزات",
+        "COMPARISION": "المقارنة",
+        "PIPELINE": "خط انابيب",
+        "REVENUE": "إيرادات",
+        "SALES": "مبيعات",
+        "TITLE": "التقارير",
+        "WONLOST": "فاز مقابل خسر"
+      },
+      "TIMESHEET": "ورقة التوقيت",
+      "TITLE": "تمويل"
+    }
+  },
+  "FINANCECUSTOMER": {
+    "CREATE-SUCESS": "تم إنشاء العميل بنجاح",
+    "UPDATE-SUCESS": "تم تحديث العميل بنجاح"
+  },
+  "GRID": {
+    "ACCOUNT": "الحساب",
+    "ACCOUNT-MANAGER": "إدارة حساب المستخدم",
+    "AMOUNT": "مقدار",
+    "BILL-NO": "رقم الفاتوره",
+    "BILLCODE": "قانون الفاتورة",
+    "CAREERLEVEL": "المستوى الوظيفي",
+    "CITY": "مدينة",
+    "CLASS": "فصل",
+    "CLIENT": "عميل",
+    "COMPANY": "شركة",
+    "COSTRATE": "معدل التكلفة",
+    "COUNTRY": "دولة",
+    "CREDIT-MEMO-NO": "رقم مذكرة الائتمان",
+    "CURRENCY": "عملة",
+    "DATE": "تاريخ",
+    "DESCRIPTION": "وصف",
+    "DEVICE-SRNO": "رقم الجهاز",
+    "DISPLAY-NAME": "اسم العرض",
+    "DIVISION": "قسم",
+    "DUE-DATE": "تاريخ الاستحقاق",
+    "EMAIL": "بريد إلكتروني",
+    "FIRST-NAME": "الاسم الاول",
+    "INST-DATE": "تاريخ التثبيت",
+    "INVOICE-NO": "رقم الفاتورة",
+    "IPADDRESS": "عنوان IP",
+    "LAST-NAME": "الكنية",
+    "LOAD": "حمل",
+    "LOB": "خط ادارة الاعمال",
+    "LOCATION": "موقع",
+    "NAME": "اسم",
+    "NO-RECORDS-FOUND": "لا توجد سجلات",
+    "OPERATOR-NAME": "اسم المشغل",
+    "ORG-NAME": "منظمة",
+    "PANCHAYAT": "بانشيات",
+    "PHONE": "هاتف",
+    "PORT": "ميناء",
+    "PRICE": "السعر",
+    "PROJECT-MANAGER": "مدير المشروع",
+    "QUOTE-NO": "رقم الإقتباس",
+    "REFERENCE": "المرجعي",
+    "SALE-ORDER-NO": "رقم أمر البيع",
+    "SEARCH": "بحث",
+    "SELECT": "يختار",
+    "SERVER-NAME": "اسم الخادم",
+    "SERVICE-ACCOUNT": "حساب الخدمة",
+    "STATE": "حالة",
+    "STATUS": "حالة",
+    "SUB-DIVISION": "القسم الفرعي",
+    "SUBCLASS": "فئة فرعية",
+    "TAX-ID": "الرقم الضريبي",
+    "TAXRATE": "معدل الضريبة",
+    "USERID": "معرف المستخدم"
+  },
+  "HEADER": {
+    "ACCOUNTS": "حسابات",
+    "ADD-COMPANY": "أضف شركة",
+    "COMPANY": "شركة",
+    "COMPANY-NAME": "اسم الشركة",
+    "DASHBOARD": "لوحة القيادة",
+    "REPORTS": "التقارير",
+    "SETUP": "يثبت",
+    "UPLOAD-LOGO": "تحميل الشعار"
+  },
+  "IDM": {
+    "MENU": {
+      "ID-CONSOLIDATION": {
+        "APP-CONSOLIDATION": "طلب",
+        "AUTH-CONSOLIDATION": "المصادقة",
+        "EMPLIST": "قائمة موظف",
+        "TITLE": "توحيد الهوية"
+      },
+      "MANAGE-SERVER": {
+        "APP-SERVER": "طلب",
+        "AUTH-SERVER": "المصادقة",
+        "AUTHORIZATION-SERVER": "تفويض",
+        "TITLE": "إدارة الخوادم"
+      },
+      "TITLE": "IDM"
+    }
+  },
+  "IOT": {
+    "INSTALLATION": {
+      "BLOCK": {
+        "ERROR": {
+          "INVALID": "كتلة غير صالحة",
+          "REQUIRED": "مطلوب خط الأعمال"
+        },
+        "TITLE": "منع"
+      },
+      "BOREWELL-DEPTH": {
+        "ERROR": {
+          "MAX": "يجب أن يكون عمق Borewell بين 0-1999",
+          "MIN": "يجب أن يكون عمق Borewell بين 0-1999",
+          "REQUIRED": "عمق بوريويل مطلوب"
+        },
+        "TITLE": "عمق بوريويل"
+      },
+      "COMMENTS": {
+        "ERROR": {
+          "REQUIRED": "التعليقات مطلوبة"
+        },
+        "TITLE": "تعليقات"
+      },
+      "CREATE": "يخلق",
+      "CREATE-ERROR": "تم إنشاء التثبيت بنجاح",
+      "CREATE-SUCESS": "تم إنشاء التثبيت بنجاح",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "تاريخ التثبيت غير صالح",
+          "REQUIRED": "مطلوب تاريخ التثبيت"
+        },
+        "TITLE": "تاريخ التثبيت"
+      },
+      "DEVICE-SERIAL-NUMBER": {
+        "ERROR": {
+          "MAX": "يجب أن يكون الرقم التسلسلي للجهاز بين 1-99999",
+          "MIN": "يجب أن يكون الرقم التسلسلي للجهاز بين 1-99999",
+          "REQUIRED": "الرقم التسلسلي للجهاز مطلوب"
+        },
+        "TITLE": "الرقم التسلسلي للجهاز"
+      },
+      "DIVISION": {
+        "ERROR": {
+          "REQUIRED": "مطلوب تقسيم"
+        },
+        "TITLE": "قسم"
+      },
+      "EARTHING": {
+        "ERROR": {
+          "REQUIRED": "التأريض مطلوب"
+        },
+        "TITLE": "التأريض"
+      },
+      "EDIT": "يحرر",
+      "GEO-LOCATION": {
+        "ERROR": {
+          "REQUIRED": "الموقع الجغرافي مطلوب"
+        },
+        "TITLE": "الموقع الجغرافي"
+      },
+      "IMAGE": {
+        "ERROR": {
+          "REQUIRED": "الصورة مطلوبة"
+        },
+        "TITLE": "صورة"
+      },
+      "IMAGES": "الصور",
+      "LIST": {
+        "ALL": "الجميع",
+        "SELF": "الذات"
+      },
+      "METADATA": {
+        "PHOTO-TYPE": {
+          "BARCODE": "الرمز الشريطي",
+          "BOREWELL": "بوريويل",
+          "DIST-LINE": "خط التوزيع",
+          "IOT-DEVICE": "جهاز إنترنت الأشياء",
+          "MAP": "خريطة",
+          "METER": "متر",
+          "OPERATOR": "المشغل أو العامل",
+          "SITE": "موقع",
+          "STARTER": "بداية"
+        }
+      },
+      "METER-TYPE": {
+        "ERROR": {
+          "REQUIRED": "نوع العداد مطلوب"
+        },
+        "TITLE": "نوع العداد"
+      },
+      "MOTOR-CAPACITY": {
+        "ERROR": {
+          "REQUIRED": "سعة المحرك مطلوبة"
+        },
+        "TITLE": "سعة المحرك"
+      },
+      "NO-PHASE": {
+        "ERROR": {
+          "REQUIRED": "رقم المرحلة مطلوب"
+        },
+        "TITLE": "عدد المرحلة"
+      },
+      "NO-PIPE-BEND": {
+        "ERROR": {
+          "MAX": "يجب أن يكون عدد ثني الأنابيب بين 0-10",
+          "MIN": "يجب أن يكون عدد ثني الأنابيب بين 0-10",
+          "REQUIRED": "مطلوب عدد من الأنابيب بيند"
+        },
+        "TITLE": "لا منحنى الأنابيب"
+      },
+      "OPERATOR-NAME": {
+        "ERROR": {
+          "REQUIRED": "اسم المشغل مطلوب"
+        },
+        "TITLE": "اسم المشغل"
+      },
+      "PAGE-TITLE": "التركيب",
+      "PANCHAYAT": {
+        "ERROR": {
+          "REQUIRED": "مطلوب Panchayat"
+        },
+        "TITLE": "بانشيات"
+      },
+      "PIPE-DIAMETER": {
+        "ERROR": {
+          "REQUIRED": "قطر الأنبوب مطلوب"
+        },
+        "TITLE": "قطر دائرة الانبوب"
+      },
+      "PIPE-QUALITY": {
+        "ERROR": {
+          "REQUIRED": "جودة الأنابيب مطلوبة"
+        },
+        "TITLE": "جودة الأنابيب"
+      },
+      "SEARCH-PLACEHOLDER": "تثبيتات البحث",
+      "STATUS": {
+        "ERROR": {
+          "REQUIRED": "الحالة مطلوبة"
+        },
+        "TITLE": "حالة"
+      },
+      "TANK-CAPACITY": {
+        "ERROR": {
+          "MAX": "يجب أن تكون سعة الخزان بين 0-500000",
+          "MIN": "يجب أن تكون سعة الخزان بين 0-500000",
+          "REQUIRED": "سعة الخزان مطلوبة"
+        },
+        "TITLE": "سعة الخزان"
+      },
+      "UPDATE-SUCESS": "تم تحديث التثبيت بنجاح",
+      "WARD": {
+        "ERROR": {
+          "REQUIRED": "وارد مطلوب"
+        },
+        "TITLE": "وارد"
+      }
+    },
+    "MENU": {
+      "INSTALLATION": "التركيب"
+    }
+  },
+  "IPADRESS": {
+    "ERROR": {
+      "CREATE": "خطأ أثناء إنشاء عنوان IP",
+      "DELETE": "خطأ أثناء حذف عنوان IP",
+      "UPDATE": "خطأ أثناء تحديث عنوان IP"
+    },
+    "GATEWAY": {
+      "ERROR": {
+        "INVALID": "البوابة مطلوبة",
+        "REQUIRED": "البوابة مطلوبة"
+      },
+      "TITLE": "بوابة"
+    },
+    "PAGE-TITLE": "عنوان IP",
+    "PRIMARY-IP": {
+      "ERROR": {
+        "INVALID": "IP الأساسي غير صالح",
+        "REQUIRED": "مطلوب IP الأساسي"
+      },
+      "TITLE": "IP الأساسي"
+    },
+    "PROXY-IP": {
+      "ERROR": {
+        "INVALID": "IP الوكيل غير صالح",
+        "REQUIRED": "مطلوب IP الوكيل"
+      },
+      "TITLE": " IP الوكيل"
+    },
+    "PROXY-PORT": {
+      "ERROR": {
+        "INVALID": "منفذ الوكيل غير صالح",
+        "MAX": "يجب أن يكون المنفذ بين 0 و 65535",
+        "MIN": "يجب أن يكون المنفذ بين 0 و 65535",
+        "REQUIRED": "منفذ الوكيل مطلوب"
+      },
+      "TITLE": "منفذ الوكيل"
+    },
+    "PROXY-REQUIRED": {
+      "ERROR": {
+        "INVALID": "هل الوكيل مطلوب غير صالح",
+        "REQUIRED": "مطلوب وكيل مطلوب"
+      },
+      "TITLE": "هل الوكيل مطلوب"
+    },
+    "SECONDARY-IP": {
+      "ERROR": {
+        "INVALID": "IP الثانوي غير صالح",
+        "REQUIRED": "مطلوب IP الثانوي"
+      },
+      "TITLE": "IP الثانوي"
+    },
+    "SUBNET-MASK": {
+      "ERROR": {
+        "INVALID": "قناع الشبكة الفرعية غير صالح",
+        "REQUIRED": "قناع الشبكة الفرعية مطلوب"
+      },
+      "TITLE": "قناع الشبكة الفرعية"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء تفاصيل عنوان IP بنجاح",
+      "DELETE": "تم حذف تفاصيل عنوان IP بنجاح",
+      "UPDATE": "تم تحديث تفاصيل عنوان IP بنجاح"
+    }
+  },
+  "ITEM": {
+    "ACCOUNT": {
+      "ERROR": {
+        "REQUIRED": "الحساب مطلوب"
+      },
+      "TITLE": "الحساب"
+    },
+    "CREATE": "يخلق",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "الوصف مطلوب"
+      },
+      "TITLE": "وصف"
+    },
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "مطلوب تقسيم"
+      },
+      "TITLE": "قسم"
+    },
+    "EDIT": "يحرر",
+    "ERROR": {
+      "CREATE": "خطأ أثناء إنشاء عنصر الخدمة",
+      "DELETE": "خطأ أثناء حذف عنصر الخدمة",
+      "UPDATE": "خطأ أثناء تحديث عنصر الخدمة"
+    },
+    "ERROR-DELETE": "حدث خطأ أثناء حذف العنصر",
+    "ERROR-SAVE": "حدث خطأ أثناء حفظ العنصر",
+    "ERROR-UPDATE": "حدث خطأ أثناء تحديث العنصر",
+    "ITEM-CODE": {
+      "ERROR": {
+        "REQUIRED": "مطلوب اسم"
+      },
+      "TITLE": "اسم"
+    },
+    "PAGE-TITLE": "العناصر",
+    "PRICE": {
+      "ERROR": {
+        "MIN": "السعر الأدنى هو 1",
+        "REQUIRED": "السعر مطلوب"
+      },
+      "TITLE": "السعر"
+    },
+    "PRICE-TYPE": {
+      "ERROR": {
+        "REQUIRED": "نوع السعر مطلوب"
+      },
+      "TITLE": "نوع السعر"
+    },
+    "SEARCH-PLACEHOLDER": "عناصر البحث",
+    "SUB-DIVISION": {
+      "ERROR": {
+        "REQUIRED": "القسم الفرعي مطلوب"
+      },
+      "TITLE": "القسم الفرعي"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء عنصر الخدمة بنجاح",
+      "DELETE": "تم حذف عنصر الخدمة بنجاح",
+      "UPDATE": "تم تحديث عنصر الخدمة بنجاح"
+    },
+    "TAX-RATE": {
+      "ERROR": {
+        "MAX": "الحد الأقصى لمعدل الضريبة 100",
+        "MIN": "الحد الأدنى لمعدل الضريبة هو 1",
+        "REQUIRED": "معدل الضريبة مطلوب"
+      },
+      "TITLE": "معدل الضريبة"
+    },
+    "UPDATE-SUCESS": "تم تحديث العنصر بنجاح"
+  },
+  "LOCATION": {
+    "CREATE": "يخلق",
+    "CREATE-FAILURE": "إنشاء الموقع غير ناجح",
+    "CREATE-SUCESS": "تم إنشاء الموقع بنجاح",
+    "EDIT": "يحرر",
+    "ERROR": {
+      "CREATE": "خطأ أثناء إنشاء الموقع",
+      "DELETE": "خطأ أثناء حذف الموقع",
+      "TITLE-DISPLAYNAME-REQUIRED": "اسم العرض مطلوب",
+      "TITLE-REQUIRED": "العنوان مطلوب",
+      "TYPE-REQUIRED": "نوع الموقع مطلوب",
+      "UPDATE": "خطأ أثناء تحديث الموقع"
+    },
+    "HASCHILDREN": "لديها اطفال",
+    "PAGE-TITLE": "المواقع",
+    "PARENT": "موقع الوالد",
+    "SEARCH-PLACEHOLDER": "مواقع البحث",
+    "SUCCESS": {
+      "CREATE": "تم إنشاء الموقع بنجاح",
+      "DELETE": "تم حذف الموقع بنجاح",
+      "UPDATE": "تم تحديث الموقع بنجاح"
+    },
+    "TITLE-DISPLAYNAME": "اسم عرض الموقع",
+    "TITLE-NAME": "اسم الموقع",
+    "TYPE": "نوع الموقع",
+    "UPDATE-SUCESS": "تم تحديث الموقع بنجاح"
+  },
+  "LOGGER": {
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء المسجل",
+      "DELETE": "حدث خطأ أثناء حذف المسجل",
+      "UPDATE": "حدث خطأ أثناء تحديث المسجل"
+    },
+    "PAGE-TITLE": "إعدادات السجل",
+    "SERVER": {
+      "ERROR": {
+        "REQUIRED": "مستوى السجل مطلوب"
+      },
+      "TITLE": "تسجيل مستوى"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء المسجل بنجاح",
+      "DELETE": "تم حذف المسجل بنجاح",
+      "UPDATE": "تم تحديث المسجل بنجاح"
+    }
+  },
+  "LOGIN-PAGE": {
+    "CONTINUE-SESSION": "تواصل الجلسة",
+    "ERROR": {
+      "USERID-FORMAT": "يجب أن يكون البريد الإلكتروني أو رقم الهاتف بريدًا إلكترونيًا أو رقم هاتف",
+      "USERID-FORMAT ": "هوية مستخدم غير صالحه"
+    },
+    "EXPIRE-IN": "ستنتهي جلستك في",
+    "FORGOT-PASSWORD": "هل نسيت كلمة السر؟",
+    "HELP": "يساعد",
+    "INFO": {
+      "PASSWORD-LENGTH": "يجب أن تتكون كلمة المرور من 4 أحرف على الأقل",
+      "USERID-LENGTH": "يجب أن يتكون البريد الإلكتروني أو رقم الهاتف من 4 أحرف على الأقل"
+    },
+    "LOGIN": "تسجيل الدخول",
+    "LOGIN-ERROR": "خطأ مصادقة",
+    "LOGIN-ERROR-UNAUTHORISED": "دخول غير مرخص",
+    "LOGIN-INVALID-CREDENATIALS": "بيانات الاعتماد غير صالحة",
+    "LOGIN-REQUEST-ERROR": "غير قادر على معالجة الطلب بشكل أكبر",
+    "PASSWORD": "كلمة المرور",
+    "PRIVACY": "بريفكاي",
+    "REMEMBER-ME": "تذكرنى!",
+    "SECONDS": " ثواني",
+    "SESSION-EXPIRED": "مهلة جلسة",
+    "SIGNIN-CONTINUE": "تسجيل الدخول للمتابعة",
+    "TERMS": "مصطلحات",
+    "TITLE": "تسجيل الدخول",
+    "USERID": "البريد الإلكتروني أو رقم الهاتف",
+    "WARN": {
+      "PASSWORD-REQUIRED": "كلمة المرور مطلوبة",
+      "USERID-REQUIRED": "مطلوب البريد الإلكتروني أو رقم الهاتف"
+    },
+    "WELCOME": "أهلا بك"
+  },
+  "MAILSERVER": {
+    "ERROR": {
+      "CREATE": "خطأ أثناء إنشاء خادم البريد",
+      "DELETE": "خطأ أثناء حذف خادم البريد",
+      "UPDATE": "خطأ أثناء تحديث خادم البريد"
+    },
+    "MAIL-SERVER": {
+      "ERROR": {
+        "REQUIRED": "مطلوب خادم البريد"
+      },
+      "TITLE": "خادم البريد"
+    },
+    "METADATA": {
+      "SECURITY-TYPE": {
+        "NONE": "لا أحد",
+        "SSL": "SSL",
+        "TLS": "TLS"
+      }
+    },
+    "PAGE-TITLE": "إعدادات البريد",
+    "PASSWORD": {
+      "ERROR": {
+        "REQUIRED": "كلمة المرور مطلوبة"
+      },
+      "TITLE": "كلمة المرور"
+    },
+    "PORT": {
+      "ERROR": {
+        "MAX": "يجب أن يكون المنفذ بين 0 و 65535",
+        "MIN": "يجب أن يكون المنفذ بين 0 و 65535",
+        "REQUIRED": "المنفذ مطلوب"
+      },
+      "TITLE": "ميناء"
+    },
+    "SECURITY": {
+      "ERROR": {
+        "REQUIRED": "الأمن مطلوب"
+      },
+      "TITLE": "حماية"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء خادم البريد بنجاح",
+      "DELETE": "تم حذف خادم البريد بنجاح",
+      "UPDATE": "تم تحديث خادم البريد بنجاح"
+    },
+    "USERNAME": {
+      "ERROR": {
+        "REQUIRED": "اسم المستخدم / البريد الإلكتروني مطلوب"
+      },
+      "TITLE": "اسم المستخدم / البريد الإلكتروني"
+    }
+  },
+  "MENU": {
+    "BUILDER": {
+      "BLOCKS": {
+        "BANNER": "لافتة",
+        "BOTTOMSHEET": "نهاية الورقة",
+        "CARD": "بطاقة",
+        "CHART": "جدول",
+        "DIALOG": "حوار",
+        "FORM": "استمارة",
+        "GRID": "شبكة",
+        "STEPPER": "السائر",
+        "TAB": "فاتورة غير مدفوعة",
+        "TITLE": "كتل",
+        "TREE": "شجرة"
+      },
+      "DESIGNER": {
+        "PAGE": "صفحة",
+        "STATEMACHNE": "آلة الدولة",
+        "TITLE": "مصمم",
+        "WORKFLOW": "سير العمل"
+      },
+      "TITLE": "باني"
+    },
+    "CONFIGURATION": {
+      "IPADD": "عنوان IP",
+      "LOGLEVEL": "تسجيل مستوى",
+      "MAIL-CONFIG": "تكوين البريد",
+      "SYSLOG-SERVER": "خادم سجل النظام",
+      "TITLE": "ترتيب"
+    },
+    "DASHBOARD": "لوحة القيادة",
+    "FEATURE": {
+      "ADD-COMPANY": "أضف شركة",
+      "CHANGE-COMPANY": "تغيير الشركة",
+      "FAVORITE": "المفضلة",
+      "FULLSCREEN": "كامل الشاشة",
+      "GLOBAL-SEARCH": "البحث العالمي",
+      "LANGUAGE": "لغة",
+      "NOTIFICATION": "إشعارات",
+      "SUB-HEADER": {
+        "BREADCRUMB": "مسار التنقل",
+        "BUG": "الإبلاغ عن الشوائب",
+        "HELP": "يساعد",
+        "PHOTO-CAPTURE": "تصوير",
+        "TIMER": "مؤقت الشاشة",
+        "TITLE": "العنوان الفرعي",
+        "VOICE": "التعرف على الكلام"
+      },
+      "THEME": "ثيمات",
+      "TITLE": "سمات"
+    },
+    "HOME": "الصفحة الرئيسية",
+    "IOT": "إنترنت الأشياء",
+    "ORG": {
+      "CAREER-LEVEL": "المستوى الوظيفي",
+      "CLIENTS": "عملاء",
+      "COMPANY": "شركة",
+      "COSTRATE": "قشر نفسك",
+      "DEPARTMENT": " قسم، أقسام",
+      "DIVISION": "قسم",
+      "LOCATION": "موقع",
+      "SERVICES": "خدمات",
+      "TITLE": "منظمة"
+    },
+    "SETUP": "يثبت",
+    "TROUBLESHOOT": {
+      "LOGS": "سجلات الخادم",
+      "PATCH-MGMT": "إدارة التصحيح",
+      "TITLE": "استكشاف الاخطاء"
+    },
+    "USER-MGMT": {
+      "CHANGE-PASSWORD": "تغيير / إعادة تعيين كلمة المرور",
+      "PERMISSION": "أذونات",
+      "ROLE": "الأدوار",
+      "TITLE": "إدارةالمستخدم",
+      "USER": "المستخدمون"
+    }
+  },
+  "ORG": {
+    "METADATA": {
+      "ACCOUNT": {
+        "ENGINEERING": "هندسة",
+        "PROFSERVICES": "خدمات احترافية",
+        "PURCHASE": "شراء",
+        "SALES": "مبيعات",
+        "SERVICES": "خدمات"
+      },
+      "INVOICEOPTION": {
+        "DAYOFCURRENTMONTH": "من الشهر الحالي",
+        "DAYOFNEXTMONTH": "الشهر التالي",
+        "DAYSAFTER": "يوم (أيام) بعد تاريخ الفاتورة",
+        "DAYSAFTERBILLMONTH": "يوم (أيام) بعد نهاية شهر الفاتورة",
+        "FIRSTDAY": "اليوم الأول من الشهر المقبل",
+        "LASTDAY": "اليوم الأخير من الشهر الحالي"
+      },
+      "LINEOFBUSINESS": {
+        "AGRICULTURE": "زراعة",
+        "CONSTRUCTION": "بناء",
+        "FINANCE": "تمويل",
+        "INSURANCE": "تأمين",
+        "MANUFACTURING": "تصنيع",
+        "MINING": "التعدين",
+        "OTHERS": "آحرون",
+        "REALESTATE": "العقارات",
+        "SERVIES": "خدمات",
+        "TRADE": "تجارة"
+      },
+      "ORGTYPE": {
+        "CLUB": "النادي",
+        "COMPANY": "شركة",
+        "INDIVIDUAL": "فردي",
+        "NONPROFIT": "غير ربحية",
+        "PARTNER": "شريك",
+        "SOLETRADER": "التاجر الوحيد",
+        "TRUST": "ثقة"
+      }
+    }
+  },
+  "PAGE": {
+    "DASHBOARD": {
+      "TITLE": "لوحة القيادة"
+    }
+  },
+  "PERMISSIONS": {
+    "PAGE-TITLE": "أذونات"
+  },
+  "PROJECTS": {
+    "ACCOUNT-MANAGER": {
+      "ERROR": {
+        "REQUIRED": "مطلوب مدير حساب"
+      },
+      "TITLE": "إدارة حساب المستخدم"
+    },
+    "CLIENT": {
+      "ERROR": {
+        "REQUIRED": "العميل مطلوب"
+      },
+      "TITLE": "عميل"
+    },
+    "CREATE": "إنشاء المشاريع",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "الوصف مطلوب"
+      },
+      "TITLE": "وصف"
+    },
+    "EDIT": "تحرير المشاريع",
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "مطلوب اسم"
+      },
+      "TITLE": "اسم"
+    },
+    "PAGE-TITLE": "المشاريع",
+    "PROJECT-HEAD": {
+      "ERROR": {
+        "REQUIRED": "مطلوب رئيس المشروع"
+      },
+      "TITLE": "رئيس المشروع"
+    },
+    "SEARCH-PLACEHOLDER": "البحث عن المشاريع",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "الحالة مطلوبة"
+      },
+      "TITLE": "حالة"
+    }
+  },
+  "ROLES": {
+    "CREATE": "يخلق",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "الوصف مطلوب"
+      },
+      "TITLE": "وصف"
+    },
+    "EDIT": "يحرر",
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء الدور",
+      "DELETE": "حدث خطأ أثناء حذف الدور",
+      "UPDATE": "حدث خطأ أثناء تحديث الدور"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "مطلوب اسم"
+      },
+      "TITLE": "اسم"
+    },
+    "PAGE-TITLE": "الأدوار",
+    "SEARCH-PLACEHOLDER": "أدوار البحث",
+    "SUCCESS": {
+      "CREATE": "تم إنشاء الدور بنجاح",
+      "DELETE": "تم حذف الدور بنجاح",
+      "UPDATE": "تم تحديث الدور بنجاح"
+    }
+  },
+  "SETTINGS": {
+    "METADATA": {
+      "COMMON": {
+        "FALSE": "خاطئة",
+        "NO": "رقم",
+        "TRUE": "حقيقي",
+        "YES": "نعم"
+      },
+      "LOGLEVEL": {
+        "DEBUG": "تصحيح",
+        "ERROR": "خطأ",
+        "FATAL": "قاتلة - مهلك",
+        "INFO": "معلومات",
+        "TRACE": "أثر",
+        "WARN": "حذر"
+      }
+    }
+  },
+  "SYSLOGGER": {
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء المسجل",
+      "DELETE": "حدث خطأ أثناء حذف المسجل",
+      "UPDATE": "حدث خطأ أثناء تحديث المسجل"
+    },
+    "EXTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "IP الخارجي غير صالح",
+        "REQUIRED": "مطلوب IP الخارجي"
+      },
+      "PLACEHOLDER": "أدخل IP خارجي",
+      "TITLE": "IP خارجي"
+    },
+    "INTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "IP الداخلي غير صالح",
+        "REQUIRED": "مطلوب IP الداخلي"
+      },
+      "PLACEHOLDER": "أدخل عنوان IP الداخلي",
+      "TITLE": "IP داخلي"
+    },
+    "PAGE-TITLE": "إعدادات سجل النظام",
+    "SUCCESS": {
+      "CREATE": "تم إنشاء المسجل بنجاح",
+      "DELETE": "تم حذف المسجل بنجاح",
+      "UPDATE": "تم تحديث المسجل بنجاح"
+    }
+  },
+  "USERS": {
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "المستوى الوظيفي مطلوب"
+      },
+      "TITLE": "المستوى الوظيفي"
+    },
+    "CREATE": "يخلق",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "مطلوب تقسيم"
+      },
+      "TITLE": "قسم"
+    },
+    "EDIT": "يحرر",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "البريد الإلكتروني غير صالح",
+        "REQUIRED": "البريد الالكتروني مطلوب"
+      },
+      "PLACEHOLDER": "أدخل البريد الإلكتروني",
+      "TITLE": "بريد إلكتروني"
+    },
+    "ERROR": {
+      "CREATE": "حدث خطأ أثناء إنشاء المستخدم",
+      "DELETE": "حدث خطأ أثناء حذف المستخدم",
+      "UPDATE": "حدث خطأ أثناء تحديث المستخدم"
+    },
+    "FIRST-NAME": {
+      "ERROR": {
+        "REQUIRED": "الإسم الأول مطلوب"
+      },
+      "PLACEHOLDER": "أدخل الاسم الأول",
+      "TITLE": "الاسم الاول"
+    },
+    "JOB-LOCATION": {
+      "ERROR": {
+        "REQUIRED": "موقع الوظيفة مطلوب"
+      },
+      "TITLE": "مكان العمل"
+    },
+    "LAST-NAME": {
+      "ERROR": {
+        "INVALID": "الاسم الأخير غير صالح",
+        "MIN": "يجب ألا يقل اسم العائلة عن 5",
+        "REQUIRED": "إسم العائلة مطلوب"
+      },
+      "PLACEHOLDER": "إدخال اسم آخر",
+      "TITLE": "الكنية"
+    },
+    "LOCATION": {
+      "ERROR": {
+        "REQUIRED": "الموقع مطلوب"
+      },
+      "PLACEHOLDER": "إدخال الدولة",
+      "TITLE": "موقع"
+    },
+    "LOCATIONS": {
+      "ERROR": {
+        "REQUIRED": "المواقع مطلوبة"
+      }
+    },
+    "PAGE-TITLE": "المستخدمون",
+    "PASSWORD": {
+      "ERROR": {
+        "INVALID-FORMAT": "رمز مرور خاطئ"
+      },
+      "PLACEHOLDER": "أدخل كلمة المرور",
+      "TITLE": "كلمة المرور"
+    },
+    "PHONE": {
+      "ERROR": {
+        "INVALID": "رقم الهاتف غير صحيح",
+        "REQUIRED": "رقم الهاتف مطلوب"
+      },
+      "PLACEHOLDER": "أدخل رقم الهاتف",
+      "TITLE": "رقم التليفون"
+    },
+    "ROLE": {
+      "ERROR": {
+        "REQUIRED": "الدور مطلوب"
+      },
+      "PLACEHOLDER": "أدخل الدور",
+      "TITLE": "دور"
+    },
+    "SEARCH-PLACEHOLDER": "بحث في المستخدمين",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "حالة المستخدم مطلوبة"
+      },
+      "PLACEHOLDER": "أدخل حالة المستخدم",
+      "TITLE": "حالة المستخدم"
+    },
+    "SUCCESS": {
+      "CREATE": "تم إنشاء المستخدم بنجاح",
+      "DELETE": "تم حذف المستخدم بنجاح",
+      "UPDATE": "تم تحديث المستخدم بنجاح"
+    },
+    "TYPE": {
+      "ERROR": {
+        "REQUIRED": "نوع المستخدم مطلوب"
+      },
+      "PLACEHOLDER": "أدخل نوع المستخدم",
+      "TITLE": "نوع المستخدم"
+    },
+    "USER-ID": {
+      "ERROR": {
+        "REQUIRED": "معرف المستخدم مطلوب"
+      },
+      "TITLE": "معرف المستخدم"
+    }
+  }
+}

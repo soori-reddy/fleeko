@@ -1,0 +1,2958 @@
+{
+  "ABOUT": {
+    "COPYRIGHT": "保留版权",
+    "SPONSOR": "赞助商",
+    "VERSION": "版本"
+  },
+  "ACCOUNT": {
+    "ACCOUNT": "帐户",
+    "ADD": "添加",
+    "ADD-CREDIT-NOTE": "添加贷记单",
+    "AMOUNT": "数量",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "金额为必填项"
+      },
+      "TITLE": "金额是"
+    },
+    "ATTACHMENT": "附件",
+    "AUDIT-HISTORY-AND-NOTES": "审计历史和注释",
+    "BILL": {
+      "CREATE": "创建账单",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "账单日期无效",
+          "REQUIRED": "帐单日期为必填项"
+        },
+        "TITLE": "账单日期"
+      },
+      "EDIT": "编辑账单",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "帐单号码为必填项"
+        },
+        "TITLE": "账单号码"
+      },
+      "OPTIONS": "账单选项",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "收单人为必填项"
+        },
+        "TITLE": "记账到"
+      }
+    },
+    "CLASS": "班级",
+    "COPY-TO": "复制到",
+    "CREATE-COPY": "创建副本",
+    "CREDIT-MEMO": {
+      "CREATE": "创建贷项凭证",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "贷记凭证日期无效",
+          "REQUIRED": "贷记凭证日期为必填项"
+        },
+        "TITLE": "贷记凭证日期"
+      },
+      "EDIT": "编辑贷项凭证",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "贷记凭证编号为必填项"
+        },
+        "TITLE": "贷记凭证编号"
+      },
+      "OPTIONS": "贷项凭证选项",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "贷记凭证至是必需的"
+        },
+        "TITLE": "贷记凭证至"
+      }
+    },
+    "DESCRIPTION": "描述",
+    "DISCOUNT": "折扣",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "到期日无效",
+        "REQUIRED": "截止日期为必填项"
+      },
+      "TITLE": "截止日期"
+    },
+    "EDIT": "编辑",
+    "INVOICE": {
+      "CREATE": "创建发票",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "发票日期无效",
+          "REQUIRED": "发票日期为必填项"
+        },
+        "TITLE": "发票日期"
+      },
+      "EDIT": "编辑发票",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "发票号码为必填项"
+        },
+        "TITLE": "发票编号"
+      },
+      "OPTIONS": "发票编号选项",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "发票收件人是必需的"
+        },
+        "TITLE": "开发票"
+      }
+    },
+    "ITEM": "物品",
+    "NO-ITEM-FOUND": "未找到项目",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "添加付款",
+      "AMOUNT-RECIEVED": "收到的金额",
+      "AMOUNT-UNPAID": "未付金额",
+      "REFERENCE": "参考",
+      "TDS-PAID": "TDS 付费",
+      "TITLE": "支付信息"
+    },
+    "QUANTITY": "数量",
+    "QUOTE": {
+      "CREATE": "创建报价",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "报价日期无效",
+          "REQUIRED": "报价日期为必填项"
+        },
+        "TITLE": "报价日期"
+      },
+      "EDIT": "编辑报价",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "报价单为必填项"
+        },
+        "TITLE": "报价编号"
+      },
+      "OPTIONS": "报价选项",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "报价至为必填项"
+        },
+        "TITLE": "报价至"
+      }
+    },
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "需要帐户参考"
+      }
+    },
+    "REFERENCE": "参考",
+    "SALE-ORDER": {
+      "CREATE": "创建销售订单",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "销售订单日期无效",
+          "REQUIRED": "销售订单日期为必填项"
+        },
+        "TITLE": "销售订单日期"
+      },
+      "EDIT": "编辑销售订单",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "销售订单号为必填项"
+        },
+        "TITLE": "销售订单号"
+      },
+      "OPTIONS": "销售订单选项",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "销售订单至为必填项"
+        },
+        "TITLE": "销售订单至"
+      }
+    },
+    "STATUS": {
+      "ACCEPTED": "公认",
+      "ALL": "全部",
+      "ALLOCATION": "分配",
+      "APPROVED": "得到正式认可的",
+      "AWAITING-FOR-PAYMENT": "等待付款",
+      "DECLINED": "拒绝",
+      "DRAFT": "草案",
+      "INVOICED": "已开票",
+      "PAID": "有薪酬的",
+      "SENT": "发送",
+      "WAITING-FOR-APPROVAL": "等待批准"
+    },
+    "SUB-TOTAL": "小计",
+    "TAX": "税",
+    "TAX-RATE": "税率",
+    "TOTAL": "全部的",
+    "TYPES": {
+      "BILLS": "账单",
+      "CREDIT-MEMO": "贷项通知单",
+      "INVOICE": "发票",
+      "QUOTE": "引用",
+      "SALE-ORDER": "销售订单"
+    },
+    "UNIT-PRICE": "单价",
+    "VOID": "空白"
+  },
+  "ACCOUNTS": {
+    "ACCOUNT": "帐户",
+    "ADD": "添加",
+    "ADD-CREDIT-NOTE": "添加贷记单",
+    "AMOUNT": "数量",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "金额为必填项"
+      },
+      "TITLE": "金额是"
+    },
+    "ATTACHMENT": "依恋",
+    "AUDIT-HISTORY-AND-NOTES": "审计历史和注释",
+    "CLASS": "班级",
+    "COPY-TO": "复制到",
+    "CREATE-COPY": "创建副本",
+    "DESCRIPTION": "描述",
+    "DISCOUNT": "折扣",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "到期日无效",
+        "REQUIRED": "截止日期为必填项"
+      },
+      "TITLE": "到期日"
+    },
+    "EDIT": "编辑",
+    "INVOICE": {
+      "CREATE": "创建发票",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "发票日期无效",
+          "REQUIRED": "发票日期为必填项"
+        },
+        "TITLE": "发票日期"
+      },
+      "EDIT": "编辑发票",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "发票号码为必填项"
+        },
+        "TITLE": "发票编号"
+      },
+      "OPTIONS": "发票编号选项",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "发票收件人是必需的"
+        },
+        "TITLE": "开发票"
+      }
+    },
+    "ITEM": "物品",
+    "METADATA": {
+      "ORDERSTATUS": {
+        "ACCEPTED": "公认",
+        "ALL": "全部",
+        "ALLOCATION": "分配",
+        "APPROVED": "得到正式认可的",
+        "AWAITINGFORPAYMENT": "等待付款",
+        "DECLINED": "拒绝",
+        "DRAFT": "草案",
+        "EXPIRED": "已到期",
+        "INVOICED": "已开票",
+        "OVERDUE": "逾期",
+        "PAID": "有薪酬的",
+        "PENDING": "待办的",
+        "REPEAT": "重复",
+        "SENT": "发送",
+        "VOID": "空白",
+        "WAITINGFORAPPROVAL": "等待批准"
+      },
+      "ORDERTYPE": {
+        "BILLS": "账单",
+        "CREDITMEMO": "贷项通知单",
+        "INVOICE": "发票",
+        "QUOTE": "引用",
+        "SALEORDER": "销售订单"
+      },
+      "TAXOPTION": {
+        "EXCLUSIVE": "不含税",
+        "INCLUSIVE": "含税"
+      }
+    },
+    "NO-ITEM-FOUND": "未找到项目",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "添加付款",
+      "AMOUNT-RECIEVED": "收到的金额",
+      "AMOUNT-UNPAID": "未付金额",
+      "REFERENCE": "参考",
+      "TDS-PAID": "TDS 付费",
+      "TITLE": "支付信息"
+    },
+    "QUANTITY": "数量",
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "需要帐户参考"
+      }
+    },
+    "REFERENCE": "参考",
+    "SUB-TOTAL": "小计",
+    "TAX": "税",
+    "TAX-RATE": "税率",
+    "TOTAL": "全部的",
+    "UNIT-PRICE": "单价",
+    "VOID": "空白"
+  },
+  "APP": {
+    "TITLE": "公司"
+  },
+  "APP-SERVER": {
+    "ERROR": {
+      "CREATE": "创建应用程序服务器时出错",
+      "DELETE": "删除应用程序服务器时出错",
+      "UPDATE": "更新应用程序服务器时出错"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP 地址无效",
+        "REQUIRED": "需要 IP 地址"
+      },
+      "TITLE": "IP地址"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "新建应用服务器",
+      "EDIT": "编辑应用服务器",
+      "HOME": "应用服务器"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "端口无效",
+        "REQUIRED": "端口是必需的"
+      },
+      "TITLE": "港口"
+    },
+    "SEARCH-PLACEHOLDER": "搜索服务器",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "服务器名称无效",
+        "REQUIRED": "服务器名称为必填项"
+      },
+      "TITLE": "服务器名称"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "服务帐号名称无效",
+        "REQUIRED": "服务帐号名称为必填项"
+      },
+      "TITLE": "服务帐号名称"
+    },
+    "SUCCESS": {
+      "CREATE": "应用服务器创建成功",
+      "DELETE": "应用服务器删除成功",
+      "UPDATE": "应用服务器更新成功"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "外部 IP 无效",
+        "REQUIRED": "需要外部 IP"
+      },
+      "TITLE": "外部IP"
+    }
+  },
+  "AUTH-SERVER": {
+    "ERROR": {
+      "CREATE": "创建身份验证服务器时出错",
+      "DELETE": "删除身份验证服务器时出错",
+      "UPDATE": "更新身份验证服务器时出错"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP 地址无效",
+        "REQUIRED": "需要 IP 地址"
+      },
+      "TITLE": "IP地址"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "新的认证服务器",
+      "EDIT": "编辑认证服务器",
+      "HOME": "认证服务器"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "端口无效",
+        "REQUIRED": "端口是必需的"
+      },
+      "TITLE": "港口"
+    },
+    "SEARCH-PLACEHOLDER": "搜索服务器",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "服务器名称无效",
+        "REQUIRED": "服务器名称为必填项"
+      },
+      "TITLE": "服务器名称"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "服务帐号名称无效",
+        "REQUIRED": "服务帐号名称为必填项"
+      },
+      "TITLE": "服务帐号名称"
+    },
+    "SUCCESS": {
+      "CREATE": "认证服务器创建成功",
+      "DELETE": "认证服务器删除成功",
+      "UPDATE": "认证服务器更新成功"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "外部 IP 无效",
+        "REQUIRED": "需要外部 IP"
+      },
+      "TITLE": "外部IP"
+    }
+  },
+  "AUTHORIZATION": {
+    "ERROR": {
+      "CREATE": "创建授权服务器时出错",
+      "DELETE": "删除授权服务器时出错",
+      "UPDATE": "更新授权服务器时出错"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP 地址无效",
+        "REQUIRED": "需要 IP 地址"
+      },
+      "TITLE": "IP地址"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "新建授权服务器",
+      "EDIT": "编辑授权服务器",
+      "HOME": "授权服务器"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "端口无效",
+        "REQUIRED": "端口是必需的"
+      },
+      "TITLE": "港口"
+    },
+    "SEARCH-PLACEHOLDER": "搜索服务器",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "服务器名称无效",
+        "REQUIRED": "服务器名称为必填项"
+      },
+      "TITLE": "服务器名称"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "服务帐号名称无效",
+        "REQUIRED": "服务帐号名称为必填项"
+      },
+      "TITLE": "服务帐号名称"
+    },
+    "SUCCESS": {
+      "CREATE": "授权服务器创建成功",
+      "DELETE": "授权服务器删除成功",
+      "UPDATE": "授权服务器更新成功"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "外部 IP 无效",
+        "REQUIRED": "需要外部 IP"
+      },
+      "TITLE": "外部IP"
+    }
+  },
+  "BUILDER": {
+    "DESIGNER": {
+      "PAGE": {
+        "FOOTER": "页脚",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "可扩展",
+            "CLONE": "克隆",
+            "NAME": "页面名称",
+            "SCOPE": "范围"
+          }
+        }
+      }
+    },
+    "MENU": {
+      "APPBUILDER": {
+        "APPAUTHPRV": "验证",
+        "APPDESIGN": "应用设计师",
+        "BUILDAPP": "建造",
+        "DEPLOYAPP": "部署",
+        "SECURITYSCAN": "安全扫描",
+        "TITLE": "应用程序生成器"
+      },
+      "APPSTORE": {
+        "TITLE": "应用商店"
+      },
+      "BLOCKS": {
+        "BANNER": "横幅",
+        "BOTTOMSHEET": "底片",
+        "CARD": "卡片",
+        "CHART": "图表",
+        "DIALOG": "对话",
+        "FORM": "形式",
+        "GRID": "网格",
+        "STEPPER": "步进器",
+        "TAB": "标签",
+        "TITLE": "块",
+        "TREE": "树"
+      },
+      "DATABUILDER": {
+        "REST": "REST 元数据",
+        "TABLE": "接口表",
+        "TITLE": " 数据浏览器"
+      },
+      "DESIGNER": {
+        "PAGE": "页面设计器",
+        "STATEMACHNE": "状态机",
+        "TITLE": " 页面生成器",
+        "WORKFLOW": "工作流程"
+      },
+      "TITLE": "建造者"
+    },
+    "METADATA": {
+      "APPTYPE": {
+        "ANDROID": "安卓",
+        "IOS": "IOS",
+        "KIOSK": "亭",
+        "WEB": "网络",
+        "WINDOWS": "视窗"
+      },
+      "AUTHENTICATIONTYPE": {
+        "FACEBOOK": "Facebook",
+        "FACEDETECTION": "脸",
+        "FINGERPRINT": "手指",
+        "FIREBASEUI": "火力基地",
+        "GITHUB": "GitHub",
+        "GOOGLE": "谷歌",
+        "LINKEDIN": "已链接",
+        "PHONENUMBER": "电话号码",
+        "QRCODE": "二维码",
+        "SSO": "单点登录",
+        "USERIDPASSWORD": "密码"
+      },
+      "COMP-SUB-TYPE": {
+        "AREA": "区域",
+        "BAR": "酒吧",
+        "BUBBLE": "气泡",
+        "COLOR": "颜色",
+        "DOUGHNUT": "甜甜圈",
+        "EMAIL": "电子邮件",
+        "FAB-BUTTON": "Fab按钮",
+        "FLAT-BUTTON": "扁平按钮",
+        "HEAT MAP": "热图",
+        "ICON-BUTTON": "图标按钮",
+        "LINE": "线",
+        "MAP": "地图",
+        "MINIFAB-BUTTON": "迷你按钮",
+        "NUMBER": "数字",
+        "PASSWORD": "密码",
+        "PIE": "馅饼",
+        "RADAR": "雷达",
+        "RAISED-BUTTON": "凸起按钮",
+        "SCATTER": "分散",
+        "STROKED-BUTTON": "描边按钮",
+        "TEL": "电话",
+        "TEXT": "文本",
+        "URL": "网址"
+      },
+      "COMP-TYPE": {
+        "AUTO-COMPLETE": "自动完成",
+        "BADGE": "徽章",
+        "BANNER": "横幅",
+        "BOTTOM-SHEET": "底片",
+        "BUTTON": "按钮",
+        "BUTTON-TOGGLE": "按钮切换",
+        "CARD": "卡片",
+        "CHART": "图表",
+        "CHECKBOX": "复选框",
+        "CHIPS": "筹码",
+        "DATE-PICKER": "日期选择器",
+        "DIALOG": "对话",
+        "DIVIDER": "分隔线",
+        "DROPDOWN": "落下",
+        "EXPANSION-PANEL": "扩展面板",
+        "GRID": "网格",
+        "ICON": "图标",
+        "IMAGE": "图片",
+        "INPUT": "输入",
+        "LABEL": "标签",
+        "LIST": "列表",
+        "MENU": "菜单",
+        "PAGINATOR": "分页器",
+        "PROGRESS-BAR": "进度条",
+        "PROGRESS-SPINNER": "进度微调器",
+        "RADIO-BUTTON": "单选按钮",
+        "SIDENAV": "侧",
+        "SLIDE-TOGGLE": "滑动切换",
+        "SLIDER": "滑块",
+        "SNACKBAR": "小吃店",
+        "STEPPER": "步进器",
+        "TAB": "标签",
+        "TEXT-AREA": "文本区",
+        "TOOLBAR": "工具栏",
+        "TOOLTIP": "工具提示",
+        "TREE": "树"
+      },
+      "COMPTYPE": {
+        "AUTOCOMPLETE": "自动完成",
+        "BADGE": "徽章",
+        "BANNER": "横幅",
+        "BOTTOMSHEET": "底片",
+        "BUTTON": "按钮",
+        "BUTTONTOGGLE": "按钮切换",
+        "CAMERA": "相机",
+        "CARD": "卡片",
+        "CHART": "图表",
+        "CHECKBOX": "复选框",
+        "CHIPS": "筹码",
+        "DATEPICKER": "日期选择器",
+        "DIALOG": "对话",
+        "DIVIDER": "分隔线",
+        "DROPDOWN": "落下",
+        "EXPANSIONPANEL": "扩展面板",
+        "FILE": "文件",
+        "FORM": "形式",
+        "GRID": "网格",
+        "ICON": "图标",
+        "IMAGE": "图片",
+        "LABEL": "标签",
+        "LIST": "列表",
+        "MAP": "地图",
+        "MENU": "菜单",
+        "PAGINATOR": "分页器",
+        "PROGRESSBAR": "进度条",
+        "PROGRESSSPINNER": "进度微调器",
+        "RADIOBUTTON": "单选按钮",
+        "SIDENAV": "侧",
+        "SLIDER": "滑块",
+        "SLIDETOGGLE": "滑动切换",
+        "SNACKBAR": "小吃店",
+        "STEPPER": "步进器",
+        "TAB": "标签",
+        "TEXTAREA": "文本区",
+        "TEXTINPUT": "输入",
+        "TOOLBAR": "工具栏",
+        "TOOLTIP": "工具提示",
+        "TREE": "树"
+      },
+      "FORM": {
+        "BUTTON-ROW": {
+          "DISPLAY": {
+            "BOTTOM": "底部",
+            "TOP": "最佳"
+          }
+        },
+        "DISPLAY-TYPE": {
+          "DYNAMIC": "动态的",
+          "FIXED": "固定/静态"
+        },
+        "ERROR-DISPLAY-TYPE": {
+          "INLINE": "排队",
+          "SNACKBAR": "小吃店"
+        },
+        "FIELD-APPEARANCE-TYPE": {
+          "FILL": "填",
+          "LEGACY": "遗产",
+          "OUTLINE": "大纲",
+          "STANDARD": "标准"
+        },
+        "FIELD-TYPE": {
+          "BUTTON": "按钮",
+          "CHECKBOX": "复选框",
+          "DATE-PICKER": "日期选择器",
+          "DROPDOWN": "落下",
+          "LABEL": "标签",
+          "RADIOBUTTON": "单选按钮",
+          "TEXT-AREA": "文本区域",
+          "TEXTBOX": "文本框"
+        },
+        "LAYOUT-ALIGNMENT": {
+          "CENTER": "中央",
+          "END": "结尾",
+          "SPACE-AROUND": "环绕空间",
+          "SPACE-BETWEEN": "间隔",
+          "SPACE-EVENLY": "空间均匀",
+          "START": "开始",
+          "STRETCH": "拉紧"
+        },
+        "LAYOUT-TYPE": {
+          "COLUMN": "柱子",
+          "ROW": "排"
+        },
+        "ROW-COLUMNS": {
+          "FIVE": "五列",
+          "FOUR": "四列",
+          "ONE": "一栏",
+          "THREE": "三列",
+          "TWO": "两列"
+        }
+      }
+    },
+    "METAREST": {
+      "DISPLAYNAME": {
+        "ERROR": {
+          "REQUIRED": "显示名称为必填项"
+        },
+        "TITLE": "显示名称"
+      },
+      "GRID": {
+        "NAME": "姓名",
+        "SCOPE": "范围",
+        "URL": "端点"
+      },
+      "NAME": {
+        "ERROR": {
+          "REQUIRED": "姓名为必填项"
+        },
+        "TITLE": "姓名"
+      },
+      "PAGE-TITLE": "API元数据",
+      "ROUTE": {
+        "ERROR": {
+          "REQUIRED": "路线为必填项"
+        },
+        "TITLE": "路线"
+      },
+      "SCOPE": {
+        "ERROR": {
+          "REQUIRED": "范围是必需的"
+        },
+        "TITLE": "范围"
+      },
+      "SEARCH-PLACEHOLDER": "搜索元数据 API",
+      "TABLENAME": {
+        "ERROR": {
+          "REQUIRED": "表名是必填项"
+        },
+        "TITLE": "表名"
+      }
+    },
+    "PAGE": {
+      "CONFIGURATION": {
+        "HEADER": {
+          "BUTTONS": "纽扣",
+          "CREATEAPI": "创建 API",
+          "CREATETABLE": "创建表",
+          "EDITPAGE": "编辑页面",
+          "ENDPOINT": "端点",
+          "HOMEPAGE": "主页",
+          "NAME": "姓名",
+          "NEWPAGE": "新的一页",
+          "PAGEACTIONS": "配置页面操作",
+          "PERMISSION": "允许",
+          "URL": "网址"
+        }
+      },
+      "ERROR": {
+        "CREATE": "保存页面设计时出错！！",
+        "DELETE": "删除页面设计时出错！！",
+        "UPDATE": "更新页面设计时出错！！"
+      },
+      "SUCCESS": {
+        "CREATE": "页面设计保存成功",
+        "DELETE": "页面设计删除成功",
+        "UPDATE": "页面设计更新成功"
+      }
+    },
+    "TEMPLATE": {
+      "BOTTOM-SHEET": {
+        "BUTTON-LABEL": "按钮标签",
+        "BUTTON-NAVIGATE-URL": "按钮导航 URL",
+        "BUTTON-SUB-LABEL": "按钮子标签",
+        "CREATE": "创建",
+        "DRAG&DROP-BOTTOM-SHEET-ITEMS": "将底部工作表项目拖放到此处",
+        "DRAG&DROP-CUSTOMISE-BOTTOM-SHEET": "拖放以自定义底部工作表",
+        "ENTER-TEXT-HERE": "在此输入文字...",
+        "TITLE": "底片"
+      },
+      "CARD": {
+        "ADD-FIELD": "添加字段",
+        "ALIGNMENT": "结盟",
+        "DISPLAY-IMAGE": "显示图像",
+        "DRAG&DROP-CARD-ITEMS": "在此处拖放卡片项目",
+        "DRAG&DROP-CUSTOMISE-CARDS": "拖放以自定义卡片",
+        "FLEX": "柔性",
+        "HORIZONTAL": "水平的",
+        "IMAGE-SIZE": "图片尺寸",
+        "IMAGE-TYPE": "图像类型",
+        "PREVIEW": "预览",
+        "TITLE": "牌",
+        "VALIDATION": {
+          "CONTENT-REQUIRED": "内容为必填项",
+          "FOOTER-REQUIRED": " 页脚为必填项",
+          "HEADER-REQUIRED": "标题名称为必填项",
+          "SUB-HEADER-REQUIRED": "需要子标题"
+        },
+        "VERTICAL": "垂直的"
+      },
+      "COMPONENT-BULIDER": "组件生成器",
+      "CONFIGURATION": {
+        "BUTTON-CONFIGURATION": "按键配置",
+        "BUTTON-ROW": {
+          "POSITION": "按钮行位置",
+          "TITLE": "有按钮行"
+        },
+        "DIRECTION-LAYOUT": "方向布局",
+        "DISPLAY": "展示",
+        "EDIT": "编辑",
+        "ENTER-FLEX-VALUE": "输入弹性值",
+        "FLEX-CONFIGURATION": "弹性配置",
+        "HORIZONTAL-ALIGNMENT": "水平对齐",
+        "RESPONSIVE-LAYOUT": "响应式布局",
+        "SELECT-FORM-FIELDS-STYLE": "选择表单域样式",
+        "SELECT-LAYOUT": "选择布局",
+        "SELECT-NO-OF-COLUMNS": "选择列数",
+        "TEMPLATE-NATURE": "模板性质",
+        "THEME-CONFIGURATION": "主题配置",
+        "VALIDATION": {
+          "ERROR-MESSAGES-DISPLAY": "错误信息显示",
+          "FLEX-REQUIRED": "弹性值是必需的",
+          "LAYOUT-REQUIRED": "需要布局",
+          "NO-OF-COLUMNS-REQUIRED": "不需要列数",
+          "TYPE-REQUIRED": "类型为必填项",
+          "VALUE-REQUIRED": "值是必需的"
+        },
+        "VALIDATION-LAYOUT-REQUIRED": "需要布局",
+        "VERTICAL-ALIGNMENT": "垂直对齐"
+      },
+      "DETAILS": "细节",
+      "DIALOG": {
+        "CREATE": "创建",
+        "DRAG&DROP-DIALOG-ITEMS": "在此处拖放对话框项",
+        "START-CREATE-DIALOG-BOX": "通过拖放项目开始创建对话框",
+        "TITLE": "对话",
+        "VIEW": "看法"
+      },
+      "FORM": {
+        "ADD-OPTION": "添加选项",
+        "ALLOW-OVERRIDE": "允许覆盖",
+        "CONFIG": {
+          "BASIC": {
+            "ISREADONLY": "是只读的",
+            "ISVISISBLE": "可见",
+            "LABEL": {
+              "ERROR": {
+                "REQUIRED": " 字段名称为必填项"
+              },
+              "TITLE": "字段名称"
+            },
+            "PLACEHOLDER": "占位符",
+            "TOOLTIP": "工具提示",
+            "VIEWPORT": "视口"
+          },
+          "DATA": {
+            "AUTOGENERATED": "是否自动生成",
+            "DATATYPE": "数据类型",
+            "DEFAULTVALUE": "默认值",
+            "MANDATORY": "是强制性的",
+            "MODELNAME": {
+              "ERROR": {
+                "REQUIRED": "型号名称为必填项"
+              },
+              "TITLE": "型号名称"
+            }
+          },
+          "HEADER": {
+            "BASIC": "基本的",
+            "DATA": "数据",
+            "MISC": "其他",
+            "SECURITY": "安全",
+            "VALIDATIONS": "验证"
+          },
+          "MISC": {
+            "HINT": "暗示",
+            "HINTEND": "提示结束",
+            "MAXLENGTH": "最大长度",
+            "MAXLENGTHERROR": "最大长度误差",
+            "MINLENGTH": "最小长度",
+            "MINLENGTHERROR": "最小长度误差",
+            "PREFIX": "字首",
+            "REGEX": "正则表达式",
+            "REGEXERROR": "Reqex 错误信息",
+            "SUFFIX": "后缀"
+          },
+          "SECURITY": {
+            "ENCRYPT": "加密",
+            "PERMCODE": "权限代码",
+            "SHOWPASSWORD": "启用显示密码图标"
+          },
+          "VALIDATIONRULE": {
+            "MESSAGE": "错误信息",
+            "NAME": "类型",
+            "VALUE": "价值"
+          }
+        },
+        "DISPLAY-NAME": "显示名称",
+        "DISPLAY-TYPE": "显示类型",
+        "DRAG": "拖动表单位置",
+        "DRAG&DROP-ITEMS": "将表单项目拖放到此处",
+        "ENCRYPT-DATA": "加密数据",
+        "ERROR": {
+          "CREATE": "创建表单模板时出错",
+          "DELETE": "删除表单模板时出错",
+          "UPDATE": "更新表单模板时出错"
+        },
+        "FIELD-ATTRIBUTES": "表单字段属性",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "可扩展",
+            "CLONE": "克隆",
+            "NAME": "表格名称",
+            "SCOPE": "范围"
+          }
+        },
+        "ITEM": {
+          "LABEL": "字段名称",
+          "PLACEHOLDER": "输入字段名称"
+        },
+        "MANDATORY-FIELD": "必填项",
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "表单名称为必填项"
+          },
+          "TITLE": "表格名称"
+        },
+        "SAME-EMPTY-NAME-NOT-SHOWN": "*具有相同或空模型名称的多个表单字段将不会显示",
+        "SECURITY-ATTRIBUTES": "安全属性",
+        "SHOW-GROUP": "在表单组中显示",
+        "SUCCESS": {
+          "CREATE": "表单模板创建成功",
+          "DELETE": "表单模板删除成功",
+          "UPDATE": "表单模板更新成功"
+        },
+        "TITLE": "形式",
+        "VALIDATION": {
+          "ALLOW-SPACE&SPECIAL-CHARACTERS": "模型不允许空格和特殊字符，除了单词之间的句号",
+          "DATE-REQUIRED": "所需日期",
+          "ENDPOINT-REQUIRED": "终点为必填项",
+          "EXCEED-50CHARACTERS-LENGTH": "型号名称的长度不得超过 50 个字符",
+          "INVAILD-DATE": "失效日期",
+          "INVALID-DATE": "失效日期",
+          "MAX-DATE": "最大日期",
+          "MIN-DATE": "最小日期",
+          "MODEL-REQUIRED": "型号名称为必填项",
+          "MUST-3CHARACTERS-LENGTH": "模型名称的长度必须为 3 个字符",
+          "TITLE": {
+            "NAME": "验证"
+          }
+        },
+        "VALUE": "价值",
+        "VISIBILITY": "能见度"
+      },
+      "GRID": {
+        "CREATE": "创建",
+        "SHOW-PAGINATION": "显示网格分页",
+        "TITLE": "网格",
+        "VALIDATION": {
+          "COLUMN-ENDPOINT-REQUIRED": "需要数据端点",
+          "DATA-ENDPOINT-REQUIRED": "需要数据端点"
+        }
+      },
+      "IMAGE": {
+        "CREATE": "用文本创建图像",
+        "DRAG-DROP": "拖放以自定义图像和文本字段",
+        "DRAG&DROP-IMAGE-ITEMS": "将图像项目拖放到此处",
+        "DRAG&DROP-TEXT-FIELD-ITEMS": "将文本字段项目拖放到此处",
+        "TITLE": "图片"
+      },
+      "NAME": "姓名",
+      "PAGE-ACTION": {
+        "CONFIGURATION": "按键配置",
+        "DRAG-DROP-BUTTON": "拖放自定义按钮",
+        "DRAG&DROP-BUTTON-ITEMS": "在此处拖放按钮项目",
+        "SELECT-BUTTON-ACTION": "选择按钮操作",
+        "SELECT-COLOR": "选择颜色",
+        "TITLE": "纽扣"
+      },
+      "STEPPER": {
+        "CREATE": "创建",
+        "CREATE-STEPPER-DRAG&DROP-ITEMS": "通过拖放项目开始创建步进器",
+        "DRAG&DROP-ITEMS": "在此处拖放步进器项目",
+        "STEPPER-VIEW": "步进视图",
+        "TITLE": "步进器"
+      },
+      "TAB": {
+        "ADDTAB": "添加标签",
+        "BACKGROUND-COLOR": "背景颜色",
+        "COLOR": "颜色",
+        "CREATE": "创建",
+        "DISABLED-TAB": "禁用选项卡",
+        "DRAG&DROP-TAB-CONTENT": "在此处拖放选项卡内容",
+        "HEADER-POSITION": "标题位置",
+        "TITLE": "标签"
+      },
+      "TREE": {
+        "CREATE": "创建",
+        "ENDPOINT": "输入端点",
+        "FETCH": "拿来",
+        "MODIFY": "调整",
+        "NODE-SELECTABLE": "节点可选",
+        "TITLE": "树",
+        "TREE-OUTPUT-NAME": "输入树输出名称"
+      },
+      "TYPE": "类型",
+      "VALIDATION": {
+        "INPUT-TYPE-REQUIRED": "输入类型为必填项",
+        "TYPE-REQUIRED": "姓名为必填项"
+      },
+      "WIZARD": {
+        "ADVANCED": "先进的",
+        "BANNER": "横幅",
+        "BASIC": "基本的",
+        "BOTTOM-SHEET": "底页",
+        "BUTTON": "按钮",
+        "CARD": "卡片",
+        "CHARTS": "图表",
+        "CREATE-TEMPLATE": "选择模板",
+        "DIALOG": "对话",
+        "FORM": "形式",
+        "GRID": "网格",
+        "SELECT-COMPONENT": "通过选择一个组件开始创建模板",
+        "STEPPER": "步进器",
+        "TAB": "标签",
+        "TOOLBAR-BREADCRUMB": "工具栏和面包屑",
+        "TREE": "树"
+      }
+    }
+  },
+  "BUTTON": {
+    "ADD": "添加",
+    "APPROVAL": "赞同",
+    "BACK": "后退",
+    "CANCEL": "取消",
+    "CLOSE": "关",
+    "DELETE": "删除",
+    "DELETE-CONFIRMATION": "您要删除吗？",
+    "DOWNLOAD": "下载",
+    "EDIT": "编辑",
+    "EMAIL": "电子邮件",
+    "MODIFY": "调整",
+    "NEW": "新的",
+    "NEXT": "下一个",
+    "OK": "行",
+    "PREVIOUS": "以前的",
+    "PRINT": "打印",
+    "PRINT-PDF": "打印PDF",
+    "SAVE": "节省",
+    "UPDATE": "更新"
+  },
+  "CAREERLEVEL": {
+    "ANALYST": "分析师",
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "需要帐单代码"
+      },
+      "TITLE": "账单代码"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "职业水平是必需的"
+      },
+      "TITLE": "职业水平"
+    },
+    "CONSULTANT": "顾问",
+    "CREATE": "创建职业级别",
+    "EDIT": "编辑职业级别",
+    "ERROR": {
+      "CREATE": "创建职业等级时出错",
+      "DELETE": "删除职业级别时出错",
+      "UPDATE": "更新职业等级时出错"
+    },
+    "EXECUTIVE": "管理人员",
+    "INTERN": "内部的",
+    "MANAGER": "经理",
+    "PAGE-TITLE": "职业水平",
+    "SEARCH-PLACEHOLDER": "搜索职业级别",
+    "SENIOR-ANALYST": "高级分析师",
+    "SENIOR-CONSULTANT": "高级顾问",
+    "SENIOR-MANAGER": "高级经理",
+    "SUCCESS": {
+      "CREATE": "职业等级创建成功",
+      "DELETE": "职业等级删除成功",
+      "UPDATE": "职业等级更新成功"
+    },
+    "UPDATE-SUCESS": "职业等级更新成功"
+  },
+  "CLIENT": {
+    "ACCOUNT-DETAILS": "帐户详细资料",
+    "ADDRESS-LINE-1": {
+      "ERROR": {
+        "REQUIRED": "地址行 1 是必需的"
+      },
+      "TITLE": "地址第一行"
+    },
+    "ADDRESS-LINE-2": {
+      "TITLE": "地址行 2"
+    },
+    "BILLING-ADDRESS": "帐单地址",
+    "BILLS-DUE-DATE": {
+      "ERROR": {
+        "REQUIRED": "账单到期日为必填项",
+        "TYPE-REQUIRED": "账单到期日选项是必需的"
+      },
+      "INPUT": "日期",
+      "SELECT-TYPE": "选项",
+      "TITLE": "账单到期日"
+    },
+    "CIN": "杜松子酒",
+    "CITY": {
+      "ERROR": {
+        "REQUIRED": "城市为必填项"
+      },
+      "TITLE": "城市"
+    },
+    "COMPANY-REG-NUM": {
+      "ERROR": {
+        "REQUIRED": "需要公司注册号码"
+      },
+      "TITLE": "公司注册号"
+    },
+    "CONTACT-PERSON-DETAILS": "联系人详细信息",
+    "COUNTRY": {
+      "ERROR": {
+        "REQUIRED": "国家/地区为必填项"
+      },
+      "TITLE": "国家"
+    },
+    "CREATE": "创建客户端",
+    "CREDIT-LIMIT": {
+      "ERROR": {
+        "REQUIRED": "需要信用额度"
+      },
+      "TITLE": "信用额度"
+    },
+    "CURRENCY": {
+      "ERROR": {
+        "REQUIRED": "货币为必填项"
+      },
+      "TITLE": "货币"
+    },
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "需要说明"
+      },
+      "TITLE": "描述"
+    },
+    "EDIT": "编辑客户",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "电子邮件无效",
+        "REQUIRED": "电子邮件是必需的"
+      },
+      "TITLE": "电子邮件"
+    },
+    "ERROR": {
+      "CREATE": "创建客户端时出错",
+      "DELETE": "删除客户端时出错",
+      "UPDATE": "更新客户端时出错"
+    },
+    "FOLLOWING-ATTR-TEXT": "以下属性将根据客户位置（国家/地区）而变化",
+    "GST": "消费税",
+    "GST-PURCHASE": {
+      "ERROR": {
+        "REQUIRED": "需要购买 GST"
+      },
+      "TITLE": "消费税购买"
+    },
+    "GST-SALES": {
+      "ERROR": {
+        "REQUIRED": "需要 GST 销售"
+      },
+      "TITLE": "消费税销售"
+    },
+    "INVOICE-DUE-DATE": {
+      "ERROR": {
+        "INVALID": "失效日期",
+        "REQUIRED": "发票到期日为必填项",
+        "TYPE-REQUIRED": "发票到期日选项是必需的"
+      },
+      "INPUT": "日期",
+      "SELECT-TYPE": "选项",
+      "TITLE": "发票到期日"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "姓名为必填项"
+      },
+      "TITLE": "名称"
+    },
+    "NO-COUNTRY-FOUND": "未找到国家",
+    "NO-STATE-FOUND": "未找到状态",
+    "PAGE-TITLE": "客户",
+    "PHONE-NUMBER": {
+      "ERROR": {
+        "REQUIRED": "电话号码为必填项"
+      },
+      "TITLE": "电话号码"
+    },
+    "POST-CODE": {
+      "ERROR": {
+        "REQUIRED": "邮政编码为必填项"
+      },
+      "TITLE": "邮政编码"
+    },
+    "SAME-AS-BILLING-ADDRESS": "使用与账单地址相同",
+    "SAME-AS-SHIPPING-ADDRESS": "使用与送货地址相同",
+    "SEARCH-PLACEHOLDER": "搜索客户端",
+    "SELECT": {
+      "ERROR": {
+        "REQUIRED": "选择是必需的"
+      },
+      "TITLE": "选择"
+    },
+    "SETUP-CURRENCY-TAX-RATES": "设置货币和税率",
+    "SHIPPING-ADDRESS": "送货地址",
+    "STATE": {
+      "ERROR": {
+        "REQUIRED": "状态是必需的"
+      },
+      "TITLE": "状态"
+    },
+    "SUCCESS": {
+      "CREATE": "客户端创建成功",
+      "DELETE": "客户端删除成功",
+      "UPDATE": "客户端更新成功"
+    },
+    "TAB": {
+      "ADDRESS": "地址",
+      "CLIENT-DETAILS": "客户详情",
+      "FINANCIAL-DETAILS": "财务详情",
+      "REVIEW": "审查"
+    },
+    "TAN": {
+      "ERROR": {
+        "REQUIRED": "需要棕褐色"
+      },
+      "TITLE": "所以"
+    },
+    "TAX-ID": {
+      "ERROR": {
+        "REQUIRED": "税号为必填项"
+      },
+      "TITLE": "税号"
+    },
+    "TIN": {
+      "ERROR": {
+        "REQUIRED": "锡是必需的"
+      },
+      "TITLE": "相信"
+    }
+  },
+  "COMMON": {
+    "CONN-MGMT": "连接管理",
+    "CREATE": "创建",
+    "DELETE": "删除",
+    "EXPORT": "出口",
+    "IS-REQUIRED": " 是必须的",
+    "MAIL": "邮件",
+    "NO": "不",
+    "ORPHAN-MGMT": "孤儿账户管理",
+    "PRINT": "打印",
+    "PROV-CONFIG": "条款",
+    "READ": "只读（查看）",
+    "RECON": "和解",
+    "RECON-CONFIG": "侦察配置",
+    "REPORT": {
+      "EXPORT": "出口",
+      "FILTERS": "过滤器",
+      "PRINT": "打印"
+    },
+    "SEARCH": "搜索",
+    "SYSTEM-OWNER": "系统所有者",
+    "UPDATE": "更新",
+    "USERID-CONFIG": "用户 ID 配置",
+    "YES": "是的"
+  },
+  "COMPANY": {
+    "CREATE": "创建",
+    "EDIT": "编辑",
+    "ERROR": {
+      "CREATE": "创建公司时出错",
+      "DELETE": "删除公司时出错",
+      "UPDATE": "更新公司时出错"
+    },
+    "PAGE-TITLE": "公司",
+    "SEARCH-PLACEHOLDER": "搜索公司",
+    "SUCCESS": {
+      "CREATE": "公司创建成功",
+      "DELETE": "公司删除成功",
+      "UPDATE": "公司更新成功"
+    },
+    "TAB": {
+      "BASIC-INFORMATION": {
+        "CURRENCY": {
+          "ERROR": {
+            "REQUIRED": "货币为必填项"
+          },
+          "TITLE": "货币"
+        },
+        "DELETE": "删除",
+        "DESCRIPTION": {
+          "TITLE": "描述"
+        },
+        "DISPLAY-NAME": {
+          "ERROR": {
+            "REQUIRED": "显示名称为必填项"
+          },
+          "TITLE": "显示名称"
+        },
+        "EDIT-LOGO": "编辑标志",
+        "LINE-OF-BUSSINESS": {
+          "ERROR": {
+            "REQUIRED": "业务范围为必填项"
+          },
+          "TITLE": "业务范围"
+        },
+        "ORGANISATION-TYPE": {
+          "ERROR": {
+            "REQUIRED": "组织类型为必填项"
+          },
+          "TITLE": "组织类型"
+        },
+        "TAX-ID": {
+          "ERROR": {
+            "REQUIRED": "需要税号"
+          },
+          "TITLE": "税号"
+        },
+        "TITLE": "基本信息",
+        "TRADING-NAME": {
+          "ERROR": {
+            "REQUIRED": "交易名称为必填项"
+          },
+          "TITLE": "交易名称"
+        },
+        "UPLOAD-LOGO": "上传标志"
+      },
+      "LOCATION": {
+        "ADDRESS1": {
+          "ERROR": {
+            "REQUIRED": "地址行 1 是必需的"
+          },
+          "TITLE": "地址第一行"
+        },
+        "ADDRESS2": {
+          "ERROR": {
+            "REQUIRED": "地址行 2 是必需的"
+          },
+          "TITLE": "地址行 2"
+        },
+        "CITY": {
+          "ERROR": {
+            "REQUIRED": "城市为必填项"
+          },
+          "TITLE": "城市"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "国家/地区为必填项"
+          },
+          "TITLE": "国家"
+        },
+        "EMAIL": {
+          "ERROR": {
+            "INVALID": "不合规电邮",
+            "REQUIRED": "电子邮件是必需的"
+          },
+          "TITLE": "电子邮件"
+        },
+        "PHONE": {
+          "ERROR": {
+            "REQUIRED": "需要电话"
+          },
+          "TITLE": "电话"
+        },
+        "POSTAL-CODE": {
+          "ERROR": {
+            "REQUIRED": "邮政编码为必填项"
+          },
+          "TITLE": "邮政编码"
+        },
+        "STATE": {
+          "ERROR": {
+            "REQUIRED": "状态是必需的"
+          },
+          "TITLE": "状态"
+        },
+        "TITLE": "地点",
+        "WEBSITE": {
+          "ERROR": {
+            "REQUIRED": "网站为必填项"
+          },
+          "TITLE": "网站"
+        }
+      }
+    }
+  },
+  "CONNECTOR": {
+    "METADATA": {
+      "CATEGORY": {
+        "APPLICATION": "应用",
+        "AUTHENTICATION": "验证",
+        "AUTHORIZATION": "授权",
+        "CLOUD-APP": "云应用",
+        "SAAS": "软件即服务"
+      },
+      "IMP-TYPE": {
+        "DB": "数据库",
+        "REST": "REST API",
+        "RPA": "RPA",
+        "SOAP": "肥皂API"
+      },
+      "SYSTEM-NAME": {
+        "AD": "活动目录",
+        "ADP": "ADP",
+        "AIRWATCHADMINPORTAL": "空中观察",
+        "AMAZONEC2": "亚马逊EC2",
+        "AMERICNAEXPRESSCORPORATE": "美国运通",
+        "AML": "反洗钱",
+        "API": "火",
+        "APPLE": "苹果",
+        "APPLICATION": "应用",
+        "ARIBACONTRACTMANAGEMENT": "ARIBA 合同管理",
+        "ARIBANETWORK": "阿里巴网络",
+        "AWS": "自动售货机",
+        "BAMBOOHR": "BAMBOOHR",
+        "BETTERWORKS": "更好的作品",
+        "BIOMETRICS": "生物指标",
+        "BLACKLINE": "黑线",
+        "BLUEDIAMOND": "蓝钻",
+        "BLUESCAPE": "蓝色保险箱",
+        "BMCREMEDYFORCE": "BMC补救力量",
+        "BOXCOM": "盒装",
+        "BRIGHTEDGE": "亮边",
+        "BRITISHAIRWAYS": "英国航空",
+        "CALLIDUS": "卡利杜斯",
+        "CARDPRINTERS": "证卡打印机",
+        "CARDS": "牌",
+        "CERIDIAN": "塞里迪安",
+        "CERTIFY": "证明",
+        "CITIBANK": "花旗银行",
+        "CLOUDLOCK": "云锁",
+        "CLOUDPAY": "云支付",
+        "CONCUR": "同意",
+        "CONFER": "授予",
+        "CONFLUENCE": "合流",
+        "CONVO": "康沃",
+        "CORPEDIA": "百科全书",
+        "COSTCO": "好市多",
+        "COUPA": "合作社",
+        "CSV": "CSV",
+        "CUSTOM": "风俗",
+        "CVENT": "CVENT",
+        "DATABASE": "数据库",
+        "DESKCOM": "桌面通信",
+        "DOCUSIGN": "文件",
+        "DOMO": "多摩",
+        "DROPBOX": "投递箱",
+        "EGNECIA": "埃格尼西亚",
+        "EGNYTE": "EGNYTE",
+        "ELEAP": "ELEAP",
+        "EMPLOYEEREFERRALSCOM": "员工推荐网站",
+        "ENVOY": "使者",
+        "EVENTBRIGHT": "活动明亮",
+        "EVERNOTE": "曾经注意到",
+        "EVERNOTEBUSINESS": "Ever note 商务",
+        "EXPENSEWATCH": "费用观察",
+        "EXPENSIFY": "费用化",
+        "FACEBOOK": "Facebook",
+        "FIDELITY": "保真度",
+        "FILE": "文件",
+        "FLATTERFILESSAML": "平面文件 SAML",
+        "FLOWDOCKSAML": "流坞 SAML",
+        "GLOBOFORCE": "全球力量",
+        "GLOBUS": "地球",
+        "GOODDATA": "好数据",
+        "GOOGLEAPPS": "谷歌应用",
+        "GOTOMEETING": "去会议",
+        "GOTOWEBINAR": "前往网络研讨会",
+        "GROVOSAML": "格罗沃 SAML",
+        "GYMBOREE": "金宝贝",
+        "HACKERONE": "哈克龙",
+        "HISEC": "海安",
+        "HOOTSUITE": "套房",
+        "HRMS": "人力资源管理系统",
+        "IGLOO": "冰屋",
+        "INFORMATICASSOINTEGRATION": "IT SSO 集成",
+        "ITUNES": "和曲调",
+        "JIRA": "吉拉",
+        "JIRAON-PREMISE": "JIRAON-前提",
+        "JIVE": "吉夫",
+        "JOINME": "加入我",
+        "LDAP": "LDAP",
+        "LENEL": "莱内尔",
+        "LINKEDIN": "领英",
+        "MERILLLYNCHCREDITCARD": "美林信用卡",
+        "MERILLREWARDS": "美林奖赏",
+        "MICROSOFTAZURE": "微软 Azure",
+        "MSOFFICE365": "微软办公 365",
+        "NETFLIX": "网飞",
+        "NETSUITE": "网络套件",
+        "NEXSENTRY": "NEXS 入口",
+        "OKTA": "OKTA",
+        "ONGUARD": "处于戒备",
+        "OPENLADAPUNIX": "打开 LADAP UNIX",
+        "OPENLDAPW": "打开 LDAP",
+        "OTHER": "其他",
+        "PEGASYS2000": "飞马2000",
+        "PEOPLESOFT": "人民软件",
+        "PINGBOARD": "PING板",
+        "PROWATCH": "专业手表",
+        "RACKSPACE": "机架空间",
+        "RACKSPACECLOUD": "机架空间云",
+        "RADIUS": "半径",
+        "RALLYSOFTWARE": "集会",
+        "RELIANCEINDIAONLINE": "信实印度在线",
+        "REST": "休息",
+        "RFID": "射频识别",
+        "SALESFORCECOM": "销售队伍",
+        "SAMBA": "桑巴舞",
+        "SAP": "树液",
+        "SAPHR": "人力资源",
+        "SECURITYMANAGER": "安全经理",
+        "SELECTICA": "选择",
+        "SERVICENOW": "立即服务",
+        "SERVICENOW-EUREKARELEASE": "立即服务尤里卡发布",
+        "SHAREFILE": "共享文件",
+        "SHAREPOINT-ON-PREMISE)": "分享点",
+        "SHELFARI": "谢尔法里",
+        "SLACK": "松弛",
+        "SNAPLOGIC": "捕捉逻辑",
+        "SPLUNK": "Splunk",
+        "SPRINGCM": "弹簧厘米",
+        "SUCCESSFACTORS": "成功因素",
+        "SUGARCRM": "糖业客户关系管理",
+        "SUMOLOGIC": "求和",
+        "SUNLDAP": "太阳 LDAP",
+        "SURVEYMONKEY": "调查猴子",
+        "SYMMETRY": "对称",
+        "SYNATA": "辛纳塔",
+        "TELLO": "特雷洛",
+        "TRINETHRSERVICES": "STEP 人力资源服务",
+        "UNIX": "UNIX",
+        "UNIXFLATFILE": "UNIX 平面文件",
+        "UNIXNODES": "UNIX 节点",
+        "WAGEWORKS": "工资工作",
+        "WEBAPP": "网络应用程序",
+        "WINDOWCSV": "视窗CSV",
+        "WORKBOARD": "工作委员会",
+        "WORKCOM": "文康",
+        "WORKDAY": "工作日",
+        "YAMMER": "抱怨",
+        "ZENDESK": "禅台",
+        "ZOOM": "飞涨",
+        "ZSCALER": "Z 标量"
+      },
+      "TYPE": {
+        "ASSET": "资产",
+        "LMS": "学习管理系统",
+        "LOGICAL": "逻辑的",
+        "PHYSICAL": "身体的"
+      }
+    }
+  },
+  "COSTRATE": {
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "需要帐单代码"
+      },
+      "TITLE": "账单代码"
+    },
+    "CAPACITY": {
+      "ERROR": {
+        "MAX": " 最大容量为 100",
+        "MIN": " 最小容量为 1",
+        "REQUIRED": "需要容量"
+      },
+      "TITLE": "容量"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "职业水平是必需的"
+      },
+      "TITLE": "职业水平"
+    },
+    "COSTRATE": {
+      "ERROR": {
+        "REQUIRED": "成本率是必需的"
+      },
+      "TITLE": "成本率"
+    },
+    "CREATE": "创建",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "需要分区"
+      },
+      "TITLE": "分配"
+    },
+    "EDIT": "编辑",
+    "ERROR": {
+      "CREATE": "创建成本率时出错",
+      "DELETE": "删除成本率时出错",
+      "UPDATE": "更新成本率时出错"
+    },
+    "PAGE-TITLE": "成本率",
+    "SALARY": "薪水",
+    "SALARY-MAX": "最高工资",
+    "SALARY-MIN": "最低薪资",
+    "SEARCH-PLACEHOLDER": "搜索成本率",
+    "SUBDIVISION": {
+      "ERROR": {
+        "REQUIRED": "子部门是必需的"
+      },
+      "TITLE": "分部"
+    },
+    "SUCCESS": {
+      "CREATE": "成本率创建成功",
+      "DELETE": "成本率删除成功",
+      "UPDATE": "成本率更新成功"
+    },
+    "UPDATE-SUCESS": "成本率更新成功"
+  },
+  "COUNTRY": {
+    "AFGHANISTAN": "阿富汗",
+    "ALBANIA": "阿尔巴尼亚",
+    "ALGERIA": "阿尔及利亚",
+    "AMERICAN SAMOA": "美属萨摩亚",
+    "ANDORRA": "安道尔",
+    "ANGOLA": "安哥拉",
+    "ANGUILLA": "安圭拉",
+    "ANTARCTICA": "南极洲",
+    "ANTIGUA AND BARBUDA": "安提瓜和巴布达",
+    "ARGENTINA": "阿根廷",
+    "ARMENIA": "亚美尼亚",
+    "ARUBA": "阿鲁巴岛",
+    "AUSTRALIA": "澳大利亚",
+    "AUSTRIA": "奥地利",
+    "AZERBAIJAN": "阿塞拜疆",
+    "BAHAMAS THE": "巴哈马",
+    "BAHRAIN": "巴林",
+    "BANGLADESH": "孟加拉国",
+    "BARBADOS": "巴巴多斯",
+    "BELARUS": "白俄罗斯",
+    "BELGIUM": "比利时",
+    "BELIZE": "伯利兹",
+    "BENIN": "贝宁",
+    "BERMUDA": "百慕大",
+    "BHUTAN": "不丹",
+    "BOLIVIA": "玻利维亚",
+    "BOSNIA AND HERZEGOVINA": "波斯尼亚和黑塞哥维那（简称：波黑",
+    "BOTSWANA": "博茨瓦纳",
+    "BOUVET ISLAND": "布韦岛",
+    "BRAZIL": "巴西",
+    "BRITISH INDIAN OCEAN TERRITORY": "英属印度洋领地",
+    "BRUNEI": "文莱",
+    "BULGARIA": "保加利亚",
+    "BURKINA FASO": "布基纳法索",
+    "BURUNDI": "布隆迪",
+    "CAMBODIA": "柬埔寨",
+    "CAMEROON": "喀麦隆",
+    "CANADA": "加拿大",
+    "CAPE VERDE": "佛得角",
+    "CAYMAN ISLANDS": "开曼群岛",
+    "CENTRAL AFRICAN REPUBLIC": "中非共和国",
+    "CHAD": "乍得",
+    "CHILE": "辣椒",
+    "CHINA": "中国",
+    "CHRISTMAS ISLAND": "圣诞岛",
+    "COCOS (KEELING) ISLANDS": "科科斯（基林）群岛",
+    "COLOMBIA": "哥伦比亚",
+    "COMOROS": "科摩罗",
+    "COOK ISLANDS": "库克群岛",
+    "COSTA RICA": "哥斯达黎加",
+    "COTE D'IVOIRE (IVORY COAST)": "科特迪瓦又名象牙海岸",
+    "CROATIA (HRVATSKA)": "克罗地亚 (Hrvatska)",
+    "CUBA": "古巴",
+    "CYPRUS": "塞浦路斯",
+    "CZECH REPUBLIC": "捷克共和国",
+    "DEMOCRATIC REPUBLIC OF THE CONGO": "刚果民主共和国",
+    "DENMARK": "丹麦",
+    "DJIBOUTI": "吉布提",
+    "DOMINICA": "多米尼加",
+    "DOMINICAN REPUBLIC": "多明尼加共和国",
+    "EAST TIMOR": "东帝汶",
+    "ECUADOR": "厄瓜多尔",
+    "EGYPT": "埃及",
+    "EL SALVADOR": "救星",
+    "EQUATORIAL GUINEA": "赤道几内亚",
+    "ERITREA": "厄立特里亚",
+    "ESTONIA": "爱沙尼亚",
+    "ETHIOPIA": "埃塞俄比亚",
+    "EXTERNAL TERRITORIES OF AUSTRALIA": "澳大利亚外部领土",
+    "FALKLAND ISLANDS": "福克兰群岛",
+    "FAROE ISLANDS": "法罗群岛",
+    "FIJI ISLANDS": "斐济群岛",
+    "FINLAND": "芬兰",
+    "FRANCE": "法国",
+    "FRENCH GUIANA": "法属圭亚那",
+    "FRENCH POLYNESIA": "法属波利尼西亚",
+    "FRENCH SOUTHERN TERRITORIES": "法属南部领地",
+    "GABON": "加蓬",
+    "GAMBIA THE": "冈比亚",
+    "GEORGIA": "乔治亚州",
+    "GERMANY": "德国",
+    "GHANA": "加纳",
+    "GIBRALTAR": "直布罗陀",
+    "GREECE": "希腊",
+    "GREENLAND": "格陵兰",
+    "GRENADA": "格林纳达",
+    "GUADELOUPE": "瓜德罗普岛",
+    "GUAM": "关岛",
+    "GUATEMALA": "危地马拉",
+    "GUERNSEY AND ALDERNEY": "根西岛和奥尔德尼岛",
+    "GUINEA": "几内亚",
+    "GUINEA-BISSAU": "几内亚比绍",
+    "GUYANA": "圭亚那",
+    "HAITI": "海地",
+    "HEARD AND MCDONALD ISLANDS": "赫德和麦当劳群岛",
+    "HONDURAS": "洪都拉斯",
+    "HONG KONG S": {
+      "A": {
+        "R": "香港特别行政区"
+      }
+    },
+    "HUNGARY": "匈牙利",
+    "ICELAND": "冰岛",
+    "INDIA": "印度",
+    "INDONESIA": "印度尼西亚",
+    "IRAN": "伊朗",
+    "IRAQ": "伊拉克",
+    "IRELAND": "爱尔兰",
+    "ISRAEL": "以色列",
+    "ITALY": "意大利",
+    "JAMAICA": "牙买加",
+    "JAPAN": "日本",
+    "JERSEY": "球衣",
+    "JORDAN": "约旦",
+    "KAZAKHSTAN": "哈萨克斯坦",
+    "KENYA": "肯尼亚",
+    "KIRIBATI": "基里巴斯",
+    "KOREA NORTH": "北朝鲜",
+    "KOREA SOUTH": "韩国",
+    "KUWAIT": "科威特",
+    "KYRGYZSTAN": "吉尔吉斯斯坦",
+    "LAOS": "老挝",
+    "LATVIA": "拉脱维亚",
+    "LEBANON": "黎巴嫩",
+    "LESOTHO": "莱索托",
+    "LIBERIA": "利比里亚",
+    "LIBYA": "利比亚",
+    "LIECHTENSTEIN": "列支敦士登",
+    "LITHUANIA": "立陶宛",
+    "LUXEMBOURG": "卢森堡",
+    "MACAU S": {
+      "A": {
+        "R": "澳门特别行政区"
+      }
+    },
+    "MACEDONIA": "马其顿",
+    "MADAGASCAR": "马达加斯加",
+    "MALAWI": "马拉维",
+    "MALAYSIA": "马来西亚",
+    "MALDIVES": "马尔代夫",
+    "MALI": "马里",
+    "MALTA": "马耳他",
+    "MAN (ISLE OF)": "曼（岛）",
+    "MARSHALL ISLANDS": "马绍尔群岛",
+    "MARTINIQUE": "马提尼克",
+    "MAURITANIA": "毛里塔尼亚",
+    "MAURITIUS": "毛里求斯",
+    "MAYOTTE": "马约特岛",
+    "MEXICO": "墨西哥",
+    "MICRONESIA": "密克罗尼西亚",
+    "MOLDOVA": "摩尔达维亚",
+    "MONACO": "摩纳哥",
+    "MONGOLIA": "蒙古",
+    "MONTSERRAT": "蒙特塞拉特",
+    "MOROCCO": "摩洛哥",
+    "MOZAMBIQUE": "莫桑比克",
+    "MYANMAR": "缅甸",
+    "NAMIBIA": "纳米比亚",
+    "NAURU": "瑙鲁",
+    "NEPAL": "尼泊尔",
+    "NETHERLANDS ANTILLES": "荷属安的列斯",
+    "NETHERLANDS THE": "荷兰",
+    "NEW CALEDONIA": "新喀里多尼亚",
+    "NEW ZEALAND": "新西兰",
+    "NICARAGUA": "尼加拉瓜",
+    "NIGER": "尼日尔",
+    "NIGERIA": "尼日利亚",
+    "NIUE": "纽埃",
+    "NORFOLK ISLAND": "诺福克岛",
+    "NORTHERN MARIANA ISLANDS": "北马里亚纳群岛",
+    "NORWAY": "挪威",
+    "OMAN": "阿曼",
+    "PAKISTAN": "巴基斯坦",
+    "PALAU": "帕劳",
+    "PALESTINIAN TERRITORY OCCUPIED": "巴勒斯坦领土被占领",
+    "PANAMA": "巴拿马",
+    "PAPUA NEW GUINEA": "巴布亚新几内亚",
+    "PARAGUAY": "巴拉圭",
+    "PERU": "秘鲁",
+    "PHILIPPINES": "菲律宾",
+    "PITCAIRN ISLAND": "皮特凯恩岛",
+    "POLAND": "波兰",
+    "PORTUGAL": "葡萄牙",
+    "PUERTO RICO": "波多黎各",
+    "QATAR": "卡塔尔",
+    "REPUBLIC OF THE CONGO": "刚果共和国",
+    "REUNION": "团圆",
+    "ROMANIA": "罗马尼亚",
+    "RUSSIA": "俄罗斯",
+    "RWANDA": "卢旺达",
+    "SAINT HELENA": "圣赫勒拿",
+    "SAINT KITTS AND NEVIS": "圣基茨和尼维斯",
+    "SAINT LUCIA": "圣卢西亚",
+    "SAINT PIERRE AND MIQUELON": "圣皮埃尔和密克隆",
+    "SAINT VINCENT AND THE GRENADINES": "圣文森特和格林纳丁斯",
+    "SAMOA": "萨摩亚",
+    "SAN MARINO": "圣马力诺",
+    "SAO TOME AND PRINCIPE": "圣多美和普林西比",
+    "SAUDI ARABIA": "沙特阿拉伯",
+    "SENEGAL": "塞内加尔",
+    "SERBIA": "塞尔维亚",
+    "SEYCHELLES": "塞舌尔",
+    "SIERRA LEONE": "塞拉利昂",
+    "SINGAPORE": "新加坡",
+    "SLOVAKIA": "斯洛伐克",
+    "SLOVENIA": "斯洛文尼亚",
+    "SMALLER TERRITORIES OF THE UK": "英国的较小领土",
+    "SOLOMON ISLANDS": "所罗门群岛",
+    "SOMALIA": "索马里",
+    "SOUTH AFRICA": "南非",
+    "SOUTH GEORGIA": "南乔治亚",
+    "SOUTH SUDAN": "南苏丹",
+    "SPAIN": "西班牙",
+    "SRI LANKA": "斯里兰卡",
+    "SUDAN": "苏丹",
+    "SURINAME": "苏里南",
+    "SVALBARD AND JAN MAYEN ISLANDS": "斯瓦尔巴和扬马延群岛",
+    "SWAZILAND": "斯威士兰",
+    "SWEDEN": "瑞典",
+    "SWITZERLAND": "瑞士",
+    "SYRIA": "叙利亚",
+    "TAIWAN": "台湾",
+    "TAJIKISTAN": "塔吉克斯坦",
+    "TANZANIA": "坦桑尼亚",
+    "THAILAND": "泰国",
+    "TOGO": "多哥",
+    "TOKELAU": "托克劳",
+    "TONGA": "汤加",
+    "TRINIDAD AND TOBAGO": "特立尼达和多巴哥",
+    "TUNISIA": "突尼斯",
+    "TURKEY": "火鸡",
+    "TURKMENISTAN": "土库曼斯坦",
+    "TURKS AND CAICOS ISLANDS": "特克斯和凯科斯群岛",
+    "TUVALU": "图瓦卢",
+    "UGANDA": "乌干达",
+    "UKRAINE": "乌克兰",
+    "UNITED ARAB EMIRATES": "阿拉伯联合酋长国",
+    "UNITED KINGDOM": "英国",
+    "UNITED STATES": "美国",
+    "UNITED STATES MINOR OUTLYING ISLANDS": "美国本土外小岛屿",
+    "URUGUAY": "乌拉圭",
+    "UZBEKISTAN": "乌兹别克斯坦",
+    "VANUATU": "瓦努阿图",
+    "VATICAN CITY STATE (HOLY SEE)": "梵蒂冈城邦（教廷）",
+    "VENEZUELA": "委内瑞拉",
+    "VIETNAM": "越南",
+    "VIRGIN ISLANDS (BRITISH)": "维尔京群岛（英属）",
+    "VIRGIN ISLANDS (US)": "维尔京群岛（美国）",
+    "WALLIS AND FUTUNA ISLANDS": "瓦利斯和富图纳群岛",
+    "WESTERN SAHARA": "西撒哈拉",
+    "YEMEN": "也门",
+    "YUGOSLAVIA": "南斯拉夫",
+    "ZAMBIA": "赞比亚",
+    "ZIMBABWE": "津巴布韦"
+  },
+  "DEALS": {
+    "CREATE": "创建交易",
+    "EDIT": "编辑优惠",
+    "PAGE-TITLE": "交易",
+    "SEARCH-PLACEHOLDER": "搜索优惠",
+    "TAB": {
+      "ASSUMPTIONS": {
+        "BD-COST": {
+          "ERROR": {
+            "REQUIRED": "BD 费用为必填项"
+          },
+          "TITLE": "BD成本"
+        },
+        "CONTIGENCY": {
+          "ERROR": {
+            "REQUIRED": "需要应急"
+          },
+          "TITLE": "突发事件"
+        },
+        "EARLY-PAYMENTS": {
+          "ERROR": {
+            "REQUIRED": "需要提前付款"
+          },
+          "TITLE": "提前还款"
+        },
+        "END-DATE": {
+          "ERROR": {
+            "REQUIRED": "结束日期为必填项"
+          },
+          "TITLE": "结束日期"
+        },
+        "NON-BILLABLE": {
+          "ERROR": {
+            "REQUIRED": "不可计费为必填项"
+          },
+          "TITLE": "不可计费"
+        },
+        "OTHER-OVER-HEADS": {
+          "ERROR": {
+            "REQUIRED": "需要其他开销"
+          },
+          "TITLE": "其他头顶"
+        },
+        "PROJECT-NAME": {
+          "ERROR": {
+            "REQUIRED": "项目名称为必填项"
+          },
+          "TITLE": "项目名称"
+        },
+        "RATE-CARD-DISCOUNT": {
+          "ERROR": {
+            "REQUIRED": "需要价目表折扣"
+          },
+          "TITLE": "价目表折扣"
+        },
+        "REVENUE-RECOGNITION": {
+          "ERROR": {
+            "REQUIRED": "需要收入确认"
+          },
+          "TITLE": "收入确认"
+        },
+        "SEAT-CHARGES": {
+          "ERROR": {
+            "REQUIRED": "需要座位费"
+          },
+          "TITLE": "座位费"
+        },
+        "START-DATE": {
+          "ERROR": {
+            "REQUIRED": "开始日期为必填项"
+          },
+          "TITLE": "开始日期"
+        },
+        "TITLE": "假设"
+      },
+      "RESOURCES": {
+        "BILL-CODE": {
+          "ERROR": {
+            "REQUIRED": "需要帐单代码"
+          },
+          "TITLE": "账单代码"
+        },
+        "BILL-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "帐单费率/小时为必填项"
+          },
+          "TITLE": "账单费率/小时"
+        },
+        "CAREER-LEVEL": {
+          "ERROR": {
+            "REQUIRED": "职业水平是必需的"
+          },
+          "TITLE": "职业水平"
+        },
+        "CLASS": {
+          "ERROR": {
+            "REQUIRED": "类是必需的"
+          },
+          "TITLE": "班级"
+        },
+        "COST-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "成本费率/小时为必填项"
+          },
+          "TITLE": "成本率/小时"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "国家/地区为必填项"
+          },
+          "TITLE": "国家"
+        },
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "需要资源"
+          },
+          "TITLE": "资源"
+        },
+        "RESOURCE-NAME": "资源名称",
+        "SUB-CLASS": {
+          "ERROR": {
+            "REQUIRED": "子类是必需的"
+          },
+          "TITLE": "子类"
+        },
+        "TITLE": "资源"
+      },
+      "REVIEW": {
+        "TITLE": "审查"
+      }
+    }
+  },
+  "DIVISION": {
+    "CREATE": "创建",
+    "EDIT": "编辑",
+    "ERROR": {
+      "CREATE": "创建分区时出错",
+      "DELETE": "删除分区时出错",
+      "PARENT-REQUIRED": "需要家长",
+      "TITLE-DISPLAYNAME-REQUIRED": "显示名称为必填项",
+      "TITLE-REQUIRED": "部门名称为必填项",
+      "UPDATE": "更新部门时发生错误"
+    },
+    "GANDA": {
+      "ADMIN": "行政",
+      "FACILITIES": "设施",
+      "HR": "人力资源",
+      "TITLE": "G&A"
+    },
+    "HASCHILDREN": "有孩子",
+    "PAGE-TITLE": "分配",
+    "PARENT": "家长",
+    "PROF-SERVICES": "专业的服务",
+    "RANDD": {
+      "DOC": "文档",
+      "ENGG": "工程",
+      "IT": "它",
+      "PM": "产品管理",
+      "QA": "质量保证",
+      "QC": "质量控制",
+      "SANDM": "销售与市场营销",
+      "TITLE": "研发",
+      "TRAINING": "训练"
+    },
+    "SANDM": {
+      "BD": "BD",
+      "MARKETING": "营销",
+      "SALES": "销售量",
+      "TITLE": "销售与市场营销"
+    },
+    "SEARCH-PLACEHOLDER": "搜索部",
+    "SUCCESS": {
+      "CREATE": "分区创建成功",
+      "DELETE": "分区删除成功",
+      "UPDATE": "分区更新成功"
+    },
+    "TITLE": "部门/班级",
+    "TITLE-DISPLAYNAME": "显示名称",
+    "TITLE-NAME": "部门名称",
+    "UPDATE-SUCESS": "分区更新成功"
+  },
+  "FINANCE": {
+    "MENU": {
+      "ACCOUNTS": {
+        "BILL": "账单",
+        "CREDITMEMO": "信用备忘录",
+        "INVOICE": "发票",
+        "QUOTE": "引用",
+        "SALEORDER": "销售订单",
+        "TITLE": "帐户"
+      },
+      "BUDGET": "预算",
+      "COSTING": "项目成本核算",
+      "FORECAST": "预报",
+      "INVOICE-SETTINGS": {
+        "REMINDER": "提醒事项",
+        "THEME": "主题",
+        "TITLE": "发票设置"
+      },
+      "PRICING": {
+        "CLIENT": "客户",
+        "DEAL": "交易",
+        "PROJECT": "项目",
+        "TITLE": "价钱"
+      },
+      "REPORTS": {
+        "BOOKINGS": "预订",
+        "COMPARISION": "比较",
+        "PIPELINE": "管道",
+        "REVENUE": "收入",
+        "SALES": "销售量",
+        "TITLE": "报告",
+        "WONLOST": "赢对输"
+      },
+      "TIMESHEET": "时间表",
+      "TITLE": "金融"
+    }
+  },
+  "FINANCECUSTOMER": {
+    "CREATE-SUCESS": "客户创建成功",
+    "UPDATE-SUCESS": "客户更新成功"
+  },
+  "GRID": {
+    "ACCOUNT": "帐户",
+    "ACCOUNT-MANAGER": "客户经理",
+    "AMOUNT": "数量",
+    "BILL-NO": "账单号码",
+    "BILLCODE": "账单代码",
+    "CAREERLEVEL": "职业水平",
+    "CITY": "城市",
+    "CLASS": "班级",
+    "CLIENT": "客户",
+    "COMPANY": "公司",
+    "COSTRATE": "成本率",
+    "COUNTRY": "国家",
+    "CREDIT-MEMO-NO": "贷记凭证编号",
+    "CURRENCY": "货币",
+    "DATE": "日期",
+    "DESCRIPTION": "描述",
+    "DEVICE-SRNO": "设备编号",
+    "DISPLAY-NAME": "显示名称",
+    "DIVISION": "分配",
+    "DUE-DATE": "截止日期",
+    "EMAIL": "电子邮件",
+    "FIRST-NAME": "名",
+    "INST-DATE": "安装日期",
+    "INVOICE-NO": "发票编号",
+    "IPADDRESS": "IP地址",
+    "LAST-NAME": "姓",
+    "LOAD": "加载",
+    "LOB": "业务范围",
+    "LOCATION": "地点",
+    "NAME": "名称",
+    "NO-RECORDS-FOUND": "没有找到记录",
+    "OPERATOR-NAME": "操作员姓名",
+    "ORG-NAME": "组织",
+    "PANCHAYAT": "班查亚特",
+    "PHONE": "电话",
+    "PORT": "港口",
+    "PRICE": "价钱",
+    "PROJECT-MANAGER": "专案经理",
+    "QUOTE-NO": "报价编号",
+    "REFERENCE": "参考",
+    "SALE-ORDER-NO": "销售订单号",
+    "SEARCH": "搜索",
+    "SELECT": "选择",
+    "SERVER-NAME": "服务器名称",
+    "SERVICE-ACCOUNT": "服务帐号",
+    "STATE": "状态",
+    "STATUS": "地位",
+    "SUB-DIVISION": "分部",
+    "SUBCLASS": "子类",
+    "TAX-ID": "税号",
+    "TAXRATE": "税率",
+    "USERID": "用户身份"
+  },
+  "HEADER": {
+    "ACCOUNTS": "帐户",
+    "ADD-COMPANY": "添加公司",
+    "COMPANY": "公司",
+    "COMPANY-NAME": "公司名",
+    "DASHBOARD": "仪表板",
+    "REPORTS": "报告",
+    "SETUP": "设置",
+    "UPLOAD-LOGO": "上传标志"
+  },
+  "IDM": {
+    "MENU": {
+      "ID-CONSOLIDATION": {
+        "APP-CONSOLIDATION": "应用",
+        "AUTH-CONSOLIDATION": "验证",
+        "EMPLIST": "员工名单",
+        "TITLE": "身份证合并"
+      },
+      "MANAGE-SERVER": {
+        "APP-SERVER": "应用",
+        "AUTH-SERVER": "验证",
+        "AUTHORIZATION-SERVER": "授权",
+        "TITLE": "管理服务器"
+      },
+      "TITLE": "IDM"
+    }
+  },
+  "IOT": {
+    "INSTALLATION": {
+      "BLOCK": {
+        "ERROR": {
+          "INVALID": "无效块",
+          "REQUIRED": "业务范围为必填项"
+        },
+        "TITLE": "堵塞"
+      },
+      "BOREWELL-DEPTH": {
+        "ERROR": {
+          "MAX": "Borewell Depth 应该在 0-1999 之间",
+          "MIN": "Borewell Depth 应该在 0-1999 之间",
+          "REQUIRED": "需要钻孔深度"
+        },
+        "TITLE": "钻孔深度"
+      },
+      "COMMENTS": {
+        "ERROR": {
+          "REQUIRED": "评论是必需的"
+        },
+        "TITLE": "评论"
+      },
+      "CREATE": "创建",
+      "CREATE-ERROR": "安装创建成功",
+      "CREATE-SUCESS": "安装创建成功",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "安装日期无效",
+          "REQUIRED": "安装日期为必填项"
+        },
+        "TITLE": "安装日期"
+      },
+      "DEVICE-SERIAL-NUMBER": {
+        "ERROR": {
+          "MAX": "设备序列号应该在 1-99999 之间",
+          "MIN": "设备序列号应该在 1-99999 之间",
+          "REQUIRED": "需要设备序列号"
+        },
+        "TITLE": "设备序列号"
+      },
+      "DIVISION": {
+        "ERROR": {
+          "REQUIRED": "需要分区"
+        },
+        "TITLE": "分配"
+      },
+      "EARTHING": {
+        "ERROR": {
+          "REQUIRED": "需要接地"
+        },
+        "TITLE": "接地"
+      },
+      "EDIT": "编辑",
+      "GEO-LOCATION": {
+        "ERROR": {
+          "REQUIRED": "地理位置为必填项"
+        },
+        "TITLE": "地理位置"
+      },
+      "IMAGE": {
+        "ERROR": {
+          "REQUIRED": "图片为必填项"
+        },
+        "TITLE": "图像"
+      },
+      "IMAGES": "图片",
+      "LIST": {
+        "ALL": "全部",
+        "SELF": "自己"
+      },
+      "METADATA": {
+        "PHOTO-TYPE": {
+          "BARCODE": "条码",
+          "BOREWELL": "鲍威尔",
+          "DIST-LINE": "配电线路",
+          "IOT-DEVICE": "物联网设备",
+          "MAP": "地图",
+          "METER": "仪表",
+          "OPERATOR": "操作员",
+          "SITE": "地点",
+          "STARTER": "起动机"
+        }
+      },
+      "METER-TYPE": {
+        "ERROR": {
+          "REQUIRED": "仪表类型为必填项"
+        },
+        "TITLE": "仪表类型"
+      },
+      "MOTOR-CAPACITY": {
+        "ERROR": {
+          "REQUIRED": "需要电机容量"
+        },
+        "TITLE": "电机容量"
+      },
+      "NO-PHASE": {
+        "ERROR": {
+          "REQUIRED": "需要相数"
+        },
+        "TITLE": "相数"
+      },
+      "NO-PIPE-BEND": {
+        "ERROR": {
+          "MAX": "弯管数量应在 0-10 之间",
+          "MIN": "弯管数量应在 0-10 之间",
+          "REQUIRED": "不需要弯管"
+        },
+        "TITLE": "弯管数"
+      },
+      "OPERATOR-NAME": {
+        "ERROR": {
+          "REQUIRED": "操作员姓名为必填项"
+        },
+        "TITLE": "操作员姓名"
+      },
+      "PAGE-TITLE": "安装",
+      "PANCHAYAT": {
+        "ERROR": {
+          "REQUIRED": "Panchayat 是必需的"
+        },
+        "TITLE": "班查亚特"
+      },
+      "PIPE-DIAMETER": {
+        "ERROR": {
+          "REQUIRED": "需要管径"
+        },
+        "TITLE": "管径"
+      },
+      "PIPE-QUALITY": {
+        "ERROR": {
+          "REQUIRED": "要求管道质量"
+        },
+        "TITLE": "管道质量"
+      },
+      "SEARCH-PLACEHOLDER": "搜索安装",
+      "STATUS": {
+        "ERROR": {
+          "REQUIRED": "状态为必填项"
+        },
+        "TITLE": "地位"
+      },
+      "TANK-CAPACITY": {
+        "ERROR": {
+          "MAX": "Tank容量应该在0-500000之间",
+          "MIN": "Tank容量应该在0-500000之间",
+          "REQUIRED": "需要油箱容量"
+        },
+        "TITLE": "油箱容量"
+      },
+      "UPDATE-SUCESS": "安装更新成功",
+      "WARD": {
+        "ERROR": {
+          "REQUIRED": "病房是必需的"
+        },
+        "TITLE": "病房"
+      }
+    },
+    "MENU": {
+      "INSTALLATION": "安装"
+    }
+  },
+  "IPADRESS": {
+    "ERROR": {
+      "CREATE": "创建 IP 地址时出错",
+      "DELETE": "删除 IP 地址时出错",
+      "UPDATE": "更新 IP 地址时出错"
+    },
+    "GATEWAY": {
+      "ERROR": {
+        "INVALID": "网关是必需的",
+        "REQUIRED": "网关是必需的"
+      },
+      "TITLE": "网关"
+    },
+    "PAGE-TITLE": "IP地址",
+    "PRIMARY-IP": {
+      "ERROR": {
+        "INVALID": "主 IP 无效",
+        "REQUIRED": "需要主 IP"
+      },
+      "TITLE": "主IP"
+    },
+    "PROXY-IP": {
+      "ERROR": {
+        "INVALID": "代理 IP 无效",
+        "REQUIRED": "需要代理IP"
+      },
+      "TITLE": " 代理服务器的IP"
+    },
+    "PROXY-PORT": {
+      "ERROR": {
+        "INVALID": "代理端口无效",
+        "MAX": "端口应该在 0 到 65535 之间",
+        "MIN": "端口应该在 0 到 65535 之间",
+        "REQUIRED": "需要代理端口"
+      },
+      "TITLE": "代理端口"
+    },
+    "PROXY-REQUIRED": {
+      "ERROR": {
+        "INVALID": "是否需要代理无效",
+        "REQUIRED": "是否需要代理"
+      },
+      "TITLE": "是否需要代理"
+    },
+    "SECONDARY-IP": {
+      "ERROR": {
+        "INVALID": "辅助 IP 无效",
+        "REQUIRED": "需要辅助 IP"
+      },
+      "TITLE": "次要IP"
+    },
+    "SUBNET-MASK": {
+      "ERROR": {
+        "INVALID": "子网掩码无效",
+        "REQUIRED": "需要子网掩码"
+      },
+      "TITLE": "子网掩码"
+    },
+    "SUCCESS": {
+      "CREATE": "已成功创建 IP 地址详细信息",
+      "DELETE": "已成功删除 IP 地址详细信息",
+      "UPDATE": "IP 地址详细信息已成功更新"
+    }
+  },
+  "ITEM": {
+    "ACCOUNT": {
+      "ERROR": {
+        "REQUIRED": "需要帐号"
+      },
+      "TITLE": "帐户"
+    },
+    "CREATE": "创建",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "需要说明"
+      },
+      "TITLE": "描述"
+    },
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "需要分区"
+      },
+      "TITLE": "分配"
+    },
+    "EDIT": "编辑",
+    "ERROR": {
+      "CREATE": "创建服务项目时出错",
+      "DELETE": "删除服务项目时出错",
+      "UPDATE": "更新服务项目时出错"
+    },
+    "ERROR-DELETE": "删除项目时发生错误",
+    "ERROR-SAVE": "保存项目时发生错误",
+    "ERROR-UPDATE": "更新项目时发生错误",
+    "ITEM-CODE": {
+      "ERROR": {
+        "REQUIRED": "姓名为必填项"
+      },
+      "TITLE": "名称"
+    },
+    "PAGE-TITLE": "项目",
+    "PRICE": {
+      "ERROR": {
+        "MIN": "最低价格为 1",
+        "REQUIRED": "价格为必填项"
+      },
+      "TITLE": "价钱"
+    },
+    "PRICE-TYPE": {
+      "ERROR": {
+        "REQUIRED": "价格类型为必填项"
+      },
+      "TITLE": "价格类型"
+    },
+    "SEARCH-PLACEHOLDER": "搜索项目",
+    "SUB-DIVISION": {
+      "ERROR": {
+        "REQUIRED": "子部门是必需的"
+      },
+      "TITLE": "分部"
+    },
+    "SUCCESS": {
+      "CREATE": "服务项目创建成功",
+      "DELETE": "服务项目删除成功",
+      "UPDATE": "服务项目更新成功"
+    },
+    "TAX-RATE": {
+      "ERROR": {
+        "MAX": "最高税率为 100",
+        "MIN": "最低税率为 1",
+        "REQUIRED": "税率为必填项"
+      },
+      "TITLE": "税率"
+    },
+    "UPDATE-SUCESS": "项目更新成功"
+  },
+  "LOCATION": {
+    "CREATE": "创建",
+    "CREATE-FAILURE": "位置创建失败",
+    "CREATE-SUCESS": "位置创建成功",
+    "EDIT": "编辑",
+    "ERROR": {
+      "CREATE": "创建位置时出错",
+      "DELETE": "删除位置时出错",
+      "TITLE-DISPLAYNAME-REQUIRED": "显示名称为必填项",
+      "TITLE-REQUIRED": "标题为必填项",
+      "TYPE-REQUIRED": "位置类型为必填项",
+      "UPDATE": "更新位置时出错"
+    },
+    "HASCHILDREN": "有孩子",
+    "PAGE-TITLE": "地点",
+    "PARENT": "家长位置",
+    "SEARCH-PLACEHOLDER": "搜索位置",
+    "SUCCESS": {
+      "CREATE": "位置创建成功",
+      "DELETE": "位置删除成功",
+      "UPDATE": "位置更新成功"
+    },
+    "TITLE-DISPLAYNAME": "位置显示名称",
+    "TITLE-NAME": "地点名称",
+    "TYPE": "位置类型",
+    "UPDATE-SUCESS": "位置更新成功"
+  },
+  "LOGGER": {
+    "ERROR": {
+      "CREATE": "创建记录器时出错",
+      "DELETE": "删除记录器时出错",
+      "UPDATE": "更新 Logger 时发生错误"
+    },
+    "PAGE-TITLE": "日志设置",
+    "SERVER": {
+      "ERROR": {
+        "REQUIRED": "需要日志级别"
+      },
+      "TITLE": "日志级别"
+    },
+    "SUCCESS": {
+      "CREATE": "记录器创建成功",
+      "DELETE": "记录器删除成功",
+      "UPDATE": "记录器更新成功"
+    }
+  },
+  "LOGIN-PAGE": {
+    "CONTINUE-SESSION": "继续会话",
+    "ERROR": {
+      "USERID-FORMAT": "电子邮件或电话号码必须是电子邮件或电话号码",
+      "USERID-FORMAT ": "无效的用户 ID"
+    },
+    "EXPIRE-IN": "您的会话将在",
+    "FORGOT-PASSWORD": "忘记密码？",
+    "HELP": "帮助",
+    "INFO": {
+      "PASSWORD-LENGTH": "密码必须至少为 4 个字符",
+      "USERID-LENGTH": "电子邮件或电话号码必须至少为 4 个字符"
+    },
+    "LOGIN": "登录",
+    "LOGIN-ERROR": "授权错误",
+    "LOGIN-ERROR-UNAUTHORISED": "越权存取",
+    "LOGIN-INVALID-CREDENATIALS": "无效证件",
+    "LOGIN-REQUEST-ERROR": "无法进一步处理请求",
+    "PASSWORD": "密码",
+    "PRIVACY": "私人凯",
+    "REMEMBER-ME": "记住账号！",
+    "SECONDS": " 秒",
+    "SESSION-EXPIRED": "会话超时",
+    "SIGNIN-CONTINUE": "登录以继续",
+    "TERMS": "条款",
+    "TITLE": "登录",
+    "USERID": "电子邮件或电话号码",
+    "WARN": {
+      "PASSWORD-REQUIRED": "密码是必需的",
+      "USERID-REQUIRED": "需要电子邮件或电话号码"
+    },
+    "WELCOME": "欢迎"
+  },
+  "MAILSERVER": {
+    "ERROR": {
+      "CREATE": "创建邮件服务器时出错",
+      "DELETE": "删除邮件服务器时出错",
+      "UPDATE": "更新邮件服务器时出错"
+    },
+    "MAIL-SERVER": {
+      "ERROR": {
+        "REQUIRED": "需要邮件服务器"
+      },
+      "TITLE": "邮件服务器"
+    },
+    "METADATA": {
+      "SECURITY-TYPE": {
+        "NONE": "没有任何",
+        "SSL": "安全证书",
+        "TLS": "TLS"
+      }
+    },
+    "PAGE-TITLE": "邮件设置",
+    "PASSWORD": {
+      "ERROR": {
+        "REQUIRED": "密码是必需的"
+      },
+      "TITLE": "密码"
+    },
+    "PORT": {
+      "ERROR": {
+        "MAX": "端口应该在 0 到 65535 之间",
+        "MIN": "端口应该在 0 到 65535 之间",
+        "REQUIRED": "端口是必需的"
+      },
+      "TITLE": "港口"
+    },
+    "SECURITY": {
+      "ERROR": {
+        "REQUIRED": "安全是必需的"
+      },
+      "TITLE": "安全"
+    },
+    "SUCCESS": {
+      "CREATE": "邮件服务器创建成功",
+      "DELETE": "邮件服务器删除成功",
+      "UPDATE": "邮件服务器更新成功"
+    },
+    "USERNAME": {
+      "ERROR": {
+        "REQUIRED": "需要用户名/电子邮件"
+      },
+      "TITLE": "用户名/电子邮件"
+    }
+  },
+  "MENU": {
+    "BUILDER": {
+      "BLOCKS": {
+        "BANNER": "横幅",
+        "BOTTOMSHEET": "底片",
+        "CARD": "卡片",
+        "CHART": "图表",
+        "DIALOG": "对话",
+        "FORM": "形式",
+        "GRID": "网格",
+        "STEPPER": "步进器",
+        "TAB": "标签",
+        "TITLE": "块",
+        "TREE": "树"
+      },
+      "DESIGNER": {
+        "PAGE": "页",
+        "STATEMACHNE": "状态机",
+        "TITLE": "设计师",
+        "WORKFLOW": "工作流程"
+      },
+      "TITLE": "建造者"
+    },
+    "CONFIGURATION": {
+      "IPADD": "IP地址",
+      "LOGLEVEL": "日志级别",
+      "MAIL-CONFIG": "邮件配置",
+      "SYSLOG-SERVER": "系统日志服务器",
+      "TITLE": "配置"
+    },
+    "DASHBOARD": "仪表板",
+    "FEATURE": {
+      "ADD-COMPANY": "添加公司",
+      "CHANGE-COMPANY": "变更公司",
+      "FAVORITE": "收藏夹",
+      "FULLSCREEN": "全屏",
+      "GLOBAL-SEARCH": "全局搜索",
+      "LANGUAGE": "语",
+      "NOTIFICATION": "通知",
+      "SUB-HEADER": {
+        "BREADCRUMB": "面包屑",
+        "BUG": "错误报告",
+        "HELP": "帮助",
+        "PHOTO-CAPTURE": "照片捕捉",
+        "TIMER": "屏幕定时器",
+        "TITLE": "子标题",
+        "VOICE": "语音识别"
+      },
+      "THEME": "主题",
+      "TITLE": "特征"
+    },
+    "HOME": "家",
+    "IOT": "物联网",
+    "ORG": {
+      "CAREER-LEVEL": "职业水平",
+      "CLIENTS": "客户",
+      "COMPANY": "公司",
+      "COSTRATE": "自己剥皮",
+      "DEPARTMENT": "部",
+      "DIVISION": "分配",
+      "LOCATION": "地点",
+      "SERVICES": "服务",
+      "TITLE": "组织"
+    },
+    "SETUP": "设置",
+    "TROUBLESHOOT": {
+      "LOGS": "服务器日志",
+      "PATCH-MGMT": "补丁管理",
+      "TITLE": "故障排除"
+    },
+    "USER-MGMT": {
+      "CHANGE-PASSWORD": "更改/重置密码",
+      "PERMISSION": "权限",
+      "ROLE": "角色",
+      "TITLE": "用户管理",
+      "USER": "用户"
+    }
+  },
+  "ORG": {
+    "METADATA": {
+      "ACCOUNT": {
+        "ENGINEERING": "工程",
+        "PROFSERVICES": "专业的服务",
+        "PURCHASE": "购买",
+        "SALES": "销售量",
+        "SERVICES": "服务"
+      },
+      "INVOICEOPTION": {
+        "DAYOFCURRENTMONTH": "当月的",
+        "DAYOFNEXTMONTH": "下个月",
+        "DAYSAFTER": "账单日期后的天数",
+        "DAYSAFTERBILLMONTH": "账单月结束后的天数",
+        "FIRSTDAY": "下个月的第一天",
+        "LASTDAY": "当月的最后一天"
+      },
+      "LINEOFBUSINESS": {
+        "AGRICULTURE": "农业",
+        "CONSTRUCTION": "建造",
+        "FINANCE": "金融",
+        "INSURANCE": "保险",
+        "MANUFACTURING": "制造业",
+        "MINING": "矿业",
+        "OTHERS": "其他",
+        "REALESTATE": "房地产",
+        "SERVIES": "服务",
+        "TRADE": "贸易"
+      },
+      "ORGTYPE": {
+        "CLUB": "俱乐部",
+        "COMPANY": "公司",
+        "INDIVIDUAL": "个人",
+        "NONPROFIT": "非盈利",
+        "PARTNER": "伙伴",
+        "SOLETRADER": "个体经营",
+        "TRUST": "相信"
+      }
+    }
+  },
+  "PAGE": {
+    "DASHBOARD": {
+      "TITLE": "仪表板"
+    }
+  },
+  "PERMISSIONS": {
+    "PAGE-TITLE": "权限"
+  },
+  "PROJECTS": {
+    "ACCOUNT-MANAGER": {
+      "ERROR": {
+        "REQUIRED": "需要客户经理"
+      },
+      "TITLE": "客户经理"
+    },
+    "CLIENT": {
+      "ERROR": {
+        "REQUIRED": "需要客户端"
+      },
+      "TITLE": "客户"
+    },
+    "CREATE": "创建项目",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "需要说明"
+      },
+      "TITLE": "描述"
+    },
+    "EDIT": "编辑项目",
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "姓名为必填项"
+      },
+      "TITLE": "名称"
+    },
+    "PAGE-TITLE": "项目",
+    "PROJECT-HEAD": {
+      "ERROR": {
+        "REQUIRED": "需要项目负责人"
+      },
+      "TITLE": "项目负责人"
+    },
+    "SEARCH-PLACEHOLDER": "搜索项目",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "状态为必填项"
+      },
+      "TITLE": "地位"
+    }
+  },
+  "ROLES": {
+    "CREATE": "创建",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "需要说明"
+      },
+      "TITLE": "描述"
+    },
+    "EDIT": "编辑",
+    "ERROR": {
+      "CREATE": "创建角色时出错",
+      "DELETE": "删除角色时出错",
+      "UPDATE": "更新角色时出错"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "姓名为必填项"
+      },
+      "TITLE": "名称"
+    },
+    "PAGE-TITLE": "角色",
+    "SEARCH-PLACEHOLDER": "搜索角色",
+    "SUCCESS": {
+      "CREATE": "角色创建成功",
+      "DELETE": "角色删除成功",
+      "UPDATE": "角色更新成功"
+    }
+  },
+  "SETTINGS": {
+    "METADATA": {
+      "COMMON": {
+        "FALSE": "错误的",
+        "NO": "不",
+        "TRUE": "真的",
+        "YES": "是的"
+      },
+      "LOGLEVEL": {
+        "DEBUG": "调试",
+        "ERROR": "错误",
+        "FATAL": "致命的",
+        "INFO": "信息",
+        "TRACE": "痕迹",
+        "WARN": "警告"
+      }
+    }
+  },
+  "SYSLOGGER": {
+    "ERROR": {
+      "CREATE": "创建记录器时出错",
+      "DELETE": "删除记录器时出错",
+      "UPDATE": "更新 Logger 时发生错误"
+    },
+    "EXTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "外部 IP 无效",
+        "REQUIRED": "需要外部 IP"
+      },
+      "PLACEHOLDER": "输入外部 IP",
+      "TITLE": "外部IP"
+    },
+    "INTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "内部 IP 无效",
+        "REQUIRED": "需要内部IP"
+      },
+      "PLACEHOLDER": "输入内部 IP",
+      "TITLE": "内部IP"
+    },
+    "PAGE-TITLE": "系统日志设置",
+    "SUCCESS": {
+      "CREATE": "记录器创建成功",
+      "DELETE": "记录器删除成功",
+      "UPDATE": "记录器更新成功"
+    }
+  },
+  "USERS": {
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "职业水平是必需的"
+      },
+      "TITLE": "职业水平"
+    },
+    "CREATE": "创建",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "需要分区"
+      },
+      "TITLE": "分配"
+    },
+    "EDIT": "编辑",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "电子邮件无效",
+        "REQUIRED": "电子邮件是必需的"
+      },
+      "PLACEHOLDER": "输入电子邮件",
+      "TITLE": "电子邮件"
+    },
+    "ERROR": {
+      "CREATE": "创建用户时出错",
+      "DELETE": "删除用户时出错",
+      "UPDATE": "更新用户时出错"
+    },
+    "FIRST-NAME": {
+      "ERROR": {
+        "REQUIRED": "名字为必填项"
+      },
+      "PLACEHOLDER": "输入名字",
+      "TITLE": "名"
+    },
+    "JOB-LOCATION": {
+      "ERROR": {
+        "REQUIRED": "工作地点为必填项"
+      },
+      "TITLE": "工作地点"
+    },
+    "LAST-NAME": {
+      "ERROR": {
+        "INVALID": "姓氏无效",
+        "MIN": "姓氏应至少为 5",
+        "REQUIRED": "姓氏为必填项"
+      },
+      "PLACEHOLDER": "输入姓氏",
+      "TITLE": "姓"
+    },
+    "LOCATION": {
+      "ERROR": {
+        "REQUIRED": "需要位置"
+      },
+      "PLACEHOLDER": "输入位置",
+      "TITLE": "地点"
+    },
+    "LOCATIONS": {
+      "ERROR": {
+        "REQUIRED": "需要地点"
+      }
+    },
+    "PAGE-TITLE": "用户",
+    "PASSWORD": {
+      "ERROR": {
+        "INVALID-FORMAT": "无效的密码"
+      },
+      "PLACEHOLDER": "输入密码",
+      "TITLE": "密码"
+    },
+    "PHONE": {
+      "ERROR": {
+        "INVALID": "电话号码无效",
+        "REQUIRED": "电话号码为必填项"
+      },
+      "PLACEHOLDER": "输入电话号码",
+      "TITLE": "电话号码"
+    },
+    "ROLE": {
+      "ERROR": {
+        "REQUIRED": "角色是必需的"
+      },
+      "PLACEHOLDER": "输入角色",
+      "TITLE": "角色"
+    },
+    "SEARCH-PLACEHOLDER": "搜索用户",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "用户状态为必填项"
+      },
+      "PLACEHOLDER": "输入用户状态",
+      "TITLE": "用户状态"
+    },
+    "SUCCESS": {
+      "CREATE": "用户创建成功",
+      "DELETE": "用户删除成功",
+      "UPDATE": "用户更新成功"
+    },
+    "TYPE": {
+      "ERROR": {
+        "REQUIRED": "用户类型为必填项"
+      },
+      "PLACEHOLDER": "输入用户类型",
+      "TITLE": "用户类型"
+    },
+    "USER-ID": {
+      "ERROR": {
+        "REQUIRED": "用户 ID 为必填项"
+      },
+      "TITLE": "用户身份"
+    }
+  }
+}

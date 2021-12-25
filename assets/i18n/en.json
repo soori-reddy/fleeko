@@ -1,0 +1,1797 @@
+{
+  "ACCOUNTS": {
+    "ACCOUNT": "Account",
+    "ADD": "Add",
+    "ADD-CREDIT-NOTE": "Add Credit Note",
+    "AMOUNT": "Amount",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "Amounts are is required"
+      },
+      "TITLE": "Amounts are"
+    },
+    "ATTACHMENT": "Attachment",
+    "AUDIT-HISTORY-AND-NOTES": "Audit History & Notes",
+    "CLASS": "Class",
+    "COPY-TO": "Copy To",
+    "CREATE-COPY": "Create a Copy",
+    "DESCRIPTION": "Description",
+    "DISCOUNT": "Discount",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "Due Date is Invalid",
+        "REQUIRED": "Due Date is required"
+      },
+      "TITLE": "Due Date"
+    },
+    "EDIT": "Edit",
+    "INVOICE": {
+      "CREATE": "Create Invoice",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Invoice Date is Invalid",
+          "REQUIRED": "Invoice Date is required"
+        },
+        "TITLE": "Invoice Date"
+      },
+      "EDIT": "Edit Invoice",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Invoice Number is required"
+        },
+        "TITLE": "Invoice Number"
+      },
+      "OPTIONS": "Invoice Number Options",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Invoice To is required"
+        },
+        "TITLE": "Invoice To"
+      }
+    },
+    "ITEM": "Item",
+    "METADATA": {
+      "ORDERSTATUS": {
+        "ACCEPTED": "Accepted",
+        "ALL": "All",
+        "ALLOCATION": "Allocation",
+        "APPROVED": "Approved",
+        "AWAITINGFORPAYMENT": "Awaiting for Payment",
+        "DECLINED": "Declined",
+        "DRAFT": "Draft",
+        "EXPIRED": "Expired",
+        "INVOICED": "Invoiced",
+        "OVERDUE": "Overdue",
+        "PAID": "Paid",
+        "PENDING": "Pending",
+        "REPEAT": "Repeat",
+        "SENT": "Sent",
+        "VOID": "Void",
+        "WAITINGFORAPPROVAL": "Waiting for Approval"
+      },
+      "ORDERTYPE": {
+        "BILLS": "Bills",
+        "CREDITMEMO": "Credit Memo",
+        "INVOICE": "Invoice",
+        "QUOTE": "Quote",
+        "SALEORDER": "Sale Order"
+      },
+      "TAXOPTION": {
+        "EXCLUSIVE": "Tax Exclusive",
+        "INCLUSIVE": "Tax Inclusive"
+      }
+    },
+    "NO-ITEM-FOUND": "No Item Found",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "Add payment",
+      "AMOUNT-RECIEVED": "Amount Recieved",
+      "AMOUNT-UNPAID": "Amount Unpaid",
+      "REFERENCE": "Reference",
+      "TDS-PAID": "TDS Paid",
+      "TITLE": "Payment Information"
+    },
+    "QUANTITY": "Quantity",
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "Account Reference is required"
+      }
+    },
+    "REFERENCE": "Reference",
+    "SUB-TOTAL": "Sub Total",
+    "TAX": "Tax",
+    "TAX-RATE": "Tax Rate",
+    "TOTAL": "Total",
+    "UNIT-PRICE": "Unit Price",
+    "VOID": "Void"
+  },
+  "APP": {
+    "TITLE": "Company"
+  },
+  "APP-SERVER": {
+    "ERROR": {
+      "CREATE": "Error occured while creating Application Server",
+      "UPDATE": "Error occured while updating Application Server"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "REQUIRED": "IP Address is required"
+      },
+      "TITLE": "IP Address"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "New Application Server",
+      "EDIT": "Edit Application Server",
+      "HOME": "Application Servers"
+    },
+    "PORT": {
+      "ERROR": {
+        "REQUIRED": "Port is required"
+      },
+      "TITLE": "Port"
+    },
+    "SEARCH-PLACEHOLDER": "Search Server",
+    "SERVER-NAME": {
+      "ERROR": {
+        "REQUIRED": "Server Name is required"
+      },
+      "TITLE": "Server Name"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "REQUIRED": "Service Account name is required"
+      },
+      "TITLE": "Service Account name"
+    },
+    "SUCCESS": {
+      "CREATE": "Application Server created successfully",
+      "UPDATE": "Application Server updated successfully"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "REQUIRED": "System is required"
+      },
+      "TITLE": "System"
+    }
+  },
+  "AUTH-SERVER": {
+    "ERROR": {
+      "CREATE": "Error occured while creating Authentication Server",
+      "UPDATE": "Error occured while updating Authentication Server"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "REQUIRED": "IP Address is required"
+      },
+      "TITLE": "IP Address"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "New Authentication Server",
+      "EDIT": "Edit Authentication Server",
+      "HOME": "Authentication Servers"
+    },
+    "PORT": {
+      "ERROR": {
+        "REQUIRED": "Port is required"
+      },
+      "TITLE": "Port"
+    },
+    "SEARCH-PLACEHOLDER": "Search Server",
+    "SERVER-NAME": {
+      "ERROR": {
+        "REQUIRED": "Server Name is required"
+      },
+      "TITLE": "Server Name"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "REQUIRED": "Service Account name is required"
+      },
+      "TITLE": "Service Account name"
+    },
+    "SUCCESS": {
+      "CREATE": "Authentication Server created successfully",
+      "UPDATE": "Authentication Server updated successfully"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "REQUIRED": "System is required"
+      },
+      "TITLE": "System "
+    }
+  },
+  "AUTHORIZATION": {
+    "ERROR": {
+      "CREATE": "Error occured while creating Authorization Server",
+      "UPDATE": "Error occured while updating Authorization Server"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "REQUIRED": "IP Address is required"
+      },
+      "TITLE": "IP Address"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "New Authorization Server",
+      "EDIT": "Edit Authorization Server",
+      "HOME": "Authorization Servers"
+    },
+    "PORT": {
+      "ERROR": {
+        "REQUIRED": "Port is required"
+      },
+      "TITLE": "Port"
+    },
+    "SEARCH-PLACEHOLDER": "Search Server",
+    "SERVER-NAME": {
+      "ERROR": {
+        "REQUIRED": "Server Name is required"
+      },
+      "TITLE": "Server Name"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "REQUIRED": "Service Account name is required"
+      },
+      "TITLE": "Service Account name"
+    },
+    "SUCCESS": {
+      "CREATE": "Authorization Server created successfully",
+      "UPDATE": "Authorization Server updated successfully"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "REQUIRED": "System is required"
+      },
+      "TITLE": "System"
+    }
+  },
+  "BUILDER": {
+    "DESIGNER": {
+      "PAGE": {
+        "FOOTER": "Footer",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "Extendable",
+            "CLONE": "Clone",
+            "NAME": "Page Name",
+            "SCOPE": "Scope"
+          }
+        }
+      }
+    },
+    "MENU": {
+      "APPBUILDER": {
+        "APPAUTHPRV": "Authentication",
+        "APPDESIGN": "App Designer",
+        "BUILDAPP": "Build",
+        "DEPLOYAPP": "Deploy",
+        "SECURITYSCAN": "Security Scan",
+        "TITLE": "App Builder"
+      },
+      "APPSTORE": {
+        "TITLE": "App Store"
+      },
+      "BLOCKS": {
+        "BANNER": "Banner",
+        "BOTTOMSHEET": "Bottom Sheet",
+        "CARD": "Card",
+        "CHART": "Chart",
+        "DIALOG": "Dialog",
+        "FORM": "Form",
+        "GRID": "Grid",
+        "STEPPER": "Stepper",
+        "TAB": "Tab",
+        "TITLE": "Blocks",
+        "TREE": "Tree"
+      },
+      "DATABUILDER": {
+        "REST": "REST Metadata",
+        "TABLE": "Table API",
+        "TITLE": " Data Explorer"
+      },
+      "DESIGNER": {
+        "PAGE": "Page Designer",
+        "STATEMACHNE": "State machine",
+        "TITLE": " Page Builder",
+        "WORKFLOW": "Workflow"
+      },
+      "TITLE": "Builder"
+    },
+    "METADATA": {
+      "APPTYPE": {
+        "ANDROID": "Android",
+        "IOS": "iOS",
+        "KIOSK": "Kiosk",
+        "WEB": "Web",
+        "WINDOWS": "Windows"
+      },
+      "AUTHENTICATIONTYPE": {
+        "FACEBOOK": "Facebook",
+        "FACEDETECTION": "Face",
+        "FINGERPRINT": "Finger",
+        "FIREBASEUI": "Firebase",
+        "GITHUB": "GitHub",
+        "GOOGLE": "Google",
+        "LINKEDIN": "Linked In",
+        "PHONENUMBER": "PhoneNumber",
+        "QRCODE": "QR",
+        "SSO": "Single sign On",
+        "USERIDPASSWORD": "Password"
+      },
+      "COMP-SUB-TYPE": {
+        "AREA": "Area",
+        "BAR": "Bar",
+        "BUBBLE": "Bubble",
+        "COLOR": "Color",
+        "DOUGHNUT": "Doughnut",
+        "EMAIL": "Email",
+        "FAB-BUTTON": "Fab Button",
+        "FLAT-BUTTON": "Flat Button",
+        "HEAT MAP": "Heat Map",
+        "ICON-BUTTON": "Icon Button",
+        "LINE": "Line",
+        "MAP": "Map",
+        "MINIFAB-BUTTON": "Minifab Button",
+        "NUMBER": "Number",
+        "PASSWORD": "Password",
+        "PIE": "Pie",
+        "RADAR": "Radar",
+        "RAISED-BUTTON": "Raised Button",
+        "SCATTER": "Scatter",
+        "STROKED-BUTTON": "Stroked Button",
+        "TEL": "Tel",
+        "TEXT": "Text",
+        "URL": "Url"
+      },
+      "COMPTYPE": {
+        "AUTOCOMPLETE": "Auto Complete",
+        "BADGE": "Badge",
+        "BANNER": "Banner",
+        "BOTTOMSHEET": "Bottom Sheet",
+        "BUTTON": "Button",
+        "BUTTONTOGGLE": "Button Toggle",
+        "CAMERA": "Camera",
+        "CARD": "Card",
+        "CHART": "Chart",
+        "CHECKBOX": "Checkbox",
+        "CHIPS": "Chips",
+        "DATEPICKER": "Date Picker",
+        "DIALOG": "Dialog",
+        "DIVIDER": "Divider",
+        "DROPDOWN": "Dropdown",
+        "EXPANSIONPANEL": "Expansion Panel",
+        "FILE": "File",
+        "FORM": "Form",
+        "GRID": "Grid",
+        "ICON": "Icon",
+        "IMAGE": "Image",
+        "LABEL": "Label",
+        "LIST": "List",
+        "MAP": "Map",
+        "MENU": "Menu",
+        "PAGINATOR": "Paginator",
+        "PROGRESSBAR": "Progress Bar",
+        "PROGRESSSPINNER": "Progress Spinner",
+        "RADIOBUTTON": "Radio Button",
+        "SIDENAV": "Sidenav",
+        "SLIDER": "Slider",
+        "SLIDETOGGLE": "Slide Toggle",
+        "SNACKBAR": "Snackbar",
+        "STEPPER": "Stepper",
+        "TAB": "Tab",
+        "TEXTAREA": "Text Area",
+        "TEXTINPUT": "Input",
+        "TOOLBAR": "Toolbar",
+        "TOOLTIP": "Tooltip",
+        "TREE": "Tree"
+      },
+      "FORM": {
+        "BUTTON-ROW": {
+          "DISPLAY": {
+            "BOTTOM": "Bottom",
+            "TOP": "Top"
+          }
+        },
+        "DISPLAY-TYPE": {
+          "DYNAMIC": "Dynamic",
+          "FIXED": "Fixed / Static"
+        },
+        "ERROR-DISPLAY-TYPE": {
+          "INLINE": "inline",
+          "SNACKBAR": "snackbar"
+        },
+        "FIELD-APPEARANCE-TYPE": {
+          "FILL": "fill",
+          "LEGACY": "legacy",
+          "OUTLINE": "outline",
+          "STANDARD": "standard"
+        },
+        "FIELD-TYPE": {
+          "BUTTON": "Button",
+          "CHECKBOX": "Checkbox",
+          "DATE-PICKER": "Datepicker",
+          "DROPDOWN": "Dropdown",
+          "LABEL": "Label",
+          "RADIOBUTTON": "Radiobutton",
+          "TEXT-AREA": "Textarea",
+          "TEXTBOX": "Textbox"
+        },
+        "LAYOUT-ALIGNMENT": {
+          "CENTER": "center",
+          "END": "end",
+          "SPACE-AROUND": "space-around",
+          "SPACE-BETWEEN": "space-between",
+          "SPACE-EVENLY": "space-evenly",
+          "START": "start",
+          "STRETCH": "stretch"
+        },
+        "LAYOUT-TYPE": {
+          "COLUMN": "Column",
+          "ROW": "Row"
+        },
+        "ROW-COLUMNS": {
+          "FIVE": "Five Column",
+          "FOUR": "Four Column",
+          "ONE": "One Column",
+          "THREE": "Three Column",
+          "TWO": "Two Column"
+        }
+      }
+    },
+    "METAREST": {
+      "DISPLAYNAME": {
+        "ERROR": {
+          "REQUIRED": "Display Name is required"
+        },
+        "TITLE": "Display Name"
+      },
+      "GRID": {
+        "NAME": "Name",
+        "SCOPE": "Scope",
+        "URL": "Endpoint"
+      },
+      "NAME": {
+        "ERROR": {
+          "REQUIRED": "Name is required"
+        },
+        "TITLE": "Name"
+      },
+      "PAGE-TITLE": "Meta data API",
+      "ROUTE": {
+        "ERROR": {
+          "REQUIRED": "Route is required"
+        },
+        "TITLE": "Route"
+      },
+      "SCOPE": {
+        "ERROR": {
+          "REQUIRED": "Scope is required"
+        },
+        "TITLE": "Scope"
+      },
+      "SEARCH-PLACEHOLDER": "pageitems Metadata API",
+      "TABLENAME": {
+        "ERROR": {
+          "REQUIRED": "Table Name is required"
+        },
+        "TITLE": "Table Name"
+      }
+    },
+    "PAGE": {
+      "CONFIGURATION": {
+        "HEADER": {
+          "BUTTONS": "Buttons",
+          "CREATEAPI": "Create API",
+          "CREATEMENU": "Create Menu",
+          "CREATETABLE": "Create Table",
+          "EDITPAGE": "Edit Page",
+          "ENDPOINT": "Endpoint",
+          "HOMEPAGE": "Home Page",
+          "NAME": "Name",
+          "NEWPAGE": "New Page",
+          "PAGEACTIONS": "Configure Page Actions",
+          "PERMISSION": "Permission",
+          "URL": "Url"
+        }
+      },
+      "ERROR": {
+        "CREATE": "Error while saving page design !!",
+        "DELETE": "Error while deleting page design !!",
+        "UPDATE": "Error while updating page design !!"
+      },
+      "SUCCESS": {
+        "CREATE": "Page design saved successfully",
+        "DELETE": "Page design deleted successfully",
+        "UPDATE": "Page design updated successfully"
+      }
+    },
+    "TEMPLATE": {
+      "CONFIGURATION": {
+        "BUTTON-ROW": {
+          "POSITION": "Button Row Position",
+          "TITLE": "Has Button Row"
+        },
+        "DISPLAY": "Display",
+        "FLEX-CONFIGURATION": "Flex Configuration",
+        "HORIZONTAL-ALIGNMENT": "Horizontal alignment",
+        "SELECT-LAYOUT": "Select Layout",
+        "SELECT-NO-OF-COLUMNS": "Select no of columns",
+        "VALIDATION": {
+          "ERROR-MESSAGES-DISPLAY": "Error Messages Display",
+          "NO-OF-COLUMNS-REQUIRED": "No of columns is Required",
+          "VALUE-REQUIRED": "Value is Required"
+        },
+        "VALIDATION-LAYOUT-REQUIRED": "Layout is required",
+        "VERTICAL-ALIGNMENT": "Vertical alignment"
+      },
+      "FORM": {
+        "CONFIG": {
+          "BASIC": {
+            "ISREADONLY": "Is Read only",
+            "ISVISISBLE": "Is Visible",
+            "LABEL": {
+              "ERROR": {
+                "REQUIRED": " Field Name is required"
+              },
+              "TITLE": "Field Name"
+            },
+            "PLACEHOLDER": "Placeholder",
+            "TOOLTIP": "Tooltip",
+            "VIEWPORT": "Viewport"
+          },
+          "DATA": {
+            "AUTOGENERATED": "Is Auto generated",
+            "DATATYPE": "Datatype",
+            "DEFAULTVALUE": "Default value",
+            "MANDATORY": "Is Mandatory",
+            "MODELNAME": {
+              "ERROR": {
+                "REQUIRED": "Model Name is Required"
+              },
+              "TITLE": "Model Name"
+            }
+          },
+          "HEADER": {
+            "BASIC": "Basic",
+            "DATA": "Data",
+            "MISC": "Others",
+            "SECURITY": "Security",
+            "VALIDATIONS": "Validations"
+          },
+          "MISC": {
+            "HINT": "Hint",
+            "HINTEND": "Hint end",
+            "MAXLENGTH": "Maximum Length",
+            "MAXLENGTHERROR": "Maximum Length Error",
+            "MINLENGTH": "Minimumn Length",
+            "MINLENGTHERROR": "Minimum Length Error",
+            "PREFIX": "Prefix",
+            "REGEX": "Regex",
+            "REGEXERROR": "Reqex Error Message",
+            "SUFFIX": "Suffix"
+          },
+          "SECURITY": {
+            "ENCRYPT": "Encrypt",
+            "PERMCODE": "Permission Code",
+            "SHOWPASSWORD": "Enable show password Icon"
+          },
+          "VALIDATIONRULE": {
+            "MESSAGE": "Error Message",
+            "NAME": "Type",
+            "VALUE": "Value"
+          }
+        },
+        "DRAG&DROP-ITEMS": "Drag Form tempates",
+        "ERROR": {
+          "CREATE": "Error occured while creating Form Template",
+          "DELETE": "Error occured while deleting Form Template",
+          "UPDATE": "Error occured while updating Form Template"
+        },
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "Extendable",
+            "CLONE": "Clone",
+            "NAME": "Form Name",
+            "SCOPE": "Scope"
+          }
+        },
+        "ITEM": {
+          "LABEL": "Field Name",
+          "PLACEHOLDER": "Enter Field Name"
+        },
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "Form Name is Required"
+          },
+          "TITLE": "Form Name"
+        },
+        "SUCCESS": {
+          "CREATE": "Form Template created successfully",
+          "DELETE": "Form Template deleted successfully",
+          "UPDATE": "Form Template updated successfully"
+        }
+      }
+    }
+  },
+  "BUTTON": {
+    "ADD": "Add",
+    "APPROVAL": "Approval",
+    "BACK": "Back",
+    "CANCEL": "Cancel",
+    "CLOSE": "Close",
+    "DELETE": "Delete",
+    "DELETE-CONFIRMATION": "Do you want to delete ?",
+    "DOWNLOAD": "Downlaod",
+    "EDIT": "Edit",
+    "EMAIL": "Email",
+    "MODIFY": "Modify",
+    "NEW": "New",
+    "NEXT": "Next",
+    "OK": "Ok",
+    "PREVIOUS": "Previous",
+    "PRINT-PDF": "Print Pdf",
+    "SAVE": "Save",
+    "UPDATE": "Update"
+  },
+  "CAREERLEVEL": {
+    "ANALYST": "Analyst",
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "Bill Code is required"
+      },
+      "TITLE": "Bill Codes"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "Career Level is required"
+      },
+      "TITLE": "Career Level"
+    },
+    "CONSULTANT": "Consultant",
+    "CREATE": "Create Career Level",
+    "EDIT": "Edit Career Level",
+    "ERROR": {
+      "CREATE": "Error while creating Career Level",
+      "DELETE": "Error while deleting Career Level",
+      "UPDATE": "Error while updating Career Level"
+    },
+    "EXECUTIVE": "Executive",
+    "INTERN": "Intern",
+    "MANAGER": "Manager",
+    "PAGE-TITLE": "Career Level",
+    "SEARCH-PLACEHOLDER": "Search Career Level",
+    "SENIOR-ANALYST": "Senior Analyst",
+    "SENIOR-CONSULTANT": "Senior Consultant",
+    "SENIOR-MANAGER": "Senior Manager",
+    "SUCCESS": {
+      "CREATE": "Career Level created successfully",
+      "DELETE": "Career Level deleted successfully",
+      "UPDATE": "Career Level updated successfully"
+    },
+    "UPDATE-SUCESS": "CareerLevel Updated Successfully"
+  },
+  "CLIENT": {
+    "ACCOUNT-DETAILS": "Account Details",
+    "ADDRESS-LINE-1": {
+      "ERROR": {
+        "REQUIRED": "Address Line 1 is required"
+      },
+      "TITLE": "Address Line 1"
+    },
+    "ADDRESS-LINE-2": {
+      "TITLE": "Address Line 2"
+    },
+    "BILLING-ADDRESS": "Billing Address",
+    "BILLS-DUE-DATE": {
+      "ERROR": {
+        "REQUIRED": "Bills Due Date is required",
+        "TYPE-REQUIRED": "Bills Due Date Option is required"
+      },
+      "INPUT": "Date",
+      "SELECT-TYPE": "Option",
+      "TITLE": "Bills Due Date"
+    },
+    "CIN": "CIN",
+    "CITY": {
+      "ERROR": {
+        "REQUIRED": "City is required"
+      },
+      "TITLE": "City"
+    },
+    "COMPANY-REG-NUM": {
+      "ERROR": {
+        "REQUIRED": "Company Registration No. is required"
+      },
+      "TITLE": "Company Registration No."
+    },
+    "CONTACT-PERSON-DETAILS": "Contact Person Details",
+    "COUNTRY": {
+      "ERROR": {
+        "REQUIRED": "Country is required"
+      },
+      "TITLE": "Country"
+    },
+    "CREATE": "Create Client",
+    "CREDIT-LIMIT": {
+      "TITLE": "Credit Limit"
+    },
+    "CURRENCY": {
+      "ERROR": {
+        "REQUIRED": "Currency is required"
+      },
+      "TITLE": "Currency"
+    },
+    "DESCRIPTION": {
+      "TITLE": "Description"
+    },
+    "EDIT": "Edit Client",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "Email is Invalid",
+        "REQUIRED": "Email is required"
+      },
+      "TITLE": "Email"
+    },
+    "ERROR": {
+      "CREATE": "Error occured while creating Client",
+      "DELETE": "Error occured while deleting Client",
+      "UPDATE": "Error occured while updating Client"
+    },
+    "FOLLOWING-ATTR-TEXT": "Following attributes will change as per client location (Country)",
+    "GST": "GST",
+    "GST-PURCHASE": {
+      "ERROR": {
+        "REQUIRED": "GST Purchase is required"
+      },
+      "TITLE": "GST Purchase"
+    },
+    "GST-SALES": {
+      "ERROR": {
+        "REQUIRED": "GST Sales is required"
+      },
+      "TITLE": "GST Sales"
+    },
+    "INVOICE-DUE-DATE": {
+      "ERROR": {
+        "REQUIRED": "Invoice Due Date is required",
+        "TYPE-REQUIRED": "Invoice Due Date Option is required"
+      },
+      "INPUT": "Date",
+      "SELECT-TYPE": "Option",
+      "TITLE": "Invoice Due Date"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "Name is required"
+      },
+      "TITLE": "Name"
+    },
+    "NO-COUNTRY-FOUND": "No Country found",
+    "NO-STATE-FOUND": "No State found",
+    "PAGE-TITLE": "Clients",
+    "PHONE-NUMBER": {
+      "ERROR": {
+        "REQUIRED": "Phone number is required"
+      },
+      "TITLE": "Phone number"
+    },
+    "POST-CODE": {
+      "ERROR": {
+        "REQUIRED": "Post Code is required"
+      },
+      "TITLE": "Post Code"
+    },
+    "SAME-AS-BILLING-ADDRESS": "Use Same as Billing Address",
+    "SAME-AS-SHIPPING-ADDRESS": "Use Same as Shipping Address",
+    "SEARCH-PLACEHOLDER": "pageitems Client",
+    "SETUP-CURRENCY-TAX-RATES": "Setup Currency & Tax Rates",
+    "SHIPPING-ADDRESS": "Shipping Address",
+    "STATE": {
+      "ERROR": {
+        "REQUIRED": "State is required"
+      },
+      "TITLE": "State"
+    },
+    "SUCCESS": {
+      "CREATE": "Client created successfully",
+      "DELETE": "Client deleted successfully",
+      "UPDATE": "Client updated successfully"
+    },
+    "TAB": {
+      "ADDRESS": "Address",
+      "CLIENT-DETAILS": "Client Details",
+      "FINANCIAL-DETAILS": "Financial Details",
+      "REVIEW": "Review"
+    },
+    "TAN": {
+      "ERROR": {
+        "REQUIRED": "Tan is required"
+      },
+      "TITLE": "Tan"
+    },
+    "TAX-ID": {
+      "ERROR": {
+        "REQUIRED": "Tax Id is required"
+      },
+      "TITLE": "Tax Id"
+    },
+    "TIN": {
+      "ERROR": {
+        "REQUIRED": "Tin is required"
+      },
+      "TITLE": "Tin"
+    }
+  },
+  "COMMON": {
+    "CONN-MGMT": "Connection Managment",
+    "CREATE": "Create",
+    "DELETE": "Delete",
+    "EXPORT": "Export",
+    "IS-REQUIRED": " is required",
+    "MAIL": "Mail",
+    "NO": "No",
+    "ORPHAN-MGMT": "Orphan Account Management",
+    "PRINT": "Print",
+    "PROV-CONFIG": "Provision",
+    "READ": "Read only (view)",
+    "RECON": "Reconciliation",
+    "RECON-CONFIG": "Recon Configuration",
+    "REPORT": {
+      "EXPORT": "Export",
+      "FILTERS": "Filters",
+      "PRINT": "Print"
+    },
+    "SEARCH": "Search",
+    "SYSTEM-OWNER": "System Owner",
+    "UPDATE": "Update",
+    "USERID-CONFIG": "User Id Configuration",
+    "YES": "Yes"
+  },
+  "COMPANY": {
+    "CREATE": "Create",
+    "EDIT": "Edit",
+    "ERROR": {
+      "DELETE": "Error occured while deleting Company"
+    },
+    "PAGE-TITLE": "Company",
+    "SUCCESS": {
+      "CREATE": "Company created successfully",
+      "DELETE": "Company deleted successfully",
+      "UPDATE": "Company updated successfully"
+    },
+    "TAB": {
+      "BASIC-INFORMATION": {
+        "CURRENCY": {
+          "ERROR": {
+            "REQUIRED": "Currency is required"
+          },
+          "TITLE": "Currency"
+        },
+        "DELETE": "Delete",
+        "DESCRIPTION": {
+          "TITLE": "Description"
+        },
+        "DISPLAY-NAME": {
+          "ERROR": {
+            "REQUIRED": "Display Name is required"
+          },
+          "TITLE": "Display Name"
+        },
+        "EDIT-LOGO": "Edit Logo",
+        "LINE-OF-BUSSINESS": {
+          "ERROR": {
+            "REQUIRED": "Line of Bussiness is required"
+          },
+          "TITLE": "Line of Bussiness"
+        },
+        "ORGANISATION-TYPE": {
+          "ERROR": {
+            "REQUIRED": "Organisation Type is required"
+          },
+          "TITLE": "Organisation Type"
+        },
+        "TAX-ID": {
+          "ERROR": {
+            "REQUIRED": "Tax ID is required"
+          },
+          "TITLE": "Tax ID"
+        },
+        "TITLE": "Basic Information",
+        "TRADING-NAME": {
+          "ERROR": {
+            "REQUIRED": "Trading Name is required"
+          },
+          "TITLE": "Trading Name"
+        },
+        "UPLOAD-LOGO": "Upload Logo"
+      },
+      "LOCATION": {
+        "ADDRESS1": {
+          "ERROR": {
+            "REQUIRED": "Address Line 1 is required"
+          },
+          "TITLE": "Address Line 1"
+        },
+        "ADDRESS2": {
+          "ERROR": {
+            "REQUIRED": "Address Line 2 is required"
+          },
+          "TITLE": "Address Line 2"
+        },
+        "CITY": {
+          "ERROR": {
+            "REQUIRED": "City is required"
+          },
+          "TITLE": "City"
+        },
+        "COUNTRY": {
+          "TITLE": "Country"
+        },
+        "EMAIL": {
+          "ERROR": {
+            "INVALID": "Invalid Email",
+            "REQUIRED": "Email is required"
+          },
+          "TITLE": "Email"
+        },
+        "PHONE": {
+          "ERROR": {
+            "REQUIRED": "Phone is required"
+          },
+          "TITLE": "Phone"
+        },
+        "POSTAL-CODE": {
+          "ERROR": {
+            "REQUIRED": "Postal Code is required"
+          },
+          "TITLE": "Postal Code"
+        },
+        "STATE": {
+          "TITLE": "State"
+        },
+        "TITLE": "Location",
+        "WEBSITE": {
+          "ERROR": {
+            "REQUIRED": "Website is required"
+          },
+          "TITLE": "Website"
+        }
+      }
+    }
+  },
+  "COSTRATE": {
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "Bill Code is required"
+      },
+      "TITLE": "Bill Codes"
+    },
+    "CAPACITY": {
+      "ERROR": {
+        "MAX": " Maximum Capacity is 100",
+        "MIN": " Minimum Capacity is 1",
+        "REQUIRED": "Capacity is required"
+      },
+      "TITLE": "Capacity"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "Career Level is required"
+      },
+      "TITLE": "Career Level"
+    },
+    "COSTRATE": {
+      "ERROR": {
+        "REQUIRED": "Cost Rate is required"
+      },
+      "TITLE": "Cost Rate"
+    },
+    "CREATE": "Create",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "Division is required"
+      },
+      "TITLE": "Division"
+    },
+    "EDIT": "Edit",
+    "ERROR": {
+      "CREATE": "Error while creating Cost Rate",
+      "DELETE": "Error while deleting Cost Rate",
+      "UPDATE": "Error while updating Cost Rate"
+    },
+    "PAGE-TITLE": "Cost Rate",
+    "SALARY": "Salary",
+    "SALARY-MAX": "Maximum Salary",
+    "SALARY-MIN": "Minimum Salary",
+    "SEARCH-PLACEHOLDER": "Search Cost Rate",
+    "SUBDIVISION": {
+      "ERROR": {
+        "REQUIRED": "Sub Division is required"
+      },
+      "TITLE": "Sub Division"
+    },
+    "SUCCESS": {
+      "CREATE": "Cost Rate created successfully",
+      "DELETE": "Cost Rate deleted successfully",
+      "UPDATE": "Cost Rate updated successfully"
+    }
+  },
+  "COUNTRY": {
+    "INDIA": "India"
+  },
+  "DIVISION": {
+    "CREATE": "Create",
+    "EDIT": "Edit",
+    "ERROR": {
+      "CREATE": "Error occured while creating Division",
+      "DELETE": "Error occured while deleting Division",
+      "TITLE-DISPLAYNAME-REQUIRED": "Display Name is required",
+      "TITLE-REQUIRED": "Division Name is required",
+      "UPDATE": "Error occured while updating Division"
+    },
+    "HASCHILDREN": "Has Children",
+    "PAGE-TITLE": "Division",
+    "PARENT": "Parent",
+    "SEARCH-PLACEHOLDER": "Search Division",
+    "SUCCESS": {
+      "CREATE": "Division created successfully",
+      "DELETE": "Division deleted successfully",
+      "UPDATE": "Division updated successfully"
+    },
+    "TITLE-DISPLAYNAME": "Display Name",
+    "TITLE-NAME": "Division Name"
+  },
+  "FINANCE": {
+    "MENU": {
+      "ACCOUNTS": {
+        "BILL": "Bills",
+        "CREDITMEMO": "CreditMemo",
+        "INVOICE": "Invoice",
+        "QUOTE": "Quote",
+        "SALEORDER": "Sale Order",
+        "TITLE": "Accounts"
+      },
+      "BUDGET": "Budget",
+      "COSTING": "Project Costing",
+      "FORECAST": "Forecast",
+      "INVOICE-SETTINGS": {
+        "REMINDER": "Reminders",
+        "THEME": "Themes",
+        "TITLE": "Invoice Settings"
+      },
+      "PRICING": {
+        "CLIENT": "Clients",
+        "DEAL": "Deals",
+        "PROJECT": "Projects",
+        "TITLE": "Pricing"
+      },
+      "REPORTS": {
+        "BOOKINGS": "Bookings",
+        "COMPARISION": "Comparision",
+        "PIPELINE": "Pipeline",
+        "REVENUE": "Revenue",
+        "SALES": "Sales",
+        "TITLE": "Reports",
+        "WONLOST": "Won vs Lost"
+      },
+      "TIMESHEET": "Timesheet",
+      "TITLE": "Finance"
+    }
+  },
+  "GRID": {
+    "ACCOUNT": "Account",
+    "AMOUNT": "Amount",
+    "BILL-NO": "Bill Number",
+    "BILLCODE": "Bill Code",
+    "CAREERLEVEL": "Career Level",
+    "COMPANY": "Company",
+    "COSTRATE": "Cost Rate",
+    "CREDIT-MEMO-NO": "Credit Memo Number",
+    "DATE": "Date",
+    "DESCRIPTION": "Description",
+    "DEVICE-SRNO": "Device Number",
+    "DIVISION": "Division",
+    "DUE-DATE": "Due Date",
+    "EMAIL": "Email",
+    "FIRST-NAME": "First Name",
+    "INST-DATE": "Installation Date",
+    "INVOICE-NO": "Invoice Number",
+    "IPADDRESS": "IP Address",
+    "LAST-NAME": "Last Name",
+    "LOAD": "Load",
+    "NAME": "Name",
+    "NO-RECORDS-FOUND": "No Records Found",
+    "OPERATOR-NAME": "Operator name",
+    "PANCHAYAT": "Panchayat",
+    "PHONE": "Phone",
+    "PORT": "Port",
+    "PRICE": "Price",
+    "QUOTE-NO": "Quote Number",
+    "REFERENCE": "Reference",
+    "SALE-ORDER-NO": "Sale Order Number",
+    "SEARCH": "Search",
+    "SELECT": "Select",
+    "SERVER-NAME": "Server Name",
+    "SERVICE-ACCOUNT": "Service Account",
+    "STATUS": "Status",
+    "SUB-DIVISION": "Sub Division",
+    "TAXRATE": "Tax Rate"
+  },
+  "HEADER": {
+    "ADD-COMPANY": "Add Company",
+    "COMPANY-NAME": "Company name",
+    "UPLOAD-LOGO": "Upload Logo"
+  },
+  "IDM": {
+    "MENU": {
+      "ID-CONSOLIDATION": {
+        "APP-CONSOLIDATION": "Application",
+        "AUTH-CONSOLIDATION": "Authentication",
+        "EMPLIST": "Employee List",
+        "TITLE": "ID Consolidation"
+      },
+      "MANAGE-SERVER": {
+        "APP-SERVER": "Application",
+        "AUTH-SERVER": "Authentication",
+        "AUTHORIZATION-SERVER": "Authorization",
+        "TITLE": "Manage Servers"
+      },
+      "TITLE": "IDM"
+    }
+  },
+  "IOT": {
+    "INSTALLATION": {
+      "BLOCK": {
+        "ERROR": {
+          "INVALID": "Invalid Block",
+          "REQUIRED": "Block is required"
+        },
+        "TITLE": "Block"
+      },
+      "BOREWELL-DEPTH": {
+        "ERROR": {
+          "MAX": "Borewell Depth should be between 0-1999",
+          "MIN": "Borewell Depth should be between 0-1999",
+          "REQUIRED": "Borewell Depth is required"
+        },
+        "TITLE": "Borewell Depth in feet"
+      },
+      "COMMENTS": {
+        "ERROR": {
+          "REQUIRED": "Comments is required"
+        },
+        "TITLE": "Comments"
+      },
+      "CREATE": "Create",
+      "CREATE-ERROR": "Error while creating Record",
+      "CREATE-SUCESS": "Installation created successfully",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Installation Date is invalid",
+          "REQUIRED": "Installation Date is required"
+        },
+        "TITLE": "Installation Date"
+      },
+      "DEVICE-SERIAL-NUMBER": {
+        "ERROR": {
+          "MAX": "Device Serial number should be between 1-99999",
+          "MIN": "Device Serial number should be between 1-99999",
+          "REQUIRED": "Device Serial Number is required"
+        },
+        "TITLE": "Device Serial Number"
+      },
+      "DIVISION": {
+        "ERROR": {
+          "REQUIRED": "Division is required"
+        },
+        "TITLE": "Division"
+      },
+      "EARTHING": {
+        "ERROR": {
+          "REQUIRED": "Earthing is required"
+        },
+        "TITLE": "Earthing"
+      },
+      "EDIT": "Edit",
+      "GEO-LOCATION": {
+        "ERROR": {
+          "REQUIRED": "Geo Location is required"
+        },
+        "TITLE": "Geo Location"
+      },
+      "IMAGE": {
+        "ERROR": {
+          "REQUIRED": "Image is required"
+        },
+        "TITLE": "Image"
+      },
+      "IMAGES": "Images",
+      "LIST": {
+        "ALL": "All",
+        "SELF": "Self"
+      },
+      "METADATA": {
+        "PHOTO-TYPE": {
+          "BARCODE": "Barcode",
+          "BOREWELL": "Borewell",
+          "DIST-LINE": "Distribution Line",
+          "IOT-DEVICE": "IOT Device",
+          "MAP": "Map",
+          "METER": "Meter",
+          "OPERATOR": "Operator",
+          "SITE": "Site",
+          "STARTER": "Starter"
+        }
+      },
+      "METER-TYPE": {
+        "ERROR": {
+          "REQUIRED": "Meter Type is required"
+        },
+        "TITLE": "Meter Type"
+      },
+      "MOTOR-CAPACITY": {
+        "ERROR": {
+          "REQUIRED": "Motor Capacity is required"
+        },
+        "TITLE": "Motor Capacity in HP"
+      },
+      "NO-PHASE": {
+        "ERROR": {
+          "REQUIRED": "Number of Phase is required"
+        },
+        "TITLE": "Number of Phase"
+      },
+      "NO-PIPE-BEND": {
+        "ERROR": {
+          "MAX": "No of Pipe Bend should be between 0-10",
+          "MIN": "No of Pipe Bend should be between 0-10",
+          "REQUIRED": "No of Pipe Bend is required"
+        },
+        "TITLE": "No of Pipe Bend"
+      },
+      "OPERATOR-NAME": {
+        "ERROR": {
+          "REQUIRED": "Operator Name is required"
+        },
+        "TITLE": "Operator Name"
+      },
+      "PAGE-TITLE": "INSTALLATION",
+      "PANCHAYAT": {
+        "ERROR": {
+          "REQUIRED": "Panchayat is required"
+        },
+        "TITLE": "Panchayat"
+      },
+      "PIPE-DIAMETER": {
+        "ERROR": {
+          "REQUIRED": "Pipe Diameter is required"
+        },
+        "TITLE": "Pipe Diameter"
+      },
+      "PIPE-QUALITY": {
+        "ERROR": {
+          "REQUIRED": "Pipe Quality is required"
+        },
+        "TITLE": "Pipe Quality"
+      },
+      "SEARCH-PLACEHOLDER": "Search Installations",
+      "STATUS": {
+        "ERROR": {
+          "REQUIRED": "Status is required"
+        },
+        "TITLE": "Status"
+      },
+      "TANK-CAPACITY": {
+        "ERROR": {
+          "MAX": "Tank Capacity  should be between 0-500000",
+          "MIN": "Tank Capacity  should be between 0-500000",
+          "REQUIRED": "Tank Capacity is required"
+        },
+        "TITLE": "Tank Capacity in Liters"
+      },
+      "UPDATE-SUCESS": "Installation updated successfully",
+      "WARD": {
+        "ERROR": {
+          "REQUIRED": "Ward is required"
+        },
+        "TITLE": "Ward"
+      }
+    },
+    "MENU": {
+      "INSTALLATION": "Installation"
+    }
+  },
+  "IPADRESS": {
+    "ERROR": {
+      "CREATE": "Error while creating IP  Address",
+      "UPDATE": "Error while updating IP  Address"
+    },
+    "GATEWAY": {
+      "ERROR": {
+        "INVALID": "Gateway is invalid IP Address",
+        "REQUIRED": "Gateway is required"
+      },
+      "TITLE": "Gateway"
+    },
+    "PAGE-TITLE": "IP Address",
+    "PRIMARY-IP": {
+      "ERROR": {
+        "INVALID": "Primary IP is invalid",
+        "REQUIRED": "Primary IP is required"
+      },
+      "TITLE": "Primary IP"
+    },
+    "PROXY-IP": {
+      "ERROR": {
+        "INVALID": "Proxy IP is invalid",
+        "REQUIRED": "Proxy IP is required"
+      },
+      "TITLE": " Proxy IP"
+    },
+    "PROXY-PORT": {
+      "ERROR": {
+        "MAX": "Port should be between  0  and 65535",
+        "MIN": "Port should be between  0  and 65535",
+        "REQUIRED": "proxy Port is required"
+      },
+      "TITLE": "Proxy Port"
+    },
+    "PROXY-REQUIRED": {
+      "ERROR": {
+        "REQUIRED": "Is Proxy required is required"
+      },
+      "TITLE": "Is Proxy required"
+    },
+    "SECONDARY-IP": {
+      "ERROR": {
+        "INVALID": "Secondary IP is invalid",
+        "REQUIRED": "Secondary IP is required"
+      },
+      "TITLE": "Secondary IP"
+    },
+    "SUBNET-MASK": {
+      "ERROR": {
+        "INVALID": "Subnet mask is invalid",
+        "REQUIRED": "Subnet mask is required"
+      },
+      "TITLE": "subnet mask"
+    },
+    "SUCCESS": {
+      "CREATE": "IP  Address details are created successfully",
+      "UPDATE": "IP  Address details are updated successfully"
+    }
+  },
+  "ITEM": {
+    "ACCOUNT": {
+      "ERROR": {
+        "REQUIRED": "Account is required"
+      },
+      "TITLE": "Account"
+    },
+    "CREATE": "Create",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "Description is required"
+      },
+      "TITLE": "Description"
+    },
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "Division is required"
+      },
+      "TITLE": "Division"
+    },
+    "EDIT": "Edit",
+    "ERROR": {
+      "CREATE": "Error while creating Service item",
+      "DELETE": "Error while deleting Service item",
+      "UPDATE": "Error while updating Service item"
+    },
+    "ITEM-CODE": {
+      "ERROR": {
+        "REQUIRED": "Name is required"
+      },
+      "TITLE": "Name"
+    },
+    "PAGE-TITLE": "Items",
+    "PRICE": {
+      "ERROR": {
+        "MIN": "Minimum price is 1",
+        "REQUIRED": "Price is required"
+      },
+      "TITLE": "Price"
+    },
+    "PRICE-TYPE": {
+      "ERROR": {
+        "REQUIRED": "Price Type is required"
+      },
+      "TITLE": "Price Type"
+    },
+    "SEARCH-PLACEHOLDER": "Search Items ",
+    "SUB-DIVISION": {
+      "TITLE": "Sub Division"
+    },
+    "SUCCESS": {
+      "CREATE": "Service item created successfully",
+      "DELETE": "Service item deleted successfully",
+      "UPDATE": "Service item updated successfully"
+    },
+    "TAX-RATE": {
+      "ERROR": {
+        "MAX": "Maximum Tax Rate is 100",
+        "MIN": "Minimum Tax Rate is 1",
+        "REQUIRED": "Tax Rate is required"
+      },
+      "TITLE": "Tax Rate"
+    }
+  },
+  "LOCATION": {
+    "CREATE": "Create",
+    "EDIT": "Edit",
+    "ERROR": {
+      "CREATE": "Error while creating Location",
+      "DELETE": "Error while deleting Location",
+      "TITLE-DISPLAYNAME-REQUIRED": "Display Name is required",
+      "TITLE-REQUIRED": "Location name is required",
+      "TYPE-REQUIRED": "Location type is required",
+      "UPDATE": "Error while updating Location"
+    },
+    "HASCHILDREN": "has Children",
+    "PAGE-TITLE": "Locations",
+    "PARENT": "Parent Location",
+    "SEARCH-PLACEHOLDER": "Search Locations",
+    "SUCCESS": {
+      "CREATE": "Location created successfully",
+      "DELETE": "Location deleted successfully",
+      "UPDATE": "Location updated successfully"
+    },
+    "TITLE-DISPLAYNAME": "Location display name",
+    "TITLE-NAME": "Location Name",
+    "TYPE": "Location Type"
+  },
+  "LOGGER": {
+    "ERROR": {
+      "CREATE": "Error occured while creating Logger",
+      "UPDATE": "Error occured while updating Logger"
+    },
+    "PAGE-TITLE": "Log Settings",
+    "SERVER": {
+      "ERROR": {
+        "REQUIRED": "Log Level is required"
+      },
+      "TITLE": "Log Level"
+    },
+    "SUCCESS": {
+      "CREATE": "Logger created successfully",
+      "UPDATE": "Logger updated successfully"
+    }
+  },
+  "LOGIN-PAGE": {
+    "ERROR": {
+      "USERID-FORMAT": "Email or Phone number must be an email or phone number"
+    },
+    "FORGOT-PASSWORD": "Forgot Password?",
+    "HELP": "Help",
+    "INFO": {
+      "PASSWORD-LENGTH": "Password must be at least 4 characters",
+      "USERID-LENGTH": "Email or Phone number must be at least 4 characters"
+    },
+    "LOGIN": "Log In",
+    "PASSWORD": "Password",
+    "PRIVACY": "Privcay",
+    "REMEMBER-ME": "Remember me!",
+    "SIGNIN-CONTINUE": "Signin to continue",
+    "TERMS": "Terms",
+    "USERID": "Email or Phone number",
+    "WARN": {
+      "PASSWORD-REQUIRED": "Password is required",
+      "USERID-REQUIRED": "Email or Phone number is required"
+    },
+    "WELCOME": "Welcome"
+  },
+  "MAILSERVER": {
+    "ERROR": {
+      "CREATE": "Error While Creating Mail Server",
+      "UPDATE": "Error While Updating Mail Server"
+    },
+    "MAIL-SERVER": {
+      "ERROR": {
+        "REQUIRED": "Mail Server is required"
+      },
+      "TITLE": "Mail Server"
+    },
+    "METADATA": {
+      "SECURITY-TYPE": {
+        "NONE": "None",
+        "SSL": "SSL",
+        "TLS": "TLS"
+      }
+    },
+    "PAGE-TITLE": "Mail Settings",
+    "PASSWORD": {
+      "ERROR": {
+        "REQUIRED": "Password is required"
+      },
+      "TITLE": "Password"
+    },
+    "PORT": {
+      "ERROR": {
+        "MAX": "Port should be between  0  and 65535",
+        "MIN": "Port should be between  0  and 65535",
+        "REQUIRED": "Port is required"
+      },
+      "TITLE": "Port"
+    },
+    "SECURITY": {
+      "ERROR": {
+        "REQUIRED": "Security is required"
+      },
+      "TITLE": "Security"
+    },
+    "SUCCESS": {
+      "CREATE": "Mail Server Created successfully",
+      "UPDATE": "Mail Server Updated successfully"
+    },
+    "USERNAME": {
+      "ERROR": {
+        "REQUIRED": "Username / Email  is required"
+      },
+      "TITLE": "Username / Email "
+    }
+  },
+  "MENU": {
+    "CONFIGURATION": {
+      "IPADD": "IP Address",
+      "LOGLEVEL": "Log Level",
+      "MAIL-CONFIG": "Mail Configuration",
+      "SYSLOG-SERVER": "SYSLOG server",
+      "TITLE": "Configuration"
+    },
+    "DASHBOARD": "Dashboard",
+    "FEATURE": {
+      "ADD-COMPANY": "Add Company",
+      "CHANGE-COMPANY": "Change Company",
+      "FAVORITE": "Favourites",
+      "FULLSCREEN": "Full Screen",
+      "GLOBAL-SEARCH": "Global Search",
+      "LANGUAGE": "Language",
+      "NOTIFICATION": "Notifications",
+      "SUB-HEADER": {
+        "BREADCRUMB": "Breadcrumb",
+        "BUG": "Bug Reporting",
+        "HELP": "Help",
+        "PHOTO-CAPTURE": "Photo Capture",
+        "TIMER": "Screen Timer",
+        "TITLE": "Sub Header",
+        "VOICE": "Speech Recognition"
+      },
+      "THEME": "Themes",
+      "TITLE": "Features"
+    },
+    "HOME": "Home",
+    "IOT": "IOT",
+    "ORG": {
+      "CAREER-LEVEL": "Career Level",
+      "CLIENTS": "Clients",
+      "COMPANY": "Company",
+      "COSTRATE": "Costrate",
+      "DEPARTMENT": "Department",
+      "DIVISION": "Division",
+      "LOCATION": "Location",
+      "SERVICES": "Services",
+      "TITLE": "Organization"
+    },
+    "SETUP": "Setup",
+    "TROUBLESHOOT": {
+      "LOGS": "Server logs",
+      "PATCH-MGMT": "Patch management",
+      "TITLE": "Troubleshoot"
+    },
+    "USER-MGMT": {
+      "CHANGE-PASSWORD": "Change / Reset Password",
+      "PERMISSION": "Permissions",
+      "ROLE": "Roles",
+      "TITLE": "User Management",
+      "USER": "Users"
+    }
+  },
+  "ORG": {
+    "METADATA": {
+      "ACCOUNT": {
+        "ENGINEERING": "Engineering",
+        "PROFSERVICES": "Professional Services",
+        "PURCHASE": "Purchase",
+        "SALES": "Sales",
+        "SERVICES": "Services"
+      },
+      "INVOICEOPTION": {
+        "DAYOFCURRENTMONTH": "of the current Month",
+        "DAYOFNEXTMONTH": "of the following Month",
+        "DAYSAFTER": "Day(s) after Bill Date",
+        "DAYSAFTERBILLMONTH": "day(s) after the end of the bill month",
+        "FIRSTDAY": "First Day of Next Month",
+        "LASTDAY": "Last Day of current Month"
+      },
+      "LINEOFBUSINESS": {
+        "AGRICULTURE": "Agriculture",
+        "CONSTRUCTION": "Construction",
+        "FINANCE": "Finance",
+        "INSURANCE": "Insurance",
+        "MANUFACTURING": "Manufacturing",
+        "MINING": "Mining",
+        "OTHERS": "Others",
+        "REALESTATE": "Real Estate",
+        "SERVIES": "Services",
+        "TRADE": "Trade"
+      },
+      "ORGTYPE": {
+        "CLUB": "Club",
+        "COMPANY": "Company",
+        "INDIVIDUAL": "Individual",
+        "NONPROFIT": "Non Profit",
+        "PARTNER": "Partner",
+        "SOLETRADER": "Sole Trader",
+        "TRUST": "Trust"
+      }
+    }
+  },
+  "PERMISSIONS": {
+    "PAGE-TITLE": "Permissions"
+  },
+  "ROLES": {
+    "CREATE": "Create",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "Description is required"
+      },
+      "TITLE": "Description"
+    },
+    "EDIT": "Edit",
+    "ERROR": {
+      "CREATE": "Error occured while creating Role",
+      "DELETE": "Error occured while deleting Role",
+      "UPDATE": "Error occured while updating Role"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "Name is required"
+      },
+      "TITLE": "Name"
+    },
+    "PAGE-TITLE": "Roles",
+    "SUCCESS": {
+      "CREATE": "Role created successfully",
+      "DELETE": "Role deleted successfully",
+      "UPDATE": "Role updated successfully"
+    }
+  },
+  "SETTINGS": {
+    "METADATA": {
+      "COMMON": {
+        "FALSE": "False",
+        "NO": "No",
+        "TRUE": "True",
+        "YES": "Yes"
+      },
+      "LOGLEVEL": {
+        "DEBUG": "Debug",
+        "ERROR": "Error",
+        "FATAL": "Fatal",
+        "INFO": "Info",
+        "TRACE": "Trace",
+        "WARN": "Warn"
+      }
+    }
+  },
+  "SYSLOGGER": {
+    "ERROR": {
+      "CREATE": "Error occured while creating Logger",
+      "UPDATE": "Error occured while updating Logger"
+    },
+    "EXTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "External IP is invalid",
+        "REQUIRED": "External IP is required"
+      },
+      "PLACEHOLDER": "Enter External IP",
+      "TITLE": "External IP"
+    },
+    "INTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "Internal IP is invalid",
+        "REQUIRED": "Internal IP is required"
+      },
+      "PLACEHOLDER": "Enter Internal IP",
+      "TITLE": "Internal IP"
+    },
+    "PAGE-TITLE": "SYSLOG Settings",
+    "SUCCESS": {
+      "CREATE": "Logger created successfully",
+      "UPDATE": "Logger updated successfully"
+    }
+  },
+  "USERS": {
+    "CREATE": "Create",
+    "EDIT": "Edit",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "Email is Invalid",
+        "REQUIRED": "Email is required"
+      },
+      "PLACEHOLDER": "Enter Email",
+      "TITLE": "Email"
+    },
+    "ERROR": {
+      "CREATE": "Error occured while creating User",
+      "DELETE": "Error occured while deleting User",
+      "UPDATE": "Error occured while updating User"
+    },
+    "FIRST-NAME": {
+      "ERROR": {
+        "REQUIRED": "First Name is required"
+      },
+      "PLACEHOLDER": "Enter First Name",
+      "TITLE": "First Name"
+    },
+    "LAST-NAME": {
+      "ERROR": {
+        "MIN": "Last Name should be minimum 5",
+        "REQUIRED": "Last Name is required"
+      },
+      "PLACEHOLDER": "Enter Last Name",
+      "TITLE": "Last Name"
+    },
+    "LOCATION": {
+      "PLACEHOLDER": "Enter Location",
+      "TITLE": "Location"
+    },
+    "LOCATIONS": {
+      "ERROR": {
+        "REQUIRED": "Locations are required"
+      }
+    },
+    "PAGE-TITLE": "Users",
+    "PASSWORD": {
+      "ERROR": {
+        "INVALID-FORMAT": "Invalid Password"
+      },
+      "PLACEHOLDER": "Enter Password",
+      "TITLE": "Password"
+    },
+    "PHONE": {
+      "ERROR": {
+        "INVALID": "Phone Number is invalid",
+        "REQUIRED": "Phone Number is required"
+      },
+      "PLACEHOLDER": "Enter Phone Number",
+      "TITLE": "Phone Number"
+    },
+    "ROLE": {
+      "ERROR": {
+        "REQUIRED": "Role is required"
+      },
+      "PLACEHOLDER": "Enter Role",
+      "TITLE": "Role"
+    },
+    "SEARCH-PLACEHOLDER": "Search Users",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "user status is required"
+      },
+      "PLACEHOLDER": "Enter User Status",
+      "TITLE": "User Status"
+    },
+    "SUCCESS": {
+      "CREATE": "User created successfully",
+      "DELETE": "User deleted successfully",
+      "UPDATE": "User updated successfully"
+    },
+    "TYPE": {
+      "ERROR": {
+        "REQUIRED": "user type is required"
+      },
+      "PLACEHOLDER": "Enter User Type",
+      "TITLE": "User Type"
+    }
+  }
+}

@@ -1,0 +1,2958 @@
+{
+  "ABOUT": {
+    "COPYRIGHT": "Kopieerrecht voorbehouden",
+    "SPONSOR": "Gesponsord door",
+    "VERSION": "Versie"
+  },
+  "ACCOUNT": {
+    "ACCOUNT": "Rekening",
+    "ADD": "Toevoegen",
+    "ADD-CREDIT-NOTE": "Creditnota toevoegen",
+    "AMOUNT": "Hoeveelheid",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "Bedragen zijn verplicht"
+      },
+      "TITLE": "bedragen zijn"
+    },
+    "ATTACHMENT": "Bijlage",
+    "AUDIT-HISTORY-AND-NOTES": "Auditgeschiedenis en opmerkingen",
+    "BILL": {
+      "CREATE": "Factuur maken",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Factuurdatum is ongeldig",
+          "REQUIRED": "Factuurdatum is vereist"
+        },
+        "TITLE": "Factuurdatum"
+      },
+      "EDIT": "Bewerk rekening",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Factuurnummer is vereist"
+        },
+        "TITLE": "Rekeningnummer"
+      },
+      "OPTIONS": "Factuuropties",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Factureren aan is vereist"
+        },
+        "TITLE": "Rekening naar"
+      }
+    },
+    "CLASS": "Klas",
+    "COPY-TO": "Kopiëren naar",
+    "CREATE-COPY": "Maak een kopie",
+    "CREDIT-MEMO": {
+      "CREATE": "Creditnota maken",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Creditnotadatum is ongeldig",
+          "REQUIRED": "Creditnotadatum is vereist"
+        },
+        "TITLE": "Datum creditnota"
+      },
+      "EDIT": "Creditnota bewerken",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Creditnotanummer is vereist"
+        },
+        "TITLE": "Creditnotanummer"
+      },
+      "OPTIONS": "Creditnota-opties",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Creditnota aan is vereist"
+        },
+        "TITLE": "Creditnota aan"
+      }
+    },
+    "DESCRIPTION": "Beschrijving",
+    "DISCOUNT": "Korting",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "Vervaldatum is ongeldig",
+        "REQUIRED": "Vervaldatum is vereist"
+      },
+      "TITLE": "Opleveringsdatum"
+    },
+    "EDIT": "Bewerking",
+    "INVOICE": {
+      "CREATE": "Factuur maken",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Factuurdatum is ongeldig",
+          "REQUIRED": "Factuurdatum is verplicht"
+        },
+        "TITLE": "Factuur datum"
+      },
+      "EDIT": "Factuur bewerken",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Factuurnummer is vereist"
+        },
+        "TITLE": "Factuurnummer"
+      },
+      "OPTIONS": "Factuurnummer opties",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Factuur aan is vereist"
+        },
+        "TITLE": "Factuur aan"
+      }
+    },
+    "ITEM": "Item",
+    "NO-ITEM-FOUND": "Geen item gevonden",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "Betaling toevoegen",
+      "AMOUNT-RECIEVED": "Ontvangen bedrag",
+      "AMOUNT-UNPAID": "Bedrag onbetaald",
+      "REFERENCE": "Referentie",
+      "TDS-PAID": "TDS betaald",
+      "TITLE": "betalingsinformatie"
+    },
+    "QUANTITY": "Hoeveelheid",
+    "QUOTE": {
+      "CREATE": "Offerte maken",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Offertedatum is ongeldig",
+          "REQUIRED": "Offertedatum is verplicht"
+        },
+        "TITLE": "Offertedatum"
+      },
+      "EDIT": "Citaat bewerken",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Offertenummer is vereist"
+        },
+        "TITLE": "Quote nummer"
+      },
+      "OPTIONS": "Offerte opties",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Offerte aan is verplicht"
+        },
+        "TITLE": "Citeren aan"
+      }
+    },
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "Accountreferentie is vereist"
+      }
+    },
+    "REFERENCE": "Referentie",
+    "SALE-ORDER": {
+      "CREATE": "Verkooporder maken",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Datum van verkooporder is ongeldig",
+          "REQUIRED": "Datum van verkooporder is vereist"
+        },
+        "TITLE": "Datum van verkooporder"
+      },
+      "EDIT": "Verkooporder bewerken",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Verkoopordernummer is vereist"
+        },
+        "TITLE": "Verkoopordernummer:"
+      },
+      "OPTIONS": "Verkooporderopties",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Verkooporder Tot is vereist"
+        },
+        "TITLE": "Verkoop Bestelling Aan"
+      }
+    },
+    "STATUS": {
+      "ACCEPTED": "Geaccepteerd",
+      "ALL": "Alle",
+      "ALLOCATION": "Toewijzing",
+      "APPROVED": "Goedgekeurd",
+      "AWAITING-FOR-PAYMENT": "In afwachting van betaling",
+      "DECLINED": "Afgewezen",
+      "DRAFT": "Voorlopige versie",
+      "INVOICED": "gefactureerd",
+      "PAID": "Betaald",
+      "SENT": "Verzonden",
+      "WAITING-FOR-APPROVAL": "Wachten op goedkeuring"
+    },
+    "SUB-TOTAL": "Subtotaal",
+    "TAX": "Belasting",
+    "TAX-RATE": "Belastingtarief",
+    "TOTAL": "Totaal",
+    "TYPES": {
+      "BILLS": "rekeningen",
+      "CREDIT-MEMO": "Creditnota",
+      "INVOICE": "Factuur",
+      "QUOTE": "Citaat",
+      "SALE-ORDER": "Verkoopopdracht"
+    },
+    "UNIT-PRICE": "Eenheid prijs",
+    "VOID": "Leegte"
+  },
+  "ACCOUNTS": {
+    "ACCOUNT": "Rekening",
+    "ADD": "Toevoegen",
+    "ADD-CREDIT-NOTE": "Creditnota toevoegen",
+    "AMOUNT": "Hoeveelheid",
+    "AMOUNTS-ARE": {
+      "ERROR": {
+        "REQUIRED": "Bedragen zijn verplicht"
+      },
+      "TITLE": "bedragen zijn"
+    },
+    "ATTACHMENT": "Hechting",
+    "AUDIT-HISTORY-AND-NOTES": "Auditgeschiedenis en opmerkingen",
+    "CLASS": "Klas",
+    "COPY-TO": "Kopiëren naar",
+    "CREATE-COPY": "Maak een kopie",
+    "DESCRIPTION": "Beschrijving",
+    "DISCOUNT": "Korting",
+    "DUE-DATE": {
+      "ERROR": {
+        "INVALID": "Vervaldatum is ongeldig",
+        "REQUIRED": "Vervaldatum is vereist"
+      },
+      "TITLE": "Opleveringsdatum"
+    },
+    "EDIT": "Bewerking",
+    "INVOICE": {
+      "CREATE": "Factuur maken",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Factuurdatum is ongeldig",
+          "REQUIRED": "Factuurdatum is verplicht"
+        },
+        "TITLE": "Factuur datum"
+      },
+      "EDIT": "Factuur bewerken",
+      "NUMBER": {
+        "ERROR": {
+          "REQUIRED": "Factuurnummer is vereist"
+        },
+        "TITLE": "Factuurnummer"
+      },
+      "OPTIONS": "Factuurnummer opties",
+      "TO": {
+        "ERROR": {
+          "REQUIRED": "Factuur aan is vereist"
+        },
+        "TITLE": "Factuur aan"
+      }
+    },
+    "ITEM": "Item",
+    "METADATA": {
+      "ORDERSTATUS": {
+        "ACCEPTED": "Geaccepteerd",
+        "ALL": "Alle",
+        "ALLOCATION": "Toewijzing",
+        "APPROVED": "Goedgekeurd",
+        "AWAITINGFORPAYMENT": "In afwachting van betaling",
+        "DECLINED": "Afgewezen",
+        "DRAFT": "Voorlopige versie",
+        "EXPIRED": "Verlopen",
+        "INVOICED": "gefactureerd",
+        "OVERDUE": "Verlopen",
+        "PAID": "Betaald",
+        "PENDING": "In afwachting",
+        "REPEAT": "Herhalen",
+        "SENT": "Verzonden",
+        "VOID": "Leegte",
+        "WAITINGFORAPPROVAL": "Wachten op goedkeuring"
+      },
+      "ORDERTYPE": {
+        "BILLS": "rekeningen",
+        "CREDITMEMO": "Creditnota",
+        "INVOICE": "Factuur",
+        "QUOTE": "Citaat",
+        "SALEORDER": "Verkoopopdracht"
+      },
+      "TAXOPTION": {
+        "EXCLUSIVE": "Exclusief belasting",
+        "INCLUSIVE": "Inclusief belasting"
+      }
+    },
+    "NO-ITEM-FOUND": "Geen item gevonden",
+    "PAYMENT-INFORMATION": {
+      "ADD-PAYMENT": "Betaling toevoegen",
+      "AMOUNT-RECIEVED": "Ontvangen bedrag",
+      "AMOUNT-UNPAID": "Bedrag onbetaald",
+      "REFERENCE": "Verwijzing",
+      "TDS-PAID": "TDS betaald",
+      "TITLE": "betalingsinformatie"
+    },
+    "QUANTITY": "Hoeveelheid",
+    "REF": {
+      "ERROR": {
+        "REQUIRED": "Accountreferentie is vereist"
+      }
+    },
+    "REFERENCE": "Verwijzing",
+    "SUB-TOTAL": "Subtotaal",
+    "TAX": "Belasting",
+    "TAX-RATE": "Belastingtarief",
+    "TOTAL": "Totaal",
+    "UNIT-PRICE": "Stuksprijs",
+    "VOID": "Leegte"
+  },
+  "APP": {
+    "TITLE": "Bedrijf"
+  },
+  "APP-SERVER": {
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van de toepassingsserver",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Application Server",
+      "UPDATE": "Er is een fout opgetreden tijdens het bijwerken van de toepassingsserver"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP-adres is ongeldig",
+        "REQUIRED": "IP-adres is vereist"
+      },
+      "TITLE": "IP adres"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "Nieuwe toepassingsserver",
+      "EDIT": "Applicatieserver bewerken",
+      "HOME": "Applicatieservers"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "Poort is ongeldig",
+        "REQUIRED": "Poort is vereist"
+      },
+      "TITLE": "Haven"
+    },
+    "SEARCH-PLACEHOLDER": "Zoekserver",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "Servernaam is ongeldig",
+        "REQUIRED": "Servernaam is vereist"
+      },
+      "TITLE": "Server naam"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "Naam serviceaccount is ongeldig",
+        "REQUIRED": "Naam van serviceaccount is vereist"
+      },
+      "TITLE": "Naam serviceaccount"
+    },
+    "SUCCESS": {
+      "CREATE": "Applicatieserver succesvol aangemaakt",
+      "DELETE": "Toepassingsserver succesvol verwijderd",
+      "UPDATE": "Toepassingsserver succesvol bijgewerkt"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "Extern IP-adres is ongeldig",
+        "REQUIRED": "Extern IP-adres is vereist"
+      },
+      "TITLE": "Extern IP"
+    }
+  },
+  "AUTH-SERVER": {
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van de verificatieserver",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van de verificatieserver",
+      "UPDATE": "Er is een fout opgetreden tijdens het bijwerken van de verificatieserver"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP-adres is ongeldig",
+        "REQUIRED": "IP-adres is vereist"
+      },
+      "TITLE": "IP adres"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "Nieuwe authenticatieserver",
+      "EDIT": "Verificatieserver bewerken",
+      "HOME": "Authenticatieservers"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "Poort is ongeldig",
+        "REQUIRED": "Poort is vereist"
+      },
+      "TITLE": "Haven"
+    },
+    "SEARCH-PLACEHOLDER": "Zoekserver",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "Servernaam is ongeldig",
+        "REQUIRED": "Servernaam is vereist"
+      },
+      "TITLE": "Server naam"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "Naam serviceaccount is ongeldig",
+        "REQUIRED": "Naam van serviceaccount is vereist"
+      },
+      "TITLE": "Naam serviceaccount"
+    },
+    "SUCCESS": {
+      "CREATE": "Authenticatieserver succesvol aangemaakt",
+      "DELETE": "Authenticatieserver succesvol verwijderd",
+      "UPDATE": "Authenticatieserver succesvol geüpdatet"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "Extern IP-adres is ongeldig",
+        "REQUIRED": "Extern IP-adres is vereist"
+      },
+      "TITLE": "Extern IP"
+    }
+  },
+  "AUTHORIZATION": {
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van de autorisatieserver",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Authorization Server",
+      "UPDATE": "Er is een fout opgetreden tijdens het updaten van Authorization Server"
+    },
+    "IPADDRESS": {
+      "ERROR": {
+        "INVALID": "IP-adres is ongeldig",
+        "REQUIRED": "IP-adres is vereist"
+      },
+      "TITLE": "IP adres"
+    },
+    "PAGE-TITLE": {
+      "CREATE": "Nieuwe autorisatieserver",
+      "EDIT": "Autorisatieserver bewerken",
+      "HOME": "Autorisatieservers"
+    },
+    "PORT": {
+      "ERROR": {
+        "INVALID": "Poort is ongeldig",
+        "REQUIRED": "Poort is vereist"
+      },
+      "TITLE": "Haven"
+    },
+    "SEARCH-PLACEHOLDER": "Zoekserver",
+    "SERVER-NAME": {
+      "ERROR": {
+        "INVALID": "Servernaam is ongeldig",
+        "REQUIRED": "Servernaam is vereist"
+      },
+      "TITLE": "Server naam"
+    },
+    "SERVICE-ACCOUNT-NAME": {
+      "ERROR": {
+        "INVALID": "Naam serviceaccount is ongeldig",
+        "REQUIRED": "Naam van serviceaccount is vereist"
+      },
+      "TITLE": "Naam serviceaccount"
+    },
+    "SUCCESS": {
+      "CREATE": "Autorisatieserver succesvol aangemaakt",
+      "DELETE": "Autorisatieserver succesvol verwijderd",
+      "UPDATE": "Autorisatieserver geüpdatet"
+    },
+    "SYSTEM": {
+      "ERROR": {
+        "INVALID": "Extern IP-adres is ongeldig",
+        "REQUIRED": "Extern IP-adres is vereist"
+      },
+      "TITLE": "Extern IP"
+    }
+  },
+  "BUILDER": {
+    "DESIGNER": {
+      "PAGE": {
+        "FOOTER": "voettekst",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "Verlengbaar",
+            "CLONE": "Kloon",
+            "NAME": "Paginanaam",
+            "SCOPE": "Domein"
+          }
+        }
+      }
+    },
+    "MENU": {
+      "APPBUILDER": {
+        "APPAUTHPRV": "authenticatie",
+        "APPDESIGN": "App-ontwerper",
+        "BUILDAPP": "Bouwen",
+        "DEPLOYAPP": "Aanwenden",
+        "SECURITYSCAN": "Beveiligingsscan",
+        "TITLE": "App-bouwer"
+      },
+      "APPSTORE": {
+        "TITLE": "App Winkel"
+      },
+      "BLOCKS": {
+        "BANNER": "Banner",
+        "BOTTOMSHEET": "Onderste laken",
+        "CARD": "Kaart",
+        "CHART": "Grafiek",
+        "DIALOG": "Dialoogvenster",
+        "FORM": "Formulier",
+        "GRID": "Rooster",
+        "STEPPER": "Stepper",
+        "TAB": "Tab",
+        "TITLE": "Blokken",
+        "TREE": "Boom"
+      },
+      "DATABUILDER": {
+        "REST": "REST-metagegevens",
+        "TABLE": "API-tabel",
+        "TITLE": " Gegevensverkenner"
+      },
+      "DESIGNER": {
+        "PAGE": "Paginaontwerper",
+        "STATEMACHNE": "Staatsmachine",
+        "TITLE": " Page Builder",
+        "WORKFLOW": "Werkstroom"
+      },
+      "TITLE": "Bouwer"
+    },
+    "METADATA": {
+      "APPTYPE": {
+        "ANDROID": "Android",
+        "IOS": "iOS",
+        "KIOSK": "Kiosk",
+        "WEB": "Web",
+        "WINDOWS": "ramen"
+      },
+      "AUTHENTICATIONTYPE": {
+        "FACEBOOK": "Facebook",
+        "FACEDETECTION": "Gezicht",
+        "FINGERPRINT": "Vinger",
+        "FIREBASEUI": "Firebase",
+        "GITHUB": "GitHub",
+        "GOOGLE": "Google",
+        "LINKEDIN": "Gelinkt in",
+        "PHONENUMBER": "Telefoonnummer",
+        "QRCODE": "QR",
+        "SSO": "Eenmalig inloggen",
+        "USERIDPASSWORD": "Wachtwoord"
+      },
+      "COMP-SUB-TYPE": {
+        "AREA": "Gebied",
+        "BAR": "Bar",
+        "BUBBLE": "Bubbel",
+        "COLOR": "Kleur",
+        "DOUGHNUT": "Donut",
+        "EMAIL": "E-mail",
+        "FAB-BUTTON": "Fab-knop",
+        "FLAT-BUTTON": "Platte knop",
+        "HEAT MAP": "Hittekaart",
+        "ICON-BUTTON": "Pictogramknop",
+        "LINE": "Lijn",
+        "MAP": "Kaart",
+        "MINIFAB-BUTTON": "Minifab-knop",
+        "NUMBER": "Nummer",
+        "PASSWORD": "Wachtwoord",
+        "PIE": "Taart",
+        "RADAR": "Radar",
+        "RAISED-BUTTON": "Verhoogde knop",
+        "SCATTER": "Verstrooien",
+        "STROKED-BUTTON": "Gestreken knop",
+        "TEL": "Telefoon",
+        "TEXT": "Tekst",
+        "URL": "URL"
+      },
+      "COMP-TYPE": {
+        "AUTO-COMPLETE": "Automatisch aanvullen",
+        "BADGE": "Insigne",
+        "BANNER": "Banner",
+        "BOTTOM-SHEET": "Onderste laken",
+        "BUTTON": "Knop",
+        "BUTTON-TOGGLE": "Knop wisselen:",
+        "CARD": "Kaart",
+        "CHART": "Grafiek",
+        "CHECKBOX": "Selectievakje",
+        "CHIPS": "Chips",
+        "DATE-PICKER": "Datumkiezer",
+        "DIALOG": "Dialoogvenster",
+        "DIVIDER": "scheidingslijn",
+        "DROPDOWN": "Laten vallen",
+        "EXPANSION-PANEL": "Uitbreidingspaneel",
+        "GRID": "Rooster",
+        "ICON": "Icoon",
+        "IMAGE": "Afbeelding",
+        "INPUT": "Invoer",
+        "LABEL": "Label",
+        "LIST": "Lijst",
+        "MENU": "Menu",
+        "PAGINATOR": "Paginator",
+        "PROGRESS-BAR": "Voortgangsbalk",
+        "PROGRESS-SPINNER": "Vooruitgang Spinner",
+        "RADIO-BUTTON": "Radio knop",
+        "SIDENAV": "Kant van",
+        "SLIDE-TOGGLE": "Schuif wisselen",
+        "SLIDER": "Schuifregelaar",
+        "SNACKBAR": "Snackbar",
+        "STEPPER": "Stepper",
+        "TAB": "Tab",
+        "TEXT-AREA": "Tekstgebied",
+        "TOOLBAR": "Werkbalk",
+        "TOOLTIP": "Knopinfo",
+        "TREE": "Boom"
+      },
+      "COMPTYPE": {
+        "AUTOCOMPLETE": "Automatisch aanvullen",
+        "BADGE": "Insigne",
+        "BANNER": "Banner",
+        "BOTTOMSHEET": "Onderste laken",
+        "BUTTON": "Knop",
+        "BUTTONTOGGLE": "Knop wisselen:",
+        "CAMERA": "Camera",
+        "CARD": "Kaart",
+        "CHART": "Grafiek",
+        "CHECKBOX": "Selectievakje",
+        "CHIPS": "Chips",
+        "DATEPICKER": "Datumkiezer",
+        "DIALOG": "Dialoogvenster",
+        "DIVIDER": "scheidingslijn",
+        "DROPDOWN": "Laten vallen",
+        "EXPANSIONPANEL": "Uitbreidingspaneel",
+        "FILE": "Bestand",
+        "FORM": "Formulier",
+        "GRID": "Rooster",
+        "ICON": "Icoon",
+        "IMAGE": "Afbeelding",
+        "LABEL": "Label",
+        "LIST": "Lijst",
+        "MAP": "Kaart",
+        "MENU": "Menu",
+        "PAGINATOR": "Paginator",
+        "PROGRESSBAR": "Voortgangsbalk",
+        "PROGRESSSPINNER": "Vooruitgang Spinner",
+        "RADIOBUTTON": "Radio knop",
+        "SIDENAV": "Kant van",
+        "SLIDER": "Schuifregelaar",
+        "SLIDETOGGLE": "Schuif wisselen",
+        "SNACKBAR": "Snackbar",
+        "STEPPER": "Stepper",
+        "TAB": "Tab",
+        "TEXTAREA": "Tekstgebied",
+        "TEXTINPUT": "Invoer",
+        "TOOLBAR": "Werkbalk",
+        "TOOLTIP": "Knopinfo",
+        "TREE": "Boom"
+      },
+      "FORM": {
+        "BUTTON-ROW": {
+          "DISPLAY": {
+            "BOTTOM": "Onderkant",
+            "TOP": "Bovenkant"
+          }
+        },
+        "DISPLAY-TYPE": {
+          "DYNAMIC": "Dynamisch",
+          "FIXED": "Vast / Statisch"
+        },
+        "ERROR-DISPLAY-TYPE": {
+          "INLINE": "in lijn",
+          "SNACKBAR": "snackbar"
+        },
+        "FIELD-APPEARANCE-TYPE": {
+          "FILL": "vullen",
+          "LEGACY": "nalatenschap",
+          "OUTLINE": "schetsen",
+          "STANDARD": "standaard-"
+        },
+        "FIELD-TYPE": {
+          "BUTTON": "Knop",
+          "CHECKBOX": "Selectievakje",
+          "DATE-PICKER": "Datumkiezer",
+          "DROPDOWN": "Laten vallen",
+          "LABEL": "Label",
+          "RADIOBUTTON": "Radio knop",
+          "TEXT-AREA": "Tekstgebied",
+          "TEXTBOX": "Tekstveld"
+        },
+        "LAYOUT-ALIGNMENT": {
+          "CENTER": "centrum",
+          "END": "einde",
+          "SPACE-AROUND": "ruimte rondom",
+          "SPACE-BETWEEN": "ruimte tussen",
+          "SPACE-EVENLY": "ruimte-gelijkmatig",
+          "START": "begin",
+          "STRETCH": "rekken"
+        },
+        "LAYOUT-TYPE": {
+          "COLUMN": "Kolom",
+          "ROW": "Rij"
+        },
+        "ROW-COLUMNS": {
+          "FIVE": "Vijf kolommen",
+          "FOUR": "Vier kolommen",
+          "ONE": "één kolom",
+          "THREE": "drie kolommen",
+          "TWO": "Twee kolommen"
+        }
+      }
+    },
+    "METAREST": {
+      "DISPLAYNAME": {
+        "ERROR": {
+          "REQUIRED": "Weergavenaam is vereist"
+        },
+        "TITLE": "Weergavenaam"
+      },
+      "GRID": {
+        "NAME": "Naam",
+        "SCOPE": "Domein",
+        "URL": "Eindpunt"
+      },
+      "NAME": {
+        "ERROR": {
+          "REQUIRED": "Naam is vereist"
+        },
+        "TITLE": "Naam"
+      },
+      "PAGE-TITLE": "API-metadata",
+      "ROUTE": {
+        "ERROR": {
+          "REQUIRED": "Route is vereist"
+        },
+        "TITLE": "Route"
+      },
+      "SCOPE": {
+        "ERROR": {
+          "REQUIRED": "Bereik is vereist"
+        },
+        "TITLE": "Domein"
+      },
+      "SEARCH-PLACEHOLDER": "Zoek metadata-API",
+      "TABLENAME": {
+        "ERROR": {
+          "REQUIRED": "Tabelnaam is vereist"
+        },
+        "TITLE": "Tafel naam"
+      }
+    },
+    "PAGE": {
+      "CONFIGURATION": {
+        "HEADER": {
+          "BUTTONS": "Toetsen",
+          "CREATEAPI": "API maken",
+          "CREATETABLE": "Tabel maken",
+          "EDITPAGE": "Pagina aanpassen",
+          "ENDPOINT": "Eindpunt",
+          "HOMEPAGE": "Startpagina",
+          "NAME": "Naam",
+          "NEWPAGE": "Nieuwe pagina",
+          "PAGEACTIONS": "Pagina-acties configureren",
+          "PERMISSION": "Toestemming",
+          "URL": "URL"
+        }
+      },
+      "ERROR": {
+        "CREATE": "Fout bij het opslaan van pagina-ontwerp !!",
+        "DELETE": "Fout bij het verwijderen van pagina-ontwerp !!",
+        "UPDATE": "Fout bij het bijwerken van pagina-ontwerp !!"
+      },
+      "SUCCESS": {
+        "CREATE": "Pagina-ontwerp succesvol opgeslagen",
+        "DELETE": "Pagina-ontwerp succesvol verwijderd",
+        "UPDATE": "Pagina-ontwerp succesvol bijgewerkt"
+      }
+    },
+    "TEMPLATE": {
+      "BOTTOM-SHEET": {
+        "BUTTON-LABEL": "Knoplabel",
+        "BUTTON-NAVIGATE-URL": "Knop navigeren URL",
+        "BUTTON-SUB-LABEL": "Sublabel knop",
+        "CREATE": "Creëren",
+        "DRAG&DROP-BOTTOM-SHEET-ITEMS": "Slepen en neerzetten Onderste bladitems hier",
+        "DRAG&DROP-CUSTOMISE-BOTTOM-SHEET": "Slepen en neerzetten om het onderste blad aan te passen",
+        "ENTER-TEXT-HERE": "Voeg hier tekst in...",
+        "TITLE": "Onderste laken"
+      },
+      "CARD": {
+        "ADD-FIELD": "Veld toevoegen",
+        "ALIGNMENT": "Uitlijning",
+        "DISPLAY-IMAGE": "Beeld weergeven",
+        "DRAG&DROP-CARD-ITEMS": "Slepen en neerzetten van kaartitems hier",
+        "DRAG&DROP-CUSTOMISE-CARDS": "Slepen en neerzetten om kaarten aan te passen",
+        "FLEX": "Buigen",
+        "HORIZONTAL": "Horizontaal",
+        "IMAGE-SIZE": "Afbeeldingsgrootte",
+        "IMAGE-TYPE": "Beeldtype",
+        "PREVIEW": "Voorbeeld",
+        "TITLE": "Kaarten",
+        "VALIDATION": {
+          "CONTENT-REQUIRED": "Inhoud is vereist",
+          "FOOTER-REQUIRED": " Voettekst is vereist",
+          "HEADER-REQUIRED": "Naam kop is vereist",
+          "SUB-HEADER-REQUIRED": "Subkop is vereist"
+        },
+        "VERTICAL": "Verticaal"
+      },
+      "COMPONENT-BULIDER": "Componentenbouwer",
+      "CONFIGURATION": {
+        "BUTTON-CONFIGURATION": "Knopconfiguratie",
+        "BUTTON-ROW": {
+          "POSITION": "Positie knoprij",
+          "TITLE": "Heeft knoppenrij"
+        },
+        "DIRECTION-LAYOUT": "Richting lay-out",
+        "DISPLAY": "Weergave",
+        "EDIT": "Bewerking",
+        "ENTER-FLEX-VALUE": "Voer Flex-waarde in",
+        "FLEX-CONFIGURATION": "Flex-configuratie",
+        "HORIZONTAL-ALIGNMENT": "Horizontale uitlijning",
+        "RESPONSIVE-LAYOUT": "Responsieve lay-out",
+        "SELECT-FORM-FIELDS-STYLE": "Selecteer de stijl van formuliervelden",
+        "SELECT-LAYOUT": "Selecteer lay-out",
+        "SELECT-NO-OF-COLUMNS": "Selecteer aantal kolommen",
+        "TEMPLATE-NATURE": "Sjabloon Natuur",
+        "THEME-CONFIGURATION": "Themaconfiguratie",
+        "VALIDATION": {
+          "ERROR-MESSAGES-DISPLAY": "Foutmeldingen weergeven",
+          "FLEX-REQUIRED": "Flexwaarde is vereist",
+          "LAYOUT-REQUIRED": "Lay-out is vereist",
+          "NO-OF-COLUMNS-REQUIRED": "Aantal kolommen is vereist",
+          "TYPE-REQUIRED": "Type is vereist",
+          "VALUE-REQUIRED": "Waarde is vereist"
+        },
+        "VALIDATION-LAYOUT-REQUIRED": "Lay-out is vereist",
+        "VERTICAL-ALIGNMENT": "Verticale uitlijning"
+      },
+      "DETAILS": "Details",
+      "DIALOG": {
+        "CREATE": "Creëren",
+        "DRAG&DROP-DIALOG-ITEMS": "Dialoogvensteritems slepen en neerzetten hier",
+        "START-CREATE-DIALOG-BOX": "Begin met het maken van een dialoogvenster door items te slepen en neer te zetten",
+        "TITLE": "DIALOOG",
+        "VIEW": "Weergave"
+      },
+      "FORM": {
+        "ADD-OPTION": "Optie toevoegen",
+        "ALLOW-OVERRIDE": "Overschrijven toestaan",
+        "CONFIG": {
+          "BASIC": {
+            "ISREADONLY": "Is alleen-lezen",
+            "ISVISISBLE": "Is zichtbaar",
+            "LABEL": {
+              "ERROR": {
+                "REQUIRED": " Veldnaam is verplicht"
+              },
+              "TITLE": "Veldnaam"
+            },
+            "PLACEHOLDER": "Tijdelijke aanduiding",
+            "TOOLTIP": "Knopinfo",
+            "VIEWPORT": "Uitkijk postje"
+          },
+          "DATA": {
+            "AUTOGENERATED": "Wordt automatisch gegenereerd",
+            "DATATYPE": "Data type",
+            "DEFAULTVALUE": "Standaardwaarde",
+            "MANDATORY": "Is verplicht",
+            "MODELNAME": {
+              "ERROR": {
+                "REQUIRED": "Modelnaam is vereist"
+              },
+              "TITLE": "Modelnaam"
+            }
+          },
+          "HEADER": {
+            "BASIC": "Basis",
+            "DATA": "Gegevens",
+            "MISC": "anderen",
+            "SECURITY": "Veiligheid",
+            "VALIDATIONS": "Validaties"
+          },
+          "MISC": {
+            "HINT": "Tip:",
+            "HINTEND": "Tip einde",
+            "MAXLENGTH": "Maximale lengte",
+            "MAXLENGTHERROR": "Maximale lengte fout",
+            "MINLENGTH": "Minimale lengte",
+            "MINLENGTHERROR": "Minimale lengtefout",
+            "PREFIX": "Voorvoegsel",
+            "REGEX": "Regex",
+            "REGEXERROR": "Reqex-foutmelding",
+            "SUFFIX": "Achtervoegsel"
+          },
+          "SECURITY": {
+            "ENCRYPT": "Versleutelen",
+            "PERMCODE": "Toestemmingscode",
+            "SHOWPASSWORD": "Wachtwoord weergeven inschakelen"
+          },
+          "VALIDATIONRULE": {
+            "MESSAGE": "Foutmelding",
+            "NAME": "Type",
+            "VALUE": "Waarde"
+          }
+        },
+        "DISPLAY-NAME": "Weergavenaam",
+        "DISPLAY-TYPE": "Weergavetype:",
+        "DRAG": "Versleep formulierplaatsen",
+        "DRAG&DROP-ITEMS": "Slepen en neerzetten Formulieritems hier",
+        "ENCRYPT-DATA": "Gegevens versleutelen",
+        "ERROR": {
+          "CREATE": "Er is een fout opgetreden bij het maken van een formuliersjabloon",
+          "DELETE": "Er is een fout opgetreden bij het verwijderen van formuliersjabloon",
+          "UPDATE": "Er is een fout opgetreden tijdens het bijwerken van de formuliersjabloon"
+        },
+        "FIELD-ATTRIBUTES": "Formulierveldattributen",
+        "GRID": {
+          "HEADER": {
+            "ALLOWEXTEND": "Verlengbaar",
+            "CLONE": "Kloon",
+            "NAME": "Formulier naam",
+            "SCOPE": "Domein"
+          }
+        },
+        "ITEM": {
+          "LABEL": "Veldnaam",
+          "PLACEHOLDER": "Voer veldnaam in"
+        },
+        "MANDATORY-FIELD": "Verplicht veld",
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "Formuliernaam is vereist"
+          },
+          "TITLE": "Formulier naam"
+        },
+        "SAME-EMPTY-NAME-NOT-SHOWN": "*Meerdere formuliervelden met dezelfde of lege modelnaam worden niet weergegeven",
+        "SECURITY-ATTRIBUTES": "Beveiligingskenmerken",
+        "SHOW-GROUP": "Weergeven in formuliergroep",
+        "SUCCESS": {
+          "CREATE": "Formuliersjabloon succesvol aangemaakt",
+          "DELETE": "Formuliersjabloon succesvol verwijderd",
+          "UPDATE": "Formuliersjabloon succesvol bijgewerkt"
+        },
+        "TITLE": "Formulier",
+        "VALIDATION": {
+          "ALLOW-SPACE&SPECIAL-CHARACTERS": "Het model staat geen spatie en speciale tekens toe, behalve de periode tussen woorden",
+          "DATE-REQUIRED": "Datum benodigd",
+          "ENDPOINT-REQUIRED": "Eindpunt is vereist",
+          "EXCEED-50CHARACTERS-LENGTH": "Modelnaam mag niet langer zijn dan 50 tekens",
+          "INVAILD-DATE": "Ongeldige datum",
+          "INVALID-DATE": "Ongeldige datum",
+          "MAX-DATE": "Maximale datum",
+          "MIN-DATE": "Minimale datum",
+          "MODEL-REQUIRED": "Modelnaam is vereist",
+          "MUST-3CHARACTERS-LENGTH": "Modelnaam moet 3 tekens lang zijn",
+          "TITLE": {
+            "NAME": "Geldigmaking"
+          }
+        },
+        "VALUE": "Waarde",
+        "VISIBILITY": "Zichtbaarheid"
+      },
+      "GRID": {
+        "CREATE": "Creëren",
+        "SHOW-PAGINATION": "Paginering raster weergeven",
+        "TITLE": "Rooster",
+        "VALIDATION": {
+          "COLUMN-ENDPOINT-REQUIRED": "Gegevenseindpunt is vereist",
+          "DATA-ENDPOINT-REQUIRED": "Gegevenseindpunt is vereist"
+        }
+      },
+      "IMAGE": {
+        "CREATE": "Maak een afbeelding met tekst",
+        "DRAG-DROP": "Slepen en neerzetten om het afbeeldings- en tekstveld aan te passen",
+        "DRAG&DROP-IMAGE-ITEMS": "Sleep afbeeldingsitems hierheen",
+        "DRAG&DROP-TEXT-FIELD-ITEMS": "Slepen en neerzetten van tekstvelditems Hier",
+        "TITLE": "Afbeelding"
+      },
+      "NAME": "Naam",
+      "PAGE-ACTION": {
+        "CONFIGURATION": "Knopconfiguratie",
+        "DRAG-DROP-BUTTON": "Slepen en neerzetten om de knop aan te passen",
+        "DRAG&DROP-BUTTON-ITEMS": "Slepen en neerzetten Knopitems hier",
+        "SELECT-BUTTON-ACTION": "Selecteer Knopactie",
+        "SELECT-COLOR": "Selecteer kleur",
+        "TITLE": "Toetsen"
+      },
+      "STEPPER": {
+        "CREATE": "Creëren",
+        "CREATE-STEPPER-DRAG&DROP-ITEMS": "Begin met het maken van een Stepper door items te slepen en neer te zetten",
+        "DRAG&DROP-ITEMS": "Sleep Stepper-items hier",
+        "STEPPER-VIEW": "Stappenweergave",
+        "TITLE": "Stepper"
+      },
+      "TAB": {
+        "ADDTAB": "Tabblad toevoegen",
+        "BACKGROUND-COLOR": "Achtergrond kleur",
+        "COLOR": "Kleur",
+        "CREATE": "Creëren",
+        "DISABLED-TAB": "Tabblad Uitgeschakeld",
+        "DRAG&DROP-TAB-CONTENT": "Slepen en neerzetten Tabbladinhoud hier",
+        "HEADER-POSITION": "Koppositie",
+        "TITLE": "Tabbladen"
+      },
+      "TREE": {
+        "CREATE": "Creëren",
+        "ENDPOINT": "Eindpunt invoeren",
+        "FETCH": "Ophalen",
+        "MODIFY": "Aanpassen",
+        "NODE-SELECTABLE": "Knooppunt selecteerbaar",
+        "TITLE": "Boom",
+        "TREE-OUTPUT-NAME": "Voer de naam van de boomuitgang in"
+      },
+      "TYPE": "Type",
+      "VALIDATION": {
+        "INPUT-TYPE-REQUIRED": "Invoertype is vereist",
+        "TYPE-REQUIRED": "Naam is vereist"
+      },
+      "WIZARD": {
+        "ADVANCED": "Geavanceerd",
+        "BANNER": "Banner",
+        "BASIC": "Basis",
+        "BOTTOM-SHEET": "Onderste laken",
+        "BUTTON": "Knop",
+        "CARD": "Kaart",
+        "CHARTS": "Grafieken",
+        "CREATE-TEMPLATE": "Selecteer sjabloon",
+        "DIALOG": "Dialoogvenster",
+        "FORM": "Formulier",
+        "GRID": "Rooster",
+        "SELECT-COMPONENT": "Begin met het maken van een sjabloon door een component te selecteren",
+        "STEPPER": "Stepper",
+        "TAB": "Tab",
+        "TOOLBAR-BREADCRUMB": "Werkbalk en breadcrumb",
+        "TREE": "Boom"
+      }
+    }
+  },
+  "BUTTON": {
+    "ADD": "Toevoegen",
+    "APPROVAL": "Goedkeuring",
+    "BACK": "Rug",
+    "CANCEL": "Annuleren",
+    "CLOSE": "Dichtbij",
+    "DELETE": "Verwijderen",
+    "DELETE-CONFIRMATION": "Wil je stoppen ?",
+    "DOWNLOAD": "downloaden",
+    "EDIT": "Bewerking",
+    "EMAIL": "E-mail",
+    "MODIFY": "Aanpassen",
+    "NEW": "Nieuw",
+    "NEXT": "Volgende",
+    "OK": "OK",
+    "PREVIOUS": "Vorig",
+    "PRINT": "Afdrukken",
+    "PRINT-PDF": "Afdrukken / PDF",
+    "SAVE": "Sparen",
+    "UPDATE": "Bijwerken"
+  },
+  "CAREERLEVEL": {
+    "ANALYST": "analist",
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "Factuurcode is vereist"
+      },
+      "TITLE": "Factuurcodes"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "Carrièreniveau is vereist"
+      },
+      "TITLE": "Carrièreniveau"
+    },
+    "CONSULTANT": "Consultant",
+    "CREATE": "Carrièreniveau maken",
+    "EDIT": "Carrièreniveau bewerken",
+    "ERROR": {
+      "CREATE": "Fout bij het maken van carrièreniveau",
+      "DELETE": "Fout bij het verwijderen van carrièreniveau",
+      "UPDATE": "Fout tijdens het updaten van carrièreniveau"
+    },
+    "EXECUTIVE": "Leidinggevend",
+    "INTERN": "Intern",
+    "MANAGER": "Manager",
+    "PAGE-TITLE": "Carrièreniveau",
+    "SEARCH-PLACEHOLDER": "Zoek carrièreniveau",
+    "SENIOR-ANALYST": "Senior analist",
+    "SENIOR-CONSULTANT": "Senior consultant",
+    "SENIOR-MANAGER": "Senioren manager",
+    "SUCCESS": {
+      "CREATE": "Carrièreniveau succesvol aangemaakt",
+      "DELETE": "Carrièreniveau succesvol verwijderd",
+      "UPDATE": "Carrièreniveau succesvol geüpdatet"
+    },
+    "UPDATE-SUCESS": "Carrièreniveau succesvol geüpdatet"
+  },
+  "CLIENT": {
+    "ACCOUNT-DETAILS": "Accountgegevens",
+    "ADDRESS-LINE-1": {
+      "ERROR": {
+        "REQUIRED": "Adresregel 1 is verplicht"
+      },
+      "TITLE": "Adres regel 1"
+    },
+    "ADDRESS-LINE-2": {
+      "TITLE": "Adres lijn 2"
+    },
+    "BILLING-ADDRESS": "Facturatie adres",
+    "BILLS-DUE-DATE": {
+      "ERROR": {
+        "REQUIRED": "Vervaldatum facturen is vereist",
+        "TYPE-REQUIRED": "Facturen vervaldatum optie is vereist"
+      },
+      "INPUT": "Datum",
+      "SELECT-TYPE": "Keuze",
+      "TITLE": "Vervaldatum facturen"
+    },
+    "CIN": "GIN",
+    "CITY": {
+      "ERROR": {
+        "REQUIRED": "Plaats is vereist"
+      },
+      "TITLE": "Stad"
+    },
+    "COMPANY-REG-NUM": {
+      "ERROR": {
+        "REQUIRED": "Bedrijfsregistratienummer is vereist"
+      },
+      "TITLE": "Bedrijfsregistratienr."
+    },
+    "CONTACT-PERSON-DETAILS": "Contactpersoongegevens",
+    "COUNTRY": {
+      "ERROR": {
+        "REQUIRED": "Land is verplicht"
+      },
+      "TITLE": "Land"
+    },
+    "CREATE": "Klant maken",
+    "CREDIT-LIMIT": {
+      "ERROR": {
+        "REQUIRED": "Kredietlimiet is vereist"
+      },
+      "TITLE": "Kredietlimiet"
+    },
+    "CURRENCY": {
+      "ERROR": {
+        "REQUIRED": "Valuta is vereist"
+      },
+      "TITLE": "Munteenheid"
+    },
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "Beschrijving is vereist"
+      },
+      "TITLE": "Beschrijving"
+    },
+    "EDIT": "Klant bewerken",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "Email is ongeldig",
+        "REQUIRED": "E-mail is vereist"
+      },
+      "TITLE": "E-mail"
+    },
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van Client",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Client",
+      "UPDATE": "Er is een fout opgetreden tijdens het updaten van Client"
+    },
+    "FOLLOWING-ATTR-TEXT": "De volgende kenmerken veranderen per klantlocatie (land)",
+    "GST": "btw",
+    "GST-PURCHASE": {
+      "ERROR": {
+        "REQUIRED": "GST-aankoop is vereist"
+      },
+      "TITLE": "GST-aankoop"
+    },
+    "GST-SALES": {
+      "ERROR": {
+        "REQUIRED": "GST-verkoop is vereist"
+      },
+      "TITLE": "GST-verkoop"
+    },
+    "INVOICE-DUE-DATE": {
+      "ERROR": {
+        "INVALID": "Ongeldige datum",
+        "REQUIRED": "Factuurvervaldatum is vereist",
+        "TYPE-REQUIRED": "Factuur vervaldatum optie is vereist"
+      },
+      "INPUT": "Datum",
+      "SELECT-TYPE": "Keuze",
+      "TITLE": "Factuur vervaldag"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "Naam is vereist"
+      },
+      "TITLE": "Naam"
+    },
+    "NO-COUNTRY-FOUND": "Geen land gevonden",
+    "NO-STATE-FOUND": "Geen staat gevonden",
+    "PAGE-TITLE": "Klanten",
+    "PHONE-NUMBER": {
+      "ERROR": {
+        "REQUIRED": "Telefoonnummer is vereist"
+      },
+      "TITLE": "Telefoonnummer"
+    },
+    "POST-CODE": {
+      "ERROR": {
+        "REQUIRED": "Postcode is vereist"
+      },
+      "TITLE": "Postcode"
+    },
+    "SAME-AS-BILLING-ADDRESS": "Gebruik hetzelfde als factuuradres",
+    "SAME-AS-SHIPPING-ADDRESS": "Gebruik hetzelfde als verzendadres",
+    "SEARCH-PLACEHOLDER": "Zoek klant",
+    "SELECT": {
+      "ERROR": {
+        "REQUIRED": "Selecteren is vereist"
+      },
+      "TITLE": "Selecteer"
+    },
+    "SETUP-CURRENCY-TAX-RATES": "Valuta en belastingtarieven instellen",
+    "SHIPPING-ADDRESS": "Verzendingsadres",
+    "STATE": {
+      "ERROR": {
+        "REQUIRED": "Staat is verplicht"
+      },
+      "TITLE": "Staat"
+    },
+    "SUCCESS": {
+      "CREATE": "Klant succesvol aangemaakt",
+      "DELETE": "Klant succesvol verwijderd",
+      "UPDATE": "Klant succesvol geüpdatet"
+    },
+    "TAB": {
+      "ADDRESS": "Adres",
+      "CLIENT-DETAILS": "Klantgegevens",
+      "FINANCIAL-DETAILS": "Financiële gegevens",
+      "REVIEW": "Recensie"
+    },
+    "TAN": {
+      "ERROR": {
+        "REQUIRED": "Bruin is vereist"
+      },
+      "TITLE": "Dus"
+    },
+    "TAX-ID": {
+      "ERROR": {
+        "REQUIRED": "Btw-nummer is vereist"
+      },
+      "TITLE": "BTW-nummer"
+    },
+    "TIN": {
+      "ERROR": {
+        "REQUIRED": "Tin is vereist"
+      },
+      "TITLE": "Geloven"
+    }
+  },
+  "COMMON": {
+    "CONN-MGMT": "Verbindingsbeheer",
+    "CREATE": "Creëren",
+    "DELETE": "Verwijderen",
+    "EXPORT": "Exporteren",
+    "IS-REQUIRED": " Is benodigd",
+    "MAIL": "Mail",
+    "NO": "Nee",
+    "ORPHAN-MGMT": "Beheer van weesaccounts",
+    "PRINT": "Afdrukken",
+    "PROV-CONFIG": "Voorraad",
+    "READ": "Alleen lezen (bekijken)",
+    "RECON": "Verzoening",
+    "RECON-CONFIG": "Recon-configuratie",
+    "REPORT": {
+      "EXPORT": "Exporteren",
+      "FILTERS": "Filters",
+      "PRINT": "Afdrukken"
+    },
+    "SEARCH": "Zoeken",
+    "SYSTEM-OWNER": "Systeemeigenaar",
+    "UPDATE": "Bijwerken",
+    "USERID-CONFIG": "Configuratie gebruikers-ID",
+    "YES": "Ja"
+  },
+  "COMPANY": {
+    "CREATE": "Creëren",
+    "EDIT": "Bewerking",
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van Bedrijf",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Bedrijf",
+      "UPDATE": "Er is een fout opgetreden tijdens het updaten van Bedrijf"
+    },
+    "PAGE-TITLE": "Bedrijf",
+    "SEARCH-PLACEHOLDER": "Zoek bedrijf",
+    "SUCCESS": {
+      "CREATE": "Bedrijf succesvol aangemaakt",
+      "DELETE": "Bedrijf succesvol verwijderd",
+      "UPDATE": "Bedrijf succesvol geüpdatet"
+    },
+    "TAB": {
+      "BASIC-INFORMATION": {
+        "CURRENCY": {
+          "ERROR": {
+            "REQUIRED": "Valuta is vereist"
+          },
+          "TITLE": "Munteenheid"
+        },
+        "DELETE": "Verwijderen",
+        "DESCRIPTION": {
+          "TITLE": "Beschrijving"
+        },
+        "DISPLAY-NAME": {
+          "ERROR": {
+            "REQUIRED": "Weergavenaam is vereist"
+          },
+          "TITLE": "Weergavenaam"
+        },
+        "EDIT-LOGO": "Logo bewerken",
+        "LINE-OF-BUSSINESS": {
+          "ERROR": {
+            "REQUIRED": "Lijn van zaken is vereist"
+          },
+          "TITLE": "Lijn van zaken"
+        },
+        "ORGANISATION-TYPE": {
+          "ERROR": {
+            "REQUIRED": "Organisatietype is vereist"
+          },
+          "TITLE": "organisatie type"
+        },
+        "TAX-ID": {
+          "ERROR": {
+            "REQUIRED": "Btw-nummer is vereist"
+          },
+          "TITLE": "BTW-nummer"
+        },
+        "TITLE": "Basis informatie",
+        "TRADING-NAME": {
+          "ERROR": {
+            "REQUIRED": "Handelsnaam is vereist"
+          },
+          "TITLE": "Handelsnaam"
+        },
+        "UPLOAD-LOGO": "Logo uploaden"
+      },
+      "LOCATION": {
+        "ADDRESS1": {
+          "ERROR": {
+            "REQUIRED": "Adresregel 1 is verplicht"
+          },
+          "TITLE": "Adres regel 1"
+        },
+        "ADDRESS2": {
+          "ERROR": {
+            "REQUIRED": "Adresregel 2 is vereist"
+          },
+          "TITLE": "Adres lijn 2"
+        },
+        "CITY": {
+          "ERROR": {
+            "REQUIRED": "Plaats is vereist"
+          },
+          "TITLE": "Stad"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "Land is verplicht"
+          },
+          "TITLE": "Land"
+        },
+        "EMAIL": {
+          "ERROR": {
+            "INVALID": "Ongeldig e-mail",
+            "REQUIRED": "E-mail is vereist"
+          },
+          "TITLE": "E-mail"
+        },
+        "PHONE": {
+          "ERROR": {
+            "REQUIRED": "Telefoon is vereist"
+          },
+          "TITLE": "Telefoon"
+        },
+        "POSTAL-CODE": {
+          "ERROR": {
+            "REQUIRED": "Postcode is vereist"
+          },
+          "TITLE": "Postcode"
+        },
+        "STATE": {
+          "ERROR": {
+            "REQUIRED": "Staat is verplicht"
+          },
+          "TITLE": "Staat"
+        },
+        "TITLE": "Plaats",
+        "WEBSITE": {
+          "ERROR": {
+            "REQUIRED": "Website is vereist"
+          },
+          "TITLE": "Website"
+        }
+      }
+    }
+  },
+  "CONNECTOR": {
+    "METADATA": {
+      "CATEGORY": {
+        "APPLICATION": "Sollicitatie",
+        "AUTHENTICATION": "authenticatie",
+        "AUTHORIZATION": "autorisatie",
+        "CLOUD-APP": "Cloud-app",
+        "SAAS": "SaaS"
+      },
+      "IMP-TYPE": {
+        "DB": "Database",
+        "REST": "REST API",
+        "RPA": "RPA",
+        "SOAP": "SOAP API"
+      },
+      "SYSTEM-NAME": {
+        "AD": "Active Directory",
+        "ADP": "ADP",
+        "AIRWATCHADMINPORTAL": "Luchtwacht",
+        "AMAZONEC2": "Amazon EC2",
+        "AMERICNAEXPRESSCORPORATE": "American Express",
+        "AML": "AML",
+        "API": "VUUR",
+        "APPLE": "appel",
+        "APPLICATION": "Sollicitatie",
+        "ARIBACONTRACTMANAGEMENT": "ARIBA Contractbeheer",
+        "ARIBANETWORK": "ARIBA-netwerk",
+        "AWS": "AWS",
+        "BAMBOOHR": "BAMBOEH",
+        "BETTERWORKS": "Betere Werken",
+        "BIOMETRICS": "Bio-statistieken",
+        "BLACKLINE": "Zwarte lijn",
+        "BLUEDIAMOND": "Blauwe diamant",
+        "BLUESCAPE": "Blauwe kluis",
+        "BMCREMEDYFORCE": "BMC-remediekracht",
+        "BOXCOM": "Box com",
+        "BRIGHTEDGE": "Heldere rand",
+        "BRITISHAIRWAYS": "British Airways",
+        "CALLIDUS": "Callidus",
+        "CARDPRINTERS": "Kaartprinters",
+        "CARDS": "Kaarten",
+        "CERIDIAN": "Ceridiaan",
+        "CERTIFY": "Certificeren",
+        "CITIBANK": "CITI Bank",
+        "CLOUDLOCK": "Cloud Lock",
+        "CLOUDPAY": "Cloud Pay",
+        "CONCUR": "mee eens",
+        "CONFER": "Verlenen",
+        "CONFLUENCE": "Samenvloeiing",
+        "CONVO": "gesprek",
+        "CORPEDIA": "Corpedia",
+        "COSTCO": "Costco",
+        "COUPA": "CO UPA",
+        "CSV": "Csv",
+        "CUSTOM": "Aangepast",
+        "CVENT": "CVENT",
+        "DATABASE": "Database",
+        "DESKCOM": "DESKCOM",
+        "DOCUSIGN": "DOCUSIGN",
+        "DOMO": "DOMO",
+        "DROPBOX": "Dropbox",
+        "EGNECIA": "EGNECIA",
+        "EGNYTE": "EGNYTE",
+        "ELEAP": "ELEAP",
+        "EMPLOYEEREFERRALSCOM": "Werknemersverwijzingen com",
+        "ENVOY": "GEZANT",
+        "EVENTBRIGHT": "Evenement helder",
+        "EVERNOTE": "ooit opgemerkt",
+        "EVERNOTEBUSINESS": "Ooit nota genomen van zaken",
+        "EXPENSEWATCH": "Kostenbewaking",
+        "EXPENSIFY": "kosten maken",
+        "FACEBOOK": "Facebook",
+        "FIDELITY": "trouw",
+        "FILE": "Bestand",
+        "FLATTERFILESSAML": "Platte bestanden SAML",
+        "FLOWDOCKSAML": "Flow Dock SAML",
+        "GLOBOFORCE": "Glob Force",
+        "GLOBUS": "Wereldbol",
+        "GOODDATA": "Goede gegevens",
+        "GOOGLEAPPS": "Google apps",
+        "GOTOMEETING": "Ga naar Vergadering",
+        "GOTOWEBINAR": "Ga naar webinar",
+        "GROVOSAML": "Grovo SAML",
+        "GYMBOREE": "GYMBOREE",
+        "HACKERONE": "HAKERONE",
+        "HISEC": "HISEC",
+        "HOOTSUITE": "HOOT SUITE",
+        "HRMS": "HRMS",
+        "IGLOO": "IGLO",
+        "INFORMATICASSOINTEGRATION": "IT SSO-integratie",
+        "ITUNES": "en melodieën",
+        "JIRA": "Jira",
+        "JIRAON-PREMISE": "JIRAON-PREMISE",
+        "JIVE": "Jive",
+        "JOINME": "JOINME",
+        "LDAP": "LDAP",
+        "LENEL": "Lenel",
+        "LINKEDIN": "LINKEDIN",
+        "MERILLLYNCHCREDITCARD": "MERILL LYNCH-CREDITCARD",
+        "MERILLREWARDS": "MERILL BELONINGEN",
+        "MICROSOFTAZURE": "Microsoft Azure",
+        "MSOFFICE365": "MSOFFICE 365",
+        "NETFLIX": "NETFLIX",
+        "NETSUITE": "NET SUITE",
+        "NEXSENTRY": "NEXS INVOER",
+        "OKTA": "OKTA",
+        "ONGUARD": "BEWAKEND",
+        "OPENLADAPUNIX": "OPEN LADAP UNIX",
+        "OPENLDAPW": "OPEN LDAP",
+        "OTHER": "Ander",
+        "PEGASYS2000": "PEGASYS 2000",
+        "PEOPLESOFT": "Peoplesoft",
+        "PINGBOARD": "PING-bord",
+        "PROWATCH": "PRO HORLOGE",
+        "RACKSPACE": "Rackruimte",
+        "RACKSPACECLOUD": "Rack Space Cloud",
+        "RADIUS": "Straal",
+        "RALLYSOFTWARE": "rally",
+        "RELIANCEINDIAONLINE": "Online vertrouwen in India",
+        "REST": "Rust uit",
+        "RFID": "RFID",
+        "SALESFORCECOM": "Verkoopsteam",
+        "SAMBA": "samba",
+        "SAP": "SAP",
+        "SAPHR": "SAP HR",
+        "SECURITYMANAGER": "Beveiligingsmanager",
+        "SELECTICA": "Selectica",
+        "SERVICENOW": "Service nu",
+        "SERVICENOW-EUREKARELEASE": "Service nu Eureka-release",
+        "SHAREFILE": "Deel bestand",
+        "SHAREPOINT-ON-PREMISE)": "Deel punt",
+        "SHELFARI": "SHELFARI",
+        "SLACK": "slappe",
+        "SNAPLOGIC": "Snap-logica",
+        "SPLUNK": "Splunk",
+        "SPRINGCM": "LENTE CM",
+        "SUCCESSFACTORS": "SUCCES FACTOREN",
+        "SUGARCRM": "SUIKER CRM",
+        "SUMOLOGIC": "SOM OLOGISCH",
+        "SUNLDAP": "ZON LDAP",
+        "SURVEYMONKEY": "Survey Monkey",
+        "SYMMETRY": "Symmetrie",
+        "SYNATA": "Synata",
+        "TELLO": "Trello",
+        "TRINETHRSERVICES": "STEP HR-diensten",
+        "UNIX": "UNIX",
+        "UNIXFLATFILE": "UNIX plat bestand",
+        "UNIXNODES": "UNIX-knooppunten",
+        "WAGEWORKS": "Loon werkt",
+        "WEBAPP": "web applicatie",
+        "WINDOWCSV": "Windows CSV",
+        "WORKBOARD": "Werkbord",
+        "WORKCOM": "Wrokcom",
+        "WORKDAY": "Werkdag",
+        "YAMMER": "YAMMER",
+        "ZENDESK": "ZEN Bureau",
+        "ZOOM": "Zoom",
+        "ZSCALER": "Z Scalair"
+      },
+      "TYPE": {
+        "ASSET": "Bezit",
+        "LMS": "LMS",
+        "LOGICAL": "Logisch",
+        "PHYSICAL": "Fysiek"
+      }
+    }
+  },
+  "COSTRATE": {
+    "BILLCODE": {
+      "ERROR": {
+        "REQUIRED": "Factuurcode is vereist"
+      },
+      "TITLE": "Factuurcodes"
+    },
+    "CAPACITY": {
+      "ERROR": {
+        "MAX": " Maximale capaciteit is 100",
+        "MIN": " Minimale capaciteit is 1",
+        "REQUIRED": "Capaciteit is vereist"
+      },
+      "TITLE": "Capaciteit"
+    },
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "Carrièreniveau is vereist"
+      },
+      "TITLE": "Carrièreniveau"
+    },
+    "COSTRATE": {
+      "ERROR": {
+        "REQUIRED": "Kostentarief is vereist"
+      },
+      "TITLE": "Kosten tarief"
+    },
+    "CREATE": "Creëren",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "Deling is vereist"
+      },
+      "TITLE": "Divisie"
+    },
+    "EDIT": "Bewerking",
+    "ERROR": {
+      "CREATE": "Fout bij het maken van kostentarief",
+      "DELETE": "Fout bij het verwijderen van kostentarief",
+      "UPDATE": "Fout tijdens het updaten van kostentarief"
+    },
+    "PAGE-TITLE": "Kosten tarief",
+    "SALARY": "Salaris",
+    "SALARY-MAX": "Maximaal salaris",
+    "SALARY-MIN": "Minimumloon",
+    "SEARCH-PLACEHOLDER": "Zoekkostentarief",
+    "SUBDIVISION": {
+      "ERROR": {
+        "REQUIRED": "Subdivisie is vereist"
+      },
+      "TITLE": "Subdivisie"
+    },
+    "SUCCESS": {
+      "CREATE": "Kostentarief succesvol aangemaakt",
+      "DELETE": "Kostentarief succesvol verwijderd",
+      "UPDATE": "Kostentarief geüpdatet"
+    },
+    "UPDATE-SUCESS": "Kostentarief geüpdatet"
+  },
+  "COUNTRY": {
+    "AFGHANISTAN": "Afghanistan",
+    "ALBANIA": "Albanië",
+    "ALGERIA": "Algerije",
+    "AMERICAN SAMOA": "Amerikaans Samoa",
+    "ANDORRA": "Andorra",
+    "ANGOLA": "Angola",
+    "ANGUILLA": "Anguilla",
+    "ANTARCTICA": "Antarctica",
+    "ANTIGUA AND BARBUDA": "Antigua en Barbuda",
+    "ARGENTINA": "Argentinië",
+    "ARMENIA": "Armenië",
+    "ARUBA": "Aruba",
+    "AUSTRALIA": "Australië",
+    "AUSTRIA": "Oostenrijk",
+    "AZERBAIJAN": "Azerbeidzjan",
+    "BAHAMAS THE": "Bahamas",
+    "BAHRAIN": "Bahrein",
+    "BANGLADESH": "Bangladesh",
+    "BARBADOS": "Barbados",
+    "BELARUS": "Wit-Rusland",
+    "BELGIUM": "België",
+    "BELIZE": "Belize",
+    "BENIN": "Benin",
+    "BERMUDA": "Bermuda",
+    "BHUTAN": "Bhutan",
+    "BOLIVIA": "Bolivia",
+    "BOSNIA AND HERZEGOVINA": "Bosnië-Herzegovina",
+    "BOTSWANA": "Botswana",
+    "BOUVET ISLAND": "Bouvet-eiland",
+    "BRAZIL": "Brazilië",
+    "BRITISH INDIAN OCEAN TERRITORY": "Brits-Indisch oceaan gebied",
+    "BRUNEI": "Brunei",
+    "BULGARIA": "Bulgarije",
+    "BURKINA FASO": "Burkina Faso",
+    "BURUNDI": "Burundi",
+    "CAMBODIA": "Cambodja",
+    "CAMEROON": "Kameroen",
+    "CANADA": "Canada",
+    "CAPE VERDE": "Kaapverdië",
+    "CAYMAN ISLANDS": "Kaaiman Eilanden",
+    "CENTRAL AFRICAN REPUBLIC": "Centraal Afrikaanse Republiek",
+    "CHAD": "Tsjaad",
+    "CHILE": "Chili",
+    "CHINA": "China",
+    "CHRISTMAS ISLAND": "Kersteiland",
+    "COCOS (KEELING) ISLANDS": "Cocos (Keeling) Eilanden",
+    "COLOMBIA": "Colombia",
+    "COMOROS": "Comoren",
+    "COOK ISLANDS": "Cook Eilanden",
+    "COSTA RICA": "Costa Rica",
+    "COTE D'IVOIRE (IVORY COAST)": "Côte DIvoire AKA Ivoorkust",
+    "CROATIA (HRVATSKA)": "Kroatië (Hrvatska)",
+    "CUBA": "Cuba",
+    "CYPRUS": "Cyprus",
+    "CZECH REPUBLIC": "Tsjechië",
+    "DEMOCRATIC REPUBLIC OF THE CONGO": "Democratische Republiek Congo",
+    "DENMARK": "Denemarken",
+    "DJIBOUTI": "Djibouti",
+    "DOMINICA": "Dominica",
+    "DOMINICAN REPUBLIC": "Dominicaanse Republiek",
+    "EAST TIMOR": "Oost Timor",
+    "ECUADOR": "Ecuador",
+    "EGYPT": "Egypte",
+    "EL SALVADOR": "De redder",
+    "EQUATORIAL GUINEA": "Equatoriaal-Guinea",
+    "ERITREA": "Eritrea",
+    "ESTONIA": "Estland",
+    "ETHIOPIA": "Ethiopië",
+    "EXTERNAL TERRITORIES OF AUSTRALIA": "Externe gebieden van Australië",
+    "FALKLAND ISLANDS": "Falkland Eilanden",
+    "FAROE ISLANDS": "Faeröer",
+    "FIJI ISLANDS": "Fiji-eilanden",
+    "FINLAND": "Finland",
+    "FRANCE": "Frankrijk",
+    "FRENCH GUIANA": "Frans Guyana",
+    "FRENCH POLYNESIA": "Frans-Polynesië",
+    "FRENCH SOUTHERN TERRITORIES": "Franse zuidelijke gebieden",
+    "GABON": "Gabon",
+    "GAMBIA THE": "Gambia",
+    "GEORGIA": "Georgië",
+    "GERMANY": "Duitsland",
+    "GHANA": "Ghana",
+    "GIBRALTAR": "Gibraltar",
+    "GREECE": "Griekenland",
+    "GREENLAND": "Groenland",
+    "GRENADA": "Grenada",
+    "GUADELOUPE": "Guadeloupe",
+    "GUAM": "Guam",
+    "GUATEMALA": "Guatemala",
+    "GUERNSEY AND ALDERNEY": "Guernsey en Alderney",
+    "GUINEA": "Guinea",
+    "GUINEA-BISSAU": "Guinee-Bissau",
+    "GUYANA": "Guyana",
+    "HAITI": "Haïti",
+    "HEARD AND MCDONALD ISLANDS": "Heard- en Mcdonald-eilanden",
+    "HONDURAS": "Honduras",
+    "HONG KONG S": {
+      "A": {
+        "R": "Hongkong S.A.R."
+      }
+    },
+    "HUNGARY": "Hongarije",
+    "ICELAND": "IJsland",
+    "INDIA": "India",
+    "INDONESIA": "Indonesië",
+    "IRAN": "Iran",
+    "IRAQ": "Irak",
+    "IRELAND": "Ierland",
+    "ISRAEL": "Israël",
+    "ITALY": "Italië",
+    "JAMAICA": "Jamaica",
+    "JAPAN": "Japan",
+    "JERSEY": "Jersey",
+    "JORDAN": "Jordanië",
+    "KAZAKHSTAN": "Kazachstan",
+    "KENYA": "Kenia",
+    "KIRIBATI": "Kiribati",
+    "KOREA NORTH": "Noord Korea",
+    "KOREA SOUTH": "Zuid-Korea",
+    "KUWAIT": "Koeweit",
+    "KYRGYZSTAN": "Kirgizië",
+    "LAOS": "Laos",
+    "LATVIA": "Letland",
+    "LEBANON": "Libanon",
+    "LESOTHO": "Lesotho",
+    "LIBERIA": "Liberia",
+    "LIBYA": "Libië",
+    "LIECHTENSTEIN": "Liechtenstein",
+    "LITHUANIA": "Litouwen",
+    "LUXEMBOURG": "Luxemburg",
+    "MACAU S": {
+      "A": {
+        "R": "Macau SAR"
+      }
+    },
+    "MACEDONIA": "Macedonië",
+    "MADAGASCAR": "Madagascar",
+    "MALAWI": "Malawi",
+    "MALAYSIA": "Maleisië",
+    "MALDIVES": "Maldiven",
+    "MALI": "Mali",
+    "MALTA": "Malta",
+    "MAN (ISLE OF)": "Man (eiland)",
+    "MARSHALL ISLANDS": "Marshall eilanden",
+    "MARTINIQUE": "Martinique",
+    "MAURITANIA": "Mauritanië",
+    "MAURITIUS": "Mauritius",
+    "MAYOTTE": "Mayotte",
+    "MEXICO": "Mexico",
+    "MICRONESIA": "Micronesië",
+    "MOLDOVA": "Moldavië",
+    "MONACO": "Monaco",
+    "MONGOLIA": "Mongolië",
+    "MONTSERRAT": "Montserrat",
+    "MOROCCO": "Marokko",
+    "MOZAMBIQUE": "Mozambique",
+    "MYANMAR": "Myanmar",
+    "NAMIBIA": "Namibië",
+    "NAURU": "Nauru",
+    "NEPAL": "Nepal",
+    "NETHERLANDS ANTILLES": "Nederlandse Antillen",
+    "NETHERLANDS THE": "Nederland",
+    "NEW CALEDONIA": "Nieuw-Caledonië",
+    "NEW ZEALAND": "Nieuw-Zeeland",
+    "NICARAGUA": "Nicaragua",
+    "NIGER": "Niger",
+    "NIGERIA": "Nigeria",
+    "NIUE": "Niue",
+    "NORFOLK ISLAND": "Norfolkeiland",
+    "NORTHERN MARIANA ISLANDS": "noordelijke Mariana eilanden",
+    "NORWAY": "Noorwegen",
+    "OMAN": "Oman",
+    "PAKISTAN": "Pakistan",
+    "PALAU": "Palau",
+    "PALESTINIAN TERRITORY OCCUPIED": "Palestijns gebied bezet",
+    "PANAMA": "Panama",
+    "PAPUA NEW GUINEA": "Papoea-Nieuw-Guinea",
+    "PARAGUAY": "Paraguay",
+    "PERU": "Peru",
+    "PHILIPPINES": "Filippijnen",
+    "PITCAIRN ISLAND": "Pitcairneiland",
+    "POLAND": "Polen",
+    "PORTUGAL": "Portugal",
+    "PUERTO RICO": "Puerto Rico",
+    "QATAR": "Qatar",
+    "REPUBLIC OF THE CONGO": "Republiek Congo",
+    "REUNION": "Bijeenkomst",
+    "ROMANIA": "Roemenië",
+    "RUSSIA": "Rusland",
+    "RWANDA": "Rwanda",
+    "SAINT HELENA": "Sint Helena",
+    "SAINT KITTS AND NEVIS": "Saint Kitts en Nevis",
+    "SAINT LUCIA": "Sint Lucia",
+    "SAINT PIERRE AND MIQUELON": "Saint Pierre en Miquelon",
+    "SAINT VINCENT AND THE GRENADINES": "Saint Vincent en de Grenadines",
+    "SAMOA": "Samoa",
+    "SAN MARINO": "San Marino",
+    "SAO TOME AND PRINCIPE": "Sao Tomé en Principe",
+    "SAUDI ARABIA": "Saoedi-Arabië",
+    "SENEGAL": "Senegal",
+    "SERBIA": "Servië",
+    "SEYCHELLES": "Seychellen",
+    "SIERRA LEONE": "Sierra Leone",
+    "SINGAPORE": "Singapore",
+    "SLOVAKIA": "Slowakije",
+    "SLOVENIA": "Slovenië",
+    "SMALLER TERRITORIES OF THE UK": "Kleinere gebieden van het Verenigd Koninkrijk",
+    "SOLOMON ISLANDS": "Solomon eilanden",
+    "SOMALIA": "Somalië",
+    "SOUTH AFRICA": "Zuid-Afrika",
+    "SOUTH GEORGIA": "Zuid-Georgië",
+    "SOUTH SUDAN": "Zuid Soedan",
+    "SPAIN": "Spanje",
+    "SRI LANKA": "Sri Lanka",
+    "SUDAN": "Soedan",
+    "SURINAME": "Suriname",
+    "SVALBARD AND JAN MAYEN ISLANDS": "Spitsbergen en Jan Mayen-eilanden",
+    "SWAZILAND": "Swaziland",
+    "SWEDEN": "Zweden",
+    "SWITZERLAND": "Zwitserland",
+    "SYRIA": "Syrië",
+    "TAIWAN": "Taiwan",
+    "TAJIKISTAN": "Tadzjikistan",
+    "TANZANIA": "Tanzania",
+    "THAILAND": "Thailand",
+    "TOGO": "Gaan",
+    "TOKELAU": "Tokelau",
+    "TONGA": "Tonga",
+    "TRINIDAD AND TOBAGO": "Trinidad en Tobago",
+    "TUNISIA": "Tunesië",
+    "TURKEY": "kalkoen",
+    "TURKMENISTAN": "Turkmenistan",
+    "TURKS AND CAICOS ISLANDS": "Turks- en Caicoseilanden",
+    "TUVALU": "Tuvalu",
+    "UGANDA": "Oeganda",
+    "UKRAINE": "Oekraïne",
+    "UNITED ARAB EMIRATES": "Verenigde Arabische Emiraten",
+    "UNITED KINGDOM": "Verenigd Koningkrijk",
+    "UNITED STATES": "Verenigde Staten",
+    "UNITED STATES MINOR OUTLYING ISLANDS": "Kleine afgelegen eilanden van de Verenigde Staten",
+    "URUGUAY": "Uruguay",
+    "UZBEKISTAN": "Oezbekistan",
+    "VANUATU": "Vanuatu",
+    "VATICAN CITY STATE (HOLY SEE)": "Vaticaanstad (Heilige Stoel)",
+    "VENEZUELA": "Venezuela",
+    "VIETNAM": "Vietnam",
+    "VIRGIN ISLANDS (BRITISH)": "Maagdeneilanden (Brits)",
+    "VIRGIN ISLANDS (US)": "Maagdeneilanden (VS)",
+    "WALLIS AND FUTUNA ISLANDS": "Wallis- en Futuna-eilanden",
+    "WESTERN SAHARA": "Westelijke Sahara",
+    "YEMEN": "Jemen",
+    "YUGOSLAVIA": "Joegoslavië",
+    "ZAMBIA": "Zambia",
+    "ZIMBABWE": "Zimbabwe"
+  },
+  "DEALS": {
+    "CREATE": "Maak deals",
+    "EDIT": "Deals bewerken",
+    "PAGE-TITLE": "Aanbiedingen",
+    "SEARCH-PLACEHOLDER": "Zoek aanbiedingen",
+    "TAB": {
+      "ASSUMPTIONS": {
+        "BD-COST": {
+          "ERROR": {
+            "REQUIRED": "BD-kosten zijn vereist"
+          },
+          "TITLE": "BD-kosten"
+        },
+        "CONTIGENCY": {
+          "ERROR": {
+            "REQUIRED": "Contigentie is vereist"
+          },
+          "TITLE": "contigentie"
+        },
+        "EARLY-PAYMENTS": {
+          "ERROR": {
+            "REQUIRED": "Vroege betalingen zijn vereist"
+          },
+          "TITLE": "Vroege betalingen"
+        },
+        "END-DATE": {
+          "ERROR": {
+            "REQUIRED": "Einddatum is vereist"
+          },
+          "TITLE": "Einddatum"
+        },
+        "NON-BILLABLE": {
+          "ERROR": {
+            "REQUIRED": "Niet factureerbaar is vereist"
+          },
+          "TITLE": "Niet verrekenbaar"
+        },
+        "OTHER-OVER-HEADS": {
+          "ERROR": {
+            "REQUIRED": "Andere overheadkosten zijn vereist"
+          },
+          "TITLE": "Andere hoofden"
+        },
+        "PROJECT-NAME": {
+          "ERROR": {
+            "REQUIRED": "Projectnaam is vereist"
+          },
+          "TITLE": "Naam van het project"
+        },
+        "RATE-CARD-DISCOUNT": {
+          "ERROR": {
+            "REQUIRED": "Tariefkaart Korting is verplicht"
+          },
+          "TITLE": "Tariefkaart Korting"
+        },
+        "REVENUE-RECOGNITION": {
+          "ERROR": {
+            "REQUIRED": "Inkomstenherkenning is vereist"
+          },
+          "TITLE": "Inkomstenherkenning"
+        },
+        "SEAT-CHARGES": {
+          "ERROR": {
+            "REQUIRED": "Stoelkosten zijn vereist"
+          },
+          "TITLE": "Stoelkosten"
+        },
+        "START-DATE": {
+          "ERROR": {
+            "REQUIRED": "Startdatum is verplicht"
+          },
+          "TITLE": "Begin datum"
+        },
+        "TITLE": "Aannames"
+      },
+      "RESOURCES": {
+        "BILL-CODE": {
+          "ERROR": {
+            "REQUIRED": "Factuurcode is vereist"
+          },
+          "TITLE": "Factuurcode"
+        },
+        "BILL-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "Factuurtarief/uur is vereist"
+          },
+          "TITLE": "Factuurtarief/uur"
+        },
+        "CAREER-LEVEL": {
+          "ERROR": {
+            "REQUIRED": "Carrièreniveau is vereist"
+          },
+          "TITLE": "Carrièreniveau"
+        },
+        "CLASS": {
+          "ERROR": {
+            "REQUIRED": "Klasse is verplicht"
+          },
+          "TITLE": "Klas"
+        },
+        "COST-RATE/HOUR": {
+          "ERROR": {
+            "REQUIRED": "Kostentarief/uur is vereist"
+          },
+          "TITLE": "Kostentarief/uur"
+        },
+        "COUNTRY": {
+          "ERROR": {
+            "REQUIRED": "Land is verplicht"
+          },
+          "TITLE": "Land"
+        },
+        "NAME": {
+          "ERROR": {
+            "REQUIRED": "Bronnen zijn vereist"
+          },
+          "TITLE": "Bronnen"
+        },
+        "RESOURCE-NAME": "Naam van de bron",
+        "SUB-CLASS": {
+          "ERROR": {
+            "REQUIRED": "Subklasse is vereist"
+          },
+          "TITLE": "Subklasse"
+        },
+        "TITLE": "Bronnen"
+      },
+      "REVIEW": {
+        "TITLE": "Recensie"
+      }
+    }
+  },
+  "DIVISION": {
+    "CREATE": "Creëren",
+    "EDIT": "Bewerking",
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van Division",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Division",
+      "PARENT-REQUIRED": "Ouder is verplicht",
+      "TITLE-DISPLAYNAME-REQUIRED": "Weergavenaam is vereist",
+      "TITLE-REQUIRED": "Divisienaam is vereist",
+      "UPDATE": "Er is een fout opgetreden tijdens het updaten van Division"
+    },
+    "GANDA": {
+      "ADMIN": "beheerder",
+      "FACILITIES": "Faciliteiten",
+      "HR": "HR",
+      "TITLE": "G&A"
+    },
+    "HASCHILDREN": "Heeft kinderen",
+    "PAGE-TITLE": "Divisie",
+    "PARENT": "Ouder",
+    "PROF-SERVICES": "Professionele diensten",
+    "RANDD": {
+      "DOC": "Documentatie",
+      "ENGG": "Engineering",
+      "IT": "HET",
+      "PM": "Product management",
+      "QA": "QA",
+      "QC": "QC",
+      "SANDM": "Verkoop & Marketing",
+      "TITLE": "R&D",
+      "TRAINING": "Opleiding"
+    },
+    "SANDM": {
+      "BD": "BD",
+      "MARKETING": "Marketing",
+      "SALES": "verkoop",
+      "TITLE": "Verkoop & Marketing"
+    },
+    "SEARCH-PLACEHOLDER": "Zoek divisie",
+    "SUCCESS": {
+      "CREATE": "Divisie succesvol aangemaakt",
+      "DELETE": "Divisie succesvol verwijderd",
+      "UPDATE": "Divisie succesvol geüpdatet"
+    },
+    "TITLE": "Divisie / Klasse",
+    "TITLE-DISPLAYNAME": "Weergavenaam",
+    "TITLE-NAME": "Divisienaam:",
+    "UPDATE-SUCESS": "Divisie succesvol geüpdatet"
+  },
+  "FINANCE": {
+    "MENU": {
+      "ACCOUNTS": {
+        "BILL": "rekeningen",
+        "CREDITMEMO": "KredietMemo",
+        "INVOICE": "Factuur",
+        "QUOTE": "Citaat",
+        "SALEORDER": "Verkoopopdracht",
+        "TITLE": "rekeningen"
+      },
+      "BUDGET": "Begroting",
+      "COSTING": "Projectkosten",
+      "FORECAST": "Voorspelling",
+      "INVOICE-SETTINGS": {
+        "REMINDER": "Herinneringen",
+        "THEME": "Thema's",
+        "TITLE": "Factuurinstellingen"
+      },
+      "PRICING": {
+        "CLIENT": "Klanten",
+        "DEAL": "Aanbiedingen",
+        "PROJECT": "Projecten",
+        "TITLE": "Prijzen"
+      },
+      "REPORTS": {
+        "BOOKINGS": "Boekingen",
+        "COMPARISION": "Vergelijking",
+        "PIPELINE": "Pijpleiding",
+        "REVENUE": "Winst",
+        "SALES": "verkoop",
+        "TITLE": "Rapporten",
+        "WONLOST": "Gewonnen vs Verloren"
+      },
+      "TIMESHEET": "Rooster",
+      "TITLE": "Financiën"
+    }
+  },
+  "FINANCECUSTOMER": {
+    "CREATE-SUCESS": "Klant succesvol aangemaakt",
+    "UPDATE-SUCESS": "Klant succesvol geüpdatet"
+  },
+  "GRID": {
+    "ACCOUNT": "Rekening",
+    "ACCOUNT-MANAGER": "Account Manager",
+    "AMOUNT": "Hoeveelheid",
+    "BILL-NO": "Rekeningnummer",
+    "BILLCODE": "Factuurcode",
+    "CAREERLEVEL": "Carrièreniveau",
+    "CITY": "Stad",
+    "CLASS": "Klas",
+    "CLIENT": "Cliënt",
+    "COMPANY": "Bedrijf",
+    "COSTRATE": "Kosten tarief",
+    "COUNTRY": "Land",
+    "CREDIT-MEMO-NO": "Creditnotanummer",
+    "CURRENCY": "Munteenheid",
+    "DATE": "Datum",
+    "DESCRIPTION": "Beschrijving",
+    "DEVICE-SRNO": "Apparaatnummer",
+    "DISPLAY-NAME": "Weergavenaam",
+    "DIVISION": "Divisie",
+    "DUE-DATE": "Opleveringsdatum",
+    "EMAIL": "E-mail",
+    "FIRST-NAME": "Voornaam",
+    "INST-DATE": "Installatie datum",
+    "INVOICE-NO": "Factuurnummer",
+    "IPADDRESS": "IP adres",
+    "LAST-NAME": "Achternaam",
+    "LOAD": "Laden",
+    "LOB": "Bedrijfstak",
+    "LOCATION": "Plaats",
+    "NAME": "Naam",
+    "NO-RECORDS-FOUND": "Geen verslagen gevonden",
+    "OPERATOR-NAME": "Naam operator",
+    "ORG-NAME": "Organisatie",
+    "PANCHAYAT": "Panchayat",
+    "PHONE": "Telefoon",
+    "PORT": "Haven",
+    "PRICE": "Prijs",
+    "PROJECT-MANAGER": "Projectleider",
+    "QUOTE-NO": "Quote nummer",
+    "REFERENCE": "Referentie",
+    "SALE-ORDER-NO": "Verkoopordernummer:",
+    "SEARCH": "Zoeken",
+    "SELECT": "Selecteer",
+    "SERVER-NAME": "Server naam",
+    "SERVICE-ACCOUNT": "Serviceaccount",
+    "STATE": "Staat",
+    "STATUS": "Toestand",
+    "SUB-DIVISION": "Subdivisie",
+    "SUBCLASS": "Subklasse",
+    "TAX-ID": "BTW-nummer",
+    "TAXRATE": "Belastingtarief",
+    "USERID": "Gebruikersnaam"
+  },
+  "HEADER": {
+    "ACCOUNTS": "rekeningen",
+    "ADD-COMPANY": "Bedrijf toevoegen",
+    "COMPANY": "Bedrijf",
+    "COMPANY-NAME": "Bedrijfsnaam",
+    "DASHBOARD": "Dashboard",
+    "REPORTS": "Rapporten",
+    "SETUP": "Opstelling",
+    "UPLOAD-LOGO": "Logo uploaden"
+  },
+  "IDM": {
+    "MENU": {
+      "ID-CONSOLIDATION": {
+        "APP-CONSOLIDATION": "Sollicitatie",
+        "AUTH-CONSOLIDATION": "authenticatie",
+        "EMPLIST": "Werknemerslijst",
+        "TITLE": "ID consolidatie"
+      },
+      "MANAGE-SERVER": {
+        "APP-SERVER": "Sollicitatie",
+        "AUTH-SERVER": "authenticatie",
+        "AUTHORIZATION-SERVER": "autorisatie",
+        "TITLE": "Servers beheren"
+      },
+      "TITLE": "IDM"
+    }
+  },
+  "IOT": {
+    "INSTALLATION": {
+      "BLOCK": {
+        "ERROR": {
+          "INVALID": "Ongeldig blok",
+          "REQUIRED": "Lijn van zaken is vereist"
+        },
+        "TITLE": "Blok"
+      },
+      "BOREWELL-DEPTH": {
+        "ERROR": {
+          "MAX": "De diepte van de boorput moet tussen 0-1999 . zijn",
+          "MIN": "De diepte van de boorput moet tussen 0-1999 . zijn",
+          "REQUIRED": "Boorputdiepte is vereist"
+        },
+        "TITLE": "Boorputdiepte"
+      },
+      "COMMENTS": {
+        "ERROR": {
+          "REQUIRED": "Opmerkingen zijn verplicht"
+        },
+        "TITLE": "Opmerkingen"
+      },
+      "CREATE": "Creëren",
+      "CREATE-ERROR": "Installatie succesvol gemaakt",
+      "CREATE-SUCESS": "Installatie succesvol gemaakt",
+      "DATE": {
+        "ERROR": {
+          "INVALID": "Installatiedatum is ongeldig",
+          "REQUIRED": "Installatiedatum is vereist"
+        },
+        "TITLE": "Installatie datum"
+      },
+      "DEVICE-SERIAL-NUMBER": {
+        "ERROR": {
+          "MAX": "Het serienummer van het apparaat moet tussen 1-99999 . liggen",
+          "MIN": "Het serienummer van het apparaat moet tussen 1-99999 . liggen",
+          "REQUIRED": "Serienummer van het apparaat is vereist"
+        },
+        "TITLE": "Serienummer apparaat"
+      },
+      "DIVISION": {
+        "ERROR": {
+          "REQUIRED": "Deling is vereist"
+        },
+        "TITLE": "Divisie"
+      },
+      "EARTHING": {
+        "ERROR": {
+          "REQUIRED": "Aarding is vereist"
+        },
+        "TITLE": "Aarding"
+      },
+      "EDIT": "Bewerking",
+      "GEO-LOCATION": {
+        "ERROR": {
+          "REQUIRED": "Geografische locatie is vereist"
+        },
+        "TITLE": "Geografische locatie"
+      },
+      "IMAGE": {
+        "ERROR": {
+          "REQUIRED": "Afbeelding is vereist"
+        },
+        "TITLE": "Afbeelding"
+      },
+      "IMAGES": "Afbeeldingen",
+      "LIST": {
+        "ALL": "Alle",
+        "SELF": "Zelf"
+      },
+      "METADATA": {
+        "PHOTO-TYPE": {
+          "BARCODE": "Streepjescode",
+          "BOREWELL": "afscheid",
+          "DIST-LINE": "Distributielijn",
+          "IOT-DEVICE": "IOT-apparaat",
+          "MAP": "Kaart",
+          "METER": "Meter",
+          "OPERATOR": "Operator",
+          "SITE": "website",
+          "STARTER": "Beginner"
+        }
+      },
+      "METER-TYPE": {
+        "ERROR": {
+          "REQUIRED": "Metertype is vereist"
+        },
+        "TITLE": "Metertype:"
+      },
+      "MOTOR-CAPACITY": {
+        "ERROR": {
+          "REQUIRED": "Motorcapaciteit is vereist"
+        },
+        "TITLE": "Motorcapaciteit:"
+      },
+      "NO-PHASE": {
+        "ERROR": {
+          "REQUIRED": "Aantal fasen is vereist"
+        },
+        "TITLE": "Aantal fase:"
+      },
+      "NO-PIPE-BEND": {
+        "ERROR": {
+          "MAX": "Het aantal pijpbochten moet tussen 0-10 . liggen",
+          "MIN": "Het aantal pijpbochten moet tussen 0-10 . liggen",
+          "REQUIRED": "Geen pijpbocht nodig"
+        },
+        "TITLE": "Aantal pijpbochten"
+      },
+      "OPERATOR-NAME": {
+        "ERROR": {
+          "REQUIRED": "Operatornaam is vereist"
+        },
+        "TITLE": "Naam operator"
+      },
+      "PAGE-TITLE": "Installatie",
+      "PANCHAYAT": {
+        "ERROR": {
+          "REQUIRED": "Panchayat is verplicht"
+        },
+        "TITLE": "Panchayat"
+      },
+      "PIPE-DIAMETER": {
+        "ERROR": {
+          "REQUIRED": "Pijpdiameter is vereist"
+        },
+        "TITLE": "Pijp diameter"
+      },
+      "PIPE-QUALITY": {
+        "ERROR": {
+          "REQUIRED": "Leidingkwaliteit is vereist"
+        },
+        "TITLE": "Pijpkwaliteit:"
+      },
+      "SEARCH-PLACEHOLDER": "Zoek installaties",
+      "STATUS": {
+        "ERROR": {
+          "REQUIRED": "Status is vereist"
+        },
+        "TITLE": "Toestand"
+      },
+      "TANK-CAPACITY": {
+        "ERROR": {
+          "MAX": "Tankcapaciteit moet tussen 0-500000 zijn",
+          "MIN": "Tankcapaciteit moet tussen 0-500000 zijn",
+          "REQUIRED": "Tankcapaciteit is vereist"
+        },
+        "TITLE": "Tankinhoud"
+      },
+      "UPDATE-SUCESS": "Installatie succesvol bijgewerkt",
+      "WARD": {
+        "ERROR": {
+          "REQUIRED": "Afdeling is vereist"
+        },
+        "TITLE": "afdeling"
+      }
+    },
+    "MENU": {
+      "INSTALLATION": "Installatie"
+    }
+  },
+  "IPADRESS": {
+    "ERROR": {
+      "CREATE": "Fout bij aanmaken IP-adres",
+      "DELETE": "Fout bij het verwijderen van IP-adres",
+      "UPDATE": "Fout tijdens bijwerken IP-adres"
+    },
+    "GATEWAY": {
+      "ERROR": {
+        "INVALID": "Gateway is vereist",
+        "REQUIRED": "Gateway is vereist"
+      },
+      "TITLE": "poort"
+    },
+    "PAGE-TITLE": "IP adres",
+    "PRIMARY-IP": {
+      "ERROR": {
+        "INVALID": "Primair IP is ongeldig",
+        "REQUIRED": "Primair IP-adres is vereist"
+      },
+      "TITLE": "Primair IP"
+    },
+    "PROXY-IP": {
+      "ERROR": {
+        "INVALID": "Proxy-IP is ongeldig",
+        "REQUIRED": "Proxy-IP is vereist"
+      },
+      "TITLE": " Proxy-IP"
+    },
+    "PROXY-PORT": {
+      "ERROR": {
+        "INVALID": "proxy-poort is ongeldig",
+        "MAX": "Poort moet tussen 0 en 65535 . zijn",
+        "MIN": "Poort moet tussen 0 en 65535 . zijn",
+        "REQUIRED": "proxy-poort is vereist"
+      },
+      "TITLE": "Proxy-poort"
+    },
+    "PROXY-REQUIRED": {
+      "ERROR": {
+        "INVALID": "Is proxy vereist is ongeldig",
+        "REQUIRED": "Is proxy vereist is vereist"
+      },
+      "TITLE": "Is proxy vereist"
+    },
+    "SECONDARY-IP": {
+      "ERROR": {
+        "INVALID": "Secundaire IP is ongeldig",
+        "REQUIRED": "Secundair IP-adres is vereist"
+      },
+      "TITLE": "Secundair IP"
+    },
+    "SUBNET-MASK": {
+      "ERROR": {
+        "INVALID": "Subnetmasker is ongeldig",
+        "REQUIRED": "Subnetmasker is vereist"
+      },
+      "TITLE": "subnetmasker"
+    },
+    "SUCCESS": {
+      "CREATE": "IP-adresgegevens zijn succesvol aangemaakt",
+      "DELETE": "IP-adresgegevens zijn succesvol verwijderd",
+      "UPDATE": "IP-adresgegevens zijn succesvol bijgewerkt"
+    }
+  },
+  "ITEM": {
+    "ACCOUNT": {
+      "ERROR": {
+        "REQUIRED": "Account is vereist"
+      },
+      "TITLE": "Rekening"
+    },
+    "CREATE": "Creëren",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "Beschrijving is vereist"
+      },
+      "TITLE": "Beschrijving"
+    },
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "Deling is vereist"
+      },
+      "TITLE": "Divisie"
+    },
+    "EDIT": "Bewerking",
+    "ERROR": {
+      "CREATE": "Fout bij het maken van service-item",
+      "DELETE": "Fout bij het verwijderen van service-item",
+      "UPDATE": "Fout tijdens het updaten van service-item"
+    },
+    "ERROR-DELETE": "Er is een fout opgetreden tijdens het verwijderen van item",
+    "ERROR-SAVE": "Er is een fout opgetreden bij het opslaan van het item",
+    "ERROR-UPDATE": "Er is een fout opgetreden tijdens het updaten van item",
+    "ITEM-CODE": {
+      "ERROR": {
+        "REQUIRED": "Naam is vereist"
+      },
+      "TITLE": "Naam"
+    },
+    "PAGE-TITLE": "Artikelen",
+    "PRICE": {
+      "ERROR": {
+        "MIN": "Minimumprijs is 1",
+        "REQUIRED": "Prijs is verplicht"
+      },
+      "TITLE": "Prijs"
+    },
+    "PRICE-TYPE": {
+      "ERROR": {
+        "REQUIRED": "Prijstype is verplicht"
+      },
+      "TITLE": "Prijstype:"
+    },
+    "SEARCH-PLACEHOLDER": "Zoek items",
+    "SUB-DIVISION": {
+      "ERROR": {
+        "REQUIRED": "Subdivisie is vereist"
+      },
+      "TITLE": "Subdivisie"
+    },
+    "SUCCESS": {
+      "CREATE": "Service-item succesvol aangemaakt",
+      "DELETE": "Service-item succesvol verwijderd",
+      "UPDATE": "Service-item succesvol bijgewerkt"
+    },
+    "TAX-RATE": {
+      "ERROR": {
+        "MAX": "Maximale belastingtarief is 100",
+        "MIN": "Minimum belastingtarief is 1",
+        "REQUIRED": "Belastingtarief is vereist"
+      },
+      "TITLE": "Belastingtarief"
+    },
+    "UPDATE-SUCESS": "Artikel succesvol geüpdatet"
+  },
+  "LOCATION": {
+    "CREATE": "Creëren",
+    "CREATE-FAILURE": "Locatie maken is mislukt",
+    "CREATE-SUCESS": "Locatie succesvol aangemaakt",
+    "EDIT": "Bewerking",
+    "ERROR": {
+      "CREATE": "Fout bij het maken van Locatie",
+      "DELETE": "Fout bij het verwijderen van Locatie",
+      "TITLE-DISPLAYNAME-REQUIRED": "Weergavenaam is vereist",
+      "TITLE-REQUIRED": "Titel is vereist",
+      "TYPE-REQUIRED": "Locatietype is vereist",
+      "UPDATE": "Fout tijdens het updaten van Locatie"
+    },
+    "HASCHILDREN": "Heeft kinderen",
+    "PAGE-TITLE": "Locaties",
+    "PARENT": "Bovenliggende locatie",
+    "SEARCH-PLACEHOLDER": "Zoek locaties",
+    "SUCCESS": {
+      "CREATE": "Locatie succesvol aangemaakt",
+      "DELETE": "Locatie succesvol verwijderd",
+      "UPDATE": "Locatie succesvol geüpdatet"
+    },
+    "TITLE-DISPLAYNAME": "Weergavenaam locatie",
+    "TITLE-NAME": "Locatie naam",
+    "TYPE": "Locatietype",
+    "UPDATE-SUCESS": "Locatie succesvol geüpdatet"
+  },
+  "LOGGER": {
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van Logger",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Logger",
+      "UPDATE": "Er is een fout opgetreden tijdens het updaten van Logger"
+    },
+    "PAGE-TITLE": "Logboekinstellingen",
+    "SERVER": {
+      "ERROR": {
+        "REQUIRED": "Logniveau is vereist"
+      },
+      "TITLE": "Log niveau"
+    },
+    "SUCCESS": {
+      "CREATE": "Logger succesvol aangemaakt",
+      "DELETE": "Logger succesvol verwijderd",
+      "UPDATE": "Logger succesvol geüpdatet"
+    }
+  },
+  "LOGIN-PAGE": {
+    "CONTINUE-SESSION": "Doorgaan met sessie",
+    "ERROR": {
+      "USERID-FORMAT": "E-mail of telefoonnummer moet een e-mail of telefoonnummer zijn",
+      "USERID-FORMAT ": "Ongeldige gebruikersnaam"
+    },
+    "EXPIRE-IN": "Uw sessie verloopt over",
+    "FORGOT-PASSWORD": "Wachtwoord vergeten?",
+    "HELP": "Hulp",
+    "INFO": {
+      "PASSWORD-LENGTH": "Wachtwoord moet minimaal 4 tekens lang zijn",
+      "USERID-LENGTH": "E-mail of telefoonnummer moet minimaal 4 tekens lang zijn"
+    },
+    "LOGIN": "Log in",
+    "LOGIN-ERROR": "Authenticatiefout",
+    "LOGIN-ERROR-UNAUTHORISED": "Onbevoegde toegang",
+    "LOGIN-INVALID-CREDENATIALS": "Ongeldige inloggegevens",
+    "LOGIN-REQUEST-ERROR": "Kan verzoek niet verder verwerken",
+    "PASSWORD": "Wachtwoord",
+    "PRIVACY": "Privcay",
+    "REMEMBER-ME": "Onthoud mij!",
+    "SECONDS": " seconden",
+    "SESSION-EXPIRED": "Sessie time-out",
+    "SIGNIN-CONTINUE": "Log in om door te gaan",
+    "TERMS": "voorwaarden",
+    "TITLE": "Log in",
+    "USERID": "E-mail of telefoonnummer",
+    "WARN": {
+      "PASSWORD-REQUIRED": "Een wachtwoord is verplicht",
+      "USERID-REQUIRED": "E-mail of telefoonnummer is vereist"
+    },
+    "WELCOME": "Welkom"
+  },
+  "MAILSERVER": {
+    "ERROR": {
+      "CREATE": "Fout bij het maken van e-mailserver",
+      "DELETE": "Fout bij het verwijderen van e-mailserver",
+      "UPDATE": "Fout tijdens het updaten van de e-mailserver"
+    },
+    "MAIL-SERVER": {
+      "ERROR": {
+        "REQUIRED": "Mailserver is vereist"
+      },
+      "TITLE": "Mail server"
+    },
+    "METADATA": {
+      "SECURITY-TYPE": {
+        "NONE": "Geen",
+        "SSL": "SSL",
+        "TLS": "TLS"
+      }
+    },
+    "PAGE-TITLE": "E-mailinstellingen",
+    "PASSWORD": {
+      "ERROR": {
+        "REQUIRED": "Een wachtwoord is verplicht"
+      },
+      "TITLE": "Wachtwoord"
+    },
+    "PORT": {
+      "ERROR": {
+        "MAX": "Poort moet tussen 0 en 65535 . zijn",
+        "MIN": "Poort moet tussen 0 en 65535 . zijn",
+        "REQUIRED": "Poort is vereist"
+      },
+      "TITLE": "Haven"
+    },
+    "SECURITY": {
+      "ERROR": {
+        "REQUIRED": "Beveiliging is vereist"
+      },
+      "TITLE": "Veiligheid"
+    },
+    "SUCCESS": {
+      "CREATE": "Mailserver succesvol aangemaakt",
+      "DELETE": "Mailserver succesvol verwijderd",
+      "UPDATE": "Mailserver succesvol geüpdatet"
+    },
+    "USERNAME": {
+      "ERROR": {
+        "REQUIRED": "Gebruikersnaam / e-mailadres is vereist"
+      },
+      "TITLE": "Gebruikersnaam / E-mail"
+    }
+  },
+  "MENU": {
+    "BUILDER": {
+      "BLOCKS": {
+        "BANNER": "Banner",
+        "BOTTOMSHEET": "Onderste laken",
+        "CARD": "Kaart",
+        "CHART": "Grafiek",
+        "DIALOG": "Dialoogvenster",
+        "FORM": "Het formulier",
+        "GRID": "Rooster",
+        "STEPPER": "Stepper",
+        "TAB": "Tab",
+        "TITLE": "Blokken",
+        "TREE": "Boom"
+      },
+      "DESIGNER": {
+        "PAGE": "Bladzijde",
+        "STATEMACHNE": "Staatsmachine",
+        "TITLE": "Ontwerper",
+        "WORKFLOW": "Werkstroom"
+      },
+      "TITLE": "Bouwer"
+    },
+    "CONFIGURATION": {
+      "IPADD": "IP adres",
+      "LOGLEVEL": "Log niveau",
+      "MAIL-CONFIG": "E-mailconfiguratie",
+      "SYSLOG-SERVER": "SYSLOG-server",
+      "TITLE": "Configuratie"
+    },
+    "DASHBOARD": "Dashboard",
+    "FEATURE": {
+      "ADD-COMPANY": "Bedrijf toevoegen",
+      "CHANGE-COMPANY": "Wijzig bedrijf",
+      "FAVORITE": "Favorieten",
+      "FULLSCREEN": "Volledig scherm",
+      "GLOBAL-SEARCH": "Globaal zoeken",
+      "LANGUAGE": "Taal",
+      "NOTIFICATION": "Meldingen",
+      "SUB-HEADER": {
+        "BREADCRUMB": "broodkruimel",
+        "BUG": "Bugrapportage",
+        "HELP": "Hulp",
+        "PHOTO-CAPTURE": "Foto nemen",
+        "TIMER": "Schermtimer",
+        "TITLE": "Subkoptekst",
+        "VOICE": "Spraakherkenning"
+      },
+      "THEME": "Thema's",
+      "TITLE": "Functies"
+    },
+    "HOME": "Thuis",
+    "IOT": "IOT",
+    "ORG": {
+      "CAREER-LEVEL": "Carrièreniveau",
+      "CLIENTS": "Klanten",
+      "COMPANY": "Bedrijf",
+      "COSTRATE": "Korst jezelf",
+      "DEPARTMENT": "afdeling",
+      "DIVISION": "Divisie",
+      "LOCATION": "Plaats",
+      "SERVICES": "Diensten",
+      "TITLE": "Organisatie"
+    },
+    "SETUP": "Opstelling",
+    "TROUBLESHOOT": {
+      "LOGS": "Serverlogboeken",
+      "PATCH-MGMT": "Patchbeheer",
+      "TITLE": "Problemen oplossen"
+    },
+    "USER-MGMT": {
+      "CHANGE-PASSWORD": "Wachtwoord wijzigen/resetten",
+      "PERMISSION": "Rechten",
+      "ROLE": "Rollen",
+      "TITLE": "Gebruikersbeheer",
+      "USER": "Gebruikers"
+    }
+  },
+  "ORG": {
+    "METADATA": {
+      "ACCOUNT": {
+        "ENGINEERING": "Engineering",
+        "PROFSERVICES": "Professionele diensten",
+        "PURCHASE": "Aankoop",
+        "SALES": "verkoop",
+        "SERVICES": "Diensten"
+      },
+      "INVOICEOPTION": {
+        "DAYOFCURRENTMONTH": "van de huidige maand",
+        "DAYOFNEXTMONTH": "van de volgende maand",
+        "DAYSAFTER": "Dag(en) na factuurdatum",
+        "DAYSAFTERBILLMONTH": "dag(en) na het einde van de factuurmaand",
+        "FIRSTDAY": "Eerste dag van volgende maand",
+        "LASTDAY": "Laatste dag van de huidige maand"
+      },
+      "LINEOFBUSINESS": {
+        "AGRICULTURE": "landbouw",
+        "CONSTRUCTION": "Bouw",
+        "FINANCE": "Financiën",
+        "INSURANCE": "Verzekering",
+        "MANUFACTURING": "productie",
+        "MINING": "Mijnbouw",
+        "OTHERS": "anderen",
+        "REALESTATE": "Onroerend goed",
+        "SERVIES": "Diensten",
+        "TRADE": "Handel"
+      },
+      "ORGTYPE": {
+        "CLUB": "Club",
+        "COMPANY": "Bedrijf",
+        "INDIVIDUAL": "Individueel",
+        "NONPROFIT": "non-profit",
+        "PARTNER": "Partner",
+        "SOLETRADER": "Eenmanszaak",
+        "TRUST": "Vertrouwen"
+      }
+    }
+  },
+  "PAGE": {
+    "DASHBOARD": {
+      "TITLE": "Dashboard"
+    }
+  },
+  "PERMISSIONS": {
+    "PAGE-TITLE": "Rechten"
+  },
+  "PROJECTS": {
+    "ACCOUNT-MANAGER": {
+      "ERROR": {
+        "REQUIRED": "Accountmanager is vereist"
+      },
+      "TITLE": "Account Manager"
+    },
+    "CLIENT": {
+      "ERROR": {
+        "REQUIRED": "Klant is vereist"
+      },
+      "TITLE": "Cliënt"
+    },
+    "CREATE": "Projecten maken",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "Beschrijving is vereist"
+      },
+      "TITLE": "Beschrijving"
+    },
+    "EDIT": "Projecten bewerken",
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "Naam is vereist"
+      },
+      "TITLE": "Naam"
+    },
+    "PAGE-TITLE": "Projecten",
+    "PROJECT-HEAD": {
+      "ERROR": {
+        "REQUIRED": "Projectleider is vereist"
+      },
+      "TITLE": "Projecthoofd"
+    },
+    "SEARCH-PLACEHOLDER": "Zoek projecten",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "Status is vereist"
+      },
+      "TITLE": "Toestand"
+    }
+  },
+  "ROLES": {
+    "CREATE": "Creëren",
+    "DESCRIPTION": {
+      "ERROR": {
+        "REQUIRED": "Beschrijving is vereist"
+      },
+      "TITLE": "Beschrijving"
+    },
+    "EDIT": "Bewerking",
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van een rol",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Rol",
+      "UPDATE": "Er is een fout opgetreden tijdens het updaten van de rol"
+    },
+    "NAME": {
+      "ERROR": {
+        "REQUIRED": "Naam is vereist"
+      },
+      "TITLE": "Naam"
+    },
+    "PAGE-TITLE": "Rollen",
+    "SEARCH-PLACEHOLDER": "Zoekrollen",
+    "SUCCESS": {
+      "CREATE": "Rol succesvol aangemaakt",
+      "DELETE": "Rol succesvol verwijderd",
+      "UPDATE": "Rol succesvol geüpdatet"
+    }
+  },
+  "SETTINGS": {
+    "METADATA": {
+      "COMMON": {
+        "FALSE": "niet waar",
+        "NO": "Nee",
+        "TRUE": "Waar",
+        "YES": "Ja"
+      },
+      "LOGLEVEL": {
+        "DEBUG": "Debuggen",
+        "ERROR": "Fout",
+        "FATAL": "Fataal",
+        "INFO": "Info",
+        "TRACE": "Spoor",
+        "WARN": "Waarschuwen"
+      }
+    }
+  },
+  "SYSLOGGER": {
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van Logger",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Logger",
+      "UPDATE": "Er is een fout opgetreden tijdens het updaten van Logger"
+    },
+    "EXTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "Extern IP-adres is ongeldig",
+        "REQUIRED": "Extern IP-adres is vereist"
+      },
+      "PLACEHOLDER": "Voer extern IP in",
+      "TITLE": "Extern IP"
+    },
+    "INTERNAL-IP": {
+      "ERROR": {
+        "INVALID": "Intern IP is ongeldig",
+        "REQUIRED": "Intern IP-adres is vereist"
+      },
+      "PLACEHOLDER": "Voer interne IP in",
+      "TITLE": "Intern IP-adres"
+    },
+    "PAGE-TITLE": "SYSLOG-instellingen",
+    "SUCCESS": {
+      "CREATE": "Logger succesvol aangemaakt",
+      "DELETE": "Logger succesvol verwijderd",
+      "UPDATE": "Logger succesvol geüpdatet"
+    }
+  },
+  "USERS": {
+    "CAREERLEVEL": {
+      "ERROR": {
+        "REQUIRED": "Carrièreniveau is vereist"
+      },
+      "TITLE": "Carrièreniveau"
+    },
+    "CREATE": "Creëren",
+    "DIVISION": {
+      "ERROR": {
+        "REQUIRED": "Deling is vereist"
+      },
+      "TITLE": "Divisie"
+    },
+    "EDIT": "Bewerking",
+    "EMAIL": {
+      "ERROR": {
+        "INVALID": "Email is ongeldig",
+        "REQUIRED": "E-mail is vereist"
+      },
+      "PLACEHOLDER": "Voer email in",
+      "TITLE": "E-mail"
+    },
+    "ERROR": {
+      "CREATE": "Er is een fout opgetreden bij het maken van de gebruiker",
+      "DELETE": "Er is een fout opgetreden bij het verwijderen van Gebruiker",
+      "UPDATE": "Er is een fout opgetreden tijdens het updaten van Gebruiker"
+    },
+    "FIRST-NAME": {
+      "ERROR": {
+        "REQUIRED": "Voornaam is verplicht"
+      },
+      "PLACEHOLDER": "Vul voornaam in",
+      "TITLE": "Voornaam"
+    },
+    "JOB-LOCATION": {
+      "ERROR": {
+        "REQUIRED": "Werklocatie is vereist"
+      },
+      "TITLE": "werklocatie"
+    },
+    "LAST-NAME": {
+      "ERROR": {
+        "INVALID": "Achternaam is ongeldig",
+        "MIN": "Achternaam moet minimaal 5 . zijn",
+        "REQUIRED": "Achternaam is verplicht"
+      },
+      "PLACEHOLDER": "Voer achternaam in",
+      "TITLE": "Achternaam"
+    },
+    "LOCATION": {
+      "ERROR": {
+        "REQUIRED": "Locatie is verplicht"
+      },
+      "PLACEHOLDER": "Voer locatie in",
+      "TITLE": "Plaats"
+    },
+    "LOCATIONS": {
+      "ERROR": {
+        "REQUIRED": "Locaties zijn verplicht"
+      }
+    },
+    "PAGE-TITLE": "Gebruikers",
+    "PASSWORD": {
+      "ERROR": {
+        "INVALID-FORMAT": "ongeldig wachtwoord"
+      },
+      "PLACEHOLDER": "Voer wachtwoord in",
+      "TITLE": "Wachtwoord"
+    },
+    "PHONE": {
+      "ERROR": {
+        "INVALID": "Telefoonnummer is ongeldig",
+        "REQUIRED": "Telefoonnummer is vereist"
+      },
+      "PLACEHOLDER": "Voer telefoonnummer in",
+      "TITLE": "Telefoonnummer"
+    },
+    "ROLE": {
+      "ERROR": {
+        "REQUIRED": "Rol is vereist"
+      },
+      "PLACEHOLDER": "Voer rol in",
+      "TITLE": "Rol"
+    },
+    "SEARCH-PLACEHOLDER": "Gebruikers zoeken",
+    "STATUS": {
+      "ERROR": {
+        "REQUIRED": "gebruikersstatus is vereist"
+      },
+      "PLACEHOLDER": "Voer gebruikersstatus in",
+      "TITLE": "Gebruikers status"
+    },
+    "SUCCESS": {
+      "CREATE": "Gebruiker succesvol aangemaakt",
+      "DELETE": "Gebruiker succesvol verwijderd",
+      "UPDATE": "Gebruiker succesvol geüpdatet"
+    },
+    "TYPE": {
+      "ERROR": {
+        "REQUIRED": "gebruikerstype is vereist"
+      },
+      "PLACEHOLDER": "Voer gebruikerstype in",
+      "TITLE": "Gebruikerstype"
+    },
+    "USER-ID": {
+      "ERROR": {
+        "REQUIRED": "Gebruikers-ID is vereist"
+      },
+      "TITLE": "Gebruikersnaam"
+    }
+  }
+}
